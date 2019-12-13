@@ -1,7 +1,7 @@
 # Self Hosted <a href=https://ripple.moe>RIPPLE</a> (Windows Edition)
 Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)
 
-# Requirements:
+### Requirements:
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
 * <a href=https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.18.0.msi>MySQL Server</a> (MySQL Workbench recommended for windows)
 * <a href=http://nginx.org/en/download.html>NGINX</a> (Prefer nginx 1.16.1 as I've used it)
@@ -9,7 +9,7 @@ Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use
 * <a href="https://go.microsoft.com/fwlink/?LinkId=691126">Visual C++ Build Tools 2015</a> (For builds. And other stuff)
 * <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, API. (Recommended ubuntu 18.04)
 
-# Basic Steps
+### Basic Steps
 * Run/Start Redis
 * Create and Run MySQL Database Server
 * Connect to MySQL DB and import <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/SQL/RIPPLE.sql>RIPPLE</a> SQL query.
@@ -23,7 +23,7 @@ Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use
 * Install <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/Certificate/cert.crt>Certificate</a>
 * Edit Hosts File in `c:\Windows\System32\Drivers\etc\hosts`. And add <a href=https://raw.githubusercontent.com/Uniminin/Light-Ripple-Windows/master/Hosts/hosts.txt>this</a> lines to your hosts file.
 
-# Host File & Certificate
+### Host File & Certificate
 ```
 #<domain that support in certificate> default is i-need-to.click
 
@@ -53,7 +53,7 @@ These domain are supported by osu!thailand certificate (You can make your by doi
 - cookiezi.pw
 - kawata.pw
 
-# Manually Creating Passwording (DB)
+### Manually Creating Passwording (DB)
 Ripple uses Password -> MD5 -> BCrypt Hash (10 rounds) for the password to login so in `users` table in `password_md5` column in db.
 
 1. If I want to make my password `HelloRipple123`, first I need to hash it as MD5. So the hash will be `6d246d0f30cdc5b829c8e21c290f8ea9` (You can hash your password at http://www.md5.cz/)
@@ -64,11 +64,11 @@ Ripple uses Password -> MD5 -> BCrypt Hash (10 rounds) for the password to login
 
 Note: The BCrypt hash will be always different because BCrypt hash it 10 times!
 
-# Important Note
+### Important Note
 * I strongly recommend to use a Terminal Emulator rather than using windows's CMD.
 * <a href=https://www.cygwin.com/>Cygwin</a> is a good windows terminal. (I use it and like it, personally)
 
-# To Start The Server
+### To Start The Server
 * Start MySQL (MySQL Server must be started and running)
 * Start Redis Server, `Redis/redis-server.exe`
 * Go to `lets` folder and run `python lets.py` (cmd.exe)
@@ -78,7 +78,7 @@ Note: The BCrypt hash will be always different because BCrypt hash it 10 times!
 * Go to `Frontend` folder and run `./frontend` (bash.exe)
 * Go to `nginx-1.16.1` folder and run `nginx` (cmd.exe)
 
-# Log Into Client
+### Log Into Client
 Before you login you have to create an account. You can create an account either by using the/from Frontend which is `i-need-to.click`(default) site. Or manually from database.
 * Use a local database software to log into local database. I recommend <a href=https://www.heidisql.com/download.php>HeidiSQL</a> or <a href=https://www.devart.com/dbforge/mysql/studio/download.html>dbForge Studio</a>
 * Log into local db. Then Click on RIPPLE db. Then head find `users`. And click on `Data` section above.
@@ -86,12 +86,12 @@ Before you login you have to create an account. You can create an account either
 * For Password follow that above section `#Manually Creating Passwording (DB)`
 * Then you can login with your username/email and password.
 
-# Automation (.bat win)
+### Automation (.bat win)
 A windows bat file is included to automate this whole process of starting all the services, `start-server.bat`. It can be used but you'll need to edit and change it to your directory.
 
-# Contact
+### Contact
 You can add me on Discord and ask for help.
 * My Discord:`uniminin#1151`
 
-# License :scroll: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+### License :scroll: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 This project is licenced under the GNU Affero General Public License V3. For more information, see the file `LICENSE`!
