@@ -1,0 +1,64 @@
+name:
+  common: French Guiana
+  official: Guiana
+  native:
+    fra:
+      common: Guyane française
+      official: Guyanes
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .gf
+languages:
+  fra: French
+translations:
+  DEU:
+    common: Französisch Guyana
+    official: Guayana
+  FRA:
+    common: Guyane
+    official: Guyane
+  HRV:
+    common: Francuska Gvajana
+    official: Gijana
+  ITA:
+    common: Guyana francese
+    official: Guiana
+  POR:
+    common: Guiana Francesa
+    official: Guiana
+  RUS:
+    common: Французская Гвиана
+    official: Гвиана
+  SPA:
+    common: Guayana Francesa
+    official: Guayana
+currencies:
+- EUR
+borders:
+- BRA
+- SUR
+codes:
+  alpha2: GF
+  alpha3: GUF
+  cioc: ""
+  ccn3: "254"
+  callingcodes:
+  - "594"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: South America
+  continent: South America
+  capital: Cayenne
+  area: 83534
+coordinates:
+  longitudestring: 53 00 W
+  latitudestring: 4 00 N
+  minlongitude: -60
+  minlatitude: 2.166667
+  maxlongitude: -51.65
+  maxlatitude: 5.75
+  latitude: 4.069991
+  longitude: -53.16831

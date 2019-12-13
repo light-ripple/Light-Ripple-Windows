@@ -1,0 +1,65 @@
+name:
+  common: Turks and Caicos Islands
+  official: Turks and Caicos Islands
+  native:
+    eng:
+      common: Turks and Caicos Islands
+      official: Turks and Caicos Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .tc
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Turks-und Caicosinseln
+    official: Turks und Caicos Inseln
+  FIN:
+    common: Turks-ja Caicossaaret
+    official: Turks-ja Caicossaaret
+  HRV:
+    common: Otoci Turks i Caicos
+    official: Otoci Turks i Caicos
+  JPN:
+    common: タークス・カイコス諸島
+    official: タークス·カイコス諸島
+  NLD:
+    common: Turks-en Caicoseilanden
+    official: Turks-en Caicoseilanden
+  POR:
+    common: Ilhas Turks e Caicos
+    official: Ilhas Turks e Caicos
+  RUS:
+    common: Теркс и Кайкос
+    official: Теркс и Кайкос острова
+  SPA:
+    common: Islas Turks y Caicos
+    official: Islas Turcas y Caicos
+currencies:
+- USD
+borders: []
+codes:
+  alpha2: TC
+  alpha3: TCA
+  cioc: ""
+  ccn3: "796"
+  callingcodes:
+  - "1649"
+  internationalprefix: "011"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: Cockburn Town
+  area: 948
+coordinates:
+  longitudestring: 71 35 W
+  latitudestring: 21 45 N
+  minlongitude: -72.46667
+  minlatitude: 21.116667
+  maxlongitude: -71.083336
+  maxlatitude: 21.95
+  latitude: 21.758726
+  longitude: -71.71515

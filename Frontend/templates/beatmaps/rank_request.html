@@ -1,0 +1,51 @@
+{{/*###
+Handler=/beatmaps/rank_request
+TitleBar=Request beatmap ranking
+KyutGrill=request_beatmap_ranking.jpg
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui raised segment center aligned">
+		{{ $f := ieForm .Gin }}
+		<h4>{{ .T "Want to play an unranked beatmap and get pp? You can submit beatmaps rank requests here!" }}</h4>
+		{{ with .Get "beatmaps/rank_requests/status" }}
+			<h4 class="ui horizontal divider header">
+				<i class="wait icon"></i>
+				{{ $.T "Queue status" }}
+			</h4>
+			<h2 style="display: inline; font-weight: normal;"><span id="queue-info">{{ .submitted }}/{{ .queue_size }}</span> <i{{ if not .submitted_by_user }} hidden{{ end }} id="by-you">(<span id="submitted-by-user">{{ .submitted_by_user }}</span>/<span id="max-per-user">{{ .max_per_user }}</span> {{ $.T "by you" }})</i></h2><br>
+			<h3 style="display: inline; font-weight: normal;">{{ $.T "Requests submitted" }}</h3><br>
+			<h4 style="display: inline; font-weight: normal;">{{ $.T "In the past 24 hours" }}</h4><br>
+			{{ $perc := perc .submitted .queue_size }}
+			<div class="ui container" style="width: 50%; margin-top: 8px; margin-bottom: 8px;">
+				<div class="ui green progress" data-percent="{{ $perc }}" id="progressbar">
+					<div class="bar">
+						<div class="progress">{{ $perc }}%</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="ui horizontal divider header">
+				<i class="music icon"></i>
+				{{ $.T "Request a beatmap" }}
+			</h4>
+			{{ if .can_submit }}
+				<form class="ui form" id="b-form">
+					<div class="ui fluid action input">
+						<input tabindex="1" type="text" placeholder="https://osu.ppy.sh/s/xxxx" id="beatmap">
+						{{ $f }}
+						<button tabindex="2" class="ui right labeled icon green button">
+							<i class="right arrow icon"></i>
+							{{ $.T "Submit" }}
+						</button>
+					</div>
+				</form>
+			{{ else }}
+				<h3 class="ui header">{{ $.T "You cannot currently request beatmaps!" }}</h3>
+				{{ with .next_expiration }}<p>{{ $.T "Please try again " }}<b>{{ timeAddDay . }}</b></p>{{ end }}
+			{{ end }}
+		{{ end }}
+	</div>
+</div>
+{{ end }}

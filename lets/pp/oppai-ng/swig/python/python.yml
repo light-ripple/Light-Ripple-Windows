@@ -1,0 +1,25 @@
+environment:
+  TWINE_USERNAME: lolisamurai
+  TWINE_PASSWORD:
+    secure: DTyX4L2loxFxlsbPYAwuga0DyOlGiOnJyEwi/j08gba0NyNx21TvRFMHpITIqcfg
+cache:
+- C:\ProgramData\chocolatey\bin
+- C:\ProgramData\chocolatey\lib
+- C:\Users\appveyor\AppData\Local\pip\Cache
+install:
+- IF NOT EXIST C:\ProgramData\chocolatey\bin\swig.exe choco install swig --version 3.0.12 --yes --limit-output
+- python -m pip install twine
+- python -m pip install cibuildwheel==0.10.1
+build_script:
+- cd swig/python
+- copy ..\..\oppai.c .
+- copy ..\oppai.i .
+- swig -python -includeall oppai.i
+- cibuildwheel --output-dir wheelhouse
+- ps: >-
+    if ($env:APPVEYOR_REPO_TAG -eq "true") {
+      Invoke-Expression "python -m twine upload --skip-existing wheelhouse/*.whl"
+    }
+artifacts:
+  - path: "swig\\python\\wheelhouse\\*.whl"
+    name: wheels

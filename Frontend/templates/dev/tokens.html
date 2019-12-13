@@ -1,0 +1,103 @@
+{{/*###
+Handler=/dev/tokens
+TitleBar=Your API tokens
+KyutGrill=dev.jpg
+MinPrivileges=2
+Include=menu.html
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "devSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				From this page you can create, modify and delete your personal <a href="https://docs.ripple.moe/docs/api/appendix#authorization">API tokens</a>.<br>
+				{{ .T "The Ripple API is the system through which developers can create applications to interact with Ripple. <b>If you're asked to fill out an API token from this page, be wary and only actually create the token if you really trust the owner of the application.</b>" | html }}
+				<div class="ui divider"></div>
+				{{ $csrf := csrfGenerate .Context.User.ID }}
+				{{ $page := or (atoint (.Gin.Query "p")) 1 }}
+				{{ with .Get "tokens?p=%d&l=50" $page }}
+					{{ with .tokens }}
+						<table class="ui fixed table">
+							<thead>
+								<tr>
+									<th>Privileges</th>
+									<th>Description</th>
+									<th>Last used</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+								{{ range . }}
+									<tr>
+										{{/* We are using printf with %.0f so that
+										it gets printed as if it was a normal int */}}
+										<td><span title="{{ privilegesToString .privileges }}">{{ printf "%.0f" .privileges }}</span></td>
+										<td>{{ with .description }}{{ . }}{{ else }}<i>(None)</i>{{ end }}</td>
+										<td>{{ if ne (nativeTime .last_updated).Year 1970 }}{{ time .last_updated }}{{ else }}Never{{ end }}</td>
+										<td>
+											<form action="/dev/tokens/delete" method="POST">
+												<input type="hidden" name="id" value="{{ .id }}">
+												{{ $csrf }}
+												{{ ieForm $.Gin }}
+												<div class="ui buttons">
+													<a class="ui blue icon button" href="/dev/tokens/edit?id={{ .id }}" title="Edit">
+														<i class="edit icon"></i>
+													</a>
+													<button class="ui red icon button" type="submit" title="Delete">
+														<i class="remove icon"></i>
+													</button>
+												</div>
+											</form>
+										</td>
+									</tr>
+								{{ end }}
+							</tbody>
+							{{ $left := gt $page 1 }}
+							{{ $right := eq (len .) 50 }}
+							{{ if or $left $right }}
+								<tfoot>
+									<tr>
+										<th colspan="4">
+											<div class="ui right floated pagination menu">
+												{{ if $left }}
+													<a class="icon item" href="/dev/tokens?p={{ minus (float $page) 1 }}">
+														<i class="left chevron icon"></i>
+													</a>
+												{{ end }}
+												{{ if $right }}
+													<a class="icon item" href="/dev/tokens?p={{ plus (float $page) 1 }}">
+														<i class="right chevron icon"></i>
+													</a>
+												{{ end }}
+											</div>
+										</th>
+									</tr>
+								</tfoot>
+							{{ end }}
+						</table>
+						<div class="ui divider"></div>
+					{{ end }}
+				{{ end }}
+				<h2 class="ui header" style="margin-top:0">Create new token</h2>
+				<form action="/dev/tokens/create" method="POST" class="ui form">
+					<div class="field">
+						<label>Privileges</label>
+						<input type="number" name="privileges" value="0" id="privileges-number" min="0">
+						<div id="privileges-text"></div>
+					</div>
+					<div class="field">
+						<label>Description</label>
+						<input type="text" name="description" value="" placeholder="For what are you making this token?">
+					</div>
+					<button class="ui blue button" type="submit">Create</button>
+					{{ $csrf }}
+					{{ ieForm $.Gin }}
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

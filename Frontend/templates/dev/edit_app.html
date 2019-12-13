@@ -1,0 +1,65 @@
+{{/*###
+TitleBar=Edit OAuth 2 Application
+KyutGrill=dev.jpg
+MinPrivileges=2
+Include=menu.html
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "devSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				{{ $app := .RequestInfo.app }}
+				{{ $id := .Gin.Query "id" }}
+				{{ if $app }}
+					{{ if $app.ID }}
+						<div class="centered">
+							{{ with $app.Avatar }}
+								<img src="/static/oauth-apps/{{ . }}" alt="Avatar" class="ui small rounded image" style="margin: 0 auto;">
+							{{ end }}
+							<h2 class="ui header little top margin"><code>{{ $app.ID }}</code></h2>
+						</div>
+						<div class="ui divider"></div>
+					{{ end }}
+					<form class="ui form" method="POST" enctype="multipart/form-data" action="/dev/apps/edit" id="edit-form">
+						<div class="field">
+							<label>Name</label>
+							<input type="text" name="name" value="{{ $app.Name }}" maxlength="25">
+						</div>
+						<div class="field">
+							<label>Redirect URI</label>
+							<input name="redirect_uri" value="{{ $app.RedirectURI }}" maxlength="255">
+						</div>
+						<div class="field">
+							<label>Avatar</label>
+							<input name="avatar" type="file">
+						</div>
+						<input type="hidden" name="id" value="{{ $id }}">
+						{{ csrfGenerate .Context.User.ID }}
+						{{ ieForm .Gin }}
+					</form>
+					{{ if ne $id "new" }}
+						<form action="/dev/apps/delete" method="POST" id="delete-form">
+							{{ csrfGenerate $.Context.User.ID }}
+							<input type="hidden" name="id" value="{{ $id }}">
+							{{ ieForm $.Gin }}
+						</form>
+					{{ end }}
+					<div class="ui divider"></div>
+					<div style="text-align: right">
+						<button type="submit" class="ui blue button" form="edit-form">Save</button>
+						{{ if ne $id "new" }}
+							<button type="submit" class="ui red button" form="delete-form">Delete</button>
+						{{ end }}
+					</div>
+				{{ else }}
+					That application could not be found!
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

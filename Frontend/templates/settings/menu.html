@@ -1,0 +1,23 @@
+{{/*###
+NoCompile=true
+*/}}
+{{ define "settingsSidebar" }}
+<div class="four wide column">
+	<div class="ui fluid vertical menu">
+		{{ navbarItem .Path (.T "Profile") "/settings" }}
+
+		{{ navbarItem .Path (.T "Userpage") "/settings/userpage" }}
+
+		{{ navbarItem .Path (.T "Avatar") "/settings/avatar" }}
+
+		{{ navbarItem .Path (.T "Password") "/settings/password" }}
+
+		{{/* Stuff for donators */}}
+		{{ if has .Context.User.Privileges 4 }}
+		
+			{{ navbarItem .Path (.T "Profile background") "/settings/profbackground" }}
+
+		{{ end }}
+	</div>
+</div>
+{{ end }}

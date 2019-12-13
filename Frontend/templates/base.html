@@ -1,0 +1,156 @@
+{{ define "base" }}
+{{ $cf := .ClientFlags }}
+{{ $ds := band $cf 1 }}
+{{ $   := . }}
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<noscript>
+		<style>
+			/**
+			* Reinstate scrolling for non-JS clients
+			*
+			* You coud do this in a regular stylesheet, but be aware that
+			* even in JS-enabled clients the browser scrollbars may be visible
+			* briefly until JS kicks in. This is especially noticeable in IE.
+			* Wrapping these rules in a noscript tag ensures that never happens.
+			*/
+			[data-simplebar] {
+				overflow: auto;
+			}
+		</style>
+		</noscript>
+		<link rel="stylesheet" href="/static/normalize.css" />
+		<link rel="stylesheet" href="/static/demo.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>{{ if .TitleBar }}{{ .T .TitleBar }}{{ end }} {{ .T "- Ainu" }}</title>
+
+		<link rel="stylesheet" type="text/css" href="/static/{{ if $ds }}dark/{{ end }}semantic.min.css?{{ unixNano }}">
+		<link rel="stylesheet" type="text/css" href="/static/ripple.css?{{ unixNano }}">
+		
+		<!-- style type="text/css">
+	html, body {
+		overflow:hidden;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		}
+	</style -->
+
+	</head>
+	<body {{ if $ds }} class="ds"{{ end }}>
+		{{/*
+			If we're asked to disable the hugeheading, but a KyutGrill is set, it will become the background of the page.
+			This is mainly used in user profiles, allowing users to set their profile background.
+			If we're asked to disable the hugeheading, and a KyutGrill is not set, navbar has the `dropped` class.
+		*/}}
+		<div class="ui full height main wrapper"
+			{{ if and .DisableHH .KyutGrill }}
+				style="background-image: url('{{ if .KyutGrillAbsolute }}{{ .KyutGrill }}{{ else }}/static/headers/{{ .KyutGrill }}{{ end }}');"
+			{{ else if .SolidColour }}
+				style="background-color: {{ .SolidColour }}"
+			{{ end }}>
+			{{ template "navbar" . }}
+			{{ if not .DisableHH }}
+				<div class="huge heading {{ if .HeadingOnRight }}right{{ end }} dropped"
+					style="background-image: url('{{ if .KyutGrillAbsolute }}{{ .KyutGrill }}{{ else }}/static/headers/{{ or .KyutGrill "default.jpg" }}{{ end }}');">
+					<div class="ui container">
+						<h1>{{ if .HeadingTitle }}{{ .T .HeadingTitle | html }}{{ else }}{{ .T .TitleBar }}{{ end }}</h1>
+					</div>
+				</div>
+			{{ end }}
+
+			<div class="h-container">
+				<div class="ui margined container" id="messages-container">
+				<noscript>Research has proven this website works 10000% better if you have JavaScript enabled.</noscript>
+				{{ if and .Context.User.Username (not (has .Context.User.Privileges 1)) }}
+					<div class="ui warning message">
+						{{ $.T "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ainu!'s staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://discord.gg/CEjWW4K'>our Discord</a>." | html }}
+					</div>
+				{{ end }}
+				{{ if .Messages }}
+						{{ range $i, $v := .Messages }}
+							<div class="ui {{ $v.Type }} message">
+								<i class="close icon"></i>
+								{{ html $v.Content }}
+							</div>
+						{{ end }}
+				{{ end }}
+				{{ $settings := systemSettings "website_maintenance" "game_maintenance" "website_global_alert" }}
+				{{ with $settings.website_global_alert.String }}
+					<div class="ui warning message">
+						{{ . | html }}
+					</div>
+				{{ end }}
+				{{ with $settings.game_maintenance.Int }}
+					<div class="ui warning message">
+						{{ $.T "Ainu!'s score submission is currently in maintenance mode. You will not be allowed to submit scores for the time being." }}
+					</div>
+				{{ end }}
+				{{ with $settings.website_maintenance.Int }}
+					<div class="ui warning message">
+						{{ $.T "The Ainu! website is currently in maintenance mode. Only certain users are allowed to access the full website." }}
+					</div>
+				{{ end }}
+				</div>
+				{{ template "tpl" . }}
+			</div>
+<p>
+<br />
+		<center><div class="footer twemoji">
+			
+			<font style='color:black'>
+			{{ if $ds }}<font style='color:white' >{{ end }}
+			{{ .T "&copy; 2018-%d Ripple, osu!Ainu, Made with love by Aoba ❤ using Hanayo %s" (curryear) (version) | html }}  |
+			<div class="ui scrolling dropdown" style="margin-left: 5px;" id="language-selector">
+				{{ $lang := .Context.Language }}
+				{{ with $lang }}
+					{{ $info := languageInformationByNameShort . }}
+					<div class="text"><i class="{{ with $lang }}{{ . }}{{end}} flag"></i>{{ $info.Name }}</div>
+				{{ else }}
+					<div class="default text">{{ .T "Language" }}</div>
+				{{ end }}
+				<i class="dropdown icon"></i>
+				<div class="menu">
+					{{ range languageInformation }}
+						<div class="{{ if eq .NameShort $lang }}selected {{ end }}item" data-lang="{{ .NameShort }}"><i class="{{ .CountryShort }} flag"></i>{{ .Name }}</div>
+					{{ end }}
+				</div>
+				</div>
+			</font>
+		</div>
+		</center>
+		<script>
+			var hanayoConf = {
+				avatars:   {{ .Conf.AvatarURL }},
+				banchoAPI: {{ .Conf.BanchoAPI }},
+				baseAPI:   {{ .Conf.BaseAPIPublic }},
+				cheesegullAPI: {{ .Conf.CheesegullAPI }},
+				language:  {{ with $lang }}{{ . }}{{ else }}"en"{{ end }},
+			};
+			var currentUserID = {{ .Context.User.ID }};
+		</script>
+		{{/* If we got some more scripts to print, print'em */}}
+		<script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.2"></script>
+		<script src="/static/dist.min.js?{{ unixNano }}"></script>
+		<script src="/static/timeago-locale/jquery.timeago.{{ with $lang }}{{ . }}{{end}}.js"></script>
+		{{ if .Scripts }}
+			{{ range .Scripts }}
+				<script src="{{ . }}?{{ unixNano }}"></script>
+			{{ end }}
+		{{ end }}
+		
+		    <!-- JavaScript
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+
+    <script src="/static/simplebar.js"></script> -->
+	</body>
+</html>
+
+{{ end }}

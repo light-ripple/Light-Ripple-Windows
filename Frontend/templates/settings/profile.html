@@ -1,0 +1,91 @@
+{{/*###
+Handler=/settings
+TitleBar=Settings
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				<form class="ui form" method="post">
+					{{ $d := .Get "users/self/settings" }}
+					<h3 class="ui header">{{ .T "General" }}</h3>
+					<div class="field">
+						<label><a href="https://discord.gg/CEjWW4K">{{ .T "Username" }}</a></label>
+						<input type="text" value="{{ .Context.User.Username }}" disabled>
+					</div>
+					<div class="field">
+						<label>
+							<a href="/settings/password">{{ .T "Email address" }}</a>
+						</label>
+						<input type="email" value="{{ $d.email }}" placeholder="{{ .T "Email address" }}" required disabled>
+					</div>
+					<div class="field">
+						<label>{{ .T "Alternative username (cannot be used for login)" }}</label>
+						<input type="text" name="username_aka" value="{{ $d.username_aka }}" placeholder="{{ .T "Also known as..." }}">
+					</div>
+					<div class="field">
+						<label>{{ .T "Favourite mode" }}</label>
+						<select class="ui dropdown" name="favourite_mode" data-cast="int">
+							{{ range $k, $v := modes }}
+								<option value="{{ $k }}" {{ if eq (int $d.favourite_mode) $k }}selected{{ end }}>{{ $v }}</a>
+							{{ end }}
+						</select>
+					</div>
+					{{ if has .Context.User.Privileges 4 }}
+						<h3 class="ui header">{{ .T "Custom badge" }}</h3>
+						<div class="ui warning message">
+							{{ .T "<b>Do not use offensive badges and do not pretend to be someone else with your badge.</b> If you abuse the badges system, you'll be silenced and you won't be able to edit your custom badge anymore." | html}}
+						</div>
+						<div class="ui toggle checkbox">
+							<input type="checkbox" name="custom_badge.show" {{ if $d.custom_badge.show }}checked{{ end }}>
+							<label>{{ .T "Enable" }}</label>
+						</div>
+						<div id="custom-badge-fields" {{ if not $d.custom_badge.show }}style="display: none"{{ end }} class="little top margin">
+							<p><a href="http://semantic-ui.com/elements/icon.html">{{ .T "Icon reference" }}</a></p>
+							<div class="ui two column center aligned grid" style="margin-top: 0">
+								<div class="column">
+									<i class="circular {{ faIcon $d.custom_badge.icon }} big icon" id="badge-icon"></i><br>
+									<b id="badge-name">{{ $d.custom_badge.name }}</b>
+								</div>
+								<div class="column">
+									<p><input type="text" name="custom_badge.icon" placeholder="plane, left chevron, hand spock..." value="{{ $d.custom_badge.icon }}"></p>
+									<p><input type="text" name="custom_badge.name" placeholder="{{ .T "Dinosaur, oompa-loompa, cool guy..." }}" value="{{ $d.custom_badge.name }}"></p>
+								</div>
+							</div>
+						</div>
+					{{ end }}
+					<h3 class="ui header">{{ .T "Playstyle" }}</h3>
+					<div class="ui three column grid" id="checkbox-grid">
+						{{ $ := . }}
+						{{ range $k, $v := styles }}
+							<div class="column">
+								{{ $checked := band (int $d.play_style) (shift 1 $k) }}
+								<div class="ui checkbox">
+									<input type="checkbox" data-sv="{{ shift 1 $k }}" {{ if $checked }}checked{{ end }}>
+									<label>{{ $.T $v }}</label>
+								</div>
+							</div>
+						{{ end }}
+					</div>
+					<h3 class="ui header">{{ .T "Preferences" }}</h3>
+					{{ $ds := band .ClientFlags 1 }}
+					<div class="ui checkbox">
+						<input type="checkbox" {{ if $ds }}checked{{ end }} id="dark-site">
+						<label>{{ .T "Dark site" }}</label>
+					</div>
+					<div class="ui divider"></div>
+					<div style="text-align: right">
+						<button type="submit" class="ui blue button">{{ .T "Save" }}</button>
+					</div>
+					{{ ieForm .Gin }}
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

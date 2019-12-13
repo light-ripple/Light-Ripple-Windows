@@ -1,0 +1,1695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /vi/Hanayo/templates-vi.po\n"
+"X-Pootle-Revision: 8349\n"
+
+# General
+msgid "You're already logged in!"
+msgstr "Bạn đã đăng nhập rồi!!"
+
+msgid "Submit"
+msgstr "Gửi"
+
+msgid "Username"
+msgstr "Tên tài khoản"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Invalid CSRF token"
+msgstr "CSRF token không hợp lệ"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr ""
+
+msgid "That user could not be found."
+msgstr "Không tìm được người dùng đó"
+
+msgid "Your settings have been saved."
+msgstr "Sự thay đổi của bạn trong cài đặt đã được lưu lại"
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr ""
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr ""
+"Bạn muốn chơi một beatmap unranked và được pp? Bạn có thể nộp yêu cầu rank "
+"các beatmap ở đây!"
+
+msgid "Queue status"
+msgstr "Tình trạng hàng chờ hiện nay"
+
+msgid "by you"
+msgstr "bởi bạn"
+
+msgid "Requests submitted"
+msgstr "Đã gửi bài nhận xét"
+
+msgid "In the past 24 hours"
+msgstr "Trong 24 giờ qua"
+
+msgid "Request a beatmap"
+msgstr "Yêu cầu 1 beatmap"
+
+msgid "You cannot currently request beatmaps!"
+msgstr ""
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "Hãy thử lại sau"
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "Đặt lại mật khẩu"
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr ""
+"Thật mừng vì vẫn còn bạn ở đây , %s! Để hoàn thành việc tìm lại mật khẩu, "
+"hãy nhập mậy khẩu mới của bạn"
+
+msgid "Nope."
+msgstr "Không."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr ""
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr ""
+"Ok, chúng tôi đã đổi mật khẩu của bạn và giờ bạn có thể đăng nhập với mật "
+"khẩu đó! Hãy tận hưởng đi nhé!"
+
+# register/register.html
+msgid "Register"
+msgstr "Đăng ký"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr ""
+"Xin lỗi. Nó không thể để đăng kí vào thời điểm này. Vui lòng thử lại sau."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr ""
+"Hãy nhớ: có vẻ như đây là tài khoản thứ 2 của bản! Đừng tạo nhiều account, "
+"hoặc bạn có thể sẽ bị tước đi quyền hoạt động"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr "Tên người dùng (2 đến 15 chữ, chữ số , khoảng cách , <code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "Mật khẩu (ít nhất 8 ký tự)"
+
+msgid "Email"
+msgstr "Địa chỉ email"
+
+msgid ""
+"You have been successfully registered on Ripple! You now need to verify your "
+"account."
+msgstr ""
+"Bạn đã đăng kí tài khoản trên Ripple thành công! Giờ bạn chỉ cần kích hoạt "
+"tài khoản của bạn"
+
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "Mật khẩu của bạn quá ngắn!! (Nó phải gồm ít nhất 8 ký tự)"
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr ""
+"Mật khẩu của bạn là một trong những mật khẩu dễ đoán nhất trên mạng. Chúng "
+"tôi sẽ không để bạn sử dụng mật khẩu đó đâu!"
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr ""
+"Tên của bạn phải chứa các kí tự, khoảng cách hay bất kì <code>_[]-</code>"
+
+msgid "You're not allowed to register with that username."
+msgstr "Bạn không được phép đăng ký với tên tài khoản như vậy"
+
+msgid "Please pass a valid email address."
+msgstr "Hãy gõ vào một email hợp lệ."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr ""
+"Tên người dùng không thể chứa cùng lúc dấu gạch dưới và khoảng cách "
+"(Spacebar)"
+
+msgid "An user with that username already exists!"
+msgstr "Đã có người dùng tên đó rồi!"
+
+msgid "An user with that email address already exists!"
+msgstr "Địa chỉ email đã được sử dụng trước đó rồi!"
+
+msgid "Captcha is invalid."
+msgstr "Captcha không hợp lệ"
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr ""
+"Ờm. . Có vẻ như đã có 1 lỗi lên lỏi vào rồi. Bạn hình như đã đăng nhập rồi. "
+".Tôi cũng không biết nữa."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "Xác minh tài khoản"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ripple from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"Tài khoản của bạn đã được tạo ra rồi, nhưng nó bản vẫn cần phải <b>kích hoạt "
+"nó!</b>. Hãy đăng nhập vào <b><u>osu!(bản game)</u></b> từ account mà bạn "
+"tạo ra. <b>Hiện giờ <u>email xác thực chưa được gửi đến bạn</u>. Tất cả "
+"những gì bạn phải làm là kết nối với Ripple từ client osu!</b> Nếu bạn gặp "
+"phải vấn đề, <a href='/doc/1'>hãy theo hướng dẫn này</a> "
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ripple "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>Đừng để người khác đăng nhập vào tải khoản Ripple của "
+"bạn!</b><br> Hãy vào <a href='%s'> server Discord của chúng tôi</a> dùng "
+"kênh #help (Sau khi làm theo các bước trên trang này) để chúng tôi có thể "
+"giúp đỡ nếu bạn gặp vấn đề khi kết nối"
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>Hướng dẫn,</a> tl;dr version"
+
+msgid "Download the server switcher"
+msgstr "Tải chương trình giúp đổi server"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr "Giải nén file, tắt antivirus và chạy bằng <b>administrator</b>"
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "Ấn vào <b>install certificate</b>, rồi <b>Yes</b>"
+
+msgid ""
+"Make sure the switcher says you're playing on <b>Ripple</b> server, if not "
+"click <b>On/Off</b>"
+msgstr ""
+"Hãy chắc rằng switcher hiện you're playing on <b>Ripple</b> server, nếu "
+"không ấn <b>On/Off</b>"
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+
+msgid "Waiting for verification"
+msgstr "Chờ đợi việc xác thực của bạn "
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "Chào mừng bạn !"
+
+msgid "Welcome back!"
+msgstr "Chào mừng bạn đã quay lại !"
+
+msgid "Congratulations for not reading things!"
+msgstr "Xin chúc mừng vì bạn đã không đọc những thứ quan trọng nhất!"
+
+msgid "Multiaccounts are not allowed on Ripple"
+msgstr "Không được sử dụng nhiều tài khoản trên Ripple"
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"Tài khoản mới của ban đã bị <b>banned</b> và tải khoản chính đã bị "
+"<b>restricted</b>. Bạn có thể gửi đơn appeal trong vòng 1 tháng đến <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. Lần sau bạn "
+"nên đọc kỹ quy luật hơn."
+
+msgid "Welcome to Ripple"
+msgstr "Chào mừng tới Ripple"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now "
+"play on Ripple and <a href='/login'>log in</a> on the website!"
+msgstr ""
+
+msgid "Here's a few things you might want to check out:"
+msgstr "Có 1 số thứ mà bạn nên biết"
+
+msgid "Login"
+msgstr "Đăng nhập"
+
+msgid "Rules"
+msgstr "Các quy tắc"
+
+msgid "Documentation"
+msgstr "Tài liệu"
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "Tình trạng"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Subreddit"
+msgstr "Subreddit"
+
+msgid " - in case you don't know where to start"
+msgstr "- Nếu như bạn không biết bắt đầu từ đâu"
+
+msgid " - in case you haven't already read them"
+msgstr "- Nếu bạn chưa đọc nó"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr "- Nếu bạn cần, hm. . ., sự giúp đỡ"
+
+msgid " - in case you believe Ripple is down"
+msgstr ""
+
+msgid " - in case you want to talk with people about Ripple"
+msgstr "- Nếu bạn muốn giới thiệu cho người khác về Ripple"
+
+msgid " - just in case"
+msgstr ""
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "Hồi phục lại tài khoản"
+
+msgid ""
+"Can't find a way to get back access to your Ripple account? Fear not! If you "
+"have your recovery codes which we recommended you to print you can type one "
+"in here and we'll magically log you in this time. After you've managed to "
+"get in, please disable and then re-enable 2FA, so you won't risk losing your "
+"account again."
+msgstr ""
+
+msgid "Oh no you don't."
+msgstr ""
+
+msgid "Get out."
+msgstr ""
+
+msgid "Recovery code is invalid."
+msgstr "Recovery code không hợp lệ"
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "Ê! Dừng lại!"
+
+msgid "Stop!"
+msgstr "Dừng lại!"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"Chúng tôi có thể thấy rằng bạn đang cố gắng đăng ký một tài khoản khác trong "
+"khi bạn đã đăng ký một tài khoản trước có tên %s! hãy nhớ rằng sử dụng nhiều "
+"tải khoản có thể bị xử phạt, và có thể dẫn tới 1 tháng bị hạn chế đi hoạt "
+"động của mình"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr "nếu bạn là %s, hãy nhớ rằng tạo nhiều tài khoản = sẽ bị cấm khỏi server"
+
+msgid ""
+"If you're not %s, but you're using %s's computer, please sign up on Ripple "
+"from your own computer."
+msgstr ""
+"Nếu bạn không phải là %s, nhưng bạn đang sử dụng máy tính %s, hãy đăng nhập "
+"Ripple từ máy tính riêng bạn"
+
+msgid ""
+"If you live with %s and you don't have your own computer from which to sign "
+"up on Ripple, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"nếu bạn sống với %s và bạn không có máy tính riêng để đăng nhập vào Ripple, "
+"hãy liên hệ tới support@ripple.moe , chúng tôi sẽ xứ lí trường hợp này cho "
+"riệng bạn"
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr ""
+"Cảnh báo này cũng có thể xuất hiện nếu bạn dùng một máy tính khác nhưng trên "
+"cùng một hệ thống mạng với %s. Miễn là bạn không sử dụng chung máy tính với "
+"người đó thì mọi việc sẽ đều ổn thỏa cả thôi :)"
+
+msgid "Don't stop me now!"
+msgstr "Đừng dừng tôi lại!"
+
+msgid "Bring me back to safety!"
+msgstr "Hãy đưa tôi về lại nơi an toàn!"
+
+# login.html
+msgid "Log in"
+msgstr "Đăng nhập"
+
+msgid "Username (or email)"
+msgstr "Tên người dùng (hoặc email)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(quên mật khẩu?)"
+
+msgid "Username or password not set."
+msgstr "Tên người dùng hoặc mật khẩu chưa được thiết lập."
+
+msgid "No user with such %s!"
+msgstr "Không có người dùng nào có tên %s cả!"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr ""
+"Mật khẩu của bạn đã cũ lắm rồiiiiiiiiiiiiiiiii, Đến mức chúng tôi không thể "
+"xử lí nó được nữa. Bạn có thể đổi nó không?"
+
+msgid "Wrong password."
+msgstr "Mật khẩu sai."
+
+msgid "You will need to verify your account first."
+msgstr "Bạn sẽ cần phải kích hoạt tài khoản của bạn trước"
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr ""
+"Bạn không thể nào đăng nhập. Đó có nghĩa là tài khoản của bạn có thể bị cấm "
+"hay bị khóa."
+
+msgid "Hey %s! You are now logged in."
+msgstr "Chào %s! Giờ bạn đã đăng nhập vào rồi"
+
+msgid "You're already logged out!"
+msgstr "Bạn đã đăng xuất ra ngoài rồi!"
+
+msgid "Successfully logged out."
+msgstr "Đăng xuất thành công."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your "
+"username or email address, and we'll take care of it. You will receive an "
+"email at the email address you used to sign up on Ripple. To continue the "
+"password reset procedure, click the link on that email."
+msgstr ""
+"Quên mật khẩu của bạn? Đừng lo! Bạn có thể khôi phục nó lại. Chỉ cần nói với "
+"chúng tôi tên người dùng hoặc địa chị email của bạn ,và chúng tôi sẽ lo việc "
+"đó cho bạn. Bạn sẽ nhận được 1 cái email tại địa chỉ email mà bạn đã dùng để "
+"đăng ký tài khoản trong Ripple. Để có thể tiếp tục việc khôi phục lại mật "
+"khẩu, bấm vào link từ cái email đó."
+
+msgid "You look pretty banned/locked here."
+msgstr ""
+
+msgid ""
+"Done! You should shortly receive an email from us at the email you used to "
+"sign up on Ripple."
+msgstr ""
+"Được rồi! Giờ bạn sẽ nhanh chóng nhận được 1 cái email từ chúng tôi tại địa "
+"chỉ email mà bạn đã dùng để đăng kí cho Ripple"
+
+msgid "Ripple password recovery instructions"
+msgstr "Hướng dẫn việc phục hồi mật khẩu trong Ripple"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset "
+"for your account. In case it was you, please <a href='%s'>click here</a> to "
+"reset your password on Ripple. Otherwise, silently ignore this email."
+msgstr ""
+"Chào %s! Ai đó, chúng tôi mong là bạn, đã yêu cầu đặt lại mật khẩu cho tài "
+"khoản của bạn. Nếu đó là bạn, hãy <a href='%s'>bấm vào đây</a> để có thể đặt "
+"lại mật khẩu của bạn trên Ripple. Nếu không, thì đương nhiên hãy lờ email "
+"này đi nhé!"
+
+# not_found.html
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr ""
+"Chúng tôi xin lỗi, nhưng chúng tôi không tìm được nội dung mà bạn muốn tìm!"
+
+# navbar.html
+msgid "Home page"
+msgstr "Trang chủ"
+
+msgid "Leaderboard"
+msgstr "Bảng xếp hạng"
+
+msgid "Help"
+msgstr "Giúp"
+
+msgid "About"
+msgstr "Giới Thiệu"
+
+msgid "Chat (Discord)"
+msgstr "Chat (Discord)"
+
+msgid "Contact support"
+msgstr "Liên hệ hỗ trợ"
+
+msgid "Beatmaps"
+msgstr "Beatmaps"
+
+msgid "Donate"
+msgstr "Ủng hộ"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgid "Friends"
+msgstr "Bạn bè"
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Log out"
+msgstr "Đăng xuất"
+
+msgid "Looking for someone?"
+msgstr "Đang tìm một ai đó?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "Trang chủ"
+
+# about.html
+msgid "Welcome to Ripple."
+msgstr "Chào mừng tới Ripple"
+
+msgid ""
+"Ripple is a private osu! server, featuring multiplayer, PP, a very active "
+"community and a development team going strong implementing new features and "
+"squashing bugs. <a href='/about'>You can check out even more features "
+"here.</a> It has also a very friendly community, and it's <a "
+"href='https://zxq.co/ripple/ripple'>open source!</a> Just so you know, <b>we "
+"currently have %s users online and %s registered users!</b>"
+msgstr ""
+"Ripple là một server Osu! bí mật, có cả tính năng multiplayer, PP , nơi có 1 "
+"cộng đồng hoạt động thường xuyên và có 1 nhóm phát triển luôn mạnh mẽ, luôn "
+"cố gắng phát triển server và sửa các lỗi cũng như bugs.<a href='/about'>Bạn "
+"cũng có thể coi thêm nhiều thứ khác ở đây</a> Ripple cũng có một cộng đồng "
+"thân thiện, và nó <a href='https://zxq.co/ripple/ripple'>là một server công "
+"khai!</a>Nếu bạn có hiếu kì một chút,<b>hiện giờ có %s người chơi online và %"
+"s người đã đăng kí!</b>"
+
+msgid ""
+"What are you waiting for? Join Ripple! It's risk-free: you won't get your "
+"account banned on the official server if you play on Ripple.<br>You can also "
+"switch anytime between the official osu! server and Ripple!"
+msgstr ""
+"Bạn còn chần chừ gì nữa? Hãy tham gia vào Ripple! Đừng lo, tài khoản chính "
+"trên osu! của bạn sẽ khoobng bị ban nếu bạn chơi trên ripple <br> Và bạn "
+"cũng có thể chuyển qua chuyển lại giữa server osu! chính và Ripple! bất kỳ "
+"lúc nào."
+
+msgid "Howdy, %s!"
+msgstr "Xin chào, %s!"
+
+#, fuzzy
+msgid ""
+"Welcome back to Ripple. We currently have <b>%s online users and %s total "
+"registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"Chào mừng trở lại với Ripple!. Chúng tôi hiện tại đang có <b>%s tài khoản "
+"đang online và %s tài khoản đã đăng ký .</b> Một ngày tuyệt vời để farm maps "
+"đúng ko nhỉ?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr ""
+"Nhưng tin mới nhất từ <a href='https://blog.ripple.moe'>blog</a> của chúng "
+"tôi."
+
+# base.html
+msgid ""
+"Ripple's score submission is currently in maintenance mode. You will not be "
+"allowed to submit scores for the time being."
+msgstr ""
+
+msgid ""
+"The Ripple website is currently in maintenance mode. Only certain users are "
+"allowed to access the full website."
+msgstr ""
+"Hiện giờ server Ripple đang trong quá trình bảo trì. Chỉ có một số người mới "
+"được quyền truy cập vào website chính"
+
+msgid ""
+"Your account is currently in restricted mode. You will not be able to do "
+"certain actions, and your profile can only be seen by you and by Ripple's "
+"staff. If you believe we have mistaken putting you in restricted mode, or a "
+"month has passed since you first saw this, then you can send an appeal at <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+msgstr ""
+"Tài khoản của bạn hiện đang bị hạn chế hoạt động. Bạn sẽ không thể làm được "
+"một số hành động nhất định, và hồ sơ của bạn chỉ có thể thấy bởi bạn và "
+"người làm việc của Ripple. Nếu bạn nghĩ chúng tôi đã sai khi đưa bạn vào chế "
+"độ hạn chế hoạt động, hoặc là đã 1 tháng từ lúc bạn nhì thấy tin nhắn này "
+"thì bạn có thể gửi đơn kháng cáo tại <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+
+msgid "&copy; 2015-%d Ripple, using Hanayo %s."
+msgstr "&copy; 2015-%d Ripple, đang sử dụng Hanayo %s."
+
+msgid "Team"
+msgstr "Đội ngũ"
+
+msgid "Who is working on this thing?"
+msgstr "Những ai đứng sau cái này?"
+
+msgid "Developer docs"
+msgstr "tài liệu của đội phát triển"
+
+msgid "See what changed!"
+msgstr "Xem những gì đã thay đổi!"
+
+msgid "Changelog"
+msgstr "Bản ghi thay đổi"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "What's going on under the hood?"
+msgstr ""
+
+msgid "Follow us on Twitter!"
+msgstr "Theo dõi chúng tôi trên Twitter!"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr ""
+
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+# beatmap.html
+msgid "Artist"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Circle Size"
+msgstr ""
+
+msgid "HP Drain"
+msgstr ""
+
+msgid "Overall Difficulty"
+msgstr ""
+
+msgid "Passes/Plays"
+msgstr ""
+
+msgid "Approach Rate"
+msgstr ""
+
+msgid "Star Difficulty"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "BPM"
+msgstr ""
+
+msgid "osu!direct"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid "download (no video)"
+msgstr ""
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "Bảo mật 2 lớp"
+
+msgid ""
+"Before proceding further on Ripple, we require you to use your Google "
+"Authenticator App to use the code for Ripple, so that we can log you in."
+msgstr ""
+
+msgid ""
+"Before proceding any further on Ripple, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr ""
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr "Mất điện thoại, hay bạn không vào được Google Authenticator?"
+
+msgid "Click here to use a recovery code."
+msgstr "Bấm vào đây để sử dụng code phục hồi"
+
+msgid "Telegram code"
+msgstr "Telegram code"
+
+msgid "(send again?)"
+msgstr "(gửi lại?)"
+
+msgid "Google Authenticator passcode"
+msgstr "Mã Google Authenticator"
+
+msgid "Hey, %s."
+msgstr "Ê, %s."
+
+msgid "You need to complete the 2fa challenge first."
+msgstr ""
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "1 mã code đã được tạo ra và gửi cho bạn qua Telegram"
+
+msgid "You've been successfully logged in."
+msgstr "Bạn đã đăng nhập thành công."
+
+msgid ""
+"Ooops! Looks like something went really wrong while trying to process your "
+"request. Perhaps report this to a Ripple developer? Retrying doing what you "
+"were trying to do might work, too."
+msgstr ""
+
+msgid "Ripple is a private osu! server."
+msgstr "Ripple là một server Osu! ngầm"
+
+msgid "There are many like it, but this one is ours."
+msgstr "Có rất nhiều server như vậy, nhưng server này là của chúng tôi"
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "bạn không thích %s?"
+
+msgid "We have leaderboards."
+msgstr "Chúng tôi có bảng xếp hạng"
+
+msgid "Online user listing."
+msgstr "Danh sách những người dùng đang Online"
+
+msgid "Free osu!direct."
+msgstr "Osu!direct miễn phí"
+
+msgid "Global leaderboards."
+msgstr "Bảng xếp hạng toàn cầu"
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "Hàng chờ đề cử ranked cho những beatmap unranked"
+
+msgid "Spectator."
+msgstr "Người xem"
+
+msgid "Multiplayer."
+msgstr "Multiplayer"
+
+msgid "FokaBot, our chat bot"
+msgstr "FokaBot, chat bot của chúng tôi"
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr ""
+"với rất nhiều chức năng khác nhau cho gần như tất cả mọi thứ bạn cần ,<a "
+"href=\"/doc/4\">Xem chỗ này nà!</a>"
+
+msgid "And a lot more to come!"
+msgstr "Và còn rất nhiều thứ khác sẽ được cập nhật!"
+
+msgid ""
+"Ripple is the result of the hard work of two Italian developers, who got "
+"tired about the whole osu! ecosystem, and also because they wanted to play "
+"with a few banned friends."
+msgstr ""
+"Ripple là kết quả cho sự làm việc cần cù của 2 nhà phát triển người Ý, những "
+"người chán nản với hệ thống Osu! của server chính và cũng vì họ cũng vị họ "
+"muốn chơi chung với một vài người bạn bị khóa tài khoản trên server chính."
+
+# %s is wink emoji
+#, fuzzy
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ripple "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+"Giờ nó đã phát triển thành một trong những server Osu! ngầm lớn nhất, với "
+"hơn 10,000 người đã đăng kí. <a href=\"/register\">Đăng nhập</a> trên Ripple "
+"sẽ không làm tài khoản chính của bạn ở server Osu! chính bị hạn chế hoạt "
+"động, vậy thì chần chừ gì nữa?! Vào đây chơi cùng nào! %s"
+
+msgid ""
+"In case you want to make sure we're not doing shady stuff with your data, "
+"you can also check the <a href=\"https://zxq.co/ripple/ripple\">source "
+"code</a> Ripple is running on."
+msgstr ""
+
+# changelog.html
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr ""
+
+msgid ""
+"For various reasons, some software of Ripple does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+
+msgid "Author"
+msgstr "Tác giả"
+
+msgid "Subject"
+msgstr ""
+
+msgid "Time"
+msgstr "Thời gian"
+
+# doc_content.html 
+msgid "View document"
+msgstr "Xem Tài liệu"
+
+msgid "Documentation file not found!"
+msgstr "File Tài liệu không tìm thấy!"
+
+msgid "View all docs"
+msgstr "Coi toàn bộ tài liệu"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+"Cần sự giúp đỡ? Không phải lo xa! Từ đây bạn vẫn có thể coi tài liệu của "
+"chúng tôi, là thứ có thể nói đơn giản hơn là 1 cái wiki."
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr "Có vẻ như chưa có tài liệu nào được đăng tải lên trên Ripple hiện giờ!"
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr ""
+"Bạn có thể thấy toàn bộ bạn của bạn, và hủy kết bạn với người nào đó nếu bạn "
+"muốn"
+
+msgid "Mutual"
+msgstr "Thân mật"
+
+msgid "Remove"
+msgstr "Bỏ"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ripple's "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ripple's chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+
+msgid "Generate a new token!"
+msgstr ""
+
+# leaderboard.html
+msgid "Rank"
+msgstr "Hạng"
+
+msgid "Player"
+msgstr "Người chơi"
+
+msgid "PP/Score"
+msgstr "PP/Điểm số"
+
+msgid "Accuracy"
+msgstr "Độ chính xác"
+
+msgid "Playcount"
+msgstr "Số lần chơi"
+
+# profile.html
+msgid "%s's profile"
+msgstr "hồ sơ của %s's"
+
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr "Người dùng này đang bị <b>cấm nói</b> trong %s, Nó sẽ hết sau %s"
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "Người dùng này đã bị <b>%s</b>"
+
+msgid "pending verification"
+msgstr ""
+
+msgid "banned"
+msgstr "Banned"
+
+msgid "restricted"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "User not found"
+msgstr "Không tìm thấy người dùng"
+
+msgid "(aka <b>%s</b>)"
+msgstr ""
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Unknown"
+msgstr "Không rõ"
+
+msgid "<b>%s</b> is a Ripple player from <b>%s</b>."
+msgstr "<b>%s</b> đến từ <b>%s</b>."
+
+msgid "Last seen: %s."
+msgstr "Lần cuối cùng online: %s."
+
+msgid "They signed up on Ripple %s."
+msgstr "Ngày họ đăng ký %s."
+
+msgid "They play with %s."
+msgstr "Họ chơi với %s."
+
+msgid "Mouse"
+msgstr "Chuột"
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Keyboard"
+msgstr "Bàn phím"
+
+msgid "Touchscreen"
+msgstr "Màn hình cảm ứng"
+
+msgid "Spoon"
+msgstr "Thìa"
+
+msgid "Leap motion"
+msgstr ""
+
+msgid "Oculus rift"
+msgstr "Oculus rift"
+
+msgid "Dick"
+msgstr "Cặc"
+
+msgid "Eggplant"
+msgstr "Cà tím"
+
+msgid "This user hasn't got any badges!"
+msgstr "Người chơi này chưa có badges!"
+
+msgid "Global rank"
+msgstr "Hạng thế giới"
+
+msgid "Country rank"
+msgstr "Hạng trong nước"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "Điểm ranked"
+
+msgid "Total score"
+msgstr "Tổng điểm"
+
+msgid "Replays watched"
+msgstr "Số lượt xem replay"
+
+msgid "Total hits"
+msgstr "Số lần hits"
+
+msgid "Level %s"
+msgstr "Cấp %s"
+
+msgid "Achievements"
+msgstr ""
+
+# support.html
+msgid "Support Ripple"
+msgstr "Ủng hộ Ripple"
+
+msgid "You are a donor!"
+msgstr ""
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+"Sự tài trợ của bạn đã hết hãn <b>%s</b>. Không cần phải cảm thấy có lỗi khi "
+"không ủng hộ chúng tôi nữa đâu!"
+
+msgid "Did you know?"
+msgstr "Bạn có biết..."
+
+msgid "(Probably.)"
+msgstr "(Chắc vậy.)"
+
+msgid "(Probably not.)"
+msgstr "(Không chắc vậy.("
+
+msgid "Ripple is not cheap to run."
+msgstr ""
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if "
+"we always took the money out of our own pockets, 1. we would be broke, 2. we "
+"wouldn't be able to upgrade our hardware to accomodate our users. While we "
+"do have loads of software optimisations that allow us to have Ripple run "
+"crazy fast while still being on not so high-end hardware, the more users we "
+"have, the higher-end our hardware needs to be. So we are asking you for help "
+"on this :)."
+msgstr ""
+
+msgid "We are still students."
+msgstr "Chúng tôi vẫn đang còn là học sinh / sinh viên"
+
+msgid ""
+"Ripple developers, and most of the Ripple staff, do not have a day job. This "
+"means that we get most of our income as students from doing small jobs as \""
+"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+
+msgid "We do not have ads. And never will."
+msgstr "Chúng tôi không có quảng cáo. Và sẽ không bao giờ có"
+
+msgid "We love picking random icons from our icon library."
+msgstr ""
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+
+msgid "So what can you do?"
+msgstr "Thế bạn có thể làm gì?"
+
+msgid "Well, you can give us money."
+msgstr "Thì, bạn có thể cho chúng tôi một ít tiền"
+
+msgid "Well, you can give us even more money."
+msgstr "Rồi, thêm một ít tiền nữa."
+
+msgid "Here's what you get:"
+msgstr "Và đây là những gì bạn có được."
+
+msgid "Yellow username"
+msgstr "Tên người dùng màu vàng đậm"
+
+msgid "Donor badge"
+msgstr "Huy hiệu dành cho người hỗ trợ"
+
+msgid "Custom badge editor"
+msgstr ""
+
+msgid "Friends ranking"
+msgstr "Bảng xếp hạng bạn bè"
+
+msgid "Discord privileges"
+msgstr "Có đặc quyền trên Discord"
+
+msgid "Profile background"
+msgstr "Hình nền phía sau cho hồ sơ"
+
+msgid "More to come!"
+msgstr "Và còn nhiều thứ khác!"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"Cũng giống như osu!, bạn sẽ có <b>tên màu vàng đậm</b> khi chat trong game "
+"để có thể cho mọi người thấy rằng bạn là một người tốt đã giúp chúng tôi trả "
+"các hóa đơn để server có thể tiếp tục hoạt động"
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr ""
+"Và lần nữa, cũng như Osu!, bạn sẽ nhận được <b>huy hiệu</b> ở trên hồ sơ "
+"của, để có thể cho mọi người biết là bạn đang giúp đỡ chúng tôi"
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+
+msgid "And this is how you pay"
+msgstr ""
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+
+msgid "Loading..."
+msgstr "Đang tải. . . "
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "User:"
+msgstr "Người dùng:"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "Gửi %s BTC đến địa chị Bitcoin này:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+
+msgid "I've donated, now what?"
+msgstr "Tôi đã ủng hộ rồi, giờ sao?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+
+msgid "Please log in to get supporter"
+msgstr "Đăng nhập để nhận supporter"
+
+# Settings
+msgid "Userpage"
+msgstr "Trang giới thiệu của người dùng"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Discord donor"
+msgstr ""
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "Bảo mật 2 lớp hiện đã hoạt động trên tài khoản của bạn."
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "Bảo mật 2 lớp hiện đang không hoạt động trên tài khoản của bạn "
+
+msgid "Telegram 2FA"
+msgstr "Bảo mật 2 lớp dành cho Telegram"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr ""
+"Để có thể bật chế độ 2 lớp bảo mật cho Telegram, bấm vào nút này, và rồi bấm "
+"\"start\" trên Telegram"
+
+msgid "Enable Telegram 2FA"
+msgstr "Bật chế độ bảo mật 2 lớp cho 2FA"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr ""
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"Nếu như bạn không thể nào scan mã QR hoặc đơn giản hơn là bạn quá lười để có "
+"thể tải 1 ứng dụng có thế giúp scan mã đó, bạn vẩn có thể vào Telegram, hãy "
+"mở cuộc trò chuyện với <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> và gửi tin nhắn này"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr ""
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr ""
+"Hiện giờ thì bạn đang thiết lập bảo mật 2 lớp cho Telegram. Nếu bạn muốn vô "
+"hiệu hóa nó, hãy điền vào cái đơn sau đây."
+
+#, fuzzy
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr ""
+"Hiện giờ thì bạn đang thiết lập bảo mật 2 lớp cho Telegram. Nếu bạn muốn vô "
+"hiệu hóa nó, hãy điền vào cái đơn sau đây."
+
+msgid "Disable Telegram 2FA"
+msgstr "Vộ hiệu hóa 2 lớp bảo mật của Telegram"
+
+msgid "Disable TOTP-based 2FA"
+msgstr ""
+
+msgid "Google Authenticator recovery keys"
+msgstr ""
+
+msgid ""
+"These are the only thing that will let you get back into your Ripple account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"Đây là thứ duy nhất còn lại để có thể giúp bạn vào tài khoản Ripple nếu như "
+"bạn mất thiệt bị của bạn. Lời khuyên của chúng tôi là sao chép nó vào 1 tệp "
+"tài liệu nào đó vào phần mềm xử lí văn bản (Như Microsoft Word, LibreOffice "
+"Writer), in nó rồi cất nó ở một nơi an toàn"
+
+msgid "Open File"
+msgstr "Mở tệp tin"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid ""
+"Your discord account has been linked to this Ripple account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+
+msgid "Thank you for supporting us and have fun on Ripple!"
+msgstr "Cảm ơn bạn đã ủng hộ chúng tôi!"
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr "Donors cũng có quyền lợi riêng trong Discord server!"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "Đây là những gì bạn có được nếu bạn kết nối tài khoản Discord của bạn:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr ""
+"có quyền truy cập vào lệnh /nick, để có thể đổi tên của bạn trong Discord"
+
+msgid "Access to #donators text and voice channels"
+msgstr "Có quyền truy cập vào #Donators và các kênh nói chuyện"
+
+msgid "Username on donors list"
+msgstr ""
+
+msgid "Custom role with custom username"
+msgstr "Có role đặc biệt cùng với tên đặc biệt"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"Để có thể có những quyền lợi đó, đầu tiên <a href=\"%s\" target=\"_blank\">"
+"hãy vào server discord của chúng tôi</a>, rồi bấm vào cái nút đạc biệt này"
+
+msgid "Get Discord donor privileges"
+msgstr ""
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "Có thể đổi mật khẩu mới (Bạn có thể để trống nếu bạn không muốn đổi nó)"
+
+msgid "Current password"
+msgstr "Mật khẩu hiện tại"
+
+msgid "BBCode syntax reference"
+msgstr "Tham khảo các cú pháp của BBCode"
+
+msgid "General"
+msgstr "Tổng quan"
+
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr "Tên người dùng thay thế (Không thể sử dụng để đăng nhập)"
+
+msgid "Also known as..."
+msgstr "Được biết đến với cái tên..."
+
+msgid "Custom badge"
+msgstr "huy hiệu riêng"
+
+msgid "Enable"
+msgstr "Bật"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+
+msgid "Icon reference"
+msgstr ""
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "Hime Hime Daisuki Hime, Haitai Haitai, Điện Máy Xanh..."
+
+msgid "Playstyle"
+msgstr "Kiểu chơi"
+
+msgid "Authorized applications"
+msgstr ""
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+
+msgid "... but it looks like you have none!"
+msgstr ""
+
+msgid "That authorization has been successfully revoked."
+msgstr ""
+
+msgid "Authorization created %s"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Dark site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr ""
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr ""
+
+msgid "No passcode/secret was given. Please try again"
+msgstr ""
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr ""
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+
+msgid "2FA disabled successfully."
+msgstr "Bảo mật 2 lớp đã được vô hiệu hóa thành công."
+
+msgid "Changing avatar is currently not possible."
+msgstr "Việc đổi avatar hiện tại là không khả thi"
+
+msgid "An error occurred."
+msgstr "Đã có lỗi xảy ra"
+
+msgid "We were not able to save your avatar."
+msgstr "Chúng tôi không thể lưu avatar của bạn."
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"Avatar của bạn đã được đổi lại thành công. Nó sẽ mất kha khá thời gian để "
+"thể cập nhật. Để có thế làm mới cache của bạn, bạn có thể dùng CTRL+F5."
+
+msgid "Internal Server Error"
+msgstr "Lỗi máy chủ"
+
+msgid "You're not a donor!"
+msgstr "Bạn không phải là donor!"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+
+msgid "Your account has been linked successfully!"
+msgstr ""
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+
+msgid "Your profile background has been saved."
+msgstr "Profile background đã được lưu"
+
+msgid "We were not able to save your profile background."
+msgstr ""
+
+msgid "Background type"
+msgstr "Kiểu nền"
+
+msgid "None"
+msgstr "Không có"
+
+msgid "Image"
+msgstr "Hình ảnh"
+
+msgid "Solid colour"
+msgstr ""
+
+msgid "Colour is invalid"
+msgstr "Màu đó không tồn tại"
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"Bạn đã bị đăng xuất tự động bởi máy chủ vì tài khoản của bạn đã có thể bị "
+"cấm hay bị khóa. Nếu bạn nghĩ đây là một lỗi, hãy liên lạc đội giúp đỡ tại "
+"support@ripple.moe."
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr ""
+"Bạn đã được đăng xuất tự động vì lý do an ninh. Hãy <a "
+"href='/login?redir=%s'>đăng nhập lại</a>"
+
+msgid "You need to login first."
+msgstr "Bạn phải đăng nhập trước."
+
+msgid "Forbidden"
+msgstr "Cấm"
+
+msgid "You should not be 'round here."
+msgstr "Bạn không nên ở đây"
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+
+msgid "You look new here. Allow us to introduce you to what Ripple is."
+msgstr ""
+
+# PAY ATTENTION! This is Log in *with* Ripple, not *on* Ripple. This is for
+# oauth.
+msgid "Log in with Ripple"
+msgstr ""
+
+msgid "This application will be able to:"
+msgstr ""
+
+msgid "Identify"
+msgstr ""
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+
+msgid "Read private information"
+msgstr ""
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid ""
+"This application will be able to make modifications to your Ripple account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ripple up and running and "
+"deal with its community."
+msgstr ""
+
+msgid "Community Managers"
+msgstr ""
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Developers"
+msgstr ""
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr ""
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Chat Moderators"
+msgstr ""
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr ""
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+
+msgid "Special thanks"
+msgstr ""
+
+msgid "Here's a list of people who helped with Ripple."
+msgstr ""
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+
+msgid "<b>Avail</b>, for having hosted Ripple on his server."
+msgstr ""
+
+msgid "<b>Angela Guerra</b>, for designing the Ripple logo."
+msgstr ""
+
+msgid ""
+"<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the "
+"Ripple project by donating or inviting other people."
+msgstr ""
+
+msgid "They told me these are very cool people."
+msgstr ""
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+
+msgid "And more..."
+msgstr ""
+
+msgid "Do you want to be in this list?"
+msgstr ""
+
+msgid "Support us with a donation!"
+msgstr ""
+
+msgid "(You get other cool perks too)"
+msgstr ""
+
+msgid ""
+"The Ripple API is the system through which developers can create "
+"applications to interact with Ripple. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "và PP cho mode Osu!stadard lẫn Osu!mania"
+
+msgid "Username change"
+msgstr "Đổi tên người dùng"
+
+msgid "Appeal your ban/restriction"
+msgstr "Gửi đơn khiếu nại về việc bị cấm hay bị hạn chế hoạt động"
+
+msgid "I have read and understood everything on this page."
+msgstr "Tôi đã đọc và hiểu mọi thứ trên trang này"
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

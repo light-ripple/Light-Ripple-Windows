@@ -1,0 +1,65 @@
+name:
+  common: South Georgia
+  official: South Georgia and the South Sandwich Islands
+  native:
+    eng:
+      common: South Georgia
+      official: South Georgia and the South Sandwich Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .gs
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Südgeorgien und die Südlichen Sandwichinseln
+    official: Südgeorgien und die Südlichen Sandwichinseln
+  FIN:
+    common: Etelä-Georgia ja Eteläiset Sandwichsaaret
+    official: Etelä-Georgia ja Eteläiset Sandwichsaaret
+  HRV:
+    common: Južna Georgija i otočje Južni Sandwich
+    official: Južna Džordžija i Otoci Južni Sendvič
+  ITA:
+    common: Georgia del Sud e Isole Sandwich Meridionali
+    official: Georgia del Sud e isole Sandwich del Sud
+  JPN:
+    common: サウスジョージア・サウスサンドウィッチ諸島
+    official: サウスジョージア·サウスサンドウィッチ諸島
+  NLD:
+    common: Zuid-Georgia en Zuidelijke Sandwicheilanden
+    official: Zuid-Georgië en de Zuidelijke Sandwich-eilanden
+  RUS:
+    common: Южная Георгия и Южные Сандвичевы острова
+    official: Южная Георгия и Южные Сандвичевы острова
+  SPA:
+    common: Islas Georgias del Sur y Sandwich del Sur
+    official: Georgia del Sur y las Islas Sandwich del Sur
+currencies:
+- GBP
+borders: []
+codes:
+  alpha2: GS
+  alpha3: SGS
+  cioc: ""
+  ccn3: "239"
+  callingcodes:
+  - "500"
+  internationalprefix: ""
+geo:
+  region: Americas
+  subregion: South America
+  continent: Antarctica
+  capital: King Edward Point
+  area: 3903
+coordinates:
+  longitudestring: 37 00 W
+  latitudestring: 54 30 S
+  minlongitude: -38.305
+  minlatitude: -59.466667
+  maxlongitude: -26.333332
+  maxlatitude: -53.97028
+  latitude: -54.459923
+  longitude: -36.354618

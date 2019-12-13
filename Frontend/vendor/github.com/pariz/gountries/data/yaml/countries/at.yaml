@@ -1,0 +1,70 @@
+name:
+  common: Austria
+  official: Republic of Austria
+  native:
+    bar:
+      common: Österreich
+      official: Republik Österreich
+eumember: true
+landlocked: true
+nationality: ""
+tlds:
+- .at
+languages:
+  bar: Austro-Bavarian German
+translations:
+  CYM:
+    common: Awstria
+    official: Republic of Austria
+  FRA:
+    common: Autriche
+    official: République d'Autriche
+  ITA:
+    common: Austria
+    official: Repubblica d'Austria
+  JPN:
+    common: オーストリア
+    official: オーストリア共和国
+  NLD:
+    common: Oostenrijk
+    official: Republiek Oostenrijk
+  POR:
+    common: Áustria
+    official: República da Áustria
+  SPA:
+    common: Austria
+    official: República de Austria
+currencies:
+- EUR
+borders:
+- CZE
+- DEU
+- HUN
+- ITA
+- LIE
+- SVK
+- SVN
+- CHE
+codes:
+  alpha2: AT
+  alpha3: AUT
+  cioc: AUT
+  ccn3: "040"
+  callingcodes:
+  - "43"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Western Europe
+  continent: Europe
+  capital: Vienna
+  area: 83871
+coordinates:
+  longitudestring: 13 20 E
+  latitudestring: 47 20 N
+  minlongitude: 1.2
+  minlatitude: 46.37722
+  maxlongitude: 19
+  maxlatitude: 49.016666
+  latitude: 47.58844
+  longitude: 14.140211

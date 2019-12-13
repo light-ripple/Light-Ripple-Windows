@@ -1,0 +1,63 @@
+name:
+  common: Gibraltar
+  official: Gibraltar
+  native:
+    eng:
+      common: Gibraltar
+      official: Gibraltar
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .gi
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Gibraltar
+    official: Gibraltar
+  FIN:
+    common: Gibraltar
+    official: Gibraltar
+  ITA:
+    common: Gibilterra
+    official: Gibilterra
+  JPN:
+    common: ジブラルタル
+    official: ジブラルタル
+  NLD:
+    common: Gibraltar
+    official: Gibraltar
+  RUS:
+    common: Гибралтар
+    official: Гибралтар
+  SPA:
+    common: Gibraltar
+    official: Gibraltar
+currencies:
+- GIP
+borders:
+- ESP
+codes:
+  alpha2: GI
+  alpha3: GIB
+  cioc: ""
+  ccn3: "292"
+  callingcodes:
+  - "350"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Southern Europe
+  continent: Europe
+  capital: Gibraltar
+  area: 6
+coordinates:
+  longitudestring: 5 21 W
+  latitudestring: 36 08 N
+  minlongitude: -5.35
+  minlatitude: 36.1
+  maxlongitude: -5.333333
+  maxlatitude: 36.15
+  latitude: 36.13584
+  longitude: -5.349249

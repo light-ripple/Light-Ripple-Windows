@@ -1,0 +1,59 @@
+name:
+  common: Cayman Islands
+  official: Cayman Islands
+  native:
+    eng:
+      common: Cayman Islands
+      official: Cayman Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ky
+languages:
+  eng: English
+translations:
+  CYM:
+    common: Ynysoedd_Cayman
+    official: Cayman Islands
+  DEU:
+    common: Kaimaninseln
+    official: Cayman-Inseln
+  FIN:
+    common: Caymansaaret
+    official: Caymansaaret
+  ITA:
+    common: Isole Cayman
+    official: Isole Cayman
+  NLD:
+    common: Caymaneilanden
+    official: Caymaneilanden
+  POR:
+    common: Ilhas Caimão
+    official: Ilhas Cayman
+currencies:
+- KYD
+borders: []
+codes:
+  alpha2: KY
+  alpha3: CYM
+  cioc: CAY
+  ccn3: "136"
+  callingcodes:
+  - "1345"
+  internationalprefix: "011"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: George Town
+  area: 264
+coordinates:
+  longitudestring: 80 30 W
+  latitudestring: 19 30 N
+  minlongitude: -81.416664
+  minlatitude: 19.25
+  maxlongitude: -79.71667
+  maxlatitude: 19.75
+  latitude: 19.308863
+  longitude: -81.256805

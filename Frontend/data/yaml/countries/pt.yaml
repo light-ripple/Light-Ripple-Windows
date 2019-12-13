@@ -1,0 +1,57 @@
+name:
+  common: Portugal
+  official: Portuguese Republic
+  native:
+    por:
+      common: Portugal
+      official: República português
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .pt
+languages:
+  por: Portuguese
+translations:
+  DEU:
+    common: Portugal
+    official: Portugiesische Republik
+  HRV:
+    common: Portugal
+    official: Portugalska Republika
+  JPN:
+    common: ポルトガル
+    official: ポルトガル共和国
+  POR:
+    common: Portugal
+    official: República português
+  RUS:
+    common: Португалия
+    official: Португальская Республика
+currencies:
+- EUR
+borders:
+- ESP
+codes:
+  alpha2: PT
+  alpha3: PRT
+  cioc: POR
+  ccn3: "620"
+  callingcodes:
+  - "351"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Southern Europe
+  continent: Europe
+  capital: Lisbon
+  area: 92090
+coordinates:
+  longitudestring: 8 00 W
+  latitudestring: 39 30 N
+  minlongitude: -31.266666
+  minlatitude: 30.033333
+  maxlongitude: -5
+  maxlatitude: 42.15
+  latitude: 39.64201
+  longitude: -8.009422

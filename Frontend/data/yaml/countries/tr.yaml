@@ -1,0 +1,67 @@
+name:
+  common: Turkey
+  official: Republic of Turkey
+  native:
+    tur:
+      common: Türkiye
+      official: Türkiye Cumhuriyeti
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .tr
+languages:
+  tur: Turkish
+translations:
+  DEU:
+    common: Türkei
+    official: Republik Türkei
+  FIN:
+    common: Turkki
+    official: Turkin tasavalta
+  ITA:
+    common: Turchia
+    official: Repubblica di Turchia
+  POR:
+    common: Turquia
+    official: República da Turquia
+  RUS:
+    common: Турция
+    official: Республика Турции
+  SPA:
+    common: Turquía
+    official: República de Turquía
+currencies:
+- TRY
+borders:
+- ARM
+- AZE
+- BGR
+- GEO
+- GRC
+- IRN
+- IRQ
+- SYR
+codes:
+  alpha2: TR
+  alpha3: TUR
+  cioc: TUR
+  ccn3: "792"
+  callingcodes:
+  - "90"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Europe
+  capital: Ankara
+  area: 783562
+coordinates:
+  longitudestring: 35 00 E
+  latitudestring: 39 00 N
+  minlongitude: 25
+  minlatitude: 35.819443
+  maxlongitude: 44.8
+  maxlatitude: 42.1
+  latitude: 39.05101
+  longitude: 34.93034

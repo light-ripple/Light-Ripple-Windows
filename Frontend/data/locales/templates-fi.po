@@ -1,0 +1,1805 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /fi/Hanayo/templates-fi.po\n"
+"X-Pootle-Revision: 8330\n"
+
+msgid "You're already logged in!"
+msgstr "Olet jo kirjautunut sisään!"
+
+msgid "Submit"
+msgstr "Tallenna"
+
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Invalid CSRF token"
+msgstr "Epäkelpo CSRF-avain"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr ""
+"Istuntosi on vanhentunut. Yritä tehdä uudelleen se, mitä olit tekemässä."
+
+msgid "That user could not be found."
+msgstr "Tätä käyttäjää ei löydy."
+
+msgid "Your settings have been saved."
+msgstr "Asetuksesi ovat tallennettu."
+
+msgid "Request beatmap ranking"
+msgstr "Ehdota beatmapin rankkaamista"
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr ""
+"Halutako pelata unrankattua beatmappia ja saada siitä pp:tä? Voit ehdottaa "
+"beatmapin rankkausta täällä!"
+
+msgid "Queue status"
+msgstr "Jonon tila"
+
+msgid "by you"
+msgstr "sinun ehdottamiasi"
+
+msgid "Requests submitted"
+msgstr "Ehdotusta lähetetty"
+
+msgid "In the past 24 hours"
+msgstr "Viimeisen 24 tunnin aikana"
+
+msgid "Request a beatmap"
+msgstr "Ehdota beatmappia"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "Et voi tällä hetkellä enää ehdottaa beatmappeja!"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "Yritä uudelleen "
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "Nollaa salasana"
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr ""
+"Mukava nähdä sinua taas tällä, %s! Jotta salasanan vaihto voidaan tehdä "
+"loppuun, kirjoita uusi salasana:"
+
+msgid "Nope."
+msgstr "Ei."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "Tuota avainta ei ole. Kenties se vanhentui?"
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr ""
+"Selvä, olemme vaihtaneet sinun salasanasi ja nyt sinä voit taas kirjautua! "
+"Pidä hauskaa!"
+
+msgid "Register"
+msgstr "Rekisteröidy"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr ""
+"Olemme pahoillamme, mutta rekisteröityminen ei ole juuri nyt mahdollista. "
+"Yritä myöhemmin uudelleen."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr ""
+"Muista: tämä näyttää olevan sinun toinen käyttäjä! Älä tee useita käyttäjiä, "
+"tai sinun käyttäjä voidaan laittaa rajoitettuun tilaan!"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr "Käyttäjänimi (2-15 kirjainta, numeroa, välilyöntiä, <code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "Salasana (vähintään 8 kirjainta)"
+
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+msgid ""
+"You have been successfully registered on Ainu!! You now need to verify your "
+"account."
+msgstr ""
+"Olet onnistuneesti rekisteröitynyt Ainu! Nyt sinun pitää vahvistaa "
+"käyttäjäsi."
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "Salasanasi on liian lyhyt! Siinä täytää olla vähintään 8 kirjainta."
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr ""
+"Salasanasi on yksi yleisimmistä salasanoista koko internetissä. Emme missän "
+"nimessä anna sinun käyttää tuota!"
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr ""
+"Käyttäjänimessäsi pitäisi olla alfanumeerisia merkkejä, välejä, tai mitä "
+"tahansa näistä <code>_[]-</code>"
+
+msgid "You're not allowed to register with that username."
+msgstr "Et voi rekisteröityä tuolla käyttäjänimellä."
+
+msgid "Please pass a valid email address."
+msgstr "Anna kelvollinen sähköpostiosoite."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr "Käyttäjänimessä ei voi olla samaan aikaan alaviivoja ja välilyöntejä."
+
+msgid "An user with that username already exists!"
+msgstr "Samaa käyttäjätunnusta käyttävä tili on jo olemassa!"
+
+msgid "An user with that email address already exists!"
+msgstr "Tuolla sähköpostiosoitteella oleva tili on jo olemassa!"
+
+msgid "Captcha is invalid."
+msgstr "Captcha on väärä."
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr ""
+"Hupsista, tapahtui virhe. Olet kutenkin voinut reskisteröityä. En minä tiedä."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "Vahvista käyttäjä"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ainu! from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"Sinun käyttäjäsi on luotu, mutta se kuitenkin <b>pitää vielä vahvistaa!</b> "
+"Kirjaudu sisään <b><u>osu!:n (peliin)</u></b> käyttäjäsi avulla. <b>Tällä "
+"hetkellä <u>ei ole sähköpostivarmistusta</u>. Kaikki mitä sinun täytyy tehdä "
+"on yhdistää Ainu osu!sta!</b> Jos sinulla on ongelmia, <a href='/doc/1'>"
+"seuraa tätä ohjetta</a>."
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ainu! "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>Älä anna kenenkään muun kirjautua sinun Ainu "
+"käyttäjällesi!</b><br> Mene meidän <a href='%s'>Discord serverin</a> #help "
+"kanavalle (sen jälkeen kun olet noudattanut kaikkia askeleita tällä sivulla) "
+"jotta me voimme auttaa sinua, jos sinulla on ongelmia yhdistämisessä."
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>Opas,</a> tl;dr versio"
+
+msgid "Download the server switcher"
+msgstr "Lataa serverin vaihtaja"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr ""
+"Pura se, laita virustorjuntaohjelmasi pois päältä, suorita se "
+"<b>järjestelmänvalvojana</b>"
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "Klikkaa <b>install certificate</b>, sitten klikkaa <b>Yes</b>"
+
+msgid "Make sure the switcher says you're playing on <b>Ainu!</b> server, if not click <b>On/Off</b>"
+msgstr ""
+"Varmista että vaihtajassa lukee you're playing on <b>Ainu</b> server, jos "
+"ei niin klikkaa <b>On/Off</b>"
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+"Jos siinä lukee jotain read-only modesta, mene <code>C:\\Windows\\System32\\"
+"Drivers\\etc</code>, avaa hosts tiedoston ominaisuudet ja varmista että "
+"''Vain luku'' ei ole päällä."
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+"Jos sinulla on vieläkin ongelmia, mene meidän <a href='%s'>Discord "
+"serverin</a> #help kanvalle. Saat paremman mahdollisuuden että me vastaamme, "
+"jos sanot ''strawberry'' jossain kohtaa viestissäsi, joten me tiedämme että "
+"olet lukenut tämän."
+
+msgid "Waiting for verification"
+msgstr "Odotetaan vahvistusta"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "Tervetuloa!"
+
+msgid "Welcome back!"
+msgstr "Tervetuloa takaisin!"
+
+msgid "Congratulations for not reading things!"
+msgstr "Onneksi olkoon kun et lukenut mitään!"
+
+msgid "Multiaccounts are not allowed on Ainu!"
+msgstr "Useiden käyttäjien luominen ei ole sallittua Ainu"
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"Sinun uusi käyttäjä on <b>bannattu</b> ja sinun pääkäyttäjä on <b>"
+"rajoitetussa tilassa</b>. Sinä voit pyytää unbannia kuukauden jälkeen "
+"lähettämällä sähköpostiviestin osoitteeseen <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. Lue ne säännöt "
+"ensi kerralla."
+
+msgid "Welcome to Ainu!"
+msgstr "Tervetuloa Ainu"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now play on Ainu! and <a href='/login'>log in</a> on the website!"
+msgstr ""
+"Olemme iloisia että olet täällä. <b>Sinun käyttäjä on nyt aktiivinen.</b> "
+"Nyt sinä voit pelata Ainu ja <a href='/login'>kirjautua sisään</a> "
+"nettisivullamme!"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "Tässä muutama juttu mitä voisit vilkaista:"
+
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+msgid "Rules"
+msgstr "Säännöt"
+
+msgid "Documentation"
+msgstr "Ohjeet"
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "Tila"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Subreddit"
+msgstr "Subredditti"
+
+msgid " - in case you don't know where to start"
+msgstr " - tapauksessa jossa et tiedä mistä aloittaa"
+
+msgid " - in case you haven't already read them"
+msgstr " - tapauksessa jossa et ole jo lukenut niitä"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr " - tapauksessa, jossa tarvitset apua asioiden tekemisessä"
+
+msgid " - in case you believe Ainu! is down"
+msgstr " - tapauksessa, jossa luulet että Ainu on alhaalla"
+
+msgid " - in case you want to talk with people about Ainu!"
+msgstr " - tapauksessa, jossa haluat puhua Ainu ihmisten kanssa"
+
+msgid " - just in case"
+msgstr " - varmuuden vuoksi"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "Palauta käyttäjä"
+
+msgid "Can't find a way to get back access to your Ainu! account? Fear not! If you have your recovery codes which we recommended you to print you can type one in here and we'll magically log you in this time. After you've managed to get in, please disable and then re-enable 2FA, so you won't risk losing your account again."
+msgstr ""
+"Etkö löydä tapaa päästä takaisin Ainu käyttjällesi? Älä pelkää! Jos "
+"sinulla on palautuskoodi, joita me suosittelemme. Sinä voit kirjoittaa yhden "
+"tämän ja sinä taianomaisesti kirjaudut sisään tällä kertaa. Sen jälkeen kun "
+"olet päässyt sisään, niin ota 2FA pois käytöstä ja ota se taas uudelleen "
+"käyttöön, jotta sinulla ei olisi riskiä menettää käyttäjääsi taas."
+
+msgid "Oh no you don't."
+msgstr "Ei, älä."
+
+msgid "Get out."
+msgstr "Mee pois."
+
+msgid "Recovery code is invalid."
+msgstr "Palautuskoodi on väärä."
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "Elmo! Pysähdy!"
+
+msgid "Stop!"
+msgstr "Pysähdy!"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"Näemme, että yrität kirjautua sinä aikana kun olet kirjautunut jo %s:na! "
+"Huomaathan, että monella käyttäjällä samaan aikaan pelaaminen on "
+"rangaistavaa, ja se voi johtaa kuukauden lukitukseen!"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr ""
+"Jos olet %s, pidä mielessä että pelaaminen monella käyttäjällä = "
+"porttikielto."
+
+msgid "If you're not %s, but you're using %s's computer, please sign up on Ainu! from your own computer."
+msgstr ""
+"Jos et ole %s, mutta käytät %s:n tietokonetta, ole hyvä ja kirjaudu Ainu "
+"omalta tietokoneeltasi."
+
+msgid "If you live with %s and you don't have your own computer from which to sign up on Ainu!, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"Jos asut %s:n kanssa ja sinulla ei ole omaa tietokonetta josta kirjautua "
+"Ainu, siinä tapauksessa ota yhteyttä sähköpostiin support@ripple.moe, ja "
+"me käsittelemme asiasi."
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr ""
+"Tämä varoitus voi tulla myös, jos käytät eri tietokonetta samalla "
+"internetyhteydellä kun %s. Niin kauan kun ette käytä samaa tietokonetta, "
+"kaiken pitäisi olla hyvin."
+
+msgid "Don't stop me now!"
+msgstr "Älä pysäytä minua nyt!"
+
+msgid "Bring me back to safety!"
+msgstr "Vie minut takaisin turvaan!"
+
+# login.html
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+msgid "Username (or email)"
+msgstr "Käyttäjänimi (tai sähköposti)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(unohditko?)"
+
+msgid "Username or password not set."
+msgstr "Käyttäjänimeä tai salasanaa ei ole asetettu."
+
+msgid "No user with such %s!"
+msgstr "Ei käyttäjää %s:n kanssa!"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr ""
+"Salasanasi on niiiiiiin vanha, että me emme enää edes tiedä mitä tehdä sen "
+"kanssa. Voisitko millään vaihtaa sen?"
+
+msgid "Wrong password."
+msgstr "Väärä salasana."
+
+msgid "You will need to verify your account first."
+msgstr "Sinun pitää vahvistaa käyttäjäsi ensin."
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr ""
+"Et voi kirjautua sisään. Tämä tarkoittaa sitä että käyttäjäsi on bannattu "
+"tai lukittu."
+
+msgid "Hey %s! You are now logged in."
+msgstr "Terve %s! Olet nyt kirjautunut sisään."
+
+msgid "You're already logged out!"
+msgstr "Olet jo kirjautunut ulos!"
+
+msgid "Successfully logged out."
+msgstr "Kirjauduttu ulos onnistuneesti."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your username or email address, and we'll take care of it. You will receive an email at the email address you used to sign up on Ainu!. To continue the password reset procedure, click the link on that email."
+msgstr ""
+"Unohditko salasanasi? Ei hätää! Täällä voit vaihtaa sen. Sinun pitää vain "
+"kertoa meille sinun käyttäjänimesi tai sähköpostiosoitteesi, ja me hoidamme "
+"sen. Tulet saamaan sähköpostin siihen sähköpostiosoitteeseen, jolla "
+"kirjauduit Ainu. Jatkaaksesi salasanan palauttamisprosessia, klikkaa "
+"linkkiä sähköpostissasi."
+
+msgid "You look pretty banned/locked here."
+msgstr "Näytät aika porttikiellon saaneelta/lukitulta täällä."
+
+msgid "Done! You should shortly receive an email from us at the email you used to sign up on Ainu!."
+msgstr ""
+"Tehty! Sinun pitäisi saada juuri sähköposti meiltä siihen "
+"sähköpostiosoitteeseen, jolla kirjauduit Ainu."
+
+msgid "Ainu! password recovery instructions"
+msgstr "Ainu salasanan palautuksen ohjeet"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset for your account. In case it was you, please <a href='%s'>click here</a> to reset your password on Ainu!. Otherwise, silently ignore this email."
+msgstr ""
+"Hei %s! Joku (toivottavasti sinä) pyysi salasanon vaihtoa käyttäjällesi. Jos "
+"se olit sinä <a href='%s'>klikkaa tätä</a>, jotta voit vaihtaa salasanasi "
+"Ainu. Muulloin, älä välitä tästä sähköpostiviestistä."
+
+# not_found.html
+msgid "Not Found"
+msgstr "Ei löytynyt"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr ""
+"Olemme pahoillamme, mutta emme löytäneet sitä sisältöä mitä olit etsimässä!"
+
+# navbar.html
+msgid "Home page"
+msgstr "Kotisivu"
+
+msgid "Leaderboard"
+msgstr "Sijoitukset"
+
+msgid "Help"
+msgstr "Opastus"
+
+msgid "About"
+msgstr "Tietoa"
+
+msgid "Chat (Discord)"
+msgstr "Chatti (Discord)"
+
+msgid "Contact support"
+msgstr "Ota yhteyttä tukeen"
+
+msgid "Beatmaps"
+msgstr "Beatmapit"
+
+msgid "Donate"
+msgstr "Lahjoita"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "Profiili"
+
+msgid "Friends"
+msgstr "Ystävät"
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+msgid "Looking for someone?"
+msgstr "Etsimässä jotakuta?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "Kotisivu"
+
+# about.html
+msgid "Welcome to Ainu!."
+msgstr "Tervetuloa Ainu."
+
+msgid "Ainu! is a private osu! server, featuring multiplayer, PP, a very active community and a development team going strong implementing new features and squashing bugs. <a href='/about'>You can check out even more features here.</a> It has also a very friendly community, and it's <a href='https://github.com/osuthailand'>open source!</a> Just so you know, <b>we currently have %s users online and %s registered users!</b>"
+msgstr ""
+"Ainu on yksityinen osu!-serveri, jossa on moninpeli, PP, todella "
+"aktiivinen yhteisö ja kehitystiimi, joka tekee paljon uusia ominaisuuksia ja "
+"poistaa bugeja. <a href='/about'>Voit tsekata vielä lisää ominaisuuksia "
+"täältä.</a> Täällä on myös todella ystävällinen yhteisö, ja se on <a "
+"href='https://github.com/osuthailand'>avoin palvelu!</a> Ihan vaan tiedoksi, "
+"<b>meillä on nyt %s käyttäjää online-tilassa ja %s rekisteröitynyttä "
+"käyttäjää!</b>"
+
+msgid "What are you waiting for? Join Ainu!! It's risk-free: you won't get your account banned on the official server if you play on Ainu!<br>You can also switch anytime between the official osu! server and Ainu!!"
+msgstr ""
+"Mitä sinä odottelet? Liity Ainu! Se on riskitöntä: Sinun käyttäjääsi ei "
+"bannata virallisessa serverissä jos pelaat Ainu. <br>Voit myös vaihtaa "
+"virallisesta osu! serveristä Ainu milloin vain!"
+
+msgid "Howdy, %s!"
+msgstr "Terve, %s!"
+
+msgid "Welcome back to Ainu! We currently have <b>%s online users and %s total registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"Tervetuloa takaisin Ainuun. Tällä hetkellä meillä on <b>%s käyttäjää "
+"onlinessa ja %s käyttäjää rekisteröityneenä.</b> Hyvä päivä muutaman "
+"beatmapin farmaamiseen, eikö niin?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr ""
+"Viimeisimmät uutiset meidän <a href='https://blog.ripple.moe'>blogista</a>"
+
+# base.html
+msgid "Ainu!'s score submission is currently in maintenance mode. You will not be allowed to submit scores for the time being."
+msgstr ""
+"Ainu tuloksien lähettäminen on tällä hetkellä huollossa. Sinä et voi "
+"lähettää tuloksia toistaiseksi."
+
+msgid "The Ainu! website is currently in maintenance mode. Only certain users are allowed to access the full website."
+msgstr ""
+"Ainu! nettisivut ovat tällä hetkellä huollossa. Vain tietyt käyttäjät "
+"voivat päästä nettisivulle."
+
+msgid "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ainu!'s staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://discord.gg/CEjWW4K'>our Discord</a>."
+msgstr ""
+"Sinun käyttäjäsi on tällä hetkellä rajoitetussa tilassa. Et voi tehdä "
+"joitain toimenpiteitä, sinun profiilisi voi nähdä vain sinä ja Ainu! "
+"ylläpito. Jos sinä luulet että olemme virheellisesti laittaneet sinut "
+"rajoitettuun tilaan, tai on kuukausi kulunut siitä kun näit tämän "
+"ensimmäisen kerran, sitten voit lähettää sähköpostiviestin osoitteeseen <a "
+"href='https://discord.gg/CEjWW4K'>meidän discordissa</a>."
+
+msgid "&copy; %d osu!Ainu, Made with love by Aoba, Flame, alicia, r33int, Sunpy and Ripple Team!"
+msgstr "&copy; %d osu!Ainu, Tehnyt rakkaudella Aoba, Flame, alicia, r33int, Sunpy ja Ripplen Tiimi!"
+
+msgid "Team"
+msgstr "Työryhmä"
+
+msgid "Who is working on this thing?"
+msgstr "Kuka työstää tätä juttua?"
+
+msgid "Developer docs"
+msgstr "Kehittäjän dokumentit"
+
+msgid "See what changed!"
+msgstr "Näe mitkä ovat muuttuneet!"
+
+msgid "Changelog"
+msgstr "Muutosloki"
+
+msgid "Blog"
+msgstr "Blogi"
+
+msgid "What's going on under the hood?"
+msgstr "Mitä tapahtuu naapuruston alla?"
+
+msgid "Follow us on Twitter!"
+msgstr "Seuraa meitä Twitterissä!"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr "Jaa turhia mielipteitä redditissä!"
+
+msgid "Language"
+msgstr "Kieli"
+
+# beatmap.html
+msgid "Artist"
+msgstr "Artisti"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "Creator"
+msgstr "Tekijä"
+
+msgid "Source"
+msgstr "Lähde"
+
+msgid "Circle Size"
+msgstr "Ympyröiden koko"
+
+msgid "HP Drain"
+msgstr ""
+
+msgid "Overall Difficulty"
+msgstr ""
+
+msgid "Passes/Plays"
+msgstr ""
+
+msgid "Approach Rate"
+msgstr ""
+
+msgid "Star Difficulty"
+msgstr "Vaikeustaso tähtinä"
+
+msgid "Length"
+msgstr "Pituus"
+
+msgid "BPM"
+msgstr "BPM"
+
+msgid "osu!direct"
+msgstr "osu!direct"
+
+msgid "download"
+msgstr "lataa"
+
+msgid "download (no video)"
+msgstr "lataa (ei videota)"
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "Kaksivaiheinen todennus"
+
+msgid ""
+"Before proceding further on Ainu!, we require you to use your Google "
+"Authenticator App to use the code for Ainu!, so that we can log you in."
+msgstr ""
+"Ennen kuin jatkat pidempään Ainu!, me vaadimme sinua käyttämään Google "
+"Authenticator sovellusta, jotta voit käyttää koodia, jolla voit kirjautua "
+"sisään Ainu!."
+
+msgid ""
+"Before proceding any further on Ainu!, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr ""
+"Ennen kuin jatkat pidempään Ainu!, me vaadimme sinua käyttämään viestiä, "
+"jonka juuri sait telegramissa, jotta voit kirjautua sisään."
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr "Hukkasit puhelimesi tai et voi käyttää Google Authenticatoria?"
+
+msgid "Click here to use a recovery code."
+msgstr "Klikkaa tästä, jotta voit käyttää palautuskoodia."
+
+msgid "Telegram code"
+msgstr "Telegram koodi"
+
+msgid "(send again?)"
+msgstr "(lähetä uudestaan?)"
+
+msgid "Google Authenticator passcode"
+msgstr "Google Authenticator koodi"
+
+msgid "Hey, %s."
+msgstr "Hei, %s."
+
+msgid "You need to complete the 2fa challenge first."
+msgstr "Sinun täytyy ensin suorittaa kaksivaiheinen todentaminen."
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "Uusi koodi on luotu ja lähetetty sinulle Telegramin kautta."
+
+msgid "You've been successfully logged in."
+msgstr "Olet kirjautunut sisään onnistuneesti."
+
+msgid "Ooops! Looks like something went really wrong while trying to process your request. Perhaps report this to a Ainu! developer? Retrying doing what you were trying to do might work, too."
+msgstr ""
+"Hups! Näyttää siltä, että jotain meni pahasti pieleen kun yritimme käsitellä "
+"pyyntöäsi. Kenties voisit raportoida tästä Ainu! ylläpitäjille? Sen asian, "
+"mitä yritit tehdä tekeminen uudestaan voisi auttaa myös."
+
+msgid "Ainu! is a private osu! server."
+msgstr "Ainu on yksityinen osu!-serveri."
+
+msgid "There are many like it, but this one is ours."
+msgstr "On monia niinkuin se, mutta tämä on meidän."
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "Etkö tykkää %s?"
+
+msgid "We have leaderboards."
+msgstr "Meillä on sijoitustaulukot."
+
+msgid "Online user listing."
+msgstr "Paikalla olevat käyttäjät."
+
+msgid "Free osu!direct."
+msgstr "Ilmainen osu-direct."
+
+msgid "Global leaderboards."
+msgstr "Maailmanlaajuiset sijoitukset."
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "Rankkausjono ei-rankatuille beatmapeille."
+
+msgid "Spectator."
+msgstr "Katsoja."
+
+msgid "Multiplayer."
+msgstr "Monipeli."
+
+msgid "FokaBot, our chat bot"
+msgstr "FokaBot, meidän chat-botti."
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr ""
+
+msgid "And a lot more to come!"
+msgstr "Ja paljon enemmän tulossa!"
+
+msgid ""
+"Ainu! is the result of the hard work of developers, who got tired about the whole osu! server"
+msgstr ""
+"Ainu on kehittäjien tulos, jotka saivat tarpeekseen "
+"osu!n ekosysteemistä ja koska he halusivat pelata muutamien bannattujen "
+"kavereidensa kanssa."
+
+# %s is wink emoji
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ainu! "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+
+msgid "In case you want to make sure we're not doing shady stuff with your data, you can also check the <a href=\"https://github.com/osuthailand\">source code</a> Ainu! is running on."
+msgstr ""
+"Tapauksessa, jossa haluat tietää varmuudella että emme tee selkäsi takana "
+"mitään tiedoillasi, voit myös tsekata <a href=\"https://github.com/"
+"osuthailand\">lähdekoodin,</a> jolla Ainu pidetään ylhäällä."
+
+# changelog.html
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr ""
+"Tämä on muutosloki. Kaikki muutokset julkaistaan täällä kunhan ne ovat "
+"produktiotilassa (eli, näkyvät nettisivulla)."
+
+msgid ""
+"For various reasons, some software of Ainu! does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+
+msgid "Author"
+msgstr "Tekijä"
+
+msgid "Subject"
+msgstr "Aihe"
+
+msgid "Time"
+msgstr "Aika"
+
+# doc_content.html 
+msgid "View document"
+msgstr "Näytä asiakirja"
+
+msgid "Documentation file not found!"
+msgstr "Ohjeistusta ei löydy!"
+
+msgid "View all docs"
+msgstr "Näytä kaikki ohjeistukset"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr ""
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr ""
+"Tällä sivulla voit nähdä kaikki sinun ystäväsi ja poistaa niitä niin miten "
+"näät parhaaksesi tehdä."
+
+msgid "Mutual"
+msgstr "Yhteinen ystävä"
+
+msgid "Remove"
+msgstr "Poista"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ainu!'s "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ainu!'s chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+"Täällä voit generoida uuden IRC tokenin. Voit käyttää sitä Ainu! chättiin "
+"yhdistämiseen IRCin kautta.. Muista että IRC tokenisi on kuin salasana, "
+"jokainen joka sen tietää, voi käyttää käyttäjätiliäsi. Jos olet kiinnostunut "
+"siitä kuinka voit yhdistää Ainu! chättiin IRCin kautta, haluat luultavasti "
+"katsoa <a href=\"/doc/11\">tämän</a>."
+
+msgid "Generate a new token!"
+msgstr "Luo uusi avain!"
+
+# leaderboard.html
+msgid "Rank"
+msgstr "Sijoitus"
+
+msgid "Player"
+msgstr "Pelaaja"
+
+msgid "PP/Score"
+msgstr "PP/Pisteet"
+
+msgid "Accuracy"
+msgstr "Tarkkuus"
+
+msgid "Playcount"
+msgstr "Pelaamiskerrat"
+
+# profile.html
+msgid "%s's profile"
+msgstr "%s:n profiili"
+
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr "Käyttäjä on <b>hiljennetty</b> %s ajaksi, loppuu %s."
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "Käyttäjä on <b>%s</b>"
+
+msgid "pending verification"
+msgstr "Odotettavissa oleva vahvistus"
+
+msgid "banned"
+msgstr "bannattu"
+
+msgid "restricted"
+msgstr "rajoitettu"
+
+msgid "locked"
+msgstr "lukittu"
+
+msgid "User not found"
+msgstr "Käyttäjää ei löytynyt"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(toisin sanoen <b>%s</b>)"
+
+msgid "Online"
+msgstr "Paikalla"
+
+msgid "Offline"
+msgstr "Poissa"
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "<b>%s</b> is a Ainu! player from <b>%s</b>."
+msgstr "<b>%s</b> on Ainu! pelaaja maasta <b>%s</b>"
+
+msgid "Last seen: %s."
+msgstr "Nähty viimeksi: %s."
+
+msgid "They signed up on osu!Ainu %s."
+msgstr "Hän rekisteröityi osu!Ainu %s."
+
+msgid "They play with %s."
+msgstr "Hän pelaa %s."
+
+msgid "Mouse"
+msgstr "Hiirellä"
+
+msgid "Tablet"
+msgstr "Piirtopöydällä"
+
+msgid "Keyboard"
+msgstr "Näppäimistöllä"
+
+msgid "Touchscreen"
+msgstr "Kosketusnäytöllä"
+
+msgid "Spoon"
+msgstr "Lusikalla"
+
+msgid "Leap motion"
+msgstr "Leap motion"
+
+msgid "Oculus rift"
+msgstr "Oculus riftillä"
+
+msgid "Dick"
+msgstr "Kyrvällä"
+
+msgid "Eggplant"
+msgstr "Munakoisolla"
+
+msgid "This user hasn't got any badges!"
+msgstr "Tällä käyttäjällä ei ole yhtään merkkejä!"
+
+msgid "Global rank"
+msgstr "Maailmanlaajuinen sija"
+
+msgid "Country rank"
+msgstr "Maan sija"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "Rankatut pisteet"
+
+msgid "Total score"
+msgstr "Pisteitä yhteensä"
+
+msgid "Replays watched"
+msgstr "Uusintoja katsottu"
+
+msgid "Total hits"
+msgstr "Osumia yhteensä"
+
+msgid "Level %s"
+msgstr "Taso %s"
+
+msgid "Achievements"
+msgstr "Saavutukset"
+
+# support.html
+msgid "Support Ainu!"
+msgstr "Tue Ainu"
+
+msgid "You are a donor!"
+msgstr "Sinä olet lahjoittaja!"
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+"Lahjoittaja tägisi loppuu <b>%s</b>. Ei tarvitse tuntea oloasi syylliseksi "
+"vaikket olekkaan lahjoittanut!"
+
+msgid "Did you know?"
+msgstr "Tiesitkö että?"
+
+msgid "(Probably.)"
+msgstr "(Ehkä.)"
+
+msgid "(Probably not.)"
+msgstr "(Ehkä ei.)"
+
+msgid "Ainu! is not cheap to run."
+msgstr "Ainu pystyssä pitäminen ei ole halpaa."
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if we always took the money out of our own pockets, 1. we would be broke, 2. we wouldn't be able to upgrade our hardware to accomodate our users. While we do have loads of software optimisations that allow us to have Ainu! run crazy fast while still being on not so high-end hardware, the more users we have, the higher-end our hardware needs to be. So we are asking you for help on this :)."
+msgstr ""
+"Vaikka pidämme tätä palvelua ylhäällä ilmaiseksi, meidän pitää silti maksaa "
+"siitä, ja jos aina ottaisimme rahat omista taskuistamme, 1. olisimme köyhiä, "
+"2. emme pystyisi päivittämään ohjelmistoamme suhteessa käyttäjien määrään. "
+"Vaikka meillä onkin paljon ohjelmisto-optimisaatioita jotka antavat meidän "
+"pyörittää Ainu todella nopeasti sillä aikaa kun se ei olisikaan millään "
+"parhaalla ohjelmistolla, mitä enemmän käyttäjiä meillä on, sitä parempaa "
+"ohjelmistoa tarvitsemme. Joten pyydämme apuasi tähän :)."
+
+msgid "We are still students."
+msgstr "Me olemme vieläkin oppilaita."
+
+msgid ""
+"Ainu! developers, and most of the Ainu! staff, do not have a day job. This means that we get most of our income as students from doing small jobs as \"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+"Ainu kehittäjillä, eikä suurella osalla Ainu! henkilöstöstä ole "
+"päivätyötä. Tämä tarkoittaa että saamme suuren osan tuloistamme "
+"opiskelijoina pienistä töistä \"freelancereina\" välillä, tai, kuten tiedät, "
+"avustuksina."
+
+msgid "We do not have ads. And never will."
+msgstr "Meillä ei ole mainoksia. Eikä koskaan tule olemaankaan."
+
+msgid "We love picking random icons from our icon library."
+msgstr "Me rakastamme valita satunnaisia kuvakkeita meidän kuvakekirjastosta."
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+"Sinulla saattaa olla adblock päällä, mutta et ole huomannut, että meillä ei "
+"ole mainoksia missään meidän nettisivulla. Me uskomme että mainokset ovat "
+"huonoja, koska ne voivat olla todella ärsyttäviä ja että sinä mieluummin "
+"käytttäisit muutaman euron auttaakseen meitä etkä katso ärsyttäviä mainoksia "
+"kokoajan."
+
+msgid "So what can you do?"
+msgstr "Joten mitä sinä voit tehdä?"
+
+msgid "Well, you can give us money."
+msgstr "Sinä voit antaa meille rahaa."
+
+msgid "Well, you can give us even more money."
+msgstr "No, sinä voit antaa vielä enemmän rahaa."
+
+msgid "Here's what you get:"
+msgstr "Tässä kaikki mitä saat siitä:"
+
+msgid "Yellow username"
+msgstr "Keltainen käyttäjänimi"
+
+msgid "Donor badge"
+msgstr "Lahjoittajamerkki"
+
+msgid "Custom badge editor"
+msgstr "Kustomisoitavavien badgejen muokkaus"
+
+msgid "Friends ranking"
+msgstr "Kaverien sijoitukset"
+
+msgid "Discord privileges"
+msgstr "Discord oikeuksia"
+
+msgid "Profile background"
+msgstr "Profiiliin tausta"
+
+msgid "More to come!"
+msgstr "Ja lisää on tulossa!"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"Juuri kuten osu!ssa, saat <b>kiiltävän keltaisen käyttäjänimen</b> "
+"pelichätissä jotta pääset näyttämään kaikille että olet todella nätti jäbä "
+"joka on auttanut meitä maksamaan palvelimemme laskut."
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr ""
+"Taas, juuri kuten osu!ssa, saat <b>lahjoittaja badgen</b> profiiliisi, jotta "
+"voit näyttää kaikille että olet auttanut meitä."
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+"Pystyt tekemään oman <b>persoonallisen badgesi</b> kustomisoitavan tekstin "
+"ja ikonin muille näytettäväksi profiilissasi! Anna maailman tietää että olet "
+"ankkuri.. Tai, vitsaile muiden kanssa näyttämällä pyörivän pyörän jossa "
+"lukee \"Ladataan...\"! Oma päätöksesi."
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+"<b>Kavereiden kanssa kilpailu</b> on nättiä, voit pelaa muita vastaan "
+"sijoitus listalta joka on vaikka lähellä omaa tasoasi, ilman että saat "
+"karmean depression ja RSIn koska et voittanut sitä yhtä pro pelaajaa!"
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+"Saat yksinomaisen pääsyn <b>\"#donator\"</b> teksti ja äänikanaville, pystyt "
+"vaihtamaan discord nimimerkkiäsi ja saat kustomisoitavan roolin "
+"kustomisoitavalla käyttäjänimivärillä!"
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+"Mietitkö <b>profiilisi hienommaksi tekemistä munakoisoilla</b>!? Meillä on "
+"sinut koverattuna! Kun sinulla on lahjoittajan etuoikeudet, pystyt "
+"vaihtamaan profiilisi taustakuvaa."
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+"<b>Kuka tietää</b> mitä voimme lisätä seuraavaksi? Voisit tehdä vielä "
+"<i>enemmän</i> asioita kun lisäämme ne lahjoittajille."
+
+msgid "And this is how you pay"
+msgstr "Ja tämä on kuinka maksat"
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+"Voit lahjoittaa joko <b>PayPalin</b> (tai credit/debit kortilla joka on "
+"linkattuna PayPaliin) tai <b>Bitcoinilla</b>. Käytä slideriä alhaalla jotta "
+"voit valita kuinka monta kuukautta haluaisit lahjoittajaoikeuksia, ja hinta "
+"on heti laskettu. Muista että jos, mahdollisesti haluaisit lahjoittaa "
+"esimerkiksi '4€' mieluummin kuin '3,51€', saat silti vain yhden kuukauden "
+"lahjoitusoikeuksia."
+
+msgid "Loading..."
+msgstr "Ladataan..."
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "User:"
+msgstr "Käyttäjä:"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "lähetä %s BTC tähän Bitcoin osoitteeseen:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+"Jälkeenpäin, <b>ole hyvä ja lähetä sähköposti <a href=\"mailto:howl@ripple."
+"moe\">howl@ripple.moe</a></b> jossa on transaction hashi!"
+
+msgid "I've donated, now what?"
+msgstr "Olen lahjoittanut, mitä nyt?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+"Sinun pitää odottaa kunnes me vahvistamme ja processoimme maksusi. Tässä voi "
+"kestää noin <b>12 tuntia</b>. Jos 12 tuntia on kulunut ja et ole saanut "
+"sinun lahjoittaja tagiasi, ota yhteyttä <b>Kehittäjään tai "
+"yhteisömanageriin</b> meidän Discord palvelimellamme tai lähetä sähköposti "
+"<b><a href=\"mailto:support@ripple.moe\">support@ripple.moe</a></b>. Kun "
+"olemme prosessoineet maksusi, saat <b>sähköpostin</b> sähköpostiisi jota "
+"olet käyttänyt käyttäjäsi tekemiseen ja saat <b>kaikki lahjoittajaoikeudet "
+"paitsi Discord palvelimen omat</b>. Jotta saat Discordin oikeudet, mene <a "
+"href=\"/settings/discord\">tänne</a>."
+
+msgid "Please log in to get supporter"
+msgstr "Ole hyvä ja kirjaudu sisään supportterin hankkimiseen."
+
+# Settings
+msgid "Userpage"
+msgstr "Käyttäjäsivu"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Discord donor"
+msgstr "Discord lahjoittaja"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "Kaksivaiheinen todennus on aktivoitu käyttäjälläsi"
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "Kaksivaiheinen todennus on ei ole aktivoitu käyttäjälläsi"
+
+msgid "Telegram 2FA"
+msgstr "Telegram 2FA"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr ""
+"Jotta voit aktivoida Telegram Kaksivaiheisen todennuksen, klikkaa tätä "
+"nappia, sitten klikkaa ''start'' Telegramissa:"
+
+msgid "Enable Telegram 2FA"
+msgstr "Aktvoi Telegram 2FA"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr ""
+"Jos sinulla ei ole Telegramia nykyisessa laitteessa, sinä voit joko avata "
+"tämän sivun laitteessa missä sinulla on Telegram, tai skannaa tämä QR koodi:"
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"Siinä tapauksessa että sinulla ei ole tapaa skannata QR koodeja tai et vain "
+"jaksa ladata ohjelmaa joka skannaa ne, voit myös avata Telegrammin, aloittaa "
+"keskustelun <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> ja lähetä tämä viesti:"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr "Google Authenticator (TOTP) pohjainen 2FA"
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr ""
+"Tällä hetkellä, sinulla on käytössä Telegram 2FA. Jos haluaisit ottaa sen "
+"pois käytöstä, ole hyvä ja täytä seuraava formi:"
+
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr ""
+"Tällä hetkellä sinulla on käytössä TOTP-pohjainen (Google Authentikaattori) "
+"2FA. Jos haluaisit ottaa sen pois käytöstä, ole hyvä ja täytä seuraava formi:"
+
+msgid "Disable Telegram 2FA"
+msgstr "Aktivoi Telegrammin 2FA"
+
+msgid "Disable TOTP-based 2FA"
+msgstr "Poista käytöstä TOTP-pohjainen 2FA"
+
+msgid "Google Authenticator recovery keys"
+msgstr "Google Authenticator palautus avaimet"
+
+msgid ""
+"These are the only thing that will let you get back into your Ainu! account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"Nämä ovat ainoita asioita jotka antavat sinun saada Ainu!-käyttäjäsi "
+"takaisin jos kadotat laitteesi. Meidän suosituksemme olisi että liität ne "
+"dokumenttiin sinun käyttämässä kirjoitusohjelmassasi (esim. Microsoft Word, "
+"LibreOffice Writer), printtaat ne ja laitat ne talteen turvalliseen paikkaan."
+
+msgid "Open File"
+msgstr "Avaa tiedosto"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid ""
+"Your discord account has been linked to this Ainu! account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+
+msgid "Thank you for supporting us and have fun on Ainu!!"
+msgstr "Kiitos meidän tukemisesta ja pidä hauskaa Ainu!!"
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr ""
+"Lahjoittajat saavat spesiaalioikeuksia myös meidän Discord-serverillämme!"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+"Discord on chathuone, jossa on teksti- ja puhumiskanavia, botteja, ja monia "
+"muita eri ominaisuuksia. Voit <b>ladata Discordin ilmaiseksi <a href=\""
+"http://discord.gg/\" target=\"_blank\">täältä</a></b> ja voit <b>liittyä "
+"meidän viralliseen Discord-serveriin <a href=\"%s\" target=\"_blank\""
+">täältä</a></b>."
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "Tässä on mitä saat jos linkität sinun Discord-käyttäjäsi:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr "Oikeus /nick -komentoon, joka mahdollistaa Discord-nimesi vaihtamisen"
+
+msgid "Access to #donators text and voice channels"
+msgstr "Pääsy #donators teksti- ja puhekanaville"
+
+msgid "Username on donors list"
+msgstr "Käyttäjänimi lahjoittajien listalla"
+
+msgid "Custom role with custom username"
+msgstr "Kustomisoitu rooli kustomisoidulla käyttäjänimellä"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"Saadaksesi nämä oikeudet, ensimmäiseksi <a href=\"%s\" target=\"_blank\">"
+"liity meidän Discord-serveriin</a>, ja sitten klikkaa tätä hienoa nappia:"
+
+msgid "Get Discord donor privileges"
+msgstr "Saa Discord lahjoittaja-etuoikeudet"
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "Uusi salasana (jätä tyhjäksi jos et halua vaihtaa sitä)"
+
+msgid "Current password"
+msgstr "Nykyinen salasana"
+
+msgid "BBCode syntax reference"
+msgstr "BBCode syntax referenssi"
+
+msgid "General"
+msgstr ""
+
+msgid "Email address"
+msgstr "Sähköpostiosoite"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr "Alternaatinen käyttäjätunnus (ei voi käyttää kirjautumiseen)"
+
+msgid "Also known as..."
+msgstr "Myös tiedetään nimellä..."
+
+msgid "Custom badge"
+msgstr "Kustomisoitu badge"
+
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+"<b>Älä käytä loukkaavia merkkejä äläkä esitä olevasi joku toinen "
+"merkilläsi.</b> Jos väärinkäytät merkkisysteemiä, sinut hiljennetään ja et "
+"pysty enää muokkaamaan mukautettua merkkiäsi."
+
+msgid "Icon reference"
+msgstr ""
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr ""
+
+msgid "Playstyle"
+msgstr "Pelityyli"
+
+msgid "Authorized applications"
+msgstr ""
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+
+msgid "... but it looks like you have none!"
+msgstr "... mutta näyttää siltä että sinulla ei ole yhtäkään!"
+
+msgid "That authorization has been successfully revoked."
+msgstr ""
+
+msgid "Authorization created %s"
+msgstr ""
+
+msgid "Owner"
+msgstr "Omistaja"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Dark site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr ""
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr "Salasana on epäkelpo. Ehkä se on vanhentunut?"
+
+msgid "No passcode/secret was given. Please try again"
+msgstr ""
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr ""
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+"Sinulla on tällä hetkellä Telegram 2FA päällä. Sinun pitää ensin laittaa se "
+"pois päältä jos haluat käyttää TOTP-pohjaista 2FA:ta."
+
+msgid "2FA disabled successfully."
+msgstr "2FA kytketty pois päältä onnistuneesti."
+
+msgid "Changing avatar is currently not possible."
+msgstr "Profiilikuvan vaihtaminen ei ole mahdollista tällä hetkellä."
+
+msgid "An error occurred."
+msgstr "Tapahtui virhe."
+
+msgid "We were not able to save your avatar."
+msgstr "Emme onnistuneet tallentamaan tätä avatariksesi."
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"Avatarisi oli onnistuneesti vaihdettu. Siinä saattaa mennä hetki aikaa, että "
+"se päivittyy kunnolla. Pakottaaksesi välimuistin päivittämisen, voit painaa "
+"CTRL+F5."
+
+msgid "Internal Server Error"
+msgstr ""
+
+msgid "You're not a donor!"
+msgstr "Et ole lahjoittaja!"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+
+msgid "Your account has been linked successfully!"
+msgstr "Käyttäjäsi on linkitetty onnistuneesti!"
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+"Sinun uusi IRC-tokenisi on <code>%s</code>. Vanha IRC-tokenisi ei ole enää "
+"käytettävissä.<br>Pidä se turvassa, älä näytä sitä muille ja tallenna se "
+"jonnenkin nyt! Me emme tule enää näyttämään sitä sinulle uudestaan."
+
+msgid "Your profile background has been saved."
+msgstr "Profiilisi tausta on nyt tallennettu."
+
+msgid "We were not able to save your profile background."
+msgstr "Me emme pystyneet tallentamaan profiilisi taustaa."
+
+msgid "Background type"
+msgstr "Taustan tyyppi"
+
+msgid "None"
+msgstr "Ei asetettu"
+
+msgid "Image"
+msgstr "Kuva"
+
+msgid "Solid colour"
+msgstr "Kiinteä väri"
+
+msgid "Colour is invalid"
+msgstr "Väri on virheellinen"
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"Sinut on kirjattu ulos automaattisesti käyttäjästäsi, koska käyttäjällesi on "
+"annettu porttikielto tai se on lukittu. Jos uskot että tämä on virhe, voit "
+"ottaa yhteyttä tukitiimiimme sähköpostissa support@ripple.moe."
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr ""
+"Sinut on automaattisesti kirjattu ulos turvallisuussyistä. <a "
+"href='/login?redir=%s'>Kirjaudu takaisin sisään</a>, kiitos."
+
+msgid "You need to login first."
+msgstr "Sinun pitää ensin kirjautua sisään."
+
+msgid "Forbidden"
+msgstr "Kielletty"
+
+msgid "You should not be 'round here."
+msgstr "Sinun ei pitäisi olla täällä."
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+"Näyttää siltä, että alkuperäinen versio tästä tiedostosta on päivitetty, "
+"joten tämä tiedosto on vanhentunut ja saattaa sisältää virheellistä tietoa. "
+"Jos haluat varmistaa olevasi ajan tasalla, mene <a href=\"%s%s\">"
+"englanninkieliseen versioon</a>."
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+
+msgid "You look new here. Allow us to introduce you to what Ainu! is."
+msgstr "Näytät uudeltä täällä. Anna meidän kertoa, mikä Ainu on."
+
+# PAY ATTENTION! This is Log in *with* Ainu!, not *on* Ainu!. This is for
+# oauth.
+msgid "Log in with Ainu!"
+msgstr "Kirjaudu sisään Ainu"
+
+msgid "This application will be able to:"
+msgstr ""
+
+msgid "Identify"
+msgstr "Tunnistaudu"
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+
+msgid "Read private information"
+msgstr ""
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+"Tämä sovellus tulee pystymään näkemään sinun sähköpostiosoitteesi ja mitä "
+"tahansa yksityistä informaatiota tulevaisuudessa."
+
+msgid "Write"
+msgstr "Kirjoita"
+
+msgid ""
+"This application will be able to make modifications to your Ainu! account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Deny"
+msgstr "Estä"
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ainu! up and running and "
+"deal with its community."
+msgstr ""
+"Tämä on lista niistä ihanista ihmisistä jotka pitävät Ainu! ylhäällä, "
+"toiminnassa ja pitävät yhteisöstä huolta."
+
+msgid "Community Managers"
+msgstr "Yhteisömanagerit"
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Developers"
+msgstr "Kehittäjät"
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr ""
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Chat Moderators"
+msgstr "Chat-moderaattorit"
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr ""
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+
+msgid "Special thanks"
+msgstr "Erityiskiitokset"
+
+msgid "Here's a list of people who helped with Ainu!"
+msgstr "Tässä on lista henkilöistä jotka ovat auttaneet Ainu kanssa."
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+"<b>Franc[e]sco/lolisamurai</b>, <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a> , joka toimii "
+"standard muodon pp laskimena."
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+"<b>Tom94</b>, <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, jota käytetään manian pp laskimena."
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+"<b>jrosdahl</b>,<a href='https://github.com/jrosdahl/miniircd'>miniircd</a>, "
+"jota käytetään IRC serverin pohjana."
+
+msgid "<b>Avail</b>, for having hosted Ainu! on his server."
+msgstr "<b>Avail</b>, joka hostasi Ainu omalla serverillään."
+
+msgid "<b>Angela Guerra</b>, for designing the Ainu! logo."
+msgstr "<b>Angela Guerra</b>, Ainu-logon suunnittelemisesta."
+
+msgid "<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the Ainu project by donating or inviting other people."
+msgstr ""
+"<b><a id='everyone' class='clickable'>Kaikki</a></b> jotka ovat auttaneet "
+"Ainu! projektia lahjoittamalla tai kutsumalla muita ihmisiä."
+
+msgid "They told me these are very cool people."
+msgstr "Minulle kerrottiin että nämä olivat nättejä ihmisiä."
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+"Etsitkö miten saat kontaktin tiimiimme? Tsekkaa <a "
+"href='https://support.ripple.moe/'>tämä sivu</a>."
+
+msgid "And more..."
+msgstr "Ja lisää..."
+
+msgid "Do you want to be in this list?"
+msgstr "Haluatko olla tällä listalla?"
+
+msgid "Support us with a donation!"
+msgstr "Pidä meitä pystyssä lahjoittamalla!"
+
+msgid "(You get other cool perks too)"
+msgstr "(Saat muitakin kivoja oikeuksia myös)"
+
+msgid ""
+"The Ainu! API is the system through which developers can create "
+"applications to interact with Ainu!. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "ja PP osu!standardiin ja osu!maniaan"
+
+# help.html
+msgid ""
+"If you need to get in touch with our support team (our Community Managers), "
+"you will need to send an email to our support email address. You can compose "
+"an email to it by clicking the button at the bottom of this page. <b>Please "
+"read the following</b> though, as it is important."
+msgstr ""
+"Jos sinun pitää saada yhteyttä meidän tukiryhmään (tai Yhteisömanagereille), "
+"sinun pitää lähettää sähköpostiviesti meidä tuen sähköpostiin. Sinä voit "
+"kirjoittaa viestin painamalla nappia joka on tämän sivun pohjalla. <b>Lue "
+"seuraava teksti</b>, koska se on tärkeä."
+
+msgid ""
+"The support email <b>is not meant for technical support</b>. If you need "
+"technical support, then please join our <a href='%s'>Discord Server</a>, and "
+"ask your question on the <b>#help channel</b>. You should also join the "
+"Discord server and ask a CM if you have any informal inquiry that you may "
+"have. If you need to contact a specific staff member, you can contact them "
+"by clicking the envelope icon under their name in the <a href='/team'>Team "
+"page</a>."
+msgstr ""
+"Tukisähköposti <b>ei ole tarkoitettu teknisiin ognelmiin</b>. Jos sinä "
+"tarvitset teknistä apua, sitten liity meidän <a href='%s'>Discord "
+"Serveriin</a> ja kysy kysymyksesi <b>#help kanavalla</b>. Sinun pitäisi "
+"liittyä Discord Serveriin ja kysyä CM:ltä (Yhteisömanagerilta) jos sinulla "
+"on jotain muuta kysyttävää. Jos sinun pitää ottaa yhteyttä tiettyyn "
+"henkilökunnan jäseneen, niin sinä voit ottaa yhteyttä häneen painamalla "
+"kirjekuorta nimen allaan <a href='/team'>Tiimi sivulla</a>."
+
+msgid "Instead, if you need any of the following:"
+msgstr "Sen sijaan, jos tarvitset mitään seuraavista:"
+
+msgid "Username change"
+msgstr "Käyttäjänimen vaihto"
+
+msgid "Appeal your ban/restriction"
+msgstr "Vaadi unbannausta/rajoitetusta tilasta pois ottamista"
+
+msgid ""
+"Anything else that strictly deals with your account and is not related in "
+"any way to a technical issue of yours."
+msgstr ""
+"Mikään muu asia joka liittyy pelkästään käyttäjätiliisi ja ei ole yhteydessä "
+"mihinkään tekniseen ongelmaasi."
+
+msgid "Then the support mail is the way to go."
+msgstr "Sitten tukiviesti on oikea reitti mennä."
+
+msgid "When contacting the support mail, please make sure to <b>send the email from the email address you signed up on Ainu! with</b>."
+msgstr ""
+"Kun otat yhteyttä tukisähköpostiin, varmistathan että <b>lähetät sähköpostin "
+"siitä sähköpostiosoitteesta, jolla kirjaudut Ainu</b>."
+
+msgid ""
+"Last but not least, <b>the support email is not meant for filing bug "
+"reports</b>. If you need to report a bug, then please just ask one of our "
+"developers on Discord. If it's a security bug, for instance XSS or SQL "
+"injection, then please contact <a href='mailto:howl@ripple.moe'>Howl</a> or <"
+"a href='mailto:nyo@ripple.moe'>Nyo</a>."
+msgstr ""
+"Viimeisimpänä muttei vähäisimpänä, <b>avustus sähköposti ei ole tarkoitettu "
+"bug-reporttien lähettämiseen</b>. Jos sinun tarvitsee reportoida bugi, ole "
+"hyvä ja kysy yhdeltä developereista Discordissa. Jos ongelmasi on "
+"turvallisuusbugi, esim. XSS tai SQL injektio, ole hyvä ja ota yhteyttä <a "
+"href='mailto:howl@ripple.moe'> Howliin</a> tai <a "
+"href='mailto:nyo@ripple.moe'> Nyoon</a>."
+
+msgid "I have read and understood everything on this page."
+msgstr "Olen lukenut ja ymmärtänyt kaiken tällä sivulla."
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

@@ -1,0 +1,68 @@
+name:
+  common: Dominican Republic
+  official: Dominican Republic
+  native:
+    spa:
+      common: República Dominicana
+      official: República Dominicana
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .do
+languages:
+  spa: Spanish
+translations:
+  CYM:
+    common: Gweriniaeth_Dominica
+    official: Dominican Republic
+  FIN:
+    common: Dominikaaninen tasavalta
+    official: Dominikaaninen tasavalta
+  FRA:
+    common: République dominicaine
+    official: République Dominicaine
+  ITA:
+    common: Repubblica Dominicana
+    official: Repubblica Dominicana
+  JPN:
+    common: ドミニカ共和国
+    official: ドミニカ共和国
+  POR:
+    common: República Dominicana
+    official: República Dominicana
+  RUS:
+    common: Доминиканская Республика
+    official: Доминиканская Республика
+  SPA:
+    common: República Dominicana
+    official: República Dominicana
+currencies:
+- DOP
+borders:
+- HTI
+codes:
+  alpha2: DO
+  alpha3: DOM
+  cioc: DOM
+  ccn3: "214"
+  callingcodes:
+  - "1809"
+  - "1829"
+  - "1849"
+  internationalprefix: "011"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: Santo Domingo
+  area: 48671
+coordinates:
+  longitudestring: 70 40 W
+  latitudestring: 19 00 N
+  minlongitude: -71.96667
+  minlatitude: 17.473057
+  maxlongitude: -68.316666
+  maxlatitude: 19.933332
+  latitude: 19.019825
+  longitude: -70.792854

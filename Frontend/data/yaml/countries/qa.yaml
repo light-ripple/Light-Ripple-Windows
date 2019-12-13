@@ -1,0 +1,67 @@
+name:
+  common: Qatar
+  official: State of Qatar
+  native:
+    ara:
+      common: قطر
+      official: دولة قطر
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .qa
+- قطر.
+languages:
+  ara: Arabic
+translations:
+  DEU:
+    common: Katar
+    official: Staat Katar
+  FIN:
+    common: Qatar
+    official: Qatarin valtio
+  HRV:
+    common: Katar
+    official: Država Katar
+  ITA:
+    common: Qatar
+    official: Stato del Qatar
+  JPN:
+    common: カタール
+    official: カタール国
+  NLD:
+    common: Qatar
+    official: Staat Qatar
+  RUS:
+    common: Катар
+    official: Государство Катар
+  SPA:
+    common: Catar
+    official: Estado de Qatar
+currencies:
+- QAR
+borders:
+- SAU
+codes:
+  alpha2: QA
+  alpha3: QAT
+  cioc: QAT
+  ccn3: "634"
+  callingcodes:
+  - "974"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Asia
+  capital: Doha
+  area: 11586
+coordinates:
+  longitudestring: 51 15 E
+  latitudestring: 25 30 N
+  minlongitude: 50.680557
+  minlatitude: 24.284721
+  maxlongitude: 52.75
+  maxlatitude: 26.44111
+  latitude: 25.413626
+  longitude: 51.260265

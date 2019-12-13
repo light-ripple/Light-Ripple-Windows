@@ -1,0 +1,64 @@
+name:
+  common: Sweden
+  official: Kingdom of Sweden
+  native:
+    swe:
+      common: Sverige
+      official: Konungariket Sverige
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .se
+languages:
+  swe: Swedish
+translations:
+  DEU:
+    common: Schweden
+    official: Königreich Schweden
+  FIN:
+    common: Ruotsi
+    official: Ruotsin kuningaskunta
+  FRA:
+    common: Suède
+    official: Royaume de Suède
+  ITA:
+    common: Svezia
+    official: Regno di Svezia
+  JPN:
+    common: スウェーデン
+    official: スウェーデン王国
+  POR:
+    common: Suécia
+    official: Reino da Suécia
+  SPA:
+    common: Suecia
+    official: Reino de Suecia
+currencies:
+- SEK
+borders:
+- FIN
+- NOR
+codes:
+  alpha2: SE
+  alpha3: SWE
+  cioc: SWE
+  ccn3: "752"
+  callingcodes:
+  - "46"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Northern Europe
+  continent: Europe
+  capital: Stockholm
+  area: 450295
+coordinates:
+  longitudestring: 15 00 E
+  latitudestring: 62 00 N
+  minlongitude: 10.958333
+  minlatitude: 46.75833
+  maxlongitude: 25
+  maxlatitude: 69.03333
+  latitude: 62.674973
+  longitude: 16.79806

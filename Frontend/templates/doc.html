@@ -1,0 +1,28 @@
+{{/*###
+Handler=/doc
+TitleBar=Documentation
+KyutGrill=documentation.jpg
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui segments">
+		<div class="ui segment">
+			{{ .T "Need some help getting around? Look no further! From here you will be able to view our documentation, which is basically a very simplistic wiki." }}
+		</div>
+		<div class="ui segment">
+			{{ with documentationFiles .Context.Language }}
+				{{ if . }}
+					<ul class="ui list">
+						{{ range . }}
+							<li><a href="/doc/{{ .Slug }}">{{ .Title }}</a></li>
+						{{ end }}
+					</ul>
+				{{ else }}
+					{{ .T "Looks like there is no documentation on this ripple instance!" }}
+				{{ end }}
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

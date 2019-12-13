@@ -1,0 +1,1930 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /ro/Hanayo/templates-ro.po\n"
+"X-Pootle-Revision: 8342\n"
+
+msgid "You're already logged in!"
+msgstr "Eşti deja conectat!"
+
+msgid "Submit"
+msgstr "Trimite"
+
+msgid "Username"
+msgstr "Nume de utilizator"
+
+msgid "Password"
+msgstr "Parolă"
+
+msgid "Invalid CSRF token"
+msgstr "Token CSRF invalid"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr ""
+"Sesiunea ta a expirat. Te rugăm reîncearcă să faci ceea ce voiai să faci."
+
+msgid "That user could not be found."
+msgstr "Acel utilizator nu a putut fi găsit."
+
+msgid "Your settings have been saved."
+msgstr "Setările tale au fost salvate."
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr "Cere rankarea beatmap-ului"
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr ""
+"Vrei să joci un beatmap unranked şi să primeşti pp? Poţi să trimiţi cereri "
+"de rank a beatmap-urilor aici!"
+
+msgid "Queue status"
+msgstr "Starea listei de aşteptare"
+
+msgid "by you"
+msgstr "de către tine"
+
+msgid "Requests submitted"
+msgstr "Cerere trimisă"
+
+msgid "In the past 24 hours"
+msgstr "In ultimele 24 de ore"
+
+msgid "Request a beatmap"
+msgstr "Cere un beatmap"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "Nu poţi cere beatmap-uri în acest moment!"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "Te rugăm încearcă din nou "
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "Resetare parolă"
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr ""
+"Ne bucurăm să te avem din nou aici, %s! Pentru a finaliza procesul de "
+"recuperare a parolei, scrie o parolă nouă:"
+
+msgid "Nope."
+msgstr "Nup."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "Acea cheie nu a putut fii găsită. Probabil a expirat?"
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr ""
+"În regulă, ţi-am schimbat parolă şi acum ar trebuii să te poţi conecta! "
+"Distrează-te!"
+
+# register/register.html
+msgid "Register"
+msgstr "Înregistrează-te"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr ""
+"Scuză-ne, nu este posibil să te înregistrezi în acest moment. Te rugăm "
+"încearcă mai târziu."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr ""
+"Reţine: pare ca şi cum acesta ar fi al doilea cont al tău! Nu creea mai "
+"multe conturi, sau cel mai probabil o să fii restricţionat!"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr ""
+"Nume de utilizator (între 2 şi 15 caractere, alphanumerice, spaţii, "
+"<code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "Parolă (cel puţin 8 caractere)"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid ""
+"You have been successfully registered on Ripple! You now need to verify your "
+"account."
+msgstr ""
+"Ai fost înregistrat cu succes pe Ripple! Acum ai nevoie să îţi verifici "
+"contul."
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "Parolă ta este prea scurtă! Trebuie să aibă minim 8 caractere."
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr ""
+"Parolă ta este una dintre cele mai comune parole folosite pe tot internetul. "
+"În nici un caz nu te vom lasă să o foloseşti!"
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr ""
+"Numele tău de utilizator trebuie să conţină caractere alphanumerice, spaţii, "
+"sau oricare dintre <code>_[]-</code>"
+
+msgid "You're not allowed to register with that username."
+msgstr "Nu vă este permis să va înregistraţi cu acel nume de utilizator."
+
+msgid "Please pass a valid email address."
+msgstr "Vă rugăm să introduceţi o adresă de e-mail validă."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr ""
+"Un nume de utilizator nu poate să conţină sublinii şi spaţii în acelaşi timp."
+
+msgid "An user with that username already exists!"
+msgstr "Un utilizator cu acel nume de utilizator deja există!"
+
+msgid "An user with that email address already exists!"
+msgstr "Mai există un utilizator cu această adresă de email!"
+
+msgid "Captcha is invalid."
+msgstr "Captcha invalid."
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr "Whoops, a apărut o eroare. S-ar putea să fi deja înregistrat, nu ştim."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "Verifică contul"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ripple from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"Contul tău a fost creat. Totuşi, el <b>trebuie să fie verificat!</b> Te "
+"rugăm loghează-te în <b><u>osu! (jocul)</u></b> folosindu-ţi contul. <b>Nu "
+"este <u>nici o confirmare de email</u> în acest moment. Tot ce trebuie să "
+"faci este să te conectezi la Ripple din clientul osu!</b> Dacă ai probleme, <"
+"a href='/doc/1'>urmăreşte acest ghid</a>."
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ripple "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>Nu lasă pe nimeni altcineva înafara de ţine însuţi de a "
+"se loga în contul tău de Ripple!</b><br> Vino pe <a href='%s'>serverul "
+"nostru de Discord</a> Foloseşte canalul #help (după ce ai făcut paşii de pe "
+"această pagină) că să te putem ajută dacă ai probleme la conectare."
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>Ghidul, </a>versiunea scurtă"
+
+msgid "Download the server switcher"
+msgstr "Descarcă schimbătorul de servere"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr ""
+"Extractează-l, opreşte-ţi antivirusul, porneşte-l <b>ca administrator</b>"
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "Click pe <b>install certificate</b>, apoi <b>Da</b>"
+
+msgid ""
+"Make sure the switcher says you're playing on <b>Ripple</b> server, if not "
+"click <b>On/Off</b>"
+msgstr ""
+"Fi sigur că switcherul zice că jucaţi pe serverul <b>Ripple</b>. Dacă nu, "
+"apasă pe butonul <b>On/Off</b>"
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+"Dacă zice ceva despre read-only mode, du-te in <code>C:\\Windows\\System32\\"
+"Drivers\\etc</code>, deschide propriet​ăţile fişierului \"hosts\" şi fi "
+"sigur că nu este setat pe \"Read only\"."
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+"Dacă încă ai probleme, încă odată, vino pe <a href='%s'>serverul nostru de "
+"Discord</a>, canalul #help . Pentru a avea o şansă mai mare de a-ţi fi "
+"răspuns, spune \"strawberry\" oriunde în mesaje că să ştim că chiar ai citit "
+"asta."
+
+msgid "Waiting for verification"
+msgstr "Se așteaptă verificarea"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "Bine ați venit!"
+
+msgid "Welcome back!"
+msgstr "Bine ați revenit!"
+
+msgid "Congratulations for not reading things!"
+msgstr "Felicitări pentru că nu aţi citit lucruri!"
+
+msgid "Multiaccounts are not allowed on Ripple"
+msgstr "Multiaccount-urile nu sunt permise pe Ripple"
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"Contul tău nou a fost <b>banat</b>, iar contul tău principal a fost "
+"<b>restricţionat</b>. Poţi contesta într-o lună prin trimiterea unui e-mail "
+"la <b><a href='https://support.ripple.moe'>support.ripple.moe</a></b>. Ai "
+"face bine să citeşti regulile de data asta."
+
+msgid "Welcome to Ripple"
+msgstr "Bun venit pe Ripple"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now "
+"play on Ripple and <a href='/login'>log in</a> on the website!"
+msgstr ""
+"Suntem fericiţi să te avem aici. <b>Contul tău este acum activ.</b> Acum te "
+"poţi juca pe Ripple şi <a href='/login'>să vă logaţi</a> pe website!"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "Iată câteva lucruri pe care ați putea dori să le vedeți:"
+
+msgid "Login"
+msgstr "Autentificare"
+
+msgid "Rules"
+msgstr "Reguli"
+
+msgid "Documentation"
+msgstr "Documentare"
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "Stare"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Subreddit"
+msgstr "Subreddit"
+
+msgid " - in case you don't know where to start"
+msgstr " - în caz că nu ştii de unde să începi"
+
+msgid " - in case you haven't already read them"
+msgstr " - în caz că nu le-ai citit deja"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr " - în caz de ai nevoie de ajutor făcând lucruri"
+
+msgid " - in case you believe Ripple is down"
+msgstr " - în caz că crezi că Ripple a picat"
+
+msgid " - in case you want to talk with people about Ripple"
+msgstr " - în caz că vrei să vorbeşti cu alţi oameni despre Ripple"
+
+msgid " - just in case"
+msgstr " - doar în caz de"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "Recuperează contul"
+
+msgid ""
+"Can't find a way to get back access to your Ripple account? Fear not! If you "
+"have your recovery codes which we recommended you to print you can type one "
+"in here and we'll magically log you in this time. After you've managed to "
+"get in, please disable and then re-enable 2FA, so you won't risk losing your "
+"account again."
+msgstr ""
+"Nu poţi găsi o cale de a-ţi recupera contul de Ripple? Nu te speria! Dacă ai "
+"codurile de recuperare pe care ţi le-am recomandat să le printezi poţi scrie "
+"una dintre ele aici şi noi te vom conecta că prin magie de data asta. După "
+"ce reuşeşti să te conectezi, te rugăm dezactivaţi şi reactivaţi 2FA, astfel "
+"încât nu veţi risca să vă pierdeţi contul din nou."
+
+msgid "Oh no you don't."
+msgstr "Oh nu, nu o faci."
+
+msgid "Get out."
+msgstr "Ieşi afară."
+
+msgid "Recovery code is invalid."
+msgstr "Codul de recuperare este invalid."
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "Elmo! Opreşte-te!"
+
+msgid "Stop!"
+msgstr "Oprește-te!"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"Vedem că încerci să te înregistrezi când deja te-ai înregistrat ca %s! Te "
+"rugăm să ţii minte că creearea a mai multor conturi poate fi pedepsită, și "
+"poate duce la o restricție de o lună!"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr "Dacă eşti %s, ţine minte că creearea a mai multor conturi = ban."
+
+msgid ""
+"If you're not %s, but you're using %s's computer, please sign up on Ripple "
+"from your own computer."
+msgstr ""
+"Dacă nu eşti %s dar foloseşti calculatorul lui %s, te rugăm înregistrează-te "
+"pe Ripple de pe propiul tău calculator."
+
+msgid ""
+"If you live with %s and you don't have your own computer from which to sign "
+"up on Ripple, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"Dacă trăieşti cu %s în casă şi nu ai propiul tău computer de pe care te poţi "
+"înregistra pe Ripple, atunci te rugăm să contactezi support@ripple.moe, şi o "
+"să ne ocupăm de cazul tău specific."
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr ""
+"Această avertizare s-ar putea să apară de asemenea dacă foloseşti un alt "
+"calculator de aceeaşi conexiune de internet ca %s. Atâta timp cât nu "
+"foloseşti acelaşi computer, ar trebui să fi bine."
+
+msgid "Don't stop me now!"
+msgstr "Nu mă opri acum!"
+
+msgid "Bring me back to safety!"
+msgstr "Adu-mă înapoi la siguranță!"
+
+# login.html
+msgid "Log in"
+msgstr "Autentificare"
+
+msgid "Username (or email)"
+msgstr "Nume de utilizator (sau email)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(ai uitat?)"
+
+msgid "Username or password not set."
+msgstr "Numele de utilizator sau parola nu este setată."
+
+msgid "No user with such %s!"
+msgstr "Nu există utilizatori cu astfel %s!"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr ""
+"Parola ta este atââââââât de veche, încât nici nu ştim ce să facem cu ea. Ai "
+"putea să o schimbi, te rugăm?"
+
+msgid "Wrong password."
+msgstr "Parolă greșită."
+
+msgid "You will need to verify your account first."
+msgstr "Trebuie să îţi verifici contul mai întâi."
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr ""
+"Nu vi se permite să vă conectaţi. Asta înseamnă că contul dvs. este închis "
+"sau restricţionat."
+
+msgid "Hey %s! You are now logged in."
+msgstr "Hey %s! Acum sunteţi autentificat."
+
+msgid "You're already logged out!"
+msgstr "Deja sunteţi deconectat!"
+
+msgid "Successfully logged out."
+msgstr "Deconectare reuşită."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your "
+"username or email address, and we'll take care of it. You will receive an "
+"email at the email address you used to sign up on Ripple. To continue the "
+"password reset procedure, click the link on that email."
+msgstr ""
+"V-aţi uitat parola? Nu te speria! Aici îţi poţi reseta parola. Doar spune-ne "
+"numele de utilizator sau adresa de e-mail, şi o să avem noi grijă. O să "
+"primeşti un e-mail la adresa de mail pe care ai folosit-o să te înregistrezi "
+"pe Ripple. Pentru a continua procesul de resetare al parolei, apasă pe "
+"adresa web din acel e-mail."
+
+msgid "You look pretty banned/locked here."
+msgstr "Arăţi destul de interzis/închis aici."
+
+msgid ""
+"Done! You should shortly receive an email from us at the email you used to "
+"sign up on Ripple."
+msgstr ""
+"Gata! Ar trebui să primeşti un e-mail de la noi în curând la adresa de mail "
+"pe care ai folosit-o să te înregistrezi pe Ripple."
+
+msgid "Ripple password recovery instructions"
+msgstr "Instrucţiuni de recuperare a parolei Ripple"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset "
+"for your account. In case it was you, please <a href='%s'>click here</a> to "
+"reset your password on Ripple. Otherwise, silently ignore this email."
+msgstr ""
+"Hey %s! Cineva, care chiar sperăm că a fost dvs., a cerut o resetare a "
+"parolei pentru contul dvs. În caz că a fost dvs., Va rugăm <a href='%s'>"
+"apăsati aici</a> pentru a reseta parola pe Ripple. În caz contrar, ignoraţi "
+"acest e-mail."
+
+# not_found.html
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr "Ne pare rău, dar nu putem găsi conţinutul după care va uitaţi!"
+
+# navbar.html
+msgid "Home page"
+msgstr "Pagina de start"
+
+msgid "Leaderboard"
+msgstr "Clasament"
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "About"
+msgstr "Despre"
+
+msgid "Chat (Discord)"
+msgstr "Chat (Discord)"
+
+msgid "Contact support"
+msgstr "Contactați suport"
+
+msgid "Beatmaps"
+msgstr "Beatmap-uri"
+
+msgid "Donate"
+msgstr "Donează"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Friends"
+msgstr "Prieteni"
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Log out"
+msgstr "Deconectare"
+
+msgid "Looking for someone?"
+msgstr "Cauţi pe cineva?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "Pagina de start"
+
+# about.html
+msgid "Welcome to Ripple."
+msgstr "Bun venit pe Ripple."
+
+msgid ""
+"Ripple is a private osu! server, featuring multiplayer, PP, a very active "
+"community and a development team going strong implementing new features and "
+"squashing bugs. <a href='/about'>You can check out even more features "
+"here.</a> It has also a very friendly community, and it's <a "
+"href='https://zxq.co/ripple/ripple'>open source!</a> Just so you know, <b>we "
+"currently have %s users online and %s registered users!</b>"
+msgstr ""
+"Ripple este un server privat de osu!, oferind Multiplayer, PP, o comunitate "
+"foarte activă şi o echipă de dezvoltare care se indreaptă puternic spre "
+"implementarea a mai multor caracteristici şi distrugerea bug-urilor. <a "
+"href='/about'>Poţi vedea mai multe caracteristici aici.</a> De asemenea are "
+"o comunitate foarte prietenoasă şi este <a "
+"href='https://zxq.co/ripple/ripple'>open source!</a>! Doar că să ştii, <b>în "
+"momentul acesta avem %s jucători online şi %s utilizatori înregistraţi!</b>"
+
+msgid ""
+"What are you waiting for? Join Ripple! It's risk-free: you won't get your "
+"account banned on the official server if you play on Ripple.<br>You can also "
+"switch anytime between the official osu! server and Ripple!"
+msgstr ""
+"Ce mai aştepţi? Vino pe Ripple! Este fără risc: nu o să primeşti vreo "
+"restricţie pe contul tău de osu! de pe serverul oficial dacă joci pe "
+"Ripple.<br>De asemenea poţi schimba între osu! oficial şi serverul Ripple "
+"oricând!"
+
+msgid "Howdy, %s!"
+msgstr "Salutare, %s!"
+
+#, fuzzy
+msgid ""
+"Welcome back to Ripple. We currently have <b>%s online users and %s total "
+"registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"Bun venit înapoi pe Ripple. În momentul ăsta avem %s jucători online şi <b>%"
+"s utilizatori înregistraţi în total.</b> O zi destul de frumoasă pentru a "
+"farma nişte beatmap-uri, nu crezi?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr ""
+"Cele mai noi noutăţi de la <a href='https://blog.ripple.moe'>blog-ul "
+"nostru</a>"
+
+# base.html
+msgid ""
+"Ripple's score submission is currently in maintenance mode. You will not be "
+"allowed to submit scores for the time being."
+msgstr ""
+"Submisia de scoruri a Ripple-ului este în mentenanţă în momentul dat. N-o să "
+"puteţi trimite scoruri pentru moment."
+
+msgid ""
+"The Ripple website is currently in maintenance mode. Only certain users are "
+"allowed to access the full website."
+msgstr ""
+"Website-ul Ripple este în mentenanţă în momentul dat. Doar anumiţi "
+"utilizatori pot accesa tot website-ul."
+
+msgid ""
+"Your account is currently in restricted mode. You will not be able to do "
+"certain actions, and your profile can only be seen by you and by Ripple's "
+"staff. If you believe we have mistaken putting you in restricted mode, or a "
+"month has passed since you first saw this, then you can send an appeal at <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+msgstr ""
+"Contul tău este restricţionat în momentul dat. Nu o să poţi face anumite "
+"acţiuni, iar profilul tău poate fi văzut decât de tine şi staff-ul Ripple. "
+"Dacă crezi că am făcut o greşeală prin a te restricţiona, sau după ce a "
+"trecut o lună după ce ai văzut asta prima dată, atunci poţi trimite o cerere "
+"la <a href='https://support.ripple.moe'>support.ripple.moe</a>."
+
+msgid "&copy; 2015-%d Ripple, using Hanayo %s."
+msgstr "&copy; 2015-%d Ripple, folosind frontend-ul Hanayo %s."
+
+msgid "Team"
+msgstr "Echipa noastră"
+
+msgid "Who is working on this thing?"
+msgstr "Cine lucrează la această chestie?"
+
+msgid "Developer docs"
+msgstr "Documente pentru dezvoltatori"
+
+msgid "See what changed!"
+msgstr "Vezi ce s-a schimbat!"
+
+msgid "Changelog"
+msgstr "Jurnal de modificări"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "What's going on under the hood?"
+msgstr "Ce se întâmplă în spatele cortinei?"
+
+msgid "Follow us on Twitter!"
+msgstr "Urmăreşte-ne pe Twitter!"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr "Împarte opinii irelevante pe reddit!"
+
+msgid "Language"
+msgstr "Limbă"
+
+# beatmap.html
+msgid "Artist"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Circle Size"
+msgstr ""
+
+msgid "HP Drain"
+msgstr ""
+
+msgid "Overall Difficulty"
+msgstr ""
+
+msgid "Passes/Plays"
+msgstr ""
+
+msgid "Approach Rate"
+msgstr ""
+
+msgid "Star Difficulty"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "BPM"
+msgstr ""
+
+msgid "osu!direct"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid "download (no video)"
+msgstr ""
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "Autentificare cu doi factori"
+
+msgid ""
+"Before proceding further on Ripple, we require you to use your Google "
+"Authenticator App to use the code for Ripple, so that we can log you in."
+msgstr ""
+"Înainte de a continua pe Ripple, îţi cerem să foloseşti aplicaţia Google "
+"Authenticator pentru a folosi codul pentru Ripple, ca să te putem conecta."
+
+msgid ""
+"Before proceding any further on Ripple, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr ""
+"Înainte de a proceda mai departe pe Ripple, îţi cerem să foloseşti mesajul "
+"pe care tocmai l-ai primit pe telegramă ca să te conectezi în contul tău."
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr "Ţi-ai pierdut telefonul, sau nu mai poţi accesa Google Authenticator?"
+
+msgid "Click here to use a recovery code."
+msgstr "Apasă aici pentru codul de recuperare."
+
+msgid "Telegram code"
+msgstr "Cod telegramă"
+
+msgid "(send again?)"
+msgstr "(trimite din nou?)"
+
+msgid "Google Authenticator passcode"
+msgstr "codul de trecere pentru Google Authenticator"
+
+msgid "Hey, %s."
+msgstr "Bună, %s."
+
+msgid "You need to complete the 2fa challenge first."
+msgstr "Trebuie să completezi provocarea 2fa mai întâi."
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "Un cod nou a fost generat şi trimis la tine prin Telegram."
+
+msgid "You've been successfully logged in."
+msgstr "V-ați conectat cu succes."
+
+msgid ""
+"Ooops! Looks like something went really wrong while trying to process your "
+"request. Perhaps report this to a Ripple developer? Retrying doing what you "
+"were trying to do might work, too."
+msgstr ""
+"Ooops! Se pare că ceva a mers cu totul greşit în timp ce am încercat să "
+"procesăm cererea ta. Poate de ai raporta asta unui developer Ripple? A "
+"reîncerca să faci ce încercai iniţial să faci poate ajuta de asemenea."
+
+msgid "Ripple is a private osu! server."
+msgstr "Ripple este un server de osu! privat."
+
+msgid "There are many like it, but this one is ours."
+msgstr "Sunt multe servere ca acesta, dar acesta e al nostru."
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "Nu-ţi plac vinetele %s?"
+
+msgid "We have leaderboards."
+msgstr "Avem clasamente."
+
+msgid "Online user listing."
+msgstr "Listare de utilizatori online."
+
+msgid "Free osu!direct."
+msgstr "osu!direct gratis."
+
+msgid "Global leaderboards."
+msgstr "Clasamente globale."
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "Listă de aşteptare pentru rankarea beatmap-urilor unranked."
+
+msgid "Spectator."
+msgstr "Mod spectator."
+
+msgid "Multiplayer."
+msgstr "Multiplayer."
+
+msgid "FokaBot, our chat bot"
+msgstr "FokaBot, bot-ul nostru de chat"
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr ""
+"cu o mulţime de funcţii pentru cam orice, <a href=\"/doc/4\">verifică-l!</a>"
+
+msgid "And a lot more to come!"
+msgstr "Și o grămadă de lucruri noi ce vor apărea!"
+
+msgid ""
+"Ripple is the result of the hard work of two Italian developers, who got "
+"tired about the whole osu! ecosystem, and also because they wanted to play "
+"with a few banned friends."
+msgstr ""
+"Ripple este rezultatul muncii grele a doi programatori italieni, ce s-au "
+"săturat de tot ecosistemul jocului, şi de asemenea pentru că ei voiau să "
+"joace cu câţiva prieteni de-ai lor banaţi."
+
+# %s is wink emoji
+#, fuzzy
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ripple "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+"A evoluat acum în cel mai mare server privat de osu! disponibil, cu mai mult "
+"de zece mii de utilizatori înregistraţi. <a href=\"/register\""
+">Înregistrarea</a> pe server nu va rezulta în restricţionarea contului pe "
+"serverul oficial, deci ce mai aştepţi?! Alătură-te nouă! %s"
+
+msgid ""
+"In case you want to make sure we're not doing shady stuff with your data, "
+"you can also check the <a href=\"https://zxq.co/ripple/ripple\">source "
+"code</a> Ripple is running on."
+msgstr ""
+"Dacă vrei să te asiguri că nu facem lucruri dubioase cu datele tale, poţi de "
+"asemenea să verifici <a href=\"https://zxq.co/ripple/ripple\">codul sursă</a>"
+" de pe care Ripple rulează."
+
+# changelog.html
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr ""
+"Acesta este jurnalul cu schimbări. Schimbările sunt publicate aici devreme "
+"ce ating starea de producere (adică, sunt prezente pe website)."
+
+msgid ""
+"For various reasons, some software of Ripple does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+"Din motive diverse, câteva software-uri ale Ripple-ului nu contribuie "
+"jurnalului, care face parte website-ului. În caz că vrei să vezi jurnalul de "
+"schimbări al frontend-ului Hanayo, poţi face asta <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">apăsând aici</a>."
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Subject"
+msgstr "Subiect"
+
+msgid "Time"
+msgstr "Timp"
+
+# doc_content.html 
+msgid "View document"
+msgstr "Vezi document"
+
+msgid "Documentation file not found!"
+msgstr "Fila de documentare nu este găsită!"
+
+msgid "View all docs"
+msgstr "Vizionează toate documentele"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+"Ai nevoie de nişte ajutor să mergi pe ici colo? Nu mai căuta mai departe! De "
+"aici eşti capabil de a viziona documentarea noastră, care este în practică "
+"un wiki foarte simplistic."
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr "Se pare că nu există documentare pentru această instanţă de Ripple!"
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr ""
+"Pe această pagină îţi poţi vedea toţi prietenii, şi de asemenea să te "
+"dezprieteneşti de ei după cum doreşti."
+
+msgid "Mutual"
+msgstr "Prieten reciproc"
+
+msgid "Remove"
+msgstr "Șterge"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ripple's "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ripple's chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+"Aici poţi genera o nouă cheie IRC. O poţi folosi mai departe pentru a te "
+"conecta la chat-ul Ripple-ului folosind IRC. Ține minte faptul că cheia dvs. "
+"IRC este ca o parolă. Cine o ştie are acces la contul dvs.. Dacă sunteţi "
+"interesaţi în a afla cum să te conectezi la chat-ul Ripple-ului folosind "
+"IRC, atunci ai vrea să ai o privire asupra <a href=\"/doc/11\">acestui "
+"document</a>."
+
+msgid "Generate a new token!"
+msgstr "Generează o nouă cheie!"
+
+# leaderboard.html
+msgid "Rank"
+msgstr "Rang"
+
+msgid "Player"
+msgstr "Jucător"
+
+msgid "PP/Score"
+msgstr "PP/Scor"
+
+msgid "Accuracy"
+msgstr "Acuratețe"
+
+msgid "Playcount"
+msgstr "Playcount"
+
+# profile.html
+msgid "%s's profile"
+msgstr "Profilul lui %s"
+
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr ""
+"Utilizatorul este <b>redus la tăcere</b>, pentru motivul %s, expiră în %s."
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "Utilizatorul este <b>%s</b>"
+
+msgid "pending verification"
+msgstr "în aşteptarea verificării"
+
+msgid "banned"
+msgstr "banat"
+
+msgid "restricted"
+msgstr "restricţionat"
+
+msgid "locked"
+msgstr "blocat"
+
+msgid "User not found"
+msgstr "Utilizatorul nu a fost găsit"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(de asemenea cunoscut ca şi <b>%s</b>)"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Unknown"
+msgstr "Necunoscut"
+
+msgid "<b>%s</b> is a Ripple player from <b>%s</b>."
+msgstr "<b>%s</b> este un jucator de Ripple din <b>%s</b>."
+
+msgid "Last seen: %s."
+msgstr "Ultima dată văzut: %s."
+
+msgid "They signed up on Ripple %s."
+msgstr "El/ea s-a înregistrat pe Ripple %s."
+
+msgid "They play with %s."
+msgstr "El/ea joacă cu %s."
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Tablet"
+msgstr "Tabletă"
+
+msgid "Keyboard"
+msgstr "Tastatură"
+
+msgid "Touchscreen"
+msgstr "Touchscreen"
+
+msgid "Spoon"
+msgstr "Lingură"
+
+msgid "Leap motion"
+msgstr "controlor leap motion"
+
+msgid "Oculus rift"
+msgstr "Oculus Rift"
+
+msgid "Dick"
+msgstr "Pulă"
+
+msgid "Eggplant"
+msgstr "Vânătă"
+
+msgid "This user hasn't got any badges!"
+msgstr "Acest utilizator nu are nici o insignă!"
+
+msgid "Global rank"
+msgstr "Rank global"
+
+msgid "Country rank"
+msgstr "Rank în ţară"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "Scor ranked"
+
+msgid "Total score"
+msgstr "Scor total"
+
+msgid "Replays watched"
+msgstr "Reluări vizionate"
+
+msgid "Total hits"
+msgstr "Lovituri totale"
+
+msgid "Level %s"
+msgstr "Nivel %s"
+
+msgid "Achievements"
+msgstr ""
+
+# support.html
+msgid "Support Ripple"
+msgstr "Suport Ripple"
+
+msgid "You are a donor!"
+msgstr "Eşti un donator!"
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+"Rang-ul tău de donator expiră <b>%s</b>. Nu trebuie să te simţi vinovat "
+"fiindcă nu ai donat!"
+
+msgid "Did you know?"
+msgstr "Știați că?"
+
+msgid "(Probably.)"
+msgstr "(Probabil.)"
+
+msgid "(Probably not.)"
+msgstr "(Probabil că nu.)"
+
+msgid "Ripple is not cheap to run."
+msgstr "Ripple nu se rulează ieftin."
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if "
+"we always took the money out of our own pockets, 1. we would be broke, 2. we "
+"wouldn't be able to upgrade our hardware to accomodate our users. While we "
+"do have loads of software optimisations that allow us to have Ripple run "
+"crazy fast while still being on not so high-end hardware, the more users we "
+"have, the higher-end our hardware needs to be. So we are asking you for help "
+"on this :)."
+msgstr ""
+"În timp ce vă oferim acest serviciu pe gratis, noi încă trebuie să plătim "
+"pentru el, iar dacă mereu ne-am scoate banii din propriile noastre buzunare, "
+"1. vom fi secaţi de bani, 2. nu vom mai fi capabili de a ne actualiza "
+"hardware-ul pentru a ne acomoda utilizatorii. În timp ce avem o grămadă de "
+"optimizări software care ne permit rularea Ripple-ului super rapid în timp "
+"ce înca nu avem hardware de cea mai înaltă calitate, cu atât mai mulţi "
+"useri, cu atât mai calitativ trebuie să fie şi hardware-ul nostru. Deci noi "
+"îţi cerem ajutorul în legătură cu asta :)."
+
+msgid "We are still students."
+msgstr "Noi suntem încă studenţi."
+
+msgid ""
+"Ripple developers, and most of the Ripple staff, do not have a day job. This "
+"means that we get most of our income as students from doing small jobs as \""
+"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+"Programatorii Ripple, şi majoritatea staff-ului, nu au o slujbă. Acest lucru "
+"înseamnă că noi obţinem cel mai mult din venit ca studenţi din a face "
+"servicii mici ca \"freelanceri\" din când în când, sau, ştii tu, alocaţie."
+
+msgid "We do not have ads. And never will."
+msgstr "Nu avem adnotări, şi niciodată nu vom avea."
+
+msgid "We love picking random icons from our icon library."
+msgstr "Iubim să luăm icoane aleatorii din biblioteca noastră de icoane."
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+"Poate că ai adblock-ul activat şi nu ţi-ai dat seama, dar nu avem adnotări "
+"nicăieri pe website-ul nostru. Noi te credem că adnotările sunt rele, la fel "
+"cum pot fi foarte enervante pentru dvs. şi mai bine ai da câţiva bani să ne "
+"ajuţi decât să te uiţi la adnotări enervante tot timpul."
+
+msgid "So what can you do?"
+msgstr "Deci ce ai putea face?"
+
+msgid "Well, you can give us money."
+msgstr "Ei bine, ne poţi da nouă bani."
+
+msgid "Well, you can give us even more money."
+msgstr "Ei bine, ne poţi da nouă chiar mai mulţi bani."
+
+msgid "Here's what you get:"
+msgstr "Aici este ce vei primi în schimb:"
+
+msgid "Yellow username"
+msgstr "Nume de utilizator galben"
+
+msgid "Donor badge"
+msgstr "Insignă de donator"
+
+msgid "Custom badge editor"
+msgstr "Editor de insigne personalizate"
+
+msgid "Friends ranking"
+msgstr "Clasamentul prietenilor"
+
+msgid "Discord privileges"
+msgstr "Privilegii pe serverul nostru de Discord"
+
+msgid "Profile background"
+msgstr "Imagine de fundal pentru profil"
+
+msgid "More to come!"
+msgstr "Mai multe ce vor urma!"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"Ca şi pe osu!, vei primi un <b>nume de utilizator galben şi strălucitor</b> "
+"în chat-ul în joc să arăţi tuturor că eşti o persoană foarte şmecheră care "
+"ne-a ajutat să plătim factura la servere."
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr ""
+"Din nou, la fel ca în osu!, vei primi o <b>insignă de donator</b> pe "
+"profilul dvs., pentru a arăta tuturor că ne susţii."
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+"Ajungeţi să fiţi capabili să vă creaţi <b>propria voastră insignă "
+"personală</b>, cu text şi icoană personalizată, pentru a fi arătată pe "
+"profilul dvs.! Lăsaţi lumea să ştie că dumneavoastră sunteţi o ancoră. Sau "
+"păcăliţi lumea, arătând o roată cu textul \"Se incarcă...\"! Depinde de tine."
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+"<b>A concura cu prietenii tăi</b> este foarte şmecher, vei putea juca pe "
+"clasament cu cineva care e mai mult sau mai puţin de nivelul tău, fără să "
+"iei depresie severă sau RSI pentru faptul că nu l-ai bătut pe acel "
+"profesionist!"
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+"Vei avea acces exclusiv pe canalele <b>\"#donators\"</b> de text şi de voce, "
+"vei fi capabil de a îţi schimba porecla pe Discord şi de a avea un rol "
+"personalizat cu o culoare personalizată pentru numele de utilizator!"
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+"Cu gândul la <b>a îţi face profilul mai şmecher cu nişte vinete</b>? Te "
+"acoperim noi! Având privilegii de donator, vei fi capabil de a îţi schimba "
+"imaginea de fundal de pe profil."
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+"<b>Cine ştie</b> ce vom mai implementa? Vei fi capabil de a face <i>mult mai "
+"multe</i> lucruri pentru donatori odată ce le implementăm."
+
+msgid "And this is how you pay"
+msgstr "Iar aici este cum vei putea plăti"
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+"Vei putea dona ori prin <b>PayPal</b> (sau cardul de credit legat cu contul "
+"de PayPal) sau <b>Bitcoin</b>. Foloseşte slider-ul de mai jos să alegi "
+"cantitatea de luni pentru care ai dori să ai beneficiile de donatori, iar "
+"costul va fi calculat instant. Țineţi în minte că dacă, de exemplu, vei "
+"alege să donezi 4€ în loc de 3.51€, vei primi doar o lună de donator."
+
+msgid "Loading..."
+msgstr "Se încarcă..."
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "User:"
+msgstr "Utilizator:"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "Trimite %s BTC acestei adrese Bitcoin:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+"După aceea, <b>vă rog trimiteţi un e-mail la <a href=\"mailto:howl@ripple."
+"moe\">howl@ripple.moe</a></b> conţinând hash-ul tranzacţiei!"
+
+msgid "I've donated, now what?"
+msgstr "Am donat, acum ce?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+"Va trebui să aşteptaţi până vom verifica şi procesa plata dvs. Poate lua "
+"până în <b>12 ore</b>. Dacă au trecut 12 ore şi nu aţi primit eticheta de "
+"donator, contactaţi un <b>Programator/Manager al Comunităţii</b> pe serverul "
+"nostru de Discord sau trimiteţi un e-mail la <b><a href=\""
+"mailto:support@ripple.moe\">support@ripple.moe</a></b>. Odată ce v-am "
+"procesat plata, veţi primi un <b>e-mail</b> la adresa pe care aţi folosit-o "
+"să vă înregistraţi şi veţi primi <b>toate privilegiile de donator, înafară "
+"de cele de pe Discord</b>. Pentru a primi privilegiile de donator pentru "
+"Discord, mergeţi <a href=\"/settings/discord\">aici</a>."
+
+msgid "Please log in to get supporter"
+msgstr "Vă rog logaţi-vă pentru a primi supporter"
+
+# Settings
+msgid "Userpage"
+msgstr "Pagina de utilizator"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Discord donor"
+msgstr "Donator Discord"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "Autentificarea cu doi factori este activată pe contul acesta."
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "Autentificarea cu doi factori nu este activată pe contul acesta."
+
+msgid "Telegram 2FA"
+msgstr "Telegram 2FA"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr ""
+"Pentru a activa autentificarea cu doi factori pentru Telegram, apăsaţi pe "
+"acest buton, după apăsaţi \"start\" pe Telegram:"
+
+msgid "Enable Telegram 2FA"
+msgstr "Activaţi 2FA pentru Telegram"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr ""
+"Dacă nu aveţi Telegram pe dispozitivul dumneavoastră, puteţi deschide "
+"această pagină de pe un dispozitiv cu Telegram, sau să scanaţi acest cod QR:"
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"În caz că nu aveţi nici o cale de a scana coduri QR, sau pur şi simplu nu "
+"vreţi sa vă bateţi capul cu a descărca o aplicaţie ce le scanează, puteţi să "
+"deschideţi Telegram, să incepeţi o conversaţie cu <a href=\""
+"http://telegram.me/ripple2fabot\"><b>@ripple2fabot</b></a> şi să trimiteţi "
+"acest mesaj:"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr "2FA bazat pe Google Authenticator (TOTP)"
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr ""
+"În momentul actual aveţi configurat autentificarea cu doi factori pentru "
+"Telegram. Dacă vreţi să îl dezactivaţi, vă rugăm completaţi formularul "
+"următor:"
+
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr ""
+"În momentul actual aveţi configurat autentificarea cu doi factori pentru "
+"Google Authenticator. Dacă vreţi să îl dezactivaţi, vă rugăm completaţi "
+"formularul următor:"
+
+msgid "Disable Telegram 2FA"
+msgstr "Dezactivaţi 2FA pentru Telegram"
+
+msgid "Disable TOTP-based 2FA"
+msgstr "Dezactivaţi 2FA pentru Google Authenticator"
+
+msgid "Google Authenticator recovery keys"
+msgstr "Chei de recuperare pentru Google Authenticator"
+
+msgid ""
+"These are the only thing that will let you get back into your Ripple account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"Acestea sunt singurele lucruri care vă vor putea da contul de Ripple înapoi "
+"dacă vă pierdeţi dispozitivul. Propunerea noastră este să le copiaţi într-un "
+"document word (folosing Microsoft Word, LibreOffice Writer, etc.), să le "
+"printaţi şi să le păstraţi într-un loc sigur."
+
+msgid "Open File"
+msgstr "Deschide Fişierul"
+
+msgid "Save"
+msgstr "Salvează"
+
+msgid ""
+"Your discord account has been linked to this Ripple account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+"Contul dumneavoastră de Discors este legat de acest cont Ripple. <b>Bun "
+"venit în clubul donatorilor şi mulţumim pentru că ne susţii!</b> Acum aveţi "
+"acces la canalele de text şi voce #donators în serverul nostru oficial de "
+"Discord! Puteţi de asemenea să setaţi un nume şi o culoare personalizată "
+"pentru rol şi să vă schimbaţi porecla pe Discord. Dacă vreţi să vă schimbaţi "
+"porecla, puteţi folosi comanda <code>/nick</code>. Ca să vă setaţi sau să "
+"editaţi culoarea şi numele al <b>rolului personalizat</b>, folosiţi comanda "
+"<code>!role HEX_COLOUR ROLE_NAME</code>. Puteţi să vă alegeţi culoarea HEX <"
+"a href=\"http://www.colorpicker.com/\" target=\"_blank\">aici</a>, este "
+"aceea care începe cu \"#\". Vă puteţi schimba numele rolului şi culoarea lui "
+"<b>oricând vreţi!</b>"
+
+msgid "Thank you for supporting us and have fun on Ripple!"
+msgstr "Îţi mulţumim că ne susţineţi şi să vă distraţi pe Ripple!"
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr ""
+"Donatorii primesc privilegii speciale pe serverul nostru de Discord de "
+"asemenea!"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+"Discord este un software de chat cu canale de text şi voce, boţi şi multe "
+"caracteristici şmechere. Puteţi <b>descărca Discord gratuit<a href=\""
+"http://discord.gg/\" target=\"_blank\">aici</a></b> şi puteţi să vă <b>"
+"alăturaţi serverului nostru oficial <a href=\"%s\" target=\"_blank\""
+">aici</a></b>."
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "Aici este ce veţi primi dacă vă legaţi contul de Discord:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr "Acces la comanda /nick, pentru a vă schimba porecla de Discord"
+
+msgid "Access to #donators text and voice channels"
+msgstr "Acces la canalele de text şi voce #donators"
+
+msgid "Username on donors list"
+msgstr "Numele de utilizator afişat pe lista de donatori"
+
+msgid "Custom role with custom username"
+msgstr "Rol personalizat cu nume de utilizator personalizat"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"Pentru a primi aceste avantaje, în primul rând, <a href=\"%s\" target=\""
+"_blank\">alăturaţi-vă serverului nostru de Discord</a>, după apăsaţi acest "
+"buton extravagant:"
+
+msgid "Get Discord donor privileges"
+msgstr "Primiţi privilegii de donator pentru Discord"
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "Parolă nouă (lăsaţi gol dacă nu vreţi să o schimbaţi)"
+
+msgid "Current password"
+msgstr "Parolă curentă"
+
+msgid "BBCode syntax reference"
+msgstr "Referinţă a sintaxei BBCode"
+
+msgid "General"
+msgstr "General"
+
+msgid "Email address"
+msgstr "Adresă de e-mail"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr ""
+"Nume de utilizator alternativ (nu poate fi folosit pentru autentificare)"
+
+msgid "Also known as..."
+msgstr "De asemenea cunoscut ca şi..."
+
+msgid "Custom badge"
+msgstr "Insignă personalizată"
+
+msgid "Enable"
+msgstr "Activează"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+"<b>Nu folosiţi insigne ofensatoare şi nu vă prefaceţi a fi o altă persoană "
+"cu insigna dumneavoastră.</b> Dacă abuzaţi de sistemul de insigne, veţi fi "
+"redus la tăcere şi nu veţi mai fi capabil de a vă edita insigna "
+"personalizată."
+
+msgid "Icon reference"
+msgstr "Referinţă icoană"
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "Dinozaur, oompa-loompa, tip şmecher..."
+
+msgid "Playstyle"
+msgstr "Stil de joc"
+
+msgid "Authorized applications"
+msgstr "Aplicaţii autorizate"
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+"De aici puteţi verifica toate aplicaţiile pe care le-aţi autorizat pentru "
+"contul vostru, şi să le deautorizaţi dacă este necesar."
+
+msgid "... but it looks like you have none!"
+msgstr "... dar se pare că nu aveţi niciuna!"
+
+msgid "That authorization has been successfully revoked."
+msgstr "Acea autorizaţie a fost respinsă cu succes."
+
+msgid "Authorization created %s"
+msgstr "Autorizaţie creată %s"
+
+msgid "Owner"
+msgstr "Deținător"
+
+msgid "Revoke"
+msgstr "Respinge"
+
+msgid "Dark site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr "2FA pentru Google Authenticator a fost activat pe acest cont."
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr "Codul este invalid. Poate că a expirat?"
+
+msgid "No passcode/secret was given. Please try again"
+msgstr "Nici un cod/secret nu a fost dat. Vă rugăm încercaţi mai târziu"
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr "2FA pentru Google Authenticator este deja activat!"
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+"2FA pentru Telegram este în prezent activat. Prima dată trebuie să "
+"dezactivaţi acest lucru dacă vreţi să folosiţi 2FA pentru Google "
+"Authenticator."
+
+msgid "2FA disabled successfully."
+msgstr "2FA dezactivat cu succes."
+
+msgid "Changing avatar is currently not possible."
+msgstr "Schimbarea avatarului în acest moment nu este posibilă."
+
+msgid "An error occurred."
+msgstr "A intervenit o eroare."
+
+msgid "We were not able to save your avatar."
+msgstr "Nu v-am putut salva avatarul."
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"Avatarul v-a fost schimbat cu succes. Va lua ceva timp să se actualizeze ca "
+"lumea. Pentru a forţa o reîmprospătare cache, puteţi folosi combinaţia de "
+"taste CTRL+F5."
+
+msgid "Internal Server Error"
+msgstr "Eroare internă de server"
+
+msgid "You're not a donor!"
+msgstr "Nu sunteţi un donator!"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+"Nu v-aţi alăturat serverului de Discord! Link-urile pentru acesta sunt "
+"disponibile mai jos. Vă rog alăturaţi-vă serverului până să încercaţi să vă "
+"legaţi contul de cel de Discord."
+
+msgid "Your account has been linked successfully!"
+msgstr "Contul vostru a fost legat cu succes!"
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+"Cheia voastră nouă de IRC este <code>%s</code>. Cheia veche de IRC nu mai "
+"este valabilă. <br>Păstraţi-o cu siguranţă, nu o arătaţi, şi puneţi-o într-"
+"un loc acum! Nu vă vom mai arăta cheia din nou."
+
+msgid "Your profile background has been saved."
+msgstr "Imaginea voastră de fundal a fost salvată."
+
+msgid "We were not able to save your profile background."
+msgstr "Nu v-am putut salva imaginea de fundal."
+
+msgid "Background type"
+msgstr "Tip de fundal"
+
+msgid "None"
+msgstr "Niciunul"
+
+msgid "Image"
+msgstr "Imagine"
+
+msgid "Solid colour"
+msgstr "Culoare solidă"
+
+msgid "Colour is invalid"
+msgstr "Culoarea este invalidă"
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"Aţi fost delogat automat din contul dumneavoastră pentru că contul a fost "
+"banat sau blocat. Dacă credeţi că aceasta a fost o greşeală, ne puteţi "
+"contacta echipa de suport la e-mail-ul support@ripple.moe."
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr ""
+"Aţi fost delogat pentru motive de securitate. Vă rugăm <a "
+"href='/login?redir=%s'>să vă logaţi înapoi</a>."
+
+msgid "You need to login first."
+msgstr "Trebuie să vă autentificaţi prima dată."
+
+msgid "Forbidden"
+msgstr "Interzis"
+
+msgid "You should not be 'round here."
+msgstr "N-ar trebui să fi pe aici."
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+"Se pare că versiunea originală a acestui fişier a fost actualizată, deci "
+"acest fişier este învechit şi poate conţine informaţii inprecise. Dacă vreţi "
+"să fiţi sigur că sunteţi la zi, puteţi să vă referiţi la <a href=\"%s%s\">"
+"versiunea în Engleză</a>."
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+"Dacă cu adevărat aţi înţeles ce este scris mai sus şi aţi înţeles că "
+"creearea unui multiaccount va duce la restricţia contului dumneavoastră "
+"principal, puteţi apăsa aici şi veţi fi dus la pagina de înregistrare."
+
+msgid "You look new here. Allow us to introduce you to what Ripple is."
+msgstr "Pari cam nou aici. Permiteţi-ne să te introducem la ce este Ripple."
+
+# PAY ATTENTION! This is Log in *with* Ripple, not *on* Ripple. This is for
+# oauth.
+msgid "Log in with Ripple"
+msgstr "Logaţi-vă cu Ripple"
+
+msgid "This application will be able to:"
+msgstr "Această aplicaţie va fi capabilă de a:"
+
+msgid "Identify"
+msgstr "Identificare"
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+"Observaţi-vă informaţiile publice (toate lucrurile pe care poate să le vadă "
+"cineva la profilul dumneavoastră de utilizator), însă cu asta ea nu va putea "
+"vedea informaţiile dumneavoastră private (spre exemplu adresa voastră de "
+"e-mail)."
+
+msgid "Read private information"
+msgstr "Citeşte informaţii private"
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+"Aplicaţia aceasta va fi capabilă de a vedea adresa dumneavoastră de e-mail, "
+"şi orice altă informaţie privată pe care o vom adăuga in viitor."
+
+msgid "Write"
+msgstr "Scrie"
+
+msgid ""
+"This application will be able to make modifications to your Ripple account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+"Această aplicaţie va putea face modificări contului dumneavoastră de Ripple. "
+"Aceasta poate fi foarte periculoasă. Foloseşte acest lucru doar cu aplicaţii "
+"în care ai încredere."
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr "Aprobă"
+
+msgid "Deny"
+msgstr "Refuză"
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ripple up and running and "
+"deal with its community."
+msgstr ""
+"Aceasta este o listă cu persoanele minunate care ţin Ripple-ul funcţional şi "
+"au grijă de comunitate."
+
+msgid "Community Managers"
+msgstr "Manageri ai Comunităţii"
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+"Managerii Comunităţii se ocupă cu ban-urile, tăcerile, schimbările de nume "
+"şi cam tot ce are de a face cu comunitatea."
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+"Ei au grijă de serverul nostru de Discord şi răspund la e-mail-uri trimise "
+"la support.ripple.moe. Managerii Comunităţii au nume roşu în chat-ul in-game."
+
+msgid "Developers"
+msgstr "Programatori/Dezvoltatori"
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr ""
+"Dezvoltatorii aduc caracteristici noi serverului, distrug bug-urile, ţin "
+"serverul mergând şi au grijă de întreţinerea sa."
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+"Ei nu fac nimic în legătură cu comunitatea. Dezvoltatorii au un nume "
+"albastru în chat-ul in-game."
+
+msgid "Chat Moderators"
+msgstr "Moderatorii chat-ului"
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr "Moderatorii asigură faptul că regulile sunt respectate."
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+"BAȚ-ii joacă beatmap-uri din lista de aşteptare şi decid dacă sunt destul de "
+"bune să fie rank-uite sau nu."
+
+msgid "Special thanks"
+msgstr "Mulţumiri speciale"
+
+msgid "Here's a list of people who helped with Ripple."
+msgstr "Aceasta este o listă cu oameni care au ajutat Ripple."
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+"<b>Franc[e]sco/lolisamurai</b>, pentru <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, folosit ca "
+"calculator de PP pentru osu!standard."
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+"<b>Tom94</b>, pentru <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, folosit ca referinţă pentru calculatorul de PP pentru "
+"osu!mania."
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+"<b>jrosdahl</b>, pentru <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, folosit ca bază "
+"pentru serverul nostru IRC."
+
+msgid "<b>Avail</b>, for having hosted Ripple on his server."
+msgstr "<b>Avail</b>, pentru că Ripple este găzduit pe serverul lui."
+
+msgid "<b>Angela Guerra</b>, for designing the Ripple logo."
+msgstr "<b>Angela Guerra</b>, pentru că a proiectat logo-ul Ripple."
+
+msgid ""
+"<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the "
+"Ripple project by donating or inviting other people."
+msgstr ""
+"<b><a id='everyone' class='clickable'>Toată lumea</a></b> care a susţinut "
+"proiectul Ripple prin donaţii sau invitarea altor persoane."
+
+msgid "They told me these are very cool people."
+msgstr "Mi-au spus că aceştia sunt oameni foarte şmecheri."
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+"Cauţi cum să ne contactezi echipa? Puteţi verifica <a "
+"href='https://support.ripple.moe/'>această pagină</a>."
+
+msgid "And more..."
+msgstr "Și mai multe..."
+
+msgid "Do you want to be in this list?"
+msgstr "Vrei să fi în această listă?"
+
+msgid "Support us with a donation!"
+msgstr "Susţine-ne cu o donaţie!"
+
+msgid "(You get other cool perks too)"
+msgstr "(Vei primi avantaje şmechere de asemenea)"
+
+msgid ""
+"The Ripple API is the system through which developers can create "
+"applications to interact with Ripple. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+"API-ul Ripple este sistemul prin care programatorii pot crea aplicaţii ce "
+"pot interacţiona cu Ripple. <b>Dacă vi se cere să completaţi un token API "
+"din această pagină, fiţi precaut şi creaţi un token doar dacă aveţi "
+"încredere în deţinătorul acestei aplicaţii.</b>"
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "şi PP pentru osu!standard şi osu!mania"
+
+# help.html
+msgid ""
+"If you need to get in touch with our support team (our Community Managers), "
+"you will need to send an email to our support email address. You can compose "
+"an email to it by clicking the button at the bottom of this page. <b>Please "
+"read the following</b> though, as it is important."
+msgstr ""
+"Dacă ai nevoie să vorbeşti cu echipa noastră de suport (Managerii "
+"comunităţii), trebuie să trimiţi un e-mail la adresa noastră de suport. Poţi "
+"compune un e-mail spre ea dacă apeşi pe butonul aflat în partea de jos a "
+"acestei pagini. <b>Te rugăm să citeşti mai departe</b>, totusi, deoarece "
+"este important."
+
+msgid ""
+"The support email <b>is not meant for technical support</b>. If you need "
+"technical support, then please join our <a href='%s'>Discord Server</a>, and "
+"ask your question on the <b>#help channel</b>. You should also join the "
+"Discord server and ask a CM if you have any informal inquiry that you may "
+"have. If you need to contact a specific staff member, you can contact them "
+"by clicking the envelope icon under their name in the <a href='/team'>Team "
+"page</a>."
+msgstr ""
+"E-mail-ul de support <b>nu este pentru suport tehnic</b>. Dacă ai nevoie de "
+"suport tehnic, atunci te rugăm să intri pe <a href='%s'>serverul nostru de "
+"Discord</a>, şi întreabă pe <b>canalul #help</b>. Ar trebui să intraţi pe "
+"serverul de Discord şi să întrebaţi un manager al comunităţii despre orice "
+"întrebare informală pe care o aveţi. Dacă ai nevoie să contactezi un membru "
+"specific din staff, poţi să îi contactezi dacă apeşi pe pictograma de sub "
+"numele lor în <a href='/team'>pagina de staff</a>."
+
+msgid "Instead, if you need any of the following:"
+msgstr "În schimb, dacă aveți nevoie de oricare din următoarele:"
+
+msgid "Username change"
+msgstr "Schimbarea numelui de utilizator"
+
+msgid "Appeal your ban/restriction"
+msgstr "Cerere de unban/unrestrict"
+
+msgid ""
+"Anything else that strictly deals with your account and is not related in "
+"any way to a technical issue of yours."
+msgstr ""
+"Orice altceva care se ocupă strict de contul dvs. şi nu este relatată în "
+"nici un fel cu o problemă tehnică de-a voastră."
+
+msgid "Then the support mail is the way to go."
+msgstr "Atunci mail-ul de suport este calea dreaptă."
+
+msgid ""
+"When contacting the support mail, please make sure to <b>send the email from "
+"the email address you signed up on Ripple with</b>."
+msgstr ""
+"Când contactezi mail-ul de suport, fi sigur că <b>trimiţi mail-ul de pe "
+"adresa de e-mail cu care ţi-ai creat contul de Ripple</b>."
+
+msgid ""
+"Last but not least, <b>the support email is not meant for filing bug "
+"reports</b>. If you need to report a bug, then please just ask one of our "
+"developers on Discord. If it's a security bug, for instance XSS or SQL "
+"injection, then please contact <a href='mailto:howl@ripple.moe'>Howl</a> or <"
+"a href='mailto:nyo@ripple.moe'>Nyo</a>."
+msgstr ""
+"Ultimul lucru, dar nu cel din urmă,<b> e-mail-ul de suport nu este menit "
+"pentru a depozita rapoarte în legătură cu bug-urile</b>. Dacă ai nevoie să "
+"raportezi un bug, atunci te rugăm să intrebi pe unul dintre dezvoltatorii "
+"noştri despre asta pe Discord. Dacă este un bug de securitate, spre exemplu "
+"un bug XSS sau un SQL injection, atunci te rog contactează e-mail-ul lui <a "
+"href='mailto:howl@ripple.moe'>Howl</a> sau al lui <a "
+"href='mailto:nyo@ripple.moe'>Nyo</a>."
+
+msgid "I have read and understood everything on this page."
+msgstr "Am citit şi am înţeles totul de pe această pagină."
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

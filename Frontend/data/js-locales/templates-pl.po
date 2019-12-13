@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /pl/HanayoJS/templates-pl.po\n"
+"X-Pootle-Revision: 3637\n"
+
+# JavaScript
+msgid ""
+"An error occurred while contacting the Ripple API. Please report this to a "
+"Ripple developer."
+msgstr ""
+"Nastąpił błąd podczas kontaktowania API. Proszę powiadomić o tym deweloperów "
+"Ripple."
+
+# This is a quote of UNDERTALE if you didn't know.
+# It is shown regarding the level of an user, but it is shortened to "Lv.".
+# Of course, this means Level on Ripple, but in UNDERTALE, it actually means LOVE.
+# I'm not gonna spoil you why it's called LOVE.
+# It's hard to keep this cultural reference, so you can also just write the
+# translation for "Level" in this.
+msgid "Why, LOVE, of course!"
+msgstr "Poziom"
+
+msgid "Your new settings have been saved."
+msgstr "Twoje ustawienia zostały zapisane."
+
+msgid "Your userpage has been saved."
+msgstr "Twoja strona użytkownika była zapisana."
+
+msgid ""
+"Please provide a valid link, in the form of either "
+"https://osu.ppy.sh/s/&lt;ID&gt; or https://osu.ppy.sh/b/&lt;ID&gt;."
+msgstr ""
+"Proszę o podanie prawidłowego linku w formie https://osu.ppy.sh/s/&lt;ID&gt; "
+"albo https://osu.ppy.sh/b/&lt;ID&gt;."
+
+msgid "Beatmap rank request has been submitted."
+msgstr "Prośba o dodanie rankowej beatmapy została złożona pomyślnie."
+
+msgid "That beatmap is already ranked!"
+msgstr "Beatmapa jest już dodana jako ranked!"
+
+# user profile
+msgid "Add friend"
+msgstr "Dodaj znajomego"
+
+msgid "Remove friend"
+msgstr "Usuń znajomego"
+
+msgid "Unmutual friend"
+msgstr "Usuń znajomego"
+
+# score table
+msgid "General info"
+msgstr "Informacje ogólne"
+
+msgid "Score"
+msgstr "Wynik"
+
+msgid "Load more"
+msgstr "Wczytaj więcej"
+
+msgid "Best scores"
+msgstr "Najlepsze wyniki"
+
+msgid "Recent scores"
+msgstr "Najnowsze wyniki"
+
+msgid "Download"
+msgstr "Pobierz"
+
+# score modal (when you click on a score)
+msgid "Points"
+msgstr "Punkty"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Beatmap"
+msgstr "Beatmapa"
+
+msgid "Accuracy"
+msgstr "Celność"
+
+msgid "Max combo"
+msgstr "Maksymalne kombo"
+
+msgid "(full combo)"
+msgstr "(pełne combo)"
+
+msgid "Difficulty"
+msgstr "Trudność"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "No"
+msgstr "Nie"
+
+# Achieved (refers to date)
+msgid "Achieved"
+msgstr "Osiągnięte dnia"
+
+# Game mode, like osu! standard, not like HR
+msgid "Mode"
+msgstr "Tryb"
+
+# (No mods used)
+msgid "None"
+msgstr "Żaden"
+
+msgid "{{ stars }} star"
+msgid_plural "{{ stars }} stars"
+msgstr[0] "{{ stars }} gwiazdka"
+msgstr[1] "{{ stars }} gwiazdki"
+msgstr[2] "{{ stars }} gwiazdek"
+
+msgid "<b>{{ months }}</b> month costs <b>€ {{ eur }}</b>"
+msgid_plural "<b>{{ months }}</b> months cost <b>€ {{ eur }}</b>"
+msgstr[0] "<b>{{ miesiąc }}</b> miesiąc kosztuje <b>{{ eur }} €</b>"
+msgstr[1] "<b>{{ miesiące }}</b> miesiące kosztują <b>{{ eur }} €</b>"
+msgstr[2] "<b>{{ miesięcy }}</b> miesięcy kosztują <b>{{ eur }} €</b>"
+
+msgid "($ {{ usd }} / BTC {{ btc }})"
+msgstr "($ {{ usd }} / BTC {{ btc }})"
+
+# (following are in relation to friends)
+msgid "Mutual"
+msgstr "Wspólny znajomy"
+
+msgid "Remove"
+msgstr "Usuń"
+
+msgid "Add"
+msgstr "Dodaj"

@@ -1,0 +1,55 @@
+name:
+  common: Sierra Leone
+  official: Republic of Sierra Leone
+  native:
+    eng:
+      common: Sierra Leone
+      official: Republic of Sierra Leone
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .sl
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Sierra Leone
+    official: Republik Sierra Leone
+  FIN:
+    common: Sierra Leone
+    official: Sierra Leonen tasavalta
+  NLD:
+    common: Sierra Leone
+    official: Republiek Sierra Leone
+  SPA:
+    common: Sierra Leone
+    official: República de Sierra Leona
+currencies:
+- SLL
+borders:
+- GIN
+- LBR
+codes:
+  alpha2: SL
+  alpha3: SLE
+  cioc: SLE
+  ccn3: "694"
+  callingcodes:
+  - "232"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Western Africa
+  continent: Africa
+  capital: Freetown
+  area: 71740
+coordinates:
+  longitudestring: 11 30 W
+  latitudestring: 8 30 N
+  minlongitude: -13.316667
+  minlatitude: 5
+  maxlongitude: -4
+  maxlatitude: 10
+  latitude: 8.521441
+  longitude: -11.84389

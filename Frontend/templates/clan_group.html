@@ -1,0 +1,59 @@
+{{/*###
+NoCompile=true
+*/}}
+{{ define "clanGroup" }}
+{{ with . }}
+	<div class="ui one column center aligned stackable grid">
+		{{ $teamJSON := teamJSON }}
+		{{ range .members }}
+			{{/* ignore fokabot */}}
+			{{ if ne (int .id) 999 }}
+				{{ $tj := index $teamJSON (print .id)}}
+				<div class="column">
+					<div class="ui left aligned fluid card">
+						<div class="image">
+							<img src="{{ config "AvatarURL" }}/{{ .id }}" alt="Avatar">
+						</div>
+						<div class="content">
+							<a class="header" href="/u/{{ .id }}">{{ country .country false }}{{ .username }}</a>
+							{{ with $tj.real_name }}
+								<div class="meta">
+									<a>{{ . }}</a>
+								</div>
+							{{ end }}
+							{{ with $tj.role }}
+								<div class="description">
+									{{ . }}
+								</div>
+							{{ end }}
+						</div>
+						<div class="extra content">
+							<div title="Registered">
+								<i class="sign in icon"></i>
+								{{ time .registered_on }}
+							</div>
+							<div title="Latest activity">
+								<i class="sign out icon"></i>
+								{{ time .latest_activity }}
+							</div>
+						</div>
+						{{ if or $tj.twitter $tj.mail $tj.github }}
+							<div class="extra content">
+								<div class="center aligned">
+									{{ range $k, $v := $tj }}
+											{{ if and $v (in $k "github" "twitter" "mail") }}
+												<a href="{{ servicePrefix $k }}{{ $v }}" title="{{ capitalise $k }}">
+													<i class="{{ $k }} icon"></i>
+												</a>
+											{{ end }}
+									{{ end }}
+								</div>
+							</div>
+						{{ end }}
+					</div>
+				</div>
+			{{ end }}
+		{{ end }}
+	</div>
+{{ end }}
+{{ end }}

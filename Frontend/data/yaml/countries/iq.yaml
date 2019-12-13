@@ -1,0 +1,79 @@
+name:
+  common: Iraq
+  official: Republic of Iraq
+  native:
+    ara:
+      common: العراق
+      official: جمهورية العراق
+    arc:
+      common: ܩܘܼܛܢܵܐ
+      official: ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ
+    ckb:
+      common: کۆماری
+      official: کۆماری عێراق
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .iq
+languages:
+  ara: Arabic
+  arc: Aramaic
+  ckb: Sorani
+translations:
+  DEU:
+    common: Irak
+    official: Republik Irak
+  FRA:
+    common: Irak
+    official: République d'Irak
+  ITA:
+    common: Iraq
+    official: Repubblica dell'Iraq
+  JPN:
+    common: イラク
+    official: イラク共和国
+  NLD:
+    common: Irak
+    official: Republiek Irak
+  POR:
+    common: Iraque
+    official: República do Iraque
+  RUS:
+    common: Ирак
+    official: Республика Ирак
+  SPA:
+    common: Irak
+    official: República de Irak
+currencies:
+- IQD
+borders:
+- IRN
+- JOR
+- KWT
+- SAU
+- SYR
+- TUR
+codes:
+  alpha2: IQ
+  alpha3: IRQ
+  cioc: IRQ
+  ccn3: "368"
+  callingcodes:
+  - "964"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Asia
+  capital: Baghdad
+  area: 438317
+coordinates:
+  longitudestring: 44 00 E
+  latitudestring: 33 00 N
+  minlongitude: 38.800873
+  minlatitude: 28.866667
+  maxlongitude: 48.833332
+  maxlatitude: 37.35278
+  latitude: 33.044586
+  longitude: 43.774956

@@ -1,0 +1,63 @@
+name:
+  common: Georgia
+  official: Georgia
+  native:
+    kat:
+      common: საქართველო
+      official: საქართველო
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ge
+languages:
+  kat: Georgian
+translations:
+  FIN:
+    common: Georgia
+    official: Georgia
+  HRV:
+    common: Gruzija
+    official: Gruzija
+  ITA:
+    common: Georgia
+    official: Georgia
+  JPN:
+    common: グルジア
+    official: グルジア
+  POR:
+    common: Geórgia
+    official: Georgia
+  RUS:
+    common: Грузия
+    official: Грузия
+currencies:
+- GEL
+borders:
+- ARM
+- AZE
+- RUS
+- TUR
+codes:
+  alpha2: GE
+  alpha3: GEO
+  cioc: GEO
+  ccn3: "268"
+  callingcodes:
+  - "995"
+  internationalprefix: "810"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Asia
+  capital: Tbilisi
+  area: 69700
+coordinates:
+  longitudestring: 43 30 E
+  latitudestring: 42 00 N
+  minlongitude: 40.013058
+  minlatitude: 41.15
+  maxlongitude: 46.635555
+  maxlatitude: 43.570557
+  latitude: 42.320786
+  longitude: 43.37136

@@ -1,0 +1,68 @@
+name:
+  common: Bhutan
+  official: Kingdom of Bhutan
+  native:
+    dzo:
+      common: འབྲུག་ཡུལ་
+      official: འབྲུག་རྒྱལ་ཁབ་
+eumember: false
+landlocked: true
+nationality: ""
+tlds:
+- .bt
+languages:
+  dzo: Dzongkha
+translations:
+  CYM:
+    common: Bhwtan
+    official: Kingdom of Bhutan
+  DEU:
+    common: Bhutan
+    official: Königreich Bhutan
+  FIN:
+    common: Bhutan
+    official: Bhutanin kuningaskunta
+  JPN:
+    common: ブータン
+    official: ブータン王国
+  NLD:
+    common: Bhutan
+    official: Koninkrijk Bhutan
+  POR:
+    common: Butão
+    official: Reino do Butão
+  RUS:
+    common: Бутан
+    official: Королевство Бутан
+  SPA:
+    common: Bután
+    official: Reino de Bután
+currencies:
+- BTN
+- INR
+borders:
+- CHN
+- IND
+codes:
+  alpha2: BT
+  alpha3: BTN
+  cioc: BHU
+  ccn3: "064"
+  callingcodes:
+  - "975"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Southern Asia
+  continent: Asia
+  capital: Thimphu
+  area: 38394
+coordinates:
+  longitudestring: 90 30 E
+  latitudestring: 27 30 N
+  minlongitude: 80
+  minlatitude: 26.716667
+  maxlongitude: 92.03333
+  maxlatitude: 30
+  latitude: 27.41688
+  longitude: 90.43476

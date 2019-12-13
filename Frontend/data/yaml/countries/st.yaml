@@ -1,0 +1,65 @@
+name:
+  common: São Tomé and Príncipe
+  official: Democratic Republic of São Tomé and Príncipe
+  native:
+    por:
+      common: São Tomé e Príncipe
+      official: República Democrática do São Tomé e Príncipe
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .st
+languages:
+  por: Portuguese
+translations:
+  DEU:
+    common: São Tomé und Príncipe
+    official: Demokratische Republik São Tomé und Príncipe
+  FIN:
+    common: São Téme ja Príncipe
+    official: São Tomé ja Príncipen demokraattinen tasavalta
+  HRV:
+    common: Sveti Toma i Princip
+    official: Demokratska Republika São Tome i Principe
+  ITA:
+    common: São Tomé e Príncipe
+    official: Repubblica democratica di São Tomé e Príncipe
+  JPN:
+    common: サントメ・プリンシペ
+    official: サントメ·プリンシペ民主共和国
+  NLD:
+    common: Sao Tomé en Principe
+    official: Democratische Republiek Sao Tomé en Principe
+  RUS:
+    common: Сан-Томе и Принсипи
+    official: Демократическая Республика Сан-Томе и Принсипи
+  SPA:
+    common: Santo Tomé y Príncipe
+    official: República Democrática de Santo Tomé y Príncipe
+currencies:
+- STD
+borders: []
+codes:
+  alpha2: ST
+  alpha3: STP
+  cioc: STP
+  ccn3: "678"
+  callingcodes:
+  - "239"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Middle Africa
+  continent: Africa
+  capital: São Tomé
+  area: 964
+coordinates:
+  longitudestring: 7 00 E
+  latitudestring: 1 00 N
+  minlongitude: 6.466667
+  minlatitude: -0.016667
+  maxlongitude: 7.483333
+  maxlatitude: 1.733333
+  latitude: 0.27555528
+  longitude: 6.631628

@@ -1,0 +1,74 @@
+name:
+  common: Belgium
+  official: Kingdom of Belgium
+  native:
+    deu:
+      common: Belgien
+      official: Königreich Belgien
+    fra:
+      common: Belgique
+      official: Royaume de Belgique
+    nld:
+      common: België
+      official: Koninkrijk België
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .be
+languages:
+  deu: German
+  fra: French
+  nld: Dutch
+translations:
+  CYM:
+    common: Gwlad Belg
+    official: Kingdom of Belgium
+  DEU:
+    common: Belgien
+    official: Königreich Belgien
+  FIN:
+    common: Belgia
+    official: Belgian kuningaskunta
+  FRA:
+    common: Belgique
+    official: Royaume de Belgique
+  ITA:
+    common: Belgio
+    official: Regno del Belgio
+  POR:
+    common: Bélgica
+    official: Reino da Bélgica
+  RUS:
+    common: Бельгия
+    official: Королевство Бельгия
+currencies:
+- EUR
+borders:
+- FRA
+- DEU
+- LUX
+- NLD
+codes:
+  alpha2: BE
+  alpha3: BEL
+  cioc: BEL
+  ccn3: "056"
+  callingcodes:
+  - "32"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Western Europe
+  continent: Europe
+  capital: Brussels
+  area: 30528
+coordinates:
+  longitudestring: 4 00 E
+  latitudestring: 50 50 N
+  minlongitude: 2.566667
+  minlatitude: 49.516666
+  maxlongitude: 6.4
+  maxlatitude: 51.683334
+  latitude: 50.648964
+  longitude: 4.6415024

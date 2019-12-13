@@ -1,0 +1,98 @@
+{{ define "tpl" }}
+	<div class="ui container">
+	{{ $ := . }}
+	{{ if ne .Beatmapset.ID 0 }}
+		<div class="ui floating icon labeled dropdown button" id="diff-menu">
+			<i class="caret down icon"></i>
+			<span class="text">
+				<i class="attention icon"></i>
+				{{ .Beatmap.DiffName }}
+				(<i class="fitted star icon" style="margin-right:0"></i> {{ printf "%.2f" .Beatmap.DifficultyRating }})
+			</span>
+			<div class="menu">
+				{{ range .Beatmapset.ChildrenBeatmaps }}
+				<a href="/b/{{ .ID }}" class="item {{ if eq .ID $.Beatmap.ID }}active{{ end }}" data-bid="{{ .ID }}">
+					<i class="attention icon"></i>
+					{{ .DiffName }}
+      				(<i class="fitted star icon" style="margin-right:0"></i> {{ printf "%.2f" .DifficultyRating }})
+				</a>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="ui segments">
+			<div class="ui segment">
+				<div class="ui four column divided stackable grid">
+					<div class="row">
+						<div class="column">
+							<b>{{ $.T "Artist" }}:</b> {{ .Beatmapset.Artist }}<br />
+							<b>{{ $.T "Title" }}:</b> {{ .Beatmapset.Title }}<br />
+							<b>{{ $.T "Creator" }}:</b> {{ .Beatmapset.Creator }}<br />
+							<b>{{ $.T "Source" }}:</b> {{ .Beatmapset.Source }}<br />
+						</div>
+						<div class="column">
+							<b>{{ $.T "Circle Size" }}:</b> <span id="cs"></span><br />
+							<b>{{ $.T "HP Drain" }}:</b> <span id="hp"></span><br />
+							<b>{{ $.T "Overall Difficulty" }}:</b> <span id="od"></span><br />
+							<b>{{ $.T "Passes/Plays" }}:</b> <span id="passcount"></span> / <span id="playcount"></span>
+						</div>
+						<div class="column">
+							<b>{{ $.T "Approach Rate" }}:</b> <span id="ar"></span><br />
+							<b>{{ $.T "Star Difficulty" }}:</b> <span id="stars"></span><br />
+							<b>{{ $.T "Length" }}:</b> <span id="length"></span> (<span id="drainLength"></span> drain)<br />
+							<b>{{ $.T "BPM" }}:</b> <span id="bpm"></span><br />
+						</div>
+						<div class="full-centered column">
+							<div class="ui vertical buttons">
+								<a href="osu://dl/{{ .Beatmapset.ID }}" class="ui pink labeled icon button"><i class="download icon"></i>{{ $.T "osu!direct" }}</a>
+								<a href="http://storage.bigtu.vip/d/{{ .Beatmapset.ID }}" class="ui green labeled icon button"><i class="download icon"></i>{{ $.T "download" }}</a>
+								{{ if .Beatmapset.HasVideo }}
+									<a href="http://storage.bigtu.vip/d/{{ .Beatmapset.ID }}?novideo" class="ui gray labeled icon button"><i class="download icon"></i>{{ $.T "download (no video)" }}</a>
+								{{ end }}
+								{{ if has $.Context.User.Privileges 256 }}
+									<a href="https://old.bigtu.vip/index.php?p=124&bsid={{ .Beatmapset.ID }}" class="ui violet labeled icon button"><i class="thumbs up icon"></i>{{ $.T "Rank in RAP"}}</a>
+								{{ end }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			{{ $p := .Gin.Query "p" }}
+			{{ $favModeRaw := .Get "users/self/favourite_mode" }}
+
+			var beatmapID = {{ .Beatmap.ID }};
+			var setData = JSON.parse({{ .SetJSON }});
+			var page = {{ $p | atoint | atLeastOne }};
+			// defaults to 0
+			var currentMode = {{ atoi (.Gin.Query "mode") }};
+			var currentModeChanged = false;
+			var favMode = parseInt({{ $favModeRaw.favourite_mode }}) || 0;
+		</script>
+
+		<div class="ui four item menu" id="mode-menu">
+			{{ range $k, $v := modes }}
+				<a class="item" id="mode-{{ $k }}" data-mode="{{ $k }}" href="/b/{{ $.Beatmap.ID }}?mode={{ $k }}">{{ $v }}</a>
+			{{ end }}
+		</div>
+
+		<table class="ui sortable fixed table">
+			<thead>
+				<tr>
+					<th class="one wide">{{ .T "Rank" }} </th>
+					<th class="four wide">{{ .T "Player" }} </th>
+					<th class="three wide">{{ .T "Score" }} </th>
+					<th class="two wide">{{ .T "Mods" }} </th>
+					<th class="two wide">{{ .T "Accuracy" }} </th>
+					<th class="two wide">{{ .T "Combo" }} </th>
+					<th class="two wide">{{ .T "PP" }} </th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	{{ end }}
+	</div>
+{{ end }}

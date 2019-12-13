@@ -1,0 +1,34 @@
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui segments">
+		{{/* Dirty hack to detect if it's a multi */}}
+		{{ if eq .TitleBar (.T "Welcome back!") }}
+			<div class="ui segment">
+				{{ .T "Congratulations for not reading things!" }}
+			</div>
+			<div class="ui center aligned segment">
+				<h1 class="ui heading">{{ .T "Multiaccounts are not allowed on Ainu!" }}</h1>
+			</div>
+			<div class="ui segment">
+				{{ .T "Your new account has been <b>banned</b> and your main account has been <b>restricted</b>. You can appeal in a month by sending an email to <b><a href='mailto:support@i-need-to.click'>support@i-need-to.click</a></b>. You better read the rules next time." | html }}
+			</div>
+		{{ else }}
+			<div class="ui segment">
+				<h1 class="ui heading">{{ .T "Welcome to Ainu!" }}</h1>
+			</div>
+			<div class="ui segment">
+				<p>{{ .T "We're glad to have you here. <b>Your account is now active.</b> You can now play on Ainu! and <a href='/login'>log in</a> on the website!" | html }}</p>
+				<p>{{ .T "Here's a few things you might want to check out:" }}</p>
+				<ul class="ui list">
+					<li><b><a href="/login">{{ .T "Login" }}</a></b>{{ .T " - in case you don't know where to start" }}</li>
+					<li><b><a href="/doc/rules">{{ .T "Rules" }}</a></b>{{ .T " - in case you haven't already read them" }}</li>
+					<li><b><a href="/doc">{{ .T "Documentation" }}</a></b>{{ .T " - in case, well, you need help doing stuff" }}</li>
+					<li><b><a href="https://status.i-need-to.click">{{ .T "Status" }}</a></b>{{ .T " - in case you believe Ainu! is down" }}</li>
+					<li><b><a href="{{ .Conf.DiscordServer }}">{{ .T "Discord" }}</a></b>{{ .T " - in case you want to talk with people about Ainu!" }}</li>
+					<li><b><a href="https://orhachaim.co.il/wp-content/uploads/thumbs/watermelon-347fysmllqsslgzv9w2vi8.jpg">{{ .T "Watermelon" }}</a></b>{{ .T " - just in case" }}</li>
+				</ul>
+			</div>
+		{{ end }}
+	</div>
+</div>
+{{ end }}

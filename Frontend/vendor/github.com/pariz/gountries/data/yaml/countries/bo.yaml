@@ -1,0 +1,83 @@
+name:
+  common: Bolivia
+  official: Plurinational State of Bolivia
+  native:
+    aym:
+      common: Wuliwya
+      official: Wuliwya Suyu
+    grn:
+      common: Volívia
+      official: Tetã Volívia
+    que:
+      common: Buliwya
+      official: Buliwya Mamallaqta
+    spa:
+      common: Bolivia
+      official: Estado Plurinacional de Bolivia
+eumember: false
+landlocked: true
+nationality: ""
+tlds:
+- .bo
+languages:
+  aym: Aymara
+  grn: Guaraní
+  que: Quechua
+  spa: Spanish
+translations:
+  CYM:
+    common: Bolifia
+    official: Plurinational State of Bolivia
+  FRA:
+    common: Bolivie
+    official: État plurinational de Bolivie
+  HRV:
+    common: Bolivija
+    official: Plurinational State of Bolivia
+  ITA:
+    common: Bolivia
+    official: Stato Plurinazionale della Bolivia
+  JPN:
+    common: ボリビア多民族国
+    official: ボリビアの多民族国
+  POR:
+    common: Bolívia
+    official: Estado Plurinacional da Bolívia
+  RUS:
+    common: Боливия
+    official: Многонациональное Государство Боливия
+  SPA:
+    common: Bolivia
+    official: Estado Plurinacional de Bolivia
+currencies:
+- BOB
+- BOV
+borders:
+- ARG
+- BRA
+- CHL
+- PRY
+- PER
+codes:
+  alpha2: BO
+  alpha3: BOL
+  cioc: BOL
+  ccn3: "068"
+  callingcodes:
+  - "591"
+  internationalprefix: "0010"
+geo:
+  region: Americas
+  subregion: South America
+  continent: South America
+  capital: Sucre
+  area: 1.098581e+06
+coordinates:
+  longitudestring: 65 00 W
+  latitudestring: 17 00 S
+  minlongitude: -69.6
+  minlatitude: -22.883333
+  maxlongitude: -57.566666
+  maxlatitude: -9.666667
+  latitude: -16.713055
+  longitude: -64.66665

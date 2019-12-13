@@ -1,0 +1,69 @@
+name:
+  common: Denmark
+  official: Kingdom of Denmark
+  native:
+    dan:
+      common: Danmark
+      official: Kongeriget Danmark
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .dk
+languages:
+  dan: Danish
+translations:
+  FIN:
+    common: Tanska
+    official: Tanskan kuningaskunta
+  FRA:
+    common: Danemark
+    official: Royaume du Danemark
+  HRV:
+    common: Danska
+    official: Kraljevina Danska
+  ITA:
+    common: Danimarca
+    official: Regno di Danimarca
+  JPN:
+    common: デンマーク
+    official: デンマーク王国
+  NLD:
+    common: Denemarken
+    official: Koninkrijk Denemarken
+  POR:
+    common: Dinamarca
+    official: Reino da Dinamarca
+  RUS:
+    common: Дания
+    official: Королевство Дания
+  SPA:
+    common: Dinamarca
+    official: Reino de Dinamarca
+currencies:
+- DKK
+borders:
+- DEU
+codes:
+  alpha2: DK
+  alpha3: DNK
+  cioc: DEN
+  ccn3: "208"
+  callingcodes:
+  - "45"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Northern Europe
+  continent: Europe
+  capital: Copenhagen
+  area: 43094
+coordinates:
+  longitudestring: 10 00 E
+  latitudestring: 56 00 N
+  minlongitude: 4.516667
+  minlatitude: 53.583332
+  maxlongitude: 18
+  maxlatitude: 64
+  latitude: 56.10176
+  longitude: 9.555907

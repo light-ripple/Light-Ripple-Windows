@@ -1,0 +1,56 @@
+name:
+  common: Solomon Islands
+  official: Solomon Islands
+  native:
+    eng:
+      common: Solomon Islands
+      official: Solomon Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .sb
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Salomonen
+    official: Salomon-Inseln
+  FRA:
+    common: Îles Salomon
+    official: Îles Salomon
+  JPN:
+    common: ソロモン諸島
+    official: ソロモン諸島
+  POR:
+    common: Ilhas Salomão
+    official: Ilhas Salomão
+  SPA:
+    common: Islas Salomón
+    official: islas Salomón
+currencies:
+- SBD
+borders: []
+codes:
+  alpha2: SB
+  alpha3: SLB
+  cioc: SOL
+  ccn3: "090"
+  callingcodes:
+  - "677"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Melanesia
+  continent: Australia
+  capital: Honiara
+  area: 28896
+coordinates:
+  longitudestring: 159 00 E
+  latitudestring: 8 00 S
+  minlongitude: 155.51666
+  minlatitude: -12.883333
+  maxlongitude: 170.2
+  maxlatitude: -5.166667
+  latitude: -9.548113
+  longitude: 160.0193

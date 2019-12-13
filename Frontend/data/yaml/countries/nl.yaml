@@ -1,0 +1,58 @@
+name:
+  common: Netherlands
+  official: Netherlands
+  native:
+    nld:
+      common: Nederland
+      official: Nederland
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .nl
+languages:
+  nld: Dutch
+translations:
+  FIN:
+    common: Alankomaat
+    official: Alankomaat
+  FRA:
+    common: Pays-Bas
+    official: Pays-Bas
+  HRV:
+    common: Nizozemska
+    official: Holandija
+  JPN:
+    common: オランダ
+    official: オランダ
+  SPA:
+    common: Países Bajos
+    official: Países Bajos
+currencies:
+- EUR
+borders:
+- BEL
+- DEU
+codes:
+  alpha2: NL
+  alpha3: NLD
+  cioc: NED
+  ccn3: "528"
+  callingcodes:
+  - "31"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Western Europe
+  continent: Europe
+  capital: Amsterdam
+  area: 41850
+coordinates:
+  longitudestring: 5 45 E
+  latitudestring: 52 30 N
+  minlongitude: 3.133333
+  minlatitude: 50.75
+  maxlongitude: 7.2
+  maxlatitude: 53.583332
+  latitude: 52.34226
+  longitude: 5.528157

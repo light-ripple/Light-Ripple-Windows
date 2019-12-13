@@ -1,0 +1,65 @@
+name:
+  common: Barbados
+  official: Barbados
+  native:
+    eng:
+      common: Barbados
+      official: Barbados
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .bb
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Barbados
+    official: Barbados
+  FIN:
+    common: Barbados
+    official: Barbados
+  FRA:
+    common: Barbade
+    official: Barbade
+  HRV:
+    common: Barbados
+    official: Barbados
+  ITA:
+    common: Barbados
+    official: Barbados
+  NLD:
+    common: Barbados
+    official: Barbados
+  POR:
+    common: Barbados
+    official: Barbados
+  SPA:
+    common: Barbados
+    official: Barbados
+currencies:
+- BBD
+borders: []
+codes:
+  alpha2: BB
+  alpha3: BRB
+  cioc: BAR
+  ccn3: "052"
+  callingcodes:
+  - "1246"
+  internationalprefix: "011"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: Bridgetown
+  area: 430
+coordinates:
+  longitudestring: 59 32 W
+  latitudestring: 13 10 N
+  minlongitude: -59.65
+  minlatitude: 13.033333
+  maxlongitude: -59.416668
+  maxlatitude: 13.333333
+  latitude: 13.178099
+  longitude: -59.548595

@@ -1,0 +1,75 @@
+{{/*###
+Handler=/settings/profbackground
+TitleBar=Profile background
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=6
+AdditionalJS=https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.2.4/jquery.minicolors.min.js
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui center aligned segment">
+				{{ $d := qb "SELECT type, value FROM profile_backgrounds WHERE uid = ? LIMIT 1" .Context.User.ID }}
+				{{ $type  := or $d.type.Int -1 }}
+				{{ $value := or $d.value.String "" }}
+				<p>
+					<select class="ui dropdown" id="background-type" name="type">
+						<option value="">{{ .T "Background type" }}</option>
+						<option value="0">{{ .T "None" }}</option>
+						<option value="1"{{ if eq $type 1 }} selected{{ end }}>{{ .T "Image" }}</option>
+						<option value="2"{{ if eq $type 2 }} selected{{ end }}>{{ .T "Solid colour" }}</option>
+					</select>
+				</p>
+				<div class="ui compact segment" id="image-background" style="margin: 0 auto; max-width: 400px; max-height: 700px;" data-type="1"{{ if ne $type 1 }} hidden{{ end }}>
+					{{ if and (eq $type 1) $value }}
+						<img src="/static/profbackgrounds/{{ $value }}">
+					{{ else }}
+						No image selected
+					{{ end }}
+				</div>
+				{{ $csrf := csrfGenerate .Context.User.ID }}
+				<form action="/settings/profbackground/0" method="post" class="little top margin ui form" data-type="0"{{ if and (ne $type 0) }} hidden{{ end }}>
+					{{ $csrf }}
+					{{ ieForm .Gin }}
+					<button type="submit" class="ui right labeled blue icon button">
+						<i class="save icon"></i>
+						Save					
+					</button>
+				</form>
+				<form action="/settings/profbackground/1" method="post" enctype="multipart/form-data" class="little top margin ui form" data-type="1"{{ if ne $type 1 }} hidden{{ end }}>
+					{{ $csrf }}
+					<div class="ui buttons">
+						<label for="file" class="ui green labeled icon button">
+							<i class="file icon"></i>
+							{{ .T "Open File" }}
+						</label>
+						{{ ieForm .Gin }}
+						<button type="submit" class="ui right labeled blue icon button">
+							<i class="save icon"></i>
+							{{ .T "Save" }}
+						</button>
+					</div>
+					<input type="file" id="file" style="display:none" required accept="image/*" name="value">
+				</form>
+				<form action="/settings/profbackground/2" method="post" class="little top margin ui form" data-type="2"{{ if ne $type 2 }} hidden{{ end }}>
+					{{ $csrf }}
+					<div class="ui compact segment" style="margin: 0 auto;">
+						<input type="text"{{ if and (eq $type 2) $value }} value="{{ $value }}"{{ end }} id="colorpicker" name="value">
+					</div>
+					<p class="little top margin">
+						{{ ieForm .Gin }}
+						<button type="submit" class="ui right labeled blue icon button">
+							<i class="save icon"></i>
+							Save					
+						</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.2.4/jquery.minicolors.min.css">
+{{ end }}

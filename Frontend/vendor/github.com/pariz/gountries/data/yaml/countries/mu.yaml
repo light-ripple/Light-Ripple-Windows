@@ -1,0 +1,67 @@
+name:
+  common: Mauritius
+  official: Republic of Mauritius
+  native:
+    eng:
+      common: Mauritius
+      official: Republic of Mauritius
+    fra:
+      common: Maurice
+      official: République de Maurice
+    mfe:
+      common: Moris
+      official: Republik Moris
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .mu
+languages:
+  eng: English
+  fra: French
+  mfe: Mauritian Creole
+translations:
+  DEU:
+    common: Mauritius
+    official: Republik Mauritius
+  FRA:
+    common: Île Maurice
+    official: République de Maurice
+  JPN:
+    common: モーリシャス
+    official: モーリシャス共和国
+  NLD:
+    common: Mauritius
+    official: Republiek Mauritius
+  POR:
+    common: Maurício
+    official: República das Maurícias
+  RUS:
+    common: Маврикий
+    official: Республика Маврикий
+currencies:
+- MUR
+borders: []
+codes:
+  alpha2: MU
+  alpha3: MUS
+  cioc: MRI
+  ccn3: "480"
+  callingcodes:
+  - "230"
+  internationalprefix: "020"
+geo:
+  region: Africa
+  subregion: Eastern Africa
+  continent: Africa
+  capital: Port Louis
+  area: 2040
+coordinates:
+  longitudestring: 57 33 E
+  latitudestring: 20 17 S
+  minlongitude: 56.6
+  minlatitude: -20.516666
+  maxlongitude: 72.46667
+  maxlatitude: -5.25
+  latitude: -20.22041
+  longitude: 57.58938

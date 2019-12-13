@@ -1,0 +1,58 @@
+{{/*###
+Handler=/leaderboard
+TitleBar=Leaderboard
+KyutGrill=leaderboard2.jpg
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	{{ $favModeRaw := .Get "users/self/favourite_mode" }}
+	{{ $favMode := _or (atoi (.Gin.Query "mode")) $favModeRaw.favourite_mode (float 0) }}
+	<script>
+		var favouriteMode = {{ $favMode }};
+		var page = {{ .Gin.Query "p" | atoint | atLeastOne }};
+		var country = {{ .Gin.Query "country" }}.toLowerCase();
+		if (country.length != 2)
+			country = "";
+	</script>
+	<div class="ui four item menu" id="mode-menu">
+		{{ range $k, $v := modes }}
+			<a class="{{ favMode $favMode $k }}item" data-mode="{{ $k }}" href="/leaderboard?mode={{ $k }}">{{ $v }}</a>
+		{{ end }}
+	</div>
+	<div class="ui twelve item stackable menu">
+		{{ range countryList 11 }}
+			<a class="item lb-country" data-country="{{ . }}"><i class="{{ . }} flag nopad"></i></a>
+		{{ end }}
+		<a class="item" id="country-chooser-modal">...</a>
+	</div>
+	<table class="ui fixed table">
+		<thead>
+			{{ template "simplepag" 5 }}
+			<tr>
+				<th class="two wide">{{ .T "Rank" }} </th>
+				<th class="four wide">{{ .T "Player" }} </th>
+				<th class="four wide">{{ .T "PP/Score" }} </th>
+				<th class="three wide">{{ .T "Accuracy" }} </th>
+				<th class="three wide">{{ .T "Playcount" }} </th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+		<tfoot>
+			{{ template "simplepag" 5 }}
+		</tfoot>
+	</table>
+	<div class="ui modal">
+		<div class="content">
+			<div class="ui four column grid">
+				{{ range countryList 500 }}
+					{{ $short := . }}
+					{{ with country . true }}
+						<div class="ui clickable column lb-country" data-country="{{ $short }}">{{ . }}</div>
+					{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

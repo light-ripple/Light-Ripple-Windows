@@ -1,0 +1,66 @@
+name:
+  common: Samoa
+  official: Independent State of Samoa
+  native:
+    eng:
+      common: Samoa
+      official: Independent State of Samoa
+    smo:
+      common: Sāmoa
+      official: Malo Saʻoloto Tutoʻatasi o Sāmoa
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ws
+languages:
+  eng: English
+  smo: Samoan
+translations:
+  DEU:
+    common: Samoa
+    official: Unabhängige Staat Samoa
+  FIN:
+    common: Samoa
+    official: Samoan itsenäinen valtio
+  FRA:
+    common: Samoa
+    official: Samoa
+  HRV:
+    common: Samoa
+    official: Nezavisna Država Samoa
+  NLD:
+    common: Samoa
+    official: Onafhankelijke Staat Samoa
+  POR:
+    common: Samoa
+    official: Estado Independente de Samoa
+  SPA:
+    common: Samoa
+    official: Estado Independiente de Samoa
+currencies:
+- WST
+borders: []
+codes:
+  alpha2: WS
+  alpha3: WSM
+  cioc: SAM
+  ccn3: "882"
+  callingcodes:
+  - "685"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Polynesia
+  continent: Australia
+  capital: Apia
+  area: 2842
+coordinates:
+  longitudestring: 172 20 W
+  latitudestring: 13 35 S
+  minlongitude: -172.81667
+  minlatitude: -14.05
+  maxlongitude: -171
+  maxlatitude: -13.433333
+  latitude: -13.668973
+  longitude: -172.32202

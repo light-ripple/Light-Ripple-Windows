@@ -1,0 +1,72 @@
+name:
+  common: Nigeria
+  official: Federal Republic of Nigeria
+  native:
+    eng:
+      common: Nigeria
+      official: Federal Republic of Nigeria
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ng
+languages:
+  eng: English
+translations:
+  DEU:
+    common: Nigeria
+    official: Bundesrepublik Nigeria
+  FIN:
+    common: Nigeria
+    official: Nigerian liittotasavalta
+  FRA:
+    common: Nigéria
+    official: République fédérale du Nigeria
+  HRV:
+    common: Nigerija
+    official: Savezna Republika Nigerija
+  ITA:
+    common: Nigeria
+    official: Repubblica federale di Nigeria
+  NLD:
+    common: Nigeria
+    official: Federale Republiek Nigeria
+  POR:
+    common: Nigéria
+    official: República Federal da Nigéria
+  RUS:
+    common: Нигерия
+    official: Федеративная Республика Нигерия
+  SPA:
+    common: Nigeria
+    official: República Federal de Nigeria
+currencies:
+- NGN
+borders:
+- BEN
+- CMR
+- TCD
+- NER
+codes:
+  alpha2: NG
+  alpha3: NGA
+  cioc: NGR
+  ccn3: "566"
+  callingcodes:
+  - "234"
+  internationalprefix: "009"
+geo:
+  region: Africa
+  subregion: Western Africa
+  continent: Africa
+  capital: Abuja
+  area: 923768
+coordinates:
+  longitudestring: 8 00 E
+  latitudestring: 10 00 N
+  minlongitude: 2.716667
+  minlatitude: 4.266667
+  maxlongitude: 14.65
+  maxlatitude: 13.866667
+  latitude: 9.559505
+  longitude: 8.077881

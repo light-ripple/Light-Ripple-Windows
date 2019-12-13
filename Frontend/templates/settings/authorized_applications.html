@@ -1,0 +1,51 @@
+{{/*###
+TitleBar=Authorized applications
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				{{ .T "From here you can check all the applications you granted authorization to your account, and revoke their permissions if necessary." }}
+				<div class="ui divider"></div>
+				{{ $csrf := csrfGenerate .Context.User.ID }}
+				{{ with .RequestInfo.apps }}
+					<table class="ui very basic fixed table">
+						{{ range . }}
+							<tr>
+								<td class="avatar-cell">
+									{{ if .Avatar }}
+										<img src="/static/oauth-apps/{{ .Avatar }}" class="ui tiny rounded image">
+									{{ end }}
+								</td>
+								<td>
+									<b>{{ .Name }}</b><br>{{ .Scopes $.Gin }}
+									<div class="subtitle">{{ $.T "Authorization created %s" (timeFromTime .CreatedAt) | html }}</div>
+								</td>
+								<td class="right aligned">
+									<div class="ui vertical buttons">
+										<form method="POST" action="/settings/authorized_applications/revoke">
+											<a class="ui labeled icon blue button" href="/u/{{ .Owner }}"><i class="user icon"></i>{{ $.T "Owner" }}</a>
+											<input type="hidden" name="client_id" value="{{ .Client }}">
+											{{ $csrf }}
+											{{ ieForm $.Gin }}
+											<button type="submit" class="ui labeled icon red button"><i class="remove icon"></i>{{ $.T "Revoke" }}</button>
+										</form>
+									</div>
+								</td>
+							</tr>
+						{{ end }}
+					</table>
+				{{ else }}
+					{{ $.T "... but it looks like you have none!" }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

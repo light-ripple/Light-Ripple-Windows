@@ -1,0 +1,55 @@
+{{/*###
+KyutGrill=2fa.jpg
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	{{ $regEnabled := qb "SELECT value_int FROM system_settings WHERE name = 'ccreation_enabled'" }}
+	{{ $isClan := qb "SELECT user, clan FROM user_clans WHERE user = ?" .Context.User.ID }}
+	{{ if not .Context.User.ID }}
+		<div class="ui segment">
+			{{ .T "Hey! You need to login first!" }}
+		</div>
+	{{ else if not ($regEnabled.value_int.Bool) }}
+		<div class="ui error message">
+			{{ .T "Ow, sorry the clan is not available to create right now ;p" }}
+		</div>
+	{{ else if ($isClan) }}
+		<div class="ui segment">
+			{{ .T "Seems like you're already in the clan." }}
+		</div>
+	{{ else if has .Context.User.Privileges 3 }}
+		<div class="tiny container">
+			<div class="ui raised segments">
+				<div class="ui segment">
+					<form id="register-form" class="ui form" method="post" action="/clans/create">
+						<div class="field">
+							<label>{{ .T "Your clan can have alphabets, number and these symbols <code>_[]-</code>" | html }}</label>
+							<input tabindex="1" type="text" name="name" placeholder="{{ .T "Clan Name" }}" value="{{ .FormData.name }}" required pattern="{2,15}$">
+						</div>
+						<div class="field">
+							<label class="left aligned">{{ "Clan Tag (2-6 letetrs)" }}</label>
+							<input tabindex="2" type="text" name="tag" placeholder="{{ "Clan Tag" }}" value="{{ .FormData.tag }}" pattern="{2,6}$">
+						</div>
+						<div class="field">
+							<label>{{ .T "About Clan (Optional)" }}</label>
+							<input tabindex="3" type="text" name="description" placeholder="{{ .T "About Clan" }}" value="{{ .FormData.description }}">
+						</div>
+						<div class="field">
+							<label>{{ .T "Clan Logo [Link] (Optional)" }}</label>
+							<input tabindex="4" type="url" name="icon" placeholder="{{ .T "Clan Logo" }}" value="{{ .FormData.icon }}">
+						</div>
+						{{ ieForm .Gin }}
+					</form>
+				</div>
+				<div class="ui right aligned segment">
+					<button tabindex="5" class="ui primary button" type="submit" form="register-form">{{ .T "Create Clan" }}</button>
+				</div>
+			</div>
+		</div>
+	{{ else }}
+		<div class="ui error message">
+			{{ .T "In order to create clan, You will need to donate our server (Supporter) to create clan!" }}
+		</div>
+	{{ end }}
+</div>
+{{ end }}

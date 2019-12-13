@@ -1,0 +1,120 @@
+# JavaScript
+msgid "An error occurred while contacting the Ripple API. Please report this to a Ripple developer."
+msgstr ""
+
+# This is a quote of UNDERTALE if you didn't know.
+# It is shown regarding the level of an user, but it is shortened to "Lv.".
+# Of course, this means Level on Ripple, but in UNDERTALE, it actually means LOVE.
+# I'm not gonna spoil you why it's called LOVE.
+# It's hard to keep this cultural reference, so you can also just write the
+# translation for "Level" in this.
+msgid "Why, LOVE, of course!"
+msgstr ""
+
+msgid "Your new settings have been saved."
+msgstr "การตั้งค่าของคุณได้ถูกเซฟแล้ว ^3^"
+
+msgid "Your userpage has been saved."
+msgstr ""
+
+msgid "Please provide a valid link, in the form of either https://osu.ppy.sh/s/&lt;ID&gt; or https://osu.ppy.sh/b/&lt;ID&gt;."
+msgstr ""
+
+msgid "Beatmap rank request has been submitted."
+msgstr ""
+
+msgid "That beatmap is already ranked!"
+msgstr ""
+
+# user profile
+msgid "Add friend"
+msgstr ""
+
+msgid "Remove friend"
+msgstr ""
+
+msgid "Unmutual friend"
+msgstr ""
+
+# score table
+msgid "General info"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Load more"
+msgstr ""
+
+msgid "Best scores"
+msgstr ""
+
+msgid "Recent scores"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+# score modal (when you click on a score)
+msgid "Points"
+msgstr ""
+
+msgid "PP"
+msgstr ""
+
+msgid "Beatmap"
+msgstr ""
+
+msgid "Accuracy"
+msgstr ""
+
+msgid "Max combo"
+msgstr ""
+
+msgid "(full combo)"
+msgstr ""
+
+msgid "Difficulty"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+# Achieved (refers to date)
+msgid "Achieved"
+msgstr ""
+
+# Game mode, like osu! standard, not like HR
+msgid "Mode"
+msgstr ""
+
+# (No mods used)
+msgid "None"
+msgstr ""
+
+msgid "{{ stars }} star"
+msgid_plural "{{ stars }} stars"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "<b>{{ months }}</b> month costs <b>€ {{ eur }}</b>"
+msgid_plural "<b>{{ months }}</b> months cost <b>€ {{ eur }}</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "($ {{ usd }} / BTC {{ btc }})"
+msgstr ""
+
+# (following are in relation to friends)
+msgid "Mutual"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+

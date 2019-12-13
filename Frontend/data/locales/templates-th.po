@@ -1,0 +1,1263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /th/Hanayo/templates-th.po\n"
+"X-Pootle-Revision: 8354\n"
+
+# Title
+msgid "- Ainu"
+msgstr "- osu!thailand"
+
+# General
+msgid "You're already logged in!"
+msgstr "คุณเข้าสู่ระบบอยู่แล้ว"
+
+msgid "Submit"
+msgstr "ส่ง"
+
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+msgid "Invalid CSRF token"
+msgstr "รหัส CSRF ผิดพลาด"
+
+msgid "Your session has expired. Please try redoing what you were trying to do."
+msgstr "เซสชั่นหมดอายุ ลองทำใหม่ดูอาจจะหายก็ได้นะ!"
+
+msgid "That user could not be found."
+msgstr "เราไม่เห็นเจอคนนั้นเลยนะ -3-"
+
+msgid "Your settings have been saved."
+msgstr "การตั้งค่าของคุณได้ถูกเซฟแล้ว ^3^"
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr "ขอให้บีทแมพอยู่ในโหมด Ranked"
+
+msgid "Want to play an unranked beatmap and get pp? You can submit beatmaps rank requests here!"
+msgstr "ต้องการอยากให้แมพที่ไม่ Ranked แต่ได้ PP งั้นเหรอ? ได้! คุณสามารถส่งบีทแมพมาให้เราแล้วเราจะสามารถทำให้ความฝันของคุณอาจจะเป็นจริงได้!"
+
+msgid "Queue status"
+msgstr "สถานะคิวตอนนี้"
+
+msgid "by you"
+msgstr "โดยคุณ"
+
+msgid "Requests submitted"
+msgstr "ส่งคำขอไปแล้วทั้งหมด"
+
+msgid "In the past 24 hours"
+msgstr "ในเมื่อ 24 ชั่วโมงที่แล้ว"
+
+msgid "Request a beatmap"
+msgstr "ขอบีทแมพ"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "คุณยังขอตอนนี้ไม่ได้นะ!!"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "ลองใหม่อีกครั้งนึงนะ"
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "รีเซ็ตรหัสผ่าน"
+
+msgid "Glad to have you back here, %s! To finish the password recovery, type in a new password:"
+msgstr "ยินดีที่เห็นคุณกลับมานะ! %s! เพื่อจะให้รหัสผ่านถูกรีเซ็ตใหม่ทั้งหมด กรุณาใส่รหัสผ่านใหม่ที่ช่องนี้:"
+
+msgid "Nope."
+msgstr "ไม่โว้ย!"
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "เราไม่เจอคีย์นั้นนะ หมดอายุแล้วหรือเปล่า?"
+
+msgid "All right, we have changed your password and you should now be able to login! Have fun!"
+msgstr "โอเค! เราเปลี่ยนรหัสผ่านให้คุณแล้วนะ สามารถเข้าสู่ระบบได้เลย ขอให้สนุกนะ!"
+
+# register/register.html
+msgid "Register"
+msgstr "สมัครสมาชิก"
+
+msgid "Sorry, it's not possible to register at the moment. Please try again later."
+msgstr "โทษทีนะ เรายังไม่เปิดให้คุณได้สมัครตอนนี้ ค่อยมาดูใหม่ทีหลังนะ"
+
+msgid "Remember: this seems like it's your second account! Do not multiaccount, or you're likely to get restricted!"
+msgstr "จำเอาไว้นะ ว่าคุณกำลังสร้างบัญชีอันที่ 2! และการสร้างหลายบัญชีนั้นมันจะทำให้คุณถูกแบนได้เลยนะ"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr "ชื่อผู้ใช้ (2-15 ตัว สามารถใช้ตัวอักษรภาษาอังกฤษ, ตัวเลข, เว้นวรรค หรือสัญลักษณ์ต่อไปนี้ <code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "รหัสผ่าน (อย่างน้อยต้องมี 8 ตัวขึ้นไป)"
+
+msgid "Email"
+msgstr "อีเมลล์"
+
+msgid "You have been successfully registered on Ainu! You now need to verify your account."
+msgstr "คุณได้สมัครบัญชีแล้ว! ตอนนี้ก็เหลือแค่ยืนยันเท่านั้นแหละ"
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "รหัสผ่านของคุณมันสั้นเกินไปนะ อย่างน้อยต้องมี 8 ตัวสิ"
+
+msgid "Your password is one of the most common passwords on the entire internet. No way we're letting you use that!"
+msgstr "รู้อะไรไหม? รหัสผ่านพวกนี้มันง่ายมากๆ เราจะไม่ให้คุณใช้รหัสผ่านโง่ๆแบบนั้นไม่ได้หรอกนะ!"
+
+msgid "Your username must contain alphanumerical characters, spaces, or any of <code>_[]-</code>"
+msgstr "ชื่อผู้ใช้จะต้องมี 2-15 ตัว สามารถใช้ตัวอักษรภาษาอังกฤษ, ตัวเลข, เว้นวรรค หรือสัญลักษณ์ต่อไปนี้ <code>_[]-</code> นะ เข้าใจมั้ยเนี่ย??"
+
+msgid "You're not allowed to register with that username."
+msgstr "ชื่อผู้ใช้นี้... เราไม่ให้หรอกนะ :("
+
+msgid "Please pass a valid email address."
+msgstr "ใส่อีเมลอะไรเนี่ย?? ใส่ให้มันดีๆหน่อย!"
+
+msgid "An username can't contain both underscores and spaces."
+msgstr "ชื่อผู้ใช้ไม่สามารถใช้ ขีดเส้นใต้ หรือ เว้นวรรค 2 ตัวได้นะ"
+
+msgid "An user with that username already exists!"
+msgstr "โทษทีนะ แต่ชื่อผู้ใช้นั้นโดยใช้งานไปแล้ว"
+
+msgid "An user with that email address already exists!"
+msgstr "โทษทีนะ แต่มีใช้อีเมลนั้นไปแล้วนะ"
+
+msgid "Captcha is invalid."
+msgstr "ยืนยัน Captcha ไม่ผ่านอะ"
+
+msgid "Whoops, an error slipped in. You might have been registered, though. I don't know."
+msgstr "อุย พอดีอยู่ดีๆระบบก็เจ๊ง อาจจะสมัครไปแล้วมั้ง...? ไม่รู้อะ ;w;"
+
+# register/verify.html
+msgid "Verify account"
+msgstr "ยืนยันบัญชีของคุณ"
+
+msgid "Your account has been created, however it still <b>needs to be verified!</b> Please log in into <b><u>osu! (the game)</u></b> using your account. <b>There is <u>no email confirmation</u> at the moment. All you need to do is connect to Ainu! from the osu! client!</b> If you're having trouble, <a href='/doc/1'>follow this guide</a>."
+msgstr "บัญชีของคุณได้ถูกสร้างแว้วววว!! แต่ช้าก่อน! มันยังไงก็ต้องถูก<b>ยืนยันก่อน</b>! เพราะฉะนั้นเข้าสู่ระบบภายไปในเกมส์ <b><u>osu!</u></b> โดยใช้บัญชีของคุณ <b>ตอนนี้เรา<u>ยังไม่มีตัวยืนยันอีเมล</u>ตอนนี้ เพราะฉะนั้นก็แค่เปิดเกมส์มาแล้วเข้าสู่ระบบได้เลย!</b> หากเข้าไม่ได้ลองทำตาม <a href='/doc/1'>แบบนี้</a> ดูนะ"
+
+msgid "<b class='big text'>Do not let anyone except yourself log into your osu!thailand account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel instead (after following the steps on this page) so that we can help you out if you have trouble connecting."
+msgstr "<b class='big text'>อย่าให้ใครเข้าเล่นบัญชีคุณนอกจากตัวคุณเอง!</b><br> เข้ามา <a href='%s'>เซิร์ฟเวอร์ดิสคอร์ดของพวกเรา</a> ที่ห้อง #help แทนนะ (หลังจากลองทำตามวิธีในหน้านี้แล้วอะนะ) เผื่อมีปัญหาเราจะช่วยอะไรได้!"
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>วิธีเข้า,</a> ฉบับย่อๆ"
+
+msgid "/static/serverswitcher_en.exe"
+msgstr "/static/switcher.exe"
+
+msgid "Download the server switcher"
+msgstr "โหลดตัวสลับเซิร์ฟเวอร์มา"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr "ปิดแอนตี้ไวรัสถ้ามันเตือน แล้วเปิดโปรแกรมในฐานะ <b>แอดมิน</b>"
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "กดไปที่ปุ่ม <b>ติดตั้งใบรับรอง</b> จากนั้นก็กด <b>Yes</b> ไป"
+
+msgid "Make sure the switcher says you're playing on <b>Ainu!</b> server, if not click <b>On/Off</b>"
+msgstr "เพื่อจะให้แน่ใจว่าคุณกำลังเล่นเซิร์ฟพวกเราอยู่ มันจะต้องขึ้นว่า <b>คุณกำลังเล่นเซิร์ฟ osu!thailand</b> แต่ถ้ามันไม่ขึ้นละก็กดที่ปุ่ม <b>เปิด/ปิด</b>"
+
+msgid "If it says something about read-only mode, go to <code>C:\\Windows\\System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure it's not set to \"Read only\"."
+msgstr "ถ้ามันขึ้นประมาณว่า read-only อะไรซักอย่างก็ไปที่ <code>C:\\Windows\\System32\\Drivers\\etc</code> คลิกขวาที่ไฟล์ '<b>hosts</b>' จากนั้นกดไปที่ คุณสมบัติ (Properties) และเช็คตรงช่อง \"Read only\" ออก"
+
+msgid "If you're still having trouble, then again, get on our <a href='%s'>Discord server's</a> #help channel. To have a better chance to be answered, say \"strawberry\" anywhere in your messages so that we know you have actually read this."
+msgstr "ถ้ามันยังมีปัญหาอยู่ ก็ไป <a href='%s'>เซิร์ฟเวอร์ดิสคอร์ดของพวกเรา</a> ที่ห้อง #help เพราะเราจะมาช่วยตอบให้เลย พอเข้าไปแล้วให้พิมพ์ว่า \"แตงโมนะฮะ\" ตรงไหนก็ได้ในข้อความเดี๋ยวเราจะมาตอบเองแหละ"
+
+msgid "Waiting for verification"
+msgstr "กำลังรอการยืนยัน"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "ยินดีต้อนรับเข้าสู่เซิร์ฟเวอร์ Ainu จย้าาาาา!!!"
+
+msgid "Welcome back!"
+msgstr "ยินดีต้อนรับกลับมาน้อ!"
+
+msgid "Congratulations for not reading things!"
+msgstr "ยินดีด้วยที่ไม่อ่านอะไรเลย -_____-"
+
+msgid "Multiaccounts are not allowed on Ainu!"
+msgstr "รู้อะไรไหมว่าการสร้างบัญชีหลายๆบัญชีในเว๊ปอะไม่ดีนะ"
+
+msgid "Your new account has been <b>banned</b> and your main account has been <b>restricted</b>. You can appeal in a month by sending an email to <b><a href='https://support.bigtu.vip'>support.bigtu.vip</a></b>. You better read the rules next time."
+msgstr ""
+
+msgid "Welcome to Ainu!"
+msgstr "ยินดีต้อนรับสู่เซิร์ฟเวอร์ osu!thailand"
+
+msgid "We're glad to have you here. <b>Your account is now active.</b> You can now play on Ainu! and <a href='/login'>log in</a> on the website!"
+msgstr "รู้สึกดีจังที่คุณมาอยู่ที่นี้ <b>ตอนนี้คุณสามารถมาเล่นเซิร์ฟเวอร์ได้เลยนะ</b> และก็อย่าลืม <a href='/login'>เข้าสู่ระบบ</a>ในเว๊ปด้วยละ!"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "อันนี้ถ้าอยากทำก็ทำเลยนะ ถ้าไม่ทำก็ไม่เป็นไร:"
+
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+msgid "Rules"
+msgstr "กฏต่างๆ"
+
+msgid "Documentation"
+msgstr "วิธีการใช้งานต่างๆ"
+
+msgid "Server switcher"
+msgstr "ตัวสลับเซิร์ฟเวอร์"
+
+msgid "Status"
+msgstr "สถานะตอนนี้"
+
+msgid "Discord"
+msgstr "ดิสคอร์ด"
+
+msgid "Watermelon"
+msgstr "แตงโม"
+
+msgid " - in case you don't know where to start"
+msgstr " - ถ้าคุณยังไม่รู้ว่าจะทำอะไรตอนนี้"
+
+msgid " - in case you haven't already read them"
+msgstr " - ถ้าคุณยังไม่ได้อ่านมัน"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr " - ถ้า... เอิ่ม... ต้องการความช่วยเหลืออะนะ"
+
+msgid " - in case you believe Ainu! is down"
+msgstr " - ถ้าคุณคิดว่าเซิร์ฟกำลังดับอยู่"
+
+msgid " - in case you want to talk with people about Ainu!"
+msgstr " - ถ้าคุณอยากคุยกับคนอื่นๆที่เล่นเซิร์ฟ osu!thailand อยู่"
+
+msgid " - just in case"
+msgstr " - เอาไว้เฉยๆอะแหละ แฮะๆ"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "กู้คืนบัญชี"
+
+msgid "Can't find a way to get back access to your Ainu! account? Fear not! If you have your recovery codes which we recommended you to print you can type one in here and we'll magically log you in this time. After you've managed to get in, please disable and then re-enable 2FA, so you won't risk losing your account again."
+msgstr ""
+
+msgid "Oh no you don't."
+msgstr ""
+
+msgid "Get out."
+msgstr ""
+
+msgid "Recovery code is invalid."
+msgstr ""
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "เฮ้นาย! หยุดเลย!"
+
+msgid "Stop!"
+msgstr "หยุดทันที!!!"
+
+msgid "We see that you're trying to sign up while having already signed up as %s! Please note that multiaccounting is punishable, and can lead to a one month restriction!"
+msgstr "เรารู้นะว่านายจะทำอะไรน่ะ %s! ขอบอกไว้เลยว่าถ้าสร้างบัญชีหลายๆบัญชีอะ ถูกทำโทษได้เลยนะ!! ยังไม่พอแค่นั้นมันจะทำให้โดนแบน 1 เดือนด้วยละ!!!"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr "ถ้าคุณคือ %s บอกเลยว่าสร้างหลายบัญชีนั้น แบนสถานเดียว"
+
+msgid "If you're not %s, but you're using %s's computer, please sign up on Ainu! from your own computer."
+msgstr "ถ้าคุณไม่ใช่ %s ละก็ แต่คุณกำลังใช้คอม %s อยู่ ไปสมัครที่คอมคุณเถอะนะ"
+
+msgid "If you live with %s and you don't have your own computer from which to sign up on Ainu!, then please contact support@bigtu.vip, and we'll deal with your specific case."
+msgstr "ถ้าคุณอยู่กับ %s แต่คุณไม่มีคอมเล่นแต่อยากจะเล่นกับเซิร์ฟเวอร์เรา กรุณาติดต่อเราที่ดิสคอร์ดเดี๋ยวเราไปคุยเอง"
+
+msgid "This warning may pop up also if you're using another computer on the same network of %s. As long as you're not using the same computer, you should be all good."
+msgstr "บางที่คำเตือนนี้อาจจะเด้งมาที่คอมเครื่องอื่นๆแต่ใช้เน็ตเร้าเตอร์เดียวกันกับ %s แต่ถ้าไม่ได้ใช้คอมเครื่องเดียวกัน นั้นก็ไม่มีปัญหาหรอกนะ"
+
+msgid "Don't stop me now!"
+msgstr "อย่าหยุดเราเดี๋ยวเราฟาดแม่มเลย"
+
+msgid "Bring me back to safety!"
+msgstr "ก็ได้!  ก็ได้! กลับไปเดี๋ยวนี้แหละ!!"
+
+# login.html
+msgid "Log in"
+msgstr "เข้าสู่ระบบ"
+
+msgid "Username (or email)"
+msgstr "ชื่อผู้ใช้ (หรืออีเมลล์ก็ได้อะนะ)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(หรือลืมรหัสผ่าน?)"
+
+msgid "Username or password not set."
+msgstr "ชื่อผู้ใช้หรือรหัสผ่านยังไม่ได้ใส่เลย"
+
+msgid "No user with such %s!"
+msgstr "ไม่เห็นเจอคนที่ชื่อ %s เลย!"
+
+msgid "Your password is sooooooo old, that we don't even know how to deal with it anymore. Could you please change it?"
+msgstr "รหัสผ่านแม่มโคตรจะเก่าาาาาาาาาาาาาาาาาาาาาาาาา เลย เราแทบจะทนไม่ไหวกับรหัสผ่านเน่าๆแบบนี้แล้วนะ ช่วยเปลี่ยนใหม่หน่อยได้มั้ย!?"
+
+msgid "Wrong password."
+msgstr "รหัสผ่านผิดจ้า"
+
+msgid "You will need to verify your account first."
+msgstr "เฮ้ ไปยืนยันบัญชีก่อนเข้านะ -*-"
+
+msgid "You are not allowed to login. This means your account is either banned or locked."
+msgstr "เราไม่ให้เข้าหรอกนะ :v นั้นหมายความว่าคุณอาจจะโดนแบนหรือโดนล็อคบัญชีอยู่ก็เป็นได้"
+
+msgid "Hey %s! You are now logged in."
+msgstr "เย้!! ว่าไง %s! กลับมาแล้วสินะ!"
+
+msgid "You're already logged out!"
+msgstr "เอ๋? คุณออกจากระบบไปนานแล้วนิหน่า!?"
+
+msgid "Successfully logged out."
+msgstr "ออกจากระบบแล้ว ไว้เจอกันนะ :("
+
+# pwreset.html
+msgid "Forgot your password? Worry not! Here you can reset it. Just tell us your username or email address, and we'll take care of it. You will receive an email at the email address you used to sign up on Ainu! To continue the password reset procedure, click the link on that email."
+msgstr ""
+
+msgid "You look pretty banned/locked here."
+msgstr ""
+
+msgid "Done! You should shortly receive an email from us at the email you used to sign up on Ainu!"
+msgstr ""
+
+msgid "Ainu! password recovery instructions"
+msgstr ""
+
+msgid "Hey %s! Someone, which we really hope was you, requested a password reset for your account. In case it was you, please <a href='%s'>click here</a> to reset your password on Ainu! Otherwise, silently ignore this email."
+msgstr ""
+
+# not_found.html
+msgid "Not Found"
+msgstr "เราหาไม่เจอเลยอ่ะ TwT"
+
+msgid "We're sorry, but we were unable to find the content you were looking for!"
+msgstr "ขอโทษจริงๆที่เราหาไม่เจอ เราหาทั่วทุกมุมแล้วเร็วไม่เจออะไรเลยอ่าา ;_;"
+
+# navbar.html
+msgid "Home page"
+msgstr "หน้าแรก"
+
+msgid "Leaderboard"
+msgstr "กระดานคะแนน"
+
+msgid "Help"
+msgstr "ขอความช่วยเหลือ"
+
+msgid "About"
+msgstr "เกี่ยวกับเรา"
+
+msgid "osu!Ainu! Discord"
+msgstr "ดิสคอร์ดเซิร์ฟ osu!thailand"
+
+msgid "osu!kawata Discord"
+msgstr "ดิสคอร์ดเซิร์ฟ Kawata"
+
+msgid "Beatmaps"
+msgstr "บีทแมพ"
+
+msgid "Donate"
+msgstr "โดเนท"
+
+msgid "AAP"
+msgstr "AAP"
+
+msgid "Profile"
+msgstr "โปรไฟล์"
+
+msgid "Friends"
+msgstr "เพื่อน"
+
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+msgid "Log out"
+msgstr "ออกจากระบบ"
+
+msgid "Looking for someone?"
+msgstr "กำลังหาใครอยู่อะป่าว"
+
+# homepage.html
+msgid "Home Page"
+msgstr "หน้าหลัก"
+
+msgid "Welcome to Ainu!"
+msgstr "ยินดีต้อนรับเข้าสู่ osu!thailand"
+
+msgid "Ainu! is a private osu! server, featuring multiplayer, PP, a very active community and a development team going strong implementing new features and squashing bugs. <a href='/about'>You can check out even more features here.</a> It has also a very friendly community, and it's <a href='https://github.com/osuthailand'>open source!</a> Just so you know, <b>we currently have %s users online and %s registered users!</b>"
+msgstr "osu!thailand คือเซิร์ฟเวอร์ osu! เถื่อน (ไม่ได้ป่าเถื่อนนะ แต่ไม่รู้ว่าจะใช้คำว่าอะไรละ) ซึ่งมีระบบเล่นหลายคน, PP, และชุมชนที่โคตรจะมีชีวิต (ประมาณว่ามีคนคุย/เล่นกันเยอะอะนะ) และทีมงานสรรหาระบบใหม่ๆเข้าเซิร์ฟเวอร์! <a href='/about'>ลองไปดูว่าอะไรคือเซิร์ฟนี้ก็ได้</a> และคนในเซิร์ฟเวอร์ใจดีด้วยนะ! เรายังเปิด <a href='https://github.com/osuthailand'>src</a> ให้ได้ใช้ด้วย! จะได้รู้ว่าเราไม่ได้ทำอะไรแย่ๆ <b>ซึ่งตอนนี้เรามี คนทั้งหมด %s คนที่กำลังออนไลน์อยู่ และ คนที่สมัครเข้าเซิร์ฟแล้ว %s คน!</b>"
+
+msgid "What are you waiting for? Join Ainu!! It's risk-free: you won't get your account banned on the official server if you play on Ainu!<br>You can also switch anytime between the official osu! server and Ainu!!"
+msgstr "แล้วจะรออะไรอยู่ล่ะ? มาเล่นกัน!! ไม่ต้องกลัวเรื่องการโดนแบน: เพราะคุณจะไม่โดนแบนในเซิร์ฟหลักหรอกถ้าคุณเล่นเซิร์ฟเวอร์เรา!<br>คุณยังสามารถสลับเซิร์ฟเวอร์ระหว่างเซิร์ฟเวอร์แท้และเซิร์ฟเวอร์ osu!thailand ได้ด้วยหละ!"
+
+msgid "Howdy, %s!"
+msgstr "ว่าไง %s!"
+
+msgid "Welcome back to Ainu! We currently have <b>%s online users and %s total registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr "ยินดีต้อนรับสู่เซิร์ฟเวอร์ osu!thailand ตอนนี้เรามี <b>คนทั้งหมด %s คนที่กำลังออนไลน์อยู่ และ คนที่สมัครเข้าเซิร์ฟแล้ว %s คน</b> เป็นวันที่ดีสำหรับการฟาร์มแมพเลยว่ามั้ย?"
+
+msgid "Latest news from our <a href='https://blog.bigtu.vip'>blog</a>"
+msgstr "ข่าวสารล่าสุดจากพวกเรา"
+
+# base.html
+msgid "Ainu!'s score submission is currently in maintenance mode. You will not be allowed to submit scores for the time being."
+msgstr "ระบบคะแนนในเซิร์ฟเวอร์กำลังปิดตอนนี้ คุณจะไม่สามารถลงคะแนนอะไรใดๆไม่ได้เลย! ขออภัยในความไม่สะดวก!"
+
+msgid "The Ainu! website is currently in maintenance mode. Only certain users are allowed to access the full website."
+msgstr "เว๊ปไซต์อยู่ในช่วงปิดปรับปรุง เฉพาะผู้ใช้ที่อนุญาตเท่านั้นที่สามารถใช้เว๊ปไซต์อย่างเต็มรูปแบบได้!"
+
+msgid "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ainu!'s staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://discord.gg/CEjWW4K'>our Discord</a>."
+msgstr "บัญชีคุณตอนนี้กำลังถูกระงับ! คุณจะไม่สามารถทำอะไรได้และคุณจะถูกเห็นโดยคุณเองและทีมงาน osu!thailand เท่านั้น! ถ้าคุณรู้สึกว่าเราทำอะไรผิดพลาดไป คุณสามารถลองขอปลดได้ที่ <a href='https://discord.gg/CEjWW4K'>ดิสคอร์ดของพวกเราได้เลย!</a>."
+
+msgid "&copy; 2018-%d Ripple, osu!Ainu, Made with love by Aoba ❤ using Hanayo %s"
+msgstr "&copy; %d osu!thailand, สร้างโดย <a href='https://www.facebook.com/NatsueKunGz'>สัณหปรรณ อนันเต่า</a> %s"
+
+msgid "Team"
+msgstr "ทีมงาน"
+
+msgid "Who is working on this thing?"
+msgstr "ใครทำงานในส่วนนี้ฟะ?"
+
+msgid "Developer docs"
+msgstr ""
+
+msgid "See what changed!"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "What's going on under the hood?"
+msgstr ""
+
+msgid "Follow us on Twitter!"
+msgstr ""
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr ""
+
+msgid "Language"
+msgstr "ภาษา"
+
+# beatmap.html
+msgid "Artist"
+msgstr "เจ้าของเพลง"
+
+msgid "Title"
+msgstr "ชื่อเพลง"
+
+msgid "Creator"
+msgstr "ผู้สร้าง"
+
+msgid "Source"
+msgstr "ที่มา"
+
+msgid "Circle Size"
+msgstr "ขนาดวงกลม"
+
+msgid "HP Drain"
+msgstr "ความเร็วการลด HP"
+
+msgid "Overall Difficulty"
+msgstr "ระดับความยากรวมๆ"
+
+msgid "Passes/Plays"
+msgstr "ผ่าน/เล่นไปกี่ครั้งแล้ว"
+
+msgid "Approach Rate"
+msgstr "ความไวของ Approach Rate"
+
+msgid "Star Difficulty"
+msgstr "ระดับดาว"
+
+msgid "Length"
+msgstr "ความยาว"
+
+msgid "BPM"
+msgstr "BPM"
+
+msgid "osu!direct"
+msgstr "free!direct"
+
+msgid "download"
+msgstr "ดาวน์โหลด"
+
+msgid "download (no video)"
+msgstr "ดาวน์โหลด (แบบไม่เอาวีดีโอ)"
+
+msgid "Rank in RAP"
+msgstr "เปิดให้แมพ Ranked"
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr ""
+
+msgid "Before proceding further on Ainu!, we require you to use your Google Authenticator App to use the code for osu!thailand, so that we can log you in."
+msgstr ""
+
+msgid "Before proceding any further on Ainu!, we require you to use the message you just received on telegram to log in to your account."
+msgstr ""
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr ""
+
+msgid "Click here to use a recovery code."
+msgstr ""
+
+msgid "Telegram code"
+msgstr ""
+
+msgid "(send again?)"
+msgstr ""
+
+msgid "Google Authenticator passcode"
+msgstr ""
+
+msgid "Hey, %s."
+msgstr ""
+
+msgid "You need to complete the 2fa challenge first."
+msgstr ""
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr ""
+
+msgid "You've been successfully logged in."
+msgstr ""
+
+msgid "Ooops! Looks like something went really wrong while trying to process your request. Perhaps report this to a osu!thailand developer? Retrying doing what you were trying to do might work, too."
+msgstr ""
+
+# about.html
+msgid "Welcome to Ainu!"
+msgstr "ยินดีต้อนรับสู่เซิร์ฟเวอร์ osu!thailand"
+
+msgid "Ainu! is a private osu! server."
+msgstr "osu!thailand คือเซิร์ฟ osu!"
+
+msgid "There are many like it, but this one is ours."
+msgstr "มีหลายเซิร์ฟที่คล้ายๆกัน แต่เซิร์ฟนี้เซิฟเรา"
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "คุณไม่ชอบ %s หรือ?"
+
+msgid "We have leaderboards."
+msgstr "เรามีกระดานคะแนน"
+
+msgid "Online user listing."
+msgstr "รายชื่อคนที่ออนไลน์"
+
+msgid "Free osu!direct."
+msgstr "osu!direct ให้ใช้แบบฟรีๆ"
+
+msgid "Global leaderboards."
+msgstr "กระดานคะแนนในเกมส์"
+
+msgid "and PP for all game modes"
+msgstr "และ PP สำหรับทุกเกมส์โหมด"
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "ระบบขอ Beatmap ให้อยู่ในโหมด Ranked"
+
+msgid "Spectator."
+msgstr "โหมดคนดู"
+
+msgid "Multiplayer."
+msgstr "เล่นแบบหลายคน"
+
+msgid "AC, anticheat guy"
+msgstr "AC พ่อหนุ่มกันโปร"
+
+msgid "with plenty of functions for just about anything, <a href=\"/doc/4\">check it out!</a>"
+msgstr "พร้อมกับระบบสุดเจ๋งหลายอย่างที่ AC มี <a href=\"/doc/4\">ลองดูสิ!</a>"
+
+msgid "And a lot more to come!"
+msgstr "และอื่นๆอีกมากมายที่จะมาเร็วๆนี้"
+
+msgid "Ainu! is the result of the hard work of developers, who got tired about the whole osu! server"
+msgstr "osu!thailand คือเซิร์ฟที่ทำมาจากทีมงานผู้พัฒนาที่ทำมาอย่างยากลำบาก ที่ลองผิดลองถูกกับเซิร์ฟเวอร์ osu!"
+
+# %s is wink emoji
+msgid "Thanks to developers who has help me and make server for us <a href=\"/register\">Signing up</a> on Ainu! won't result in getting your account on osu! restricted, so what are you waiting for?! Come join us! %s"
+msgstr "ต้องขอบคุณทีมงานทุกๆท่านที่มาช่วยเหลือพวกเราและได้สร้างเซิร์ฟเวอร์นี้ขึ้นมา <a href=\"/register\">สมัครตอนนี้</a>เลย! และไม่ต้องกลัวว่าบัญชีคุณนั้นจะถูกแบน แล้วจะรออะไรอยู่ละ!? มาเล่นกันเถอะ %s!"
+
+msgid "In case you want to make sure we're not doing shady stuff with your data, you can also check the <a href=\"https://github.com/osuthailand\">source code</a> Ainu! is running on."
+msgstr "ถ้ารู้สึกว่ากลัวว่าเราจะทำอะไรแปลกๆ เราสามารถให้คุณดู <a href=\"https://github.com/osuthailand\">src</a> ของพวกเราเพื่อให้รู้ว่าเราไม่ได้ทำอะไรแย่ๆได้เลย!"
+
+# changelog.html
+msgid "This is the changelog. Changes are published here as soon as they hit the production status (as in, live on the website)."
+msgstr ""
+
+msgid "For various reasons, some software of Ainu! does not contribute to the changelog, to which this website is a part of. In case you want to see the changelog of Hanayo, you can do so by <a href=\"https://github.comewfweefwefwehanayo/commits/master\">clicking here</a>."
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+# doc_content.html
+msgid "View document"
+msgstr ""
+
+msgid "Documentation file not found!"
+msgstr ""
+
+msgid "View all docs"
+msgstr ""
+
+# doc.html
+msgid "Need some help getting around? Look no further! From here you will be able to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+
+msgid "Looks like there is no documentation on this Ainu! instance!"
+msgstr ""
+
+# friends.html
+msgid "On this page you can see all of your friends, and unfriend them as you see fit."
+msgstr ""
+
+msgid "Mutual"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+# irc.html
+msgid "Here you can generate a new IRC token. You can use it to connect to Ainu!'s chat using IRC. Remember that your IRC token is like a password, anyone who knows it, has access to your account. If you're interested knowing how to connect to Ainu!'s chat via IRC, you may want to check out <a href=\"/doc/11\">this</a>."
+msgstr ""
+
+msgid "Generate a new token!"
+msgstr ""
+
+# leaderboard.html
+msgid "Rank"
+msgstr "ที่"
+
+msgid "Player"
+msgstr "ผู้เล่น"
+
+msgid "PP/Score"
+msgstr "PP/คะแนน"
+
+msgid "Accuracy"
+msgstr "ความแม่นยำ"
+
+msgid "Playcount"
+msgstr "เล่นไปทั้งหมด"
+
+# profile.html
+msgid "%s's profile"
+msgstr "โปรไฟล์ของ %s"
+
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr ""
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr ""
+
+msgid "pending verification"
+msgstr ""
+
+msgid "banned"
+msgstr ""
+
+msgid "restricted"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "User not found"
+msgstr "เราไม่เห็นเจอคนนั้นเลยนะ"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(รู้จักกันในนามว่า <b>%s</b>)"
+
+msgid "Online"
+msgstr "กำลังออนไลน์"
+
+msgid "Offline"
+msgstr "ออฟไลน์"
+
+msgid "Unknown"
+msgstr "ไม่รู้"
+
+msgid "<b>%s</b> is a"
+msgstr "<b>%s</b> คือ"
+
+msgid "from <b>%s</b>."
+msgstr "จากประเทศ <b>%s</b>"
+
+msgid "Last seen: %s."
+msgstr "เห็นล่าสุดเมื่อ: %s"
+
+msgid "They signed up on osu!Ainu %s."
+msgstr "สมัครใน osu!thailand ตั้งแต่ %s"
+
+msgid "They play with %s."
+msgstr "เขาเล่นด้วย %s"
+
+msgid "Mouse"
+msgstr "เม้าส์"
+
+msgid "Tablet"
+msgstr "เม้าส์ปากกา"
+
+msgid "Keyboard"
+msgstr "คีย์บอร์ด"
+
+msgid "Touchscreen"
+msgstr "หน้าจอสัมผัส"
+
+msgid "Spoon"
+msgstr "ช้อน"
+
+msgid "Leap motion"
+msgstr "ปากกาเลเซอร์"
+
+msgid "Oculus rift"
+msgstr "แว่น VR"
+
+msgid "Dick"
+msgstr "ควย"
+
+msgid "Eggplant"
+msgstr "มะเขือม่วง"
+
+msgid "This user hasn't got any badges!"
+msgstr "คนนี้ไม่ได้มีโล่อะไรเลย"
+
+msgid "Global rank"
+msgstr ""
+
+msgid "Country rank"
+msgstr ""
+
+msgid "PP"
+msgstr ""
+
+msgid "Ranked score"
+msgstr ""
+
+msgid "Total score"
+msgstr ""
+
+msgid "Replays watched"
+msgstr ""
+
+msgid "Total hits"
+msgstr ""
+
+msgid "Level %s"
+msgstr ""
+
+msgid "Achievements"
+msgstr ""
+
+# support.html
+msgid "Support Ainu!"
+msgstr "สนับสนุนเซิร์ฟ osu!thailand"
+
+msgid "You are a donor!"
+msgstr ""
+
+msgid "Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+
+msgid "Did you know?"
+msgstr ""
+
+msgid "(Probably.)"
+msgstr ""
+
+msgid "(Probably not.)"
+msgstr ""
+
+msgid "Ainu! is not cheap to run."
+msgstr ""
+
+msgid "While we provide this service for free, we still have to pay for it, and if we always took the money out of our own pockets, 1. we would be broke, 2. we wouldn't be able to upgrade our hardware to accomodate our users. While we do have loads of software optimisations that allow us to have Ainu! run crazy fast while still being on not so high-end hardware, the more users we have, the higher-end our hardware needs to be. So we are asking you for help on this :)."
+msgstr ""
+
+msgid "We are still students."
+msgstr ""
+
+msgid "Ainu! developers, and most of the Ainu! staff, do not have a day job. This means that we get most of our income as students from doing small jobs as \"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+
+msgid "We do not have ads. And never will."
+msgstr ""
+
+msgid "We love picking random icons from our icon library."
+msgstr ""
+
+msgid "You may have adblock enabled and have not noticed, but we don't have ads anywhere on our website. We believe ads are bad, as they can be very annoying to you and that you would rather spend a few bucks to help us rather than watch annoying ads all the time."
+msgstr ""
+
+msgid "So what can you do?"
+msgstr ""
+
+msgid "Well, you can give us money."
+msgstr ""
+
+msgid "Well, you can give us even more money."
+msgstr ""
+
+msgid "Here's what you get:"
+msgstr ""
+
+msgid "Yellow username"
+msgstr ""
+
+msgid "Donor badge"
+msgstr ""
+
+msgid "Custom badge editor"
+msgstr ""
+
+msgid "Friends ranking"
+msgstr ""
+
+msgid "Discord privileges"
+msgstr ""
+
+msgid "Profile background"
+msgstr ""
+
+msgid "Account wipe"
+msgstr ""
+
+msgid "More to come!"
+msgstr ""
+
+msgid "Just like in osu!, you get a <b>shiny yellow username</b> in the in-game chat to show everyone you're a really cool dude who has helped us pay the server bills."
+msgstr ""
+
+msgid "Again, just like in osu!, you will get a <b>donor badge</b> on your profile, to show everyone you're supporting us."
+msgstr ""
+
+msgid "You get to be able to create your <b>own personal badge</b>, with custom text and icon, to show off on your profile! Let the world know you're an anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to you."
+msgstr ""
+
+msgid "<b>Competing with friends</b> is really cool, you can play on the leaderboard with someone more or less on your level, without getting crippling depression and RSI for not beating that pro!"
+msgstr ""
+
+msgid "You'll get exclusive access to the <b>\"#donators\"</b> text and voice channels, you'll be able to change your discord nickname and you'll get a custom role with custom username colour!"
+msgstr ""
+
+msgid "Think about <b>spicing your profile up with some eggplants</b>? Got you covered! Having donor privileges, you get to be able to change your profile background."
+msgstr ""
+
+msgid "Want to start over one more time? With donor you can! Normally you can only <a href='https://support.bigtu.vip' target='_blank'>request an account wipe</a> once, but having donated you'll be able to do it once again."
+msgstr ""
+
+msgid "<b>Who knows</b> what we could implement next? You could be able to do even <i>more</i> stuff for donors once we implement it."
+msgstr ""
+
+msgid "And this is how you pay"
+msgstr ""
+
+msgid "You may donate through either <b>PayPal</b> (or credit/debit card linked to PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of months you'd like to have the donor benefits, and the cost will be instantly calculated. Remember that if, for instance, you choose to donate € 4 instead of € 3.51, you will only be given one donor month."
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "PayPal"
+msgstr ""
+
+msgid "User:"
+msgstr ""
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr ""
+
+msgid "Afterwards, <b>please send an email to <a href=\"mailto:howl@bigtu.vip\">howl@bigtu.vip</a></b> containing the transaction hash!"
+msgstr ""
+
+msgid "I've donated, now what?"
+msgstr ""
+
+msgid "You'll have to wait until we verify and process your payment. It can take up to <b>12 hours</b>. If 12 hours have passed and you still haven't received your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server or send an email to <b><a href=\"mailto:support@bigtu.vip\">support@bigtu.vip</a></b>. Once we have processed your payment, you'll receive an <b>email</b> to the address you've used to sign up and you'll get <b>all the donor privileges, except the Discord ones</b>. To get the Discord donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+
+msgid "Please log in to get supporter"
+msgstr ""
+
+# Settings
+msgid "Userpage"
+msgstr "คำคมประจำตัว"
+
+msgid "Avatar"
+msgstr "รูปโปรไฟล์"
+
+msgid "Discord donor"
+msgstr ""
+
+msgid "Profile background"
+msgstr "ภาพพื้นหลังในโปรไฟล์"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr ""
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr ""
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr ""
+
+msgid "At the moment you currently have set up Telegram Two Factor Authentication. Should you wish to disable it, please fill out the following form:"
+msgstr ""
+
+msgid "At the moment you currently have set up TOTP-based (Google Authenticator) Two Factor Authentication. Should you wish to disable it, please fill out the following form:"
+msgstr ""
+
+msgid "Disable Telegram 2FA"
+msgstr ""
+
+msgid "Disable TOTP-based 2FA"
+msgstr ""
+
+msgid "Google Authenticator recovery keys"
+msgstr ""
+
+msgid "These are the only thing that will let you get back into your Ainu! account if you lose your device. Our suggestion is to paste them inside a document in your word processor (Microsoft Word, LibreOffice Writer), print them and store them in a safe place."
+msgstr ""
+
+msgid "Open File"
+msgstr "เปิดไฟล์"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Your discord account has been linked to this Ainu! account. <b>Welcome to the donors club and thank you for supporting us!</b> You have now access to the #donators text and voice channels on our official Discord server! You can also set a custom role name and username colour and change your nickname on Discord. If you want to change your nickname, you can use the <code>/nick</code> command. To set or edit your <b>custom role</b> name and colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\"_blank\">here</a>, it's the one that starts with '#'. You can change your role name and colour <b>whenever you want!</b>"
+msgstr ""
+
+msgid "Thank you for supporting us and have fun on Ainu!!"
+msgstr ""
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr ""
+
+msgid "Discord is a chatroom with text and voice channels, bots and lots of other cool features. You can <b>download Discord for free <a href=\"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr ""
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr ""
+
+msgid "Access to #donators text and voice channels"
+msgstr ""
+
+msgid "Username on donors list"
+msgstr ""
+
+msgid "Custom role with custom username"
+msgstr ""
+
+msgid "To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our Discord server</a>, then click this fancy button:"
+msgstr ""
+
+msgid "Get Discord donor privileges"
+msgstr ""
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "รหัสผ่านใหม่ (ไม่ต้องใส่ถ้าไม่อยากเปลี่ยน)"
+
+msgid "Current password"
+msgstr "รหัสผ่านปัจจุบัน"
+
+msgid "BBCode syntax reference"
+msgstr "วิธีใช้ BBCode"
+
+msgid "General"
+msgstr "ข้อมูลเบื้องต้น"
+
+msgid "Email address"
+msgstr "อีเมลล์"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr "ชื่อที่รู้ในนามต่างๆ (ไม่สามารถเอาอันนี้ไปล็อกอินได้นะ!)"
+
+msgid "Also known as..."
+msgstr "รู้จักกันในนามว่า..."
+
+msgid "Favourite mode"
+msgstr "โหมดที่ชอบเล่นมากที่สุด"
+
+msgid "Custom badge"
+msgstr "โล่พิเศษ"
+
+msgid "Enable"
+msgstr "เปิด"
+
+msgid "<b>Do not use offensive badges and do not pretend to be someone else with your badge.</b> If you abuse the badges system, you'll be silenced and you won't be able to edit your custom badge anymore."
+msgstr "<b>คำเตือน!</b> โปรดอย่าตั้งชื่อโล่ให้ดูแบบหยาบคายมากนัก หรือตั้งโล่ตัวเองเหมือนใหญ่เช่น Owner เป็นต้น เราจะนำคุณออกไม่ให้ใช้ระบบโล่พิเศษ เราถือว่าเตือนแล้วนะ"
+
+msgid "Icon reference"
+msgstr "ดูคลังรูปไอคอน"
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "ฉายาของตัวเอง"
+
+msgid "Playstyle"
+msgstr "เล่นด้วยอะไรเอ่ย?"
+
+msgid "Authorized applications"
+msgstr ""
+
+msgid "From here you can check all the applications you granted authorization to your account, and revoke their permissions if necessary."
+msgstr ""
+
+msgid "... but it looks like you have none!"
+msgstr ""
+
+msgid "That authorization has been successfully revoked."
+msgstr ""
+
+msgid "Authorization created %s"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Dark site"
+msgstr "เว๊ปธีมสีดำ"
+
+msgid "Preferences"
+msgstr "โหมดเพิ่มเติมอื่นๆ"
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr ""
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr ""
+
+msgid "No passcode/secret was given. Please try again"
+msgstr ""
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr ""
+
+msgid "You currently have Telegram 2FA enabled. You first need to disable that if you want to use TOTP-based 2FA."
+msgstr ""
+
+msgid "2FA disabled successfully."
+msgstr ""
+
+msgid "Changing avatar is currently not possible."
+msgstr "ตอนนี้เรายังไม่ให้เปลี่ยนรูปโปรไฟล์นะ"
+
+msgid "An error occurred."
+msgstr "อยู่ดีๆก็เกิดปัญหาขึ้นมา"
+
+msgid "We were not able to save your avatar."
+msgstr "เราเปลี่ยนไม่ได้อะ ทำไงดี!?"
+
+msgid "Your avatar was successfully changed. It may take some time to properly update. To force a cache refresh, you can use CTRL+F5."
+msgstr "เปลี่ยนรูปให้แล้วจ้า กด CTRL + F5 เลยเดี๋ยวมันก็เปลี่ยนให้เอง"
+
+msgid "Internal Server Error"
+msgstr "เซิร์ฟเวอร์มีปัญหา"
+
+msgid "You're not a donor!"
+msgstr "คุณไม่ได้เป็น Donater"
+
+msgid "You've not joined the discord server! Links to it are below on the page. Please join the server before attempting to connect your account to Discord."
+msgstr ""
+
+msgid "Your account has been linked successfully!"
+msgstr ""
+
+msgid "Your new IRC token is <code>%s</code>. The old IRC token is not valid anymore.<br>Keep it safe, don't show it around, and store it now! We won't show it to you again."
+msgstr ""
+
+msgid "Your profile background has been saved."
+msgstr "ภาพพื้นหลังในโปรไฟล์ของคุณได้ถูกบันทึกแล้ว!"
+
+msgid "We were not able to save your profile background."
+msgstr "เราเปลี่ยนไม่ได้อะ ทำไงดี!?"
+
+msgid "Background type"
+msgstr "รูปแบบพื้นหลัง"
+
+msgid "None"
+msgstr "ไม่มี"
+
+msgid "Image"
+msgstr "รูปภาพ"
+
+msgid "Solid colour"
+msgstr "สี"
+
+msgid "Colour is invalid"
+msgstr "สีบ้าอะไรเนี่ย!?"
+
+msgid "You have been automatically logged out of your account because your account has either been banned or locked. Should you believe this is a mistake, you can contact our support team at support@bigtu.vip."
+msgstr ""
+
+msgid "You have been automatically logged out for security reasons. Please <a href='/login?redir=%s'>log back in</a>."
+msgstr ""
+
+msgid "You need to login first."
+msgstr "คุณต้องเข้าสู่ระบบก่อนนะ"
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "You should not be 'round here."
+msgstr ""
+
+msgid "It seems like the original version of this file has been updated, so this file is out of date and may contain inaccurate information. If you want to make sure to be up-to-date, please refer to the <a href=\"%s%s\">English version</a>."
+msgstr ""
+
+msgid "If you truly have understood what's written above and you have understood that creating a multiaccount will lead to a restriction on your main account, you can click here and you'll be brought to the sign up page."
+msgstr "ถ้าคุณเข้าใจว่าเราอธิบายให้คุณฟังแล้ว และคุณเข้าใจว่าการสร้างหลายๆบัญชีทำให้ถูกแบนได้ คุณสามารถกดข้อความนี้เพื่อไปสมัครได้เลย"
+
+msgid "You look new here. Allow us to introduce you to what Ainu! is."
+msgstr "เหมือนคุณพึ่งมาใหม่นะ เรามาแนะนำกันดีกว่าว่า osu!thailand คืออะไร"
+
+# PAY ATTENTION! This is Log in *with* Ainu!, not *on* Ainu! This is for
+# oauth.
+msgid "Log in with Ainu!"
+msgstr ""
+
+msgid "This application will be able to:"
+msgstr ""
+
+msgid "Identify"
+msgstr ""
+
+msgid "See your public information (everything somebody can see on your user profile), however with this alone it will not be able to see your private information (for instance your email address)."
+msgstr ""
+
+msgid "Read private information"
+msgstr ""
+
+msgid "This application will be able to see your email address, and any private information we will add in the future."
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "This application will be able to make modifications to your Ainu! account. This is potentially really dangerous! Use this only with applications that you trust."
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+# Team page
+
+msgid "This is a list of the wonderful people who keep Ainu! up and running and deal with its community."
+msgstr ""
+
+msgid "Community Managers"
+msgstr ""
+
+msgid "Community Managers deal with bans, silences, name changes and pretty much everything that has to do with the community."
+msgstr ""
+
+msgid "They take care of our Discord server and reply to emails sent to the support services (email and support.bigtu.vip). Community Managers have a red name in the in-game chat."
+msgstr ""
+
+msgid "Developers"
+msgstr ""
+
+msgid "Developers add new features to the server, squash bugs, keep the server up and running and take care of its maintenance."
+msgstr ""
+
+msgid "They don't do anything related to the community. Developers have a blue name in the in-game chat."
+msgstr ""
+
+msgid "Chat Moderators"
+msgstr ""
+
+msgid "Chat moderators manage the chat to make sure The Law&trade; (the rules) is respected."
+msgstr ""
+
+msgid "BATs play beatmaps in the ranking queue and decide whether they are good enough to be ranked or not."
+msgstr ""
+
+msgid "Special thanks"
+msgstr ""
+
+msgid "Here's a list of people who helped with Ainu!"
+msgstr ""
+
+msgid "<b>Franc[e]sco/lolisamurai</b>, for <a href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp calculator."
+msgstr ""
+
+msgid "<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+
+msgid "<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid "<b>jrosdahl</b>, for <a href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for our IRC server."
+msgstr ""
+
+msgid "<b>Avail</b>, for having hosted Ainu! on his server."
+msgstr ""
+
+msgid "<b>Angela Guerra</b>, for designing the Ainu! logo."
+msgstr ""
+
+msgid "<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the Ainu! project by donating or inviting other people."
+msgstr ""
+
+msgid "They told me these are very cool people."
+msgstr ""
+
+msgid "Looking for how you should contact our team? Check out <a href='https://support.bigtu.vip/'>this page</a>."
+msgstr ""
+
+msgid "And more..."
+msgstr ""
+
+msgid "Do you want to be in this list?"
+msgstr ""
+
+msgid "Support us with a donation!"
+msgstr ""
+
+msgid "(You get other cool perks too)"
+msgstr ""
+
+msgid "The Ainu! API is the system through which developers can create applications to interact with osu!thailand <b>If you're asked to fill out an API token from this page, be wary and only actually create the token if you really trust the owner of the application.</b>"
+msgstr ""

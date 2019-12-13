@@ -1,0 +1,12 @@
+{{/*###
+NoCompile=true
+*/}}
+{{ define "devSidebar" }}
+<div class="four wide column">
+	<div class="ui fluid vertical menu">
+		{{ navbarItem .Path "Tokens" "/dev/tokens" }}
+		{{ navbarItem .Path "My Applications" "/dev/apps" }}
+		{{ navbarItem .Path "Documentation" "https://docs.ripple.moe" }}
+	</div>
+</div>
+{{ end }}

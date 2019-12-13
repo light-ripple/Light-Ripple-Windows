@@ -1,0 +1,66 @@
+name:
+  common: American Samoa
+  official: American Samoa
+  native:
+    eng:
+      common: American Samoa
+      official: American Samoa
+    smo:
+      common: Sāmoa Amelika
+      official: Sāmoa Amelika
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .as
+languages:
+  eng: English
+  smo: Samoan
+translations:
+  FIN:
+    common: Amerikan Samoa
+    official: Amerikan Samoa
+  FRA:
+    common: Samoa américaines
+    official: Samoa américaines
+  ITA:
+    common: Samoa Americane
+    official: Samoa americane
+  JPN:
+    common: アメリカ領サモア
+    official: 米サモア
+  NLD:
+    common: Amerikaans Samoa
+    official: Amerikaans Samoa
+  RUS:
+    common: Американское Самоа
+    official: американское Самоа
+  SPA:
+    common: Samoa Americana
+    official: Samoa Americana
+currencies:
+- USD
+borders: []
+codes:
+  alpha2: AS
+  alpha3: ASM
+  cioc: ASA
+  ccn3: "016"
+  callingcodes:
+  - "1684"
+  internationalprefix: "011"
+geo:
+  region: Oceania
+  subregion: Polynesia
+  continent: Australia
+  capital: Pago Pago
+  area: 199
+coordinates:
+  longitudestring: 170 00 W
+  latitudestring: 14 20 S
+  minlongitude: -171.09187
+  minlatitude: -14.38247
+  maxlongitude: -169.41608
+  maxlatitude: -11.04969
+  latitude: -14.319567
+  longitude: -170.74036

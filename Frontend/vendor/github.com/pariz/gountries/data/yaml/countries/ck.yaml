@@ -1,0 +1,69 @@
+name:
+  common: Cook Islands
+  official: Cook Islands
+  native:
+    eng:
+      common: Cook Islands
+      official: Cook Islands
+    rar:
+      common: Kūki 'Āirani
+      official: Kūki 'Āirani
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ck
+languages:
+  eng: English
+  rar: Cook Islands Māori
+translations:
+  CYM:
+    common: Ynysoedd Cook
+    official: Cook Islands
+  DEU:
+    common: Cookinseln
+    official: Cook-Inseln
+  FIN:
+    common: Cookinsaaret
+    official: Cookinsaaret
+  FRA:
+    common: Îles Cook
+    official: Îles Cook
+  ITA:
+    common: Isole Cook
+    official: Isole Cook
+  JPN:
+    common: クック諸島
+    official: クック諸島
+  NLD:
+    common: Cookeilanden
+    official: Cook eilanden
+  SPA:
+    common: Islas Cook
+    official: Islas Cook
+currencies:
+- NZD
+borders: []
+codes:
+  alpha2: CK
+  alpha3: COK
+  cioc: COK
+  ccn3: "184"
+  callingcodes:
+  - "682"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Polynesia
+  continent: Australia
+  capital: Avarua
+  area: 236
+coordinates:
+  longitudestring: 159 46 W
+  latitudestring: 21 14 S
+  minlongitude: -171.78334
+  minlatitude: -21.953056
+  maxlongitude: -157.3375
+  maxlatitude: -8.918611
+  latitude: -21.223307
+  longitude: -159.74055

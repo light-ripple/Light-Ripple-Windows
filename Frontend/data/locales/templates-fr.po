@@ -1,0 +1,1954 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /fr/Hanayo/templates-fr.po\n"
+"X-Pootle-Revision: 8331\n"
+
+# General
+msgid "You're already logged in!"
+msgstr "Vous êtes déjà identifié !"
+
+msgid "Submit"
+msgstr "Envoyer"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Invalid CSRF token"
+msgstr "Token invalide CSRF"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr ""
+"Votre session a expiré. S'il vous plaît essayez de refaire ce que vous étiez "
+"en train de faire."
+
+msgid "That user could not be found."
+msgstr "Cet utilisateur n'a pas pu être trouvé."
+
+msgid "Your settings have been saved."
+msgstr "Vos réglages ont été enregistrés."
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr "Demande de classement d'une beatmap"
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr ""
+"Vous voulez jouer à une beatmap non classée et obtenir des pp ? Vous pouvez "
+"envoyer des demandes de classement de beatmaps ici !"
+
+msgid "Queue status"
+msgstr "Statut de la file d'attente"
+
+msgid "by you"
+msgstr "Par toi"
+
+msgid "Requests submitted"
+msgstr "Demandes envoyées"
+
+msgid "In the past 24 hours"
+msgstr "Au cours des 24 dernières heures"
+
+msgid "Request a beatmap"
+msgstr "Demander une beatmap"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "Vous ne pouvez plus faire la demande de beatmaps actuellement !"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "Veuillez réessayer s'il vous plaît."
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr ""
+"Heureux de vous faire revoir ici, %s! Pour terminer la récupération du mot "
+"de passe, tapez un nouveau mot de passe :"
+
+msgid "Nope."
+msgstr "Non."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "Cette clé n'a pas pu être trouvée. Peut-être qu'elle a expiré ?"
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr ""
+"Tout est bon, nous avons changé votre mot de passe et vous pourrez "
+"maintenant vous connecter ! Amusez vous bien !"
+
+# register/register.html
+msgid "Register"
+msgstr "S'inscrire"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr ""
+"Désolé, il est impossible de vous inscrire pour le moment. Veuillez "
+"réessayer plus tard."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr ""
+"Rappelez-vous : cela semble être votre deuxième compte ! N'effectuez pas "
+"plusieurs comptes, ou vous êtes susceptible d'être restreint !"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr ""
+"Nom d'utilisateur (2 à 15 caractères, alphanumérique, espaces, "
+"<code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "Mot de passe (au moins 8 caractères)"
+
+msgid "Email"
+msgstr "Adresse e-mail"
+
+msgid ""
+"You have been successfully registered on Ripple! You now need to verify your "
+"account."
+msgstr ""
+"Vous avez été enregistré avec succès sur Ripple ! Vous devez maintenant "
+"vérifier votre compte."
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr ""
+"Votre mot de passe est trop court ! Il doit comporter au moins 8 caractères."
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr ""
+"Votre mot de passe est l'un des mots de passe les plus courants sur "
+"Internet. Impossible de vous permettre d'utiliser ça !"
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr ""
+"Votre nom d'utilisateur doit contenir des caractères alphanumériques, des "
+"espaces ou quelconque <code>_[]-</code>"
+
+msgid "You're not allowed to register with that username."
+msgstr "Vous n'êtes pas autorisé à vous inscrire avec ce nom d'utilisateur."
+
+msgid "Please pass a valid email address."
+msgstr "Veuillez entrer une adresse e-mail valide."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr ""
+"Un nom d'utilisateur ne peut pas contenir à la fois des caractères de "
+"soulignement et des espaces."
+
+msgid "An user with that username already exists!"
+msgstr "Un utilisateur avec ce nom d'utilisateur existe déjà !"
+
+msgid "An user with that email address already exists!"
+msgstr "Un utilisateur avec cette adresse e-mail existe déjà !"
+
+msgid "Captcha is invalid."
+msgstr "Captcha invalide."
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr ""
+"Oups, une erreur s'est introduite. Vous avez peut-être été enregistré. Je ne "
+"sais pas."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "Vérifier le compte"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ripple from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"Votre compte a été créé, mais il faut qu'il <b>soit vérifié !</b> Connectez-"
+"vous à <b><u> osu! (le jeu) </u></b> en utilisant votre compte. <b>Il n'y a "
+"<u> aucune confirmation d'e-mail </u> pour le moment. Tout ce que vous avez "
+"à faire est de vous connecter à Ripple avec osu! !</b> Si vous rencontrez "
+"des problèmes, <a href='/doc/1'>suivez ce guide</a>."
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ripple "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>Ne laissez personne à l'exception de vous se connecter à "
+"votre compte Ripple !</b><br> Accédez à notre <a href='%s'>serveur "
+"Discord</a> #help à la place (après avoir suivi les étapes de cette page) "
+"afin que nous puissions vous aider si vous avez du mal à vous connecter."
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>Le Guide,</a> tl;dr version"
+
+msgid "Download the server switcher"
+msgstr "Télécharger l'échangeur de serveur"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr ""
+"Extrayez-le, désactivez votre antivirus, lancez-le <b>en tant "
+"qu'administrateur</b>"
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "Cliquez sur <b>Install certificate</b>, puis <b>Yes</b>"
+
+msgid ""
+"Make sure the switcher says you're playing on <b>Ripple</b> server, if not "
+"click <b>On/Off</b>"
+msgstr ""
+"Assurez-vous que l'échangeur de serveur vous dit que vous jouez sur le "
+"serveur <b>Ripple</b>, si non cliquez sur <b>On/Off</b>"
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+"S'il se passe quelque chose au sujet du mode lecture seule, allez dans "
+"<code>C:\\Windows\\System32\\Drivers\\etc</code>, ouvrez les propriétés du "
+"fichier des hôtes et assurez-vous qu'il n'est pas défini sur \"Lecture "
+"seule\"."
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+"Si vous rencontrez toujours des problèmes, encore une fois, passez sur notre "
+"<a href='%s'>Discord</a> #help. Pour avoir une meilleure chance d'être "
+"répondu, dites \"strawberry\" n'importe où dans vos messages afin que nous "
+"sachions que vous avez réellement lu cela."
+
+msgid "Waiting for verification"
+msgstr "En attente de la vérification"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "Bienvenue !"
+
+msgid "Welcome back!"
+msgstr "Bon retour !"
+
+msgid "Congratulations for not reading things!"
+msgstr "Félicitations pour votre capacité à ne pas lire les choses !"
+
+msgid "Multiaccounts are not allowed on Ripple"
+msgstr "Les multicomptes ne sont pas autorisés sur Ripple"
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"Votre nouveau compte a été <b>banni</b> et votre compte principal a été "
+"<b>restreint</b>. Vous pouvez nous faire appel dans un mois en envoyant un "
+"mail à <b><a href='https://support.ripple.moe'>support.ripple.moe</a></b>. "
+"Vous devriez lire les règles correctement la prochaine fois."
+
+msgid "Welcome to Ripple"
+msgstr "Bienvenue sur Ripple"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now "
+"play on Ripple and <a href='/login'>log in</a> on the website!"
+msgstr ""
+"Nous sommes heureux de vous accueillir ici. <b>Votre compte est maintenant "
+"activé.</b> Vous pouvez maintenant jouer à Ripple et <a href='/login'>vous "
+"connecter</a> sur le site !"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "Voici quelques points que vous devriez lire :"
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Rules"
+msgstr "Règles"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "État"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Subreddit"
+msgstr "Subreddit"
+
+msgid " - in case you don't know where to start"
+msgstr " - au cas où vous ne savez pas par où commencer"
+
+msgid " - in case you haven't already read them"
+msgstr " - au cas où vous ne les avez pas déjà lus"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr ""
+" - dans ce cas là, eh bien, vous avez besoin d'aide pour faire les choses"
+
+msgid " - in case you believe Ripple is down"
+msgstr " - au cas où vous croyez que Ripple est hors-service"
+
+msgid " - in case you want to talk with people about Ripple"
+msgstr " - au cas où vous voulez parler avec les gens sur Ripple"
+
+msgid " - just in case"
+msgstr " - au cas où"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "Récupérer le compte"
+
+msgid ""
+"Can't find a way to get back access to your Ripple account? Fear not! If you "
+"have your recovery codes which we recommended you to print you can type one "
+"in here and we'll magically log you in this time. After you've managed to "
+"get in, please disable and then re-enable 2FA, so you won't risk losing your "
+"account again."
+msgstr ""
+"Vous ne trouvez pas un moyen d'accéder à votre compte Ripple ? N'ayez pas "
+"peur ! Si vous avez vos codes de récupération que nous vous recommandons "
+"d'imprimer, vous pouvez en taper un ici et vous vous serez connecté "
+"magiquement pour ce moment. Après avoir réussi à entrer, désactivez, puis "
+"réactivez 2FA, afin de ne pas risquer de perdre votre compte à nouveau."
+
+msgid "Oh no you don't."
+msgstr "Oh non, ne faites pas ça."
+
+msgid "Get out."
+msgstr "Sortez."
+
+msgid "Recovery code is invalid."
+msgstr "Le code de récupération n'est pas valide."
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "Elmo ! Arrêtez !"
+
+msgid "Stop!"
+msgstr "Stop !"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"Nous voyons que vous essayez de vous inscrire alors que vous êtes déjà "
+"enregistré sous le compte %s ! Notez s'il vous plait que le multi-compte est "
+"punissable, et peut entraîner une restriction d'un mois !"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr "Si vous êtes %s, gardez à l'esprit que multicompte = ban."
+
+msgid ""
+"If you're not %s, but you're using %s's computer, please sign up on Ripple "
+"from your own computer."
+msgstr ""
+"Si vous n'êtes pas %s, mais que vous utilisez l'ordinateur de %s, inscrivez-"
+"vous sur Ripple à partir de votre propre ordinateur."
+
+msgid ""
+"If you live with %s and you don't have your own computer from which to sign "
+"up on Ripple, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"Si vous habitez avec %s et que vous n'avez pas votre propre ordinateur pour "
+"vous inscrire sur Ripple, contactez support@ripple.moe et nous traiterons "
+"votre cas particulier."
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr ""
+"Cet avertissement peut apparaître également si vous utilisez un autre "
+"ordinateur sur le même réseau que %s. Tant que vous n'utilisez pas le même "
+"ordinateur, tous devrait bien se passer."
+
+msgid "Don't stop me now!"
+msgstr "Ne m’arrêtez pas maintenant !"
+
+msgid "Bring me back to safety!"
+msgstr "Ramenez moi en sécurité !"
+
+# login.html
+msgid "Log in"
+msgstr "Se connecter"
+
+msgid "Username (or email)"
+msgstr "Nom d’utilisateur (ou adresse mail)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(oublié ?)"
+
+msgid "Username or password not set."
+msgstr "Nom de compte ou mot de passe manquant."
+
+msgid "No user with such %s!"
+msgstr "Aucun utilisateur nommé %s !"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr ""
+"Votre mot de passe est tellement vieux, que nous ne savons plus quoi faire "
+"avec. Pouvez-vous le changer s'il vous plait ?"
+
+msgid "Wrong password."
+msgstr "Mauvais mot de passe."
+
+msgid "You will need to verify your account first."
+msgstr "Vous devez d'abord vérifier votre compte."
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr ""
+"Vous n'êtes pas autorisé à vous connecter. Ce qui veut dire que votre compte "
+"et bloqué ou banni."
+
+msgid "Hey %s! You are now logged in."
+msgstr "Hey %s ! Vous êtes maintenant connecté."
+
+msgid "You're already logged out!"
+msgstr "Vous êtes déjà déconnecté !"
+
+msgid "Successfully logged out."
+msgstr "Déconnexion réussie."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your "
+"username or email address, and we'll take care of it. You will receive an "
+"email at the email address you used to sign up on Ripple. To continue the "
+"password reset procedure, click the link on that email."
+msgstr ""
+"Mot de passe oublié ? Ne vous inquiétez pas ! Ici, vous pouvez le "
+"réinitialiser. Dites-nous simplement votre nom d'utilisateur ou votre "
+"adresse e-mail, et nous nous occuperons de cela. Vous recevrez un courrier "
+"électronique à l'adresse e-mail que vous avez utilisé pour vous inscrire à "
+"Ripple. Pour continuer la procédure de réinitialisation du mot de passe, "
+"cliquez sur ce lien du mail."
+
+msgid "You look pretty banned/locked here."
+msgstr "Vous semblez banni/bloqué ici."
+
+msgid ""
+"Done! You should shortly receive an email from us at the email you used to "
+"sign up on Ripple."
+msgstr ""
+"Terminé ! Vous devriez bientôt recevoir un courriel de notre part à l'e-mail "
+"que vous avez utilisé pour vous inscrire à Ripple."
+
+msgid "Ripple password recovery instructions"
+msgstr "Instructions de récupération de mot de passe Ripple"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset "
+"for your account. In case it was you, please <a href='%s'>click here</a> to "
+"reset your password on Ripple. Otherwise, silently ignore this email."
+msgstr ""
+"Hey %s ! Quelqu'un, en espérant que ça soit vous, a demandé une "
+"réinitialisation de mot de passe pour votre compte. Si vous en avez demandé "
+"une, <a href='%s'>cliquez ici</a> pour réinitialiser votre mot de passe sur "
+"Ripple. Sinon, ignorez ce courrier."
+
+# not_found.html
+msgid "Not Found"
+msgstr "Introuvable"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr ""
+"Nous sommes désolé, mais nous ne pouvons pas trouver le contenu que vous "
+"cherchez !"
+
+# navbar.html
+msgid "Home page"
+msgstr "Page d'accueil"
+
+msgid "Leaderboard"
+msgstr "Classement mondial"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "About"
+msgstr "A propos de"
+
+msgid "Chat (Discord)"
+msgstr "Chat (Discord)"
+
+msgid "Contact support"
+msgstr "Contacter le support"
+
+msgid "Beatmaps"
+msgstr "Beatmaps"
+
+msgid "Donate"
+msgstr "Faire un don"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Friends"
+msgstr "Amis"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Log out"
+msgstr "Se déconnecter "
+
+msgid "Looking for someone?"
+msgstr "Vous cherchez quelqu'un ?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "Accueil"
+
+# about.html
+msgid "Welcome to Ripple."
+msgstr "Bienvenue sur Ripple."
+
+msgid ""
+"Ripple is a private osu! server, featuring multiplayer, PP, a very active "
+"community and a development team going strong implementing new features and "
+"squashing bugs. <a href='/about'>You can check out even more features "
+"here.</a> It has also a very friendly community, and it's <a "
+"href='https://zxq.co/ripple/ripple'>open source!</a> Just so you know, <b>we "
+"currently have %s users online and %s registered users!</b>"
+msgstr ""
+"Ripple est un serveur privé Osu! comportant un multijoueur, un système de "
+"pp, une communauté et une équipe de développement qui impliquent de "
+"nouvelles fonctionnalités et qui suppriment les bugs.<a href='/about'> Vous "
+"pouvez voir plus de fonctionnalités ici.</a>Il y'a également une communauté "
+"très amicale, et c'est <a href='https://zxq.co/ripple/ripple'>open source "
+"!</a> Juste pour que vous le sachiez,<b>nous avons %s joueurs connectés et %"
+"s joueurs inscrits !</b>"
+
+msgid ""
+"What are you waiting for? Join Ripple! It's risk-free: you won't get your "
+"account banned on the official server if you play on Ripple.<br>You can also "
+"switch anytime between the official osu! server and Ripple!"
+msgstr ""
+"Qu'est-ce que tu attends ? Viens rejoindre Ripple ! C'est sans risque: votre "
+"compte ne sera pas banni sur le serveur officiel si vous jouez sur "
+"Ripple.<br>Vous pouvez également passer sur le serveur officiel osu! ou "
+"Ripple n'importe quand !"
+
+msgid "Howdy, %s!"
+msgstr "Salutation, %s!"
+
+msgid ""
+"Welcome back to Ripple. We currently have <b>%s online users and %s total "
+"registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"Bon retour sur Ripple. Nous avons actuellement <b>%s utilisateurs en ligne "
+"et %s utilisateurs enregistrés au total.</b> Un bon jour pour farm quelques "
+"maps, n'est-ce pas ?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr "Dernières nouvelles de notre <a href='https://blog.ripple.moe'>blog</a>"
+
+# base.html
+msgid ""
+"Ripple's score submission is currently in maintenance mode. You will not be "
+"allowed to submit scores for the time being."
+msgstr ""
+"La soumission des scores de Ripple est actuellement en maintenance. Vous ne "
+"pourrez pas soumettre de scores pour le moment."
+
+msgid ""
+"The Ripple website is currently in maintenance mode. Only certain users are "
+"allowed to access the full website."
+msgstr ""
+"Le site de Ripple est actuellement en maintenance. Seuls certains "
+"utilisateurs sont autorisés à accéder au site entièrement."
+
+msgid ""
+"Your account is currently in restricted mode. You will not be able to do "
+"certain actions, and your profile can only be seen by you and by Ripple's "
+"staff. If you believe we have mistaken putting you in restricted mode, or a "
+"month has passed since you first saw this, then you can send an appeal at <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+msgstr ""
+"Votre compte est actuellement en mode restreint. Vous ne pourrez pas faire "
+"certaines actions, et votre profil ne peut être vu que par vous et de "
+"l'équipe de Ripple. Si vous pensez que nous nous sommes trompés ou qu'un "
+"mois s'est écoulé depuis que vous avez vu cela, vous pouvez envoyer un mail "
+"à <a href='https://support.ripple.moe'>support.ripple.moe</a>."
+
+msgid "&copy; 2015-%d Ripple, using Hanayo %s."
+msgstr "&copy; 2015-%d Ripple, utilisant Hanayo %s."
+
+msgid "Team"
+msgstr "Équipe"
+
+msgid "Who is working on this thing?"
+msgstr "Qui travaille sur cette chose ?"
+
+msgid "Developer docs"
+msgstr "Document des développeurs"
+
+msgid "See what changed!"
+msgstr "Regardez ce qui a changé !"
+
+msgid "Changelog"
+msgstr "Liste des modifications"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "What's going on under the hood?"
+msgstr "Que se passe-t-il sous le capot ?"
+
+msgid "Follow us on Twitter!"
+msgstr "Suivez-nous sur Twitter !"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr "Partagez vos opinions sur reddit !"
+
+msgid "Language"
+msgstr "Langue"
+
+# beatmap.html
+msgid "Artist"
+msgstr "Artiste"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Creator"
+msgstr "Créateur"
+
+msgid "Source"
+msgstr "Provenance"
+
+msgid "Circle Size"
+msgstr "Circle Size"
+
+msgid "HP Drain"
+msgstr "HP Drain"
+
+msgid "Overall Difficulty"
+msgstr "Overall Difficulty"
+
+msgid "Passes/Plays"
+msgstr "Passes/Plays"
+
+msgid "Approach Rate"
+msgstr "Approach Rate"
+
+msgid "Star Difficulty"
+msgstr "Difficulté en étoiles"
+
+msgid "Length"
+msgstr "Durée"
+
+msgid "BPM"
+msgstr "BPM"
+
+msgid "osu!direct"
+msgstr "osu!direct"
+
+msgid "download"
+msgstr "télécharger"
+
+msgid "download (no video)"
+msgstr "Télécharger (sans vidéo)"
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "Authentification à deux facteurs"
+
+msgid ""
+"Before proceding further on Ripple, we require you to use your Google "
+"Authenticator App to use the code for Ripple, so that we can log you in."
+msgstr ""
+"Avant d'aller plus loin sur Ripple, nous exigeons que vous utilisiez votre "
+"application \"Google Authenticator\" pour utiliser le code pour Ripple afin "
+"que nous puissions vous connecter."
+
+msgid ""
+"Before proceding any further on Ripple, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr ""
+"Avant d'aller plus loin sur Ripple, nous vous demandons d'utiliser le "
+"message que vous venez de recevoir sur télégramme pour vous connecter à "
+"votre compte."
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr ""
+"Vous avez perdu votre téléphone, ou vous ne pouvez pas accéder à \"Google "
+"Authenticator\" ?"
+
+msgid "Click here to use a recovery code."
+msgstr "Cliquez ici pour utiliser votre code de récupération."
+
+msgid "Telegram code"
+msgstr "Code télégramme"
+
+msgid "(send again?)"
+msgstr "(renvoyer ?)"
+
+msgid "Google Authenticator passcode"
+msgstr "Mot de passe \"Google Authenticator\""
+
+msgid "Hey, %s."
+msgstr "Hey, %s"
+
+msgid "You need to complete the 2fa challenge first."
+msgstr "Vous devez d'abord compléter le défi 2fa."
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "Un nouveau code a été généré et envoyé par Telegram."
+
+msgid "You've been successfully logged in."
+msgstr "Vous avez été connecté avec succès."
+
+msgid ""
+"Ooops! Looks like something went really wrong while trying to process your "
+"request. Perhaps report this to a Ripple developer? Retrying doing what you "
+"were trying to do might work, too."
+msgstr ""
+"Oups! On dirait que quelque chose s'est mal passé, votre demande n'a pas pu "
+"être traitée. Peut-être faut-il rapporter cela à un développeur Ripple ? "
+"Réessayer de faire ce que vous essayiez de faire pourrait fonctionner aussi."
+
+msgid "Ripple is a private osu! server."
+msgstr "Ripple est un serveur osu! privé."
+
+msgid "There are many like it, but this one is ours."
+msgstr "Il y en a beaucoup, mais celui-ci est à nous."
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "N'aimes-tu pas %s?"
+
+msgid "We have leaderboards."
+msgstr "Nous avons un classement mondial."
+
+msgid "Online user listing."
+msgstr "Liste d'utilisateurs en ligne."
+
+msgid "Free osu!direct."
+msgstr "osu!direct gratuit"
+
+msgid "Global leaderboards."
+msgstr "Classement mondial."
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "File d'attente de classement pour les maps non classées."
+
+msgid "Spectator."
+msgstr "Spectateur."
+
+msgid "Multiplayer."
+msgstr "Multijoueur."
+
+msgid "FokaBot, our chat bot"
+msgstr "FokaBot, notre bot de chat."
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr ""
+"Avec plein de fonctions pour n'importe quoi, <a href=\"/doc/4\"> vérifiez-le "
+"!</a>"
+
+msgid "And a lot more to come!"
+msgstr "Et beaucoup plus à venir !"
+
+msgid ""
+"Ripple is the result of the hard work of two Italian developers, who got "
+"tired about the whole osu! ecosystem, and also because they wanted to play "
+"with a few banned friends."
+msgstr ""
+"Ripple est le résultat du travail acharné de deux développeurs italiens, qui "
+"se sont fatigués de l'ensemble de l'écosystème d'osu!, et aussi parce qu'ils "
+"voulaient jouer avec quelques amis bannis."
+
+# %s is wink emoji
+#, fuzzy
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ripple "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+"Il est maintenant devenu le plus grand serveur privé disponible, avec plus "
+"de 10 000 utilisateurs enregistrés. <a href=\"/register\">S'inscrire</a> sur "
+"Ripple n'entraînera pas votre compte sur osu! restreint, alors qu'est-ce que "
+"vous attendez ? Venez nous rejoindre ! %s"
+
+msgid ""
+"In case you want to make sure we're not doing shady stuff with your data, "
+"you can also check the <a href=\"https://zxq.co/ripple/ripple\">source "
+"code</a> Ripple is running on."
+msgstr ""
+"Dans le cas où vous voulez vous assurer que nous ne faisons pas de choses "
+"sombres avec vos données, vous pouvez également vérifier le <a href=\""
+"https://zxq.co/ripple/ripple\">code source</a> dans le lequel Ripple tourne."
+
+# changelog.html
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr ""
+"C'est le changelog. Les changements sont publiés ici dès qu'ils atteignent "
+"l'état de production (comme en direct sur le site)"
+
+msgid ""
+"For various reasons, some software of Ripple does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+"Pour diverses raisons, certains logiciels de Ripple ne contribuent pas au "
+"changelog, auquel ce site fait partie. Dans le cas où vous voulez voir le "
+"changelog d'Hanayo, vous pouvez le faire en <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">cliquant ici</a>."
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Subject"
+msgstr "Sujet"
+
+msgid "Time"
+msgstr "Durée"
+
+# doc_content.html 
+msgid "View document"
+msgstr "Afficher le document"
+
+msgid "Documentation file not found!"
+msgstr "Documentation introuvable !"
+
+msgid "View all docs"
+msgstr "Voir tous les documents"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+"Besoin d'aide pour vous déplacer ? Ne cherchez pas plus loin ! D'ici, vous "
+"pourrez voir notre documentation, qui est essentiellement un wiki très "
+"simpliste."
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr ""
+"On dirait qu'il n'y a pas de documentation sur cette instance de Ripple !"
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr ""
+"Sur cette page, vous pouvez voir tous vos amis et retirer des amis comme bon "
+"vous semble."
+
+msgid "Mutual"
+msgstr "Mutuel"
+
+msgid "Remove"
+msgstr "Retirer"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ripple's "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ripple's chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+"Ici, vous pouvez générer un nouveau token IRC. Vous pouvez l'utiliser pour "
+"vous connecter au chat Ripple en utilisant l'IRC. N'oubliez pas que votre "
+"token IRC est comme un mot de passe, quiconque le sait, a accès à votre "
+"compte. Si vous êtes intéressé à savoir comment se connecter au chat de "
+"Ripple via l'IRC, vous pouvez consulter <a href=\"/doc/11\">ça</a>."
+
+msgid "Generate a new token!"
+msgstr "Générer un nouveau token !"
+
+# leaderboard.html
+msgid "Rank"
+msgstr "Rang"
+
+msgid "Player"
+msgstr "Joueur"
+
+msgid "PP/Score"
+msgstr "PP/Score"
+
+msgid "Accuracy"
+msgstr "Précision"
+
+msgid "Playcount"
+msgstr "Nombre de fois joué"
+
+# profile.html
+msgid "%s's profile"
+msgstr "Profil de %s"
+
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr "L'utilisateur est <b>silencieux</b> pour %s, expire dans %s."
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "L'utilisateur est <b>%s</b>"
+
+msgid "pending verification"
+msgstr "En attente de vérification"
+
+msgid "banned"
+msgstr "banni"
+
+msgid "restricted"
+msgstr "restreint"
+
+msgid "locked"
+msgstr "verrouillé"
+
+msgid "User not found"
+msgstr "Utilisateur non trouvé"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(aussi connu sous le nom de <b>%s</b>)"
+
+msgid "Online"
+msgstr "En ligne"
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "<b>%s</b> is a Ripple player from <b>%s</b>."
+msgstr "<b>%s</b> est un joueur Ripple qui vient de <b>%s</b>."
+
+msgid "Last seen: %s."
+msgstr "Dernière connexion: %s."
+
+msgid "They signed up on Ripple %s."
+msgstr "Il s'est inscrit sur Ripple %s."
+
+msgid "They play with %s."
+msgstr "Il joue avec %s."
+
+msgid "Mouse"
+msgstr "Souris"
+
+msgid "Tablet"
+msgstr "Tablette"
+
+msgid "Keyboard"
+msgstr "Clavier"
+
+msgid "Touchscreen"
+msgstr "Écran tactile"
+
+msgid "Spoon"
+msgstr "Cuillère"
+
+msgid "Leap motion"
+msgstr "Coup de pied"
+
+msgid "Oculus rift"
+msgstr "Oculus rift"
+
+msgid "Dick"
+msgstr "Bite"
+
+msgid "Eggplant"
+msgstr "Aubergine"
+
+msgid "This user hasn't got any badges!"
+msgstr "Cet utilisateur n'a pas de badges !"
+
+msgid "Global rank"
+msgstr "Rang global"
+
+msgid "Country rank"
+msgstr "Rang national"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "Score classé"
+
+msgid "Total score"
+msgstr "Score total"
+
+msgid "Replays watched"
+msgstr "Replays regardés"
+
+msgid "Total hits"
+msgstr "Total de hits"
+
+msgid "Level %s"
+msgstr "Niveau %s"
+
+msgid "Achievements"
+msgstr "Succès"
+
+# support.html
+msgid "Support Ripple"
+msgstr "Supporter Ripple"
+
+msgid "You are a donor!"
+msgstr "Vous êtes donateur !"
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+"Votre donateur expire <b>%s</b>. Pas besoin de se sentir coupable de ne pas "
+"avoir fait un don !"
+
+msgid "Did you know?"
+msgstr "Le saviez-vous ?"
+
+msgid "(Probably.)"
+msgstr "(Probablement.)"
+
+msgid "(Probably not.)"
+msgstr "(Probablement pas.)"
+
+msgid "Ripple is not cheap to run."
+msgstr "Ripple ne tourne pas gratuitement."
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if "
+"we always took the money out of our own pockets, 1. we would be broke, 2. we "
+"wouldn't be able to upgrade our hardware to accomodate our users. While we "
+"do have loads of software optimisations that allow us to have Ripple run "
+"crazy fast while still being on not so high-end hardware, the more users we "
+"have, the higher-end our hardware needs to be. So we are asking you for help "
+"on this :)."
+msgstr ""
+"Alors que nous fournissons ce service gratuitement, nous devons toujours "
+"payer pour cela, et si nous avons toujours pris l'argent de nos propres "
+"poches, 1. Nous serions en panne 2. Nous ne pourrions pas améliorer notre "
+"matériel pour accommoder nos utilisateurs. Bien que nous ayons beaucoup "
+"d'optimisations de logiciels qui nous permettent d'avoir Ripple rapidement à "
+"lancer tout en étant sur le matériel pas si haut de gamme, plus nous aurons "
+"d'utilisateurs, plus nous aurons besoin de performances. Donc nous vous "
+"demandons de l'aide à ce sujet :)."
+
+msgid "We are still students."
+msgstr "Nous sommes toujours des étudiants."
+
+msgid ""
+"Ripple developers, and most of the Ripple staff, do not have a day job. This "
+"means that we get most of our income as students from doing small jobs as \""
+"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+"Les développeurs Ripple, et la plupart des employés de Ripple, n'ont pas de "
+"travail de jour. Cela signifie que nous obtenons la majeure partie de notre "
+"revenu en tant qu'étudiants en faisant des petits emplois de temps en temps, "
+"ou bien, vous le savez."
+
+msgid "We do not have ads. And never will."
+msgstr "Nous n'avons pas de pub. Et il n'y en auras jamais."
+
+msgid "We love picking random icons from our icon library."
+msgstr ""
+"Nous aimons choisir des icônes aléatoires à partir de notre bibliothèque "
+"d'icônes."
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+"Vous avez peut-être un adblock activé et n'avez pas remarqué, mais nous "
+"n'avons aucune publicité sur notre site. Nous croyons que les annonces sont "
+"mauvaises, car elles peuvent être très ennuyeuses pour vous et que vous "
+"préférez dépenser quelques dollars pour nous aider plutôt que de regarder "
+"des publicités ennuyeuses tout le temps."
+
+msgid "So what can you do?"
+msgstr "Que pouvez-vous faire ?"
+
+msgid "Well, you can give us money."
+msgstr "Eh bien, vous pouvez nous donner de l'argent."
+
+msgid "Well, you can give us even more money."
+msgstr "Eh bien, vous pouvez nous donner encore plus d'argent."
+
+msgid "Here's what you get:"
+msgstr "Voici ce que vous obtenez :"
+
+msgid "Yellow username"
+msgstr "Nom d'utilisateur jaune"
+
+msgid "Donor badge"
+msgstr "Un badge donateur"
+
+msgid "Custom badge editor"
+msgstr "Éditeur de badge personnalisé"
+
+msgid "Friends ranking"
+msgstr "Classement des amis"
+
+msgid "Discord privileges"
+msgstr "Des privilèges Discord"
+
+msgid "Profile background"
+msgstr "Arrière plan de votre profil personnalisable"
+
+msgid "More to come!"
+msgstr "Plus à venir !"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"Tout comme dans osu!, vous obtenez un <b>nom d'utilisateur jaune brillant</b>"
+" dans le chat du jeu pour montrer à tous que vous êtes une personne trop "
+"gentille qui nous a aidés à payer les factures du serveur."
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr ""
+"Encore une fois, tout comme dans osu!, vous obtiendrez un <b>badge "
+"donateur</b> sur votre profil, pour montrer à tous que vous nous soutenez."
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+"Vous pouvez créer votre <b>propre badge personnel</b>, avec un texte "
+"personnalisé et une icône, sur votre profil ! Laissez le monde savoir que "
+"vous êtes une ancre. Ou des farces qui montrent une roue qui roule avec \""
+"Chargement en cours ...\" ! Tout dépend de vous."
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+"<b>Les compétition avec les amis</b> sont vraiment cool, vous pouvez jouer "
+"sur le classement avec quelqu'un de plus ou moins sur votre niveau, sans "
+"subir de paralysie de dépression et RSI parce que vous n'arrivez pas à "
+"battre ce pro !"
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+"Vous obtiendrez un accès exclusif aux canaux texte et vocaux <b>\"#donators\""
+"</b>, vous pourrez modifier votre pseudo Discord et vous obtiendrez un rôle "
+"personnalisé avec la couleur personnalisée du nom d'utilisateur !"
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+"Vous imaginez <b>décorer votre profil avec quelques aubergines</b>? Vous "
+"êtes découvert ! Ayant des privilèges de donateurs, vous pouvez modifier le "
+"fond d'écran de votre profil."
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+"<b>Qui sait</b> ce que nous pourrions mettre en œuvre ensuite ? Vous "
+"pourriez même pouvoir en faire<i> plus</i> une fois que nous l'avons mis en "
+"œuvre."
+
+msgid "And this is how you pay"
+msgstr "Et c'est comme ça que vous payez"
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+"Vous pouvez faire un don via <b>PayPal</b> (ou carte de crédit/débit liée à "
+"PayPal) ou via <b>Bitcoin</b>. Utilisez le slider ci-dessous pour choisir le "
+"nombre de mois que vous souhaitez avoir les avantages du donneur, et le coût "
+"sera calculé instantanément. Rappelez-vous que si, par exemple, vous "
+"choisissez de faire un don de 4€ au lieu de 3,51€, vous ne recevrez qu'un "
+"mois de donateur."
+
+msgid "Loading..."
+msgstr "Chargement en cours..."
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "User:"
+msgstr "Utilisateur:"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "Envoyer %s BTC à cette adresse Bitcoin:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+"Ensuite, <b>envoyez un e-mail à <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> contenant le hash de la transaction !"
+
+msgid "I've donated, now what?"
+msgstr "J'ai fais un don, et maintenant ?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+"Vous devrez attendre jusqu'à ce que nous vérifions et traitons votre "
+"paiement. Cela peut prendre jusqu'à <b>12 heures</b>. Si 12 heures se sont "
+"écoulées et que vous n'avez toujours pas reçu votre badge donateur, "
+"contactez un <b>Développeur/Community Manager</b> dans notre serveur Discord "
+"ou envoyez un e-mail à <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Une fois que nous avons traité votre paiement, "
+"vous recevrez un <b>email</b> à l'adresse que vous avez utilisée pour vous "
+"inscrire et vous obtiendrez <b>tous les privilèges des donateurs, à "
+"l'exception de Discord</b>. Pour obtenir les privilèges des donateurs de la "
+"Discord, allez <a href=\"/settings/discord\">ici</a>."
+
+msgid "Please log in to get supporter"
+msgstr "Connectez-vous pour être supporter"
+
+# Settings
+msgid "Userpage"
+msgstr "Page de l'utilisateur"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Discord donor"
+msgstr "Donateur Discord"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "L'authentification à deux facteurs est activée sur votre compte."
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "L'authentification à deux facteurs n'est pas activée sur votre compte."
+
+msgid "Telegram 2FA"
+msgstr "Telegram 2FA"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr ""
+"Pour activer l'authentification à deux facteurs de Telegram, cliquez sur ce "
+"bouton, puis cliquez sur \"Démarrer\" sur Telegram :"
+
+msgid "Enable Telegram 2FA"
+msgstr "Activer Telegram 2FA"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr ""
+"Si vous n'avez pas Telegram sur le périphérique actuel, vous pouvez soit "
+"ouvrir cette page à partir d'un périphérique sur lequel vous l'avez, soit "
+"scanner ce code QR:"
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"Dans le cas où vous n'avez pas le moyen de numériser des codes QR, vous ne "
+"pouvez pas de télécharger une application qui les scanne, vous pouvez "
+"également ouvrir Telegram, commencer une conversation avec <a href=\""
+"http://telegram.me/ripple2fabot\"><b>@ripple2fabot</b></a> et envoyer ce "
+"message :"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr "Google Authenticator (TOTP) basé sur 2FA"
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr ""
+"En ce moment, vous avez actuellement configuré l'authentification à deux "
+"facteurs basé sur Telegram. Si vous souhaitez le désactiver, veuillez "
+"remplir le formulaire suivant:"
+
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr ""
+"En ce moment, vous avez actuellement configuré l'authentification à deux "
+"facteurs basé sur TOTP (Google Authenticator). Si vous souhaitez le "
+"désactiver, veuillez remplir le formulaire suivant:"
+
+msgid "Disable Telegram 2FA"
+msgstr "Désactiver Telegram 2FA"
+
+msgid "Disable TOTP-based 2FA"
+msgstr "Désactiver le 2FA basé sur Google Authenticator"
+
+msgid "Google Authenticator recovery keys"
+msgstr "Clés de récupération de Google Authenticator"
+
+msgid ""
+"These are the only thing that will let you get back into your Ripple account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"C'est la seule chose qui vous permettra de revenir dans votre compte Ripple "
+"si vous perdez votre appareil. Notre suggestion est de les mettre dans un "
+"document dans votre traitement de texte (Microsoft Word, LibreOffice Writer)"
+", les imprimer et les stocker dans un endroit sûr."
+
+msgid "Open File"
+msgstr "Ouvrir le fichier"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid ""
+"Your discord account has been linked to this Ripple account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+"Votre compte Discord a été lié à ce compte Ripple. <b>Bienvenue au club des "
+"donateurs et merci de nous soutenir !</b> Vous avez maintenant accès au "
+"channel #donators et aux canaux vocaux sur notre serveur officiel de Discord "
+"! Vous pouvez également définir un nom de rôle personnalisé et une couleur "
+"de nom d'utilisateur et modifier votre pseudo Discord. Si vous souhaitez "
+"modifier votre pseudo, vous pouvez utiliser la commande <code>/nick</code>. "
+"Pour définir ou modifier votre <b>rôle personnalisé</b> nom et couleur, "
+"utilisez la commande <code>!role ID_DE_COULEUR_NOM_DU_ROLE</code>. Vous "
+"pouvez choisir votre couleur HEX<a href=\"http://www.colorpicker.com/\" "
+"target=\"_blank\">ici</a>, celui qui commence par '#'. Vous pouvez modifier "
+"votre nom de rôle et votre couleur <b>lorsque vous le souhaitez !</b>"
+
+msgid "Thank you for supporting us and have fun on Ripple!"
+msgstr "Merci de nous soutenir et amusez-vous bien sur Ripple !"
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr ""
+"Les donateurs ont également des privilèges spéciaux sur notre serveur "
+"Discord !"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+"Discord est une salle de discussion avec des canaux textes et vocaux, des "
+"bots et beaucoup d'autres fonctionnalités intéressantes. Vous pouvez <b>"
+"télécharger Discord gratuitement <a href=\"http://discord.gg/\" target=\""
+"_blank\">ici</a></b> et vous pouvez <b>rejoindre notre serveur officiel "
+"Discord <a href=\"%s\" target=\"_blank\">ici</a></b>."
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "Voici ce que vous obtenez si vous liez votre compte Discord:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr "Accédez à la commande /nick , pour changer votre pseudo Discord"
+
+msgid "Access to #donators text and voice channels"
+msgstr "Accédez au texte et aux canaux vocaux #donators"
+
+msgid "Username on donors list"
+msgstr "Nom d'utilisateur sur la liste des donateurs"
+
+msgid "Custom role with custom username"
+msgstr "Rôle personnalisé avec un nom d'utilisateur personnalisé"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"Pour obtenir ces avantages, d'abord <a href=\"%s\" target=\"_blank\">"
+"rejoignez notre serveur Discord</a>, puis cliquez sur ce bouton fantastique:"
+
+msgid "Get Discord donor privileges"
+msgstr "Obtenir sur Discord les privilèges des donateurs"
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "Nouveau mot de passe (laisser vide si vous ne voulez pas le modifier)"
+
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+msgid "BBCode syntax reference"
+msgstr "Référence de syntaxe BBCode"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr ""
+"Nom d'utilisateur alternatif (ne peut pas être utilisé pour se connecter)"
+
+msgid "Also known as..."
+msgstr "Aussi connu sous le nom..."
+
+msgid "Custom badge"
+msgstr "Badge personnalisé"
+
+msgid "Enable"
+msgstr "Activer"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+"<b>N'utilisez pas de badges offensifs et ne prétendez pas être quelqu'un "
+"d'autre avec votre badge.</b> Si vous abusez du système de badges, vous "
+"serez mute et vous ne pourrez plus modifier votre badge personnalisé."
+
+msgid "Icon reference"
+msgstr "Référence d'icône"
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "Dinosaure, oompa-loompa, gars cool ..."
+
+msgid "Playstyle"
+msgstr "Playstyle"
+
+msgid "Authorized applications"
+msgstr "Applications autorisées"
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+"Ici, vous pouvez vérifier toutes les applications que vous avez accordées à "
+"votre compte et révoquer ses autorisations si nécessaire."
+
+msgid "... but it looks like you have none!"
+msgstr "... mais il semble que n'en avez pas !"
+
+msgid "That authorization has been successfully revoked."
+msgstr "Cette autorisation a été révoquée avec succès."
+
+msgid "Authorization created %s"
+msgstr "Autorisation créée %s"
+
+msgid "Owner"
+msgstr "Propriétaire"
+
+msgid "Revoke"
+msgstr "Révoquer"
+
+msgid "Dark site"
+msgstr "Site sombre"
+
+msgid "Preferences"
+msgstr "Préférences"
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr "Le logiciel 2FA basé sur TOTP a été activé sur votre compte."
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr "Le code d'accès n'est pas valide. Peut-être qu'il a expiré ?"
+
+msgid "No passcode/secret was given. Please try again"
+msgstr "Aucun code d'accès/secret n'a été donné. Veuillez réessayer"
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr "Google Authenticator 2FA est déjà activé !"
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+"Vous avez actuellement Telegram 2FA activé. Vous devez d'abord le désactiver "
+"si vous souhaitez utiliser le fichier 2FA basé sur Google Authenticator."
+
+msgid "2FA disabled successfully."
+msgstr "2FA a été désactivé avec succès."
+
+msgid "Changing avatar is currently not possible."
+msgstr "La modification de l'avatar n'est pas possible actuellement."
+
+msgid "An error occurred."
+msgstr "Une erreur s'est produite."
+
+msgid "We were not able to save your avatar."
+msgstr "Nous n'avons pas pu enregistrer votre avatar."
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"Votre avatar a été changé avec succès. Cela peut prendre un certain temps "
+"pour être correctement mis à jour. Pour forcer un rafraîchissement du cache, "
+"vous pouvez utiliser CTRL+F5."
+
+msgid "Internal Server Error"
+msgstr "Erreur interne du serveur"
+
+msgid "You're not a donor!"
+msgstr "Vous n'êtes pas un donateur !"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+"Vous n'avez pas rejoins le serveur Discord ! Les liens vers le bas sont ci-"
+"dessous sur la page. Veuillez vous joindre au serveur avant d'essayer de "
+"connecter votre compte à Discord."
+
+msgid "Your account has been linked successfully!"
+msgstr "Votre compte a été lié avec succès !"
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+"Votre nouveau token IRC est <code>%s</code>. L'ancien token IRC n'est plus "
+"valide. <br>Restez en sécurité, ne le montrez pas et rangez-le maintenant ! "
+"Nous ne vous le montrerons plus à nouveau."
+
+msgid "Your profile background has been saved."
+msgstr "L'arrière-plan de votre profil a été sauvegardé."
+
+msgid "We were not able to save your profile background."
+msgstr "Nous n'avons pas pu enregistrer votre profil."
+
+msgid "Background type"
+msgstr "Type d'arrière-plan"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Solid colour"
+msgstr "Couleur unie"
+
+msgid "Colour is invalid"
+msgstr "La couleur n'est pas valide"
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"Vous avez été automatiquement déconnecté de votre compte car votre compte a "
+"été banni ou verrouillé. Si vous pensez que c'est une erreur, vous pouvez "
+"contacter notre équipe de support à support@ripple.moe."
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr ""
+"Vous avez automatiquement été déconnecté pour des raisons de sécurité. "
+"Veuillez vous <a href='/login?redir=%s'>reconnecter</a>."
+
+msgid "You need to login first."
+msgstr "Tu dois d'abord te connecter."
+
+msgid "Forbidden"
+msgstr "Interdit"
+
+msgid "You should not be 'round here."
+msgstr "Vous ne devriez pas être ici."
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+"Il s'avère que la version originale de ce fichier a été mis à jour, ce "
+"fichier est donc vieux et peut contenir des informations imprécises. Si vous "
+"voulez être sûr d'être à jour, veuillez vous référer à la <a href=\"%s%s\">"
+"version anglaise</a>."
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+"Si vous avez vraiment compris ce qui est écrit au dessus et que vous avez "
+"compris que crée un second compte vous mènera à la restriction de votre "
+"compte principal, vous pouvez cliquer ici et vous serez amenés à la page de "
+"connexion."
+
+msgid "You look new here. Allow us to introduce you to what Ripple is."
+msgstr ""
+"Vous avez l'air nouveau ici. Laissez-nous vous introduire et vous montrer qu"
+"'est-ce que Ripple."
+
+# PAY ATTENTION! This is Log in *with* Ripple, not *on* Ripple. This is for
+# oauth.
+msgid "Log in with Ripple"
+msgstr "Se connecter avec Ripple"
+
+msgid "This application will be able to:"
+msgstr "Cette application pourra:"
+
+msgid "Identify"
+msgstr "Identifier"
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+"Voir vos informations publiques (tout ce que quelqu'un peut voir sur votre "
+"profil d'utilisateur), toutefois avec ceci, personne ne pourra pas voir vos "
+"informations privés (par exemple votre adresse e-mail)."
+
+msgid "Read private information"
+msgstr "Lire les informations privées"
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+"Cette application pourra voir votre adresse e-mail, et toute information "
+"privée que nous ajouterons à l'avenir."
+
+msgid "Write"
+msgstr "Écrire"
+
+msgid ""
+"This application will be able to make modifications to your Ripple account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+"Cette application pourra faire des modifications à votre compte Ripple. Ceci "
+"est potentiellement dangereux ! Utilisez ça seulement avec les applications "
+"en lequel vous avez confiance."
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr "Approuver"
+
+msgid "Deny"
+msgstr "Refuser"
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ripple up and running and "
+"deal with its community."
+msgstr ""
+"Voici une liste des personnes géniales qui gardent Ripple en service et le "
+"font travailler avec sa communauté."
+
+msgid "Community Managers"
+msgstr "Community Managers"
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+"Les Community Managers discutent des bans, silences, les changements de "
+"pseudos et à peu près tout ce qui est en rapport avec la communauté."
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+"Ils prennent soin de notre serveur Discord et répondent aux mails envoyés à "
+"support.ripple.moe. Les Community Managers ont un pseudo rouge dans le chat "
+"in-game."
+
+msgid "Developers"
+msgstr "Développeurs"
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr ""
+"Les développeurs ajoutent des nouvelles fonctions au serveur, retirent les "
+"bugs, gardent le serveur en service et prennent soin de sa maintenance."
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+"Ils ne font rien liés à la communauté. Les développeurs ont un pseudo bleu "
+"dans le chat in-game."
+
+msgid "Chat Moderators"
+msgstr "Les modérateurs du chat"
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr ""
+"Les modérateurs du chat gèrent le chat pour être sûr que les règles soient "
+"respectés."
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+"Les BATs jouent les beatmaps de la ranking queue et décide si elles sont "
+"assez bonnes pour être ranked ou non."
+
+msgid "Special thanks"
+msgstr "Remerciements spéciaux à"
+
+msgid "Here's a list of people who helped with Ripple."
+msgstr "Voici une liste des personnes qui ont aidés Ripple."
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, utilisé pour "
+"l'algorithme des pp standard."
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, utilisé comme référence pour notre algorithme de pp "
+"osu!mania."
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, utilisé comme base "
+"pour notre serveur IRC."
+
+msgid "<b>Avail</b>, for having hosted Ripple on his server."
+msgstr "<b>Avail</b>, pour avoir hébergé Ripple sur son serveur."
+
+msgid "<b>Angela Guerra</b>, for designing the Ripple logo."
+msgstr "<b>Angela Guerra</b>, pour avoir designé le logo de Ripple."
+
+msgid ""
+"<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the "
+"Ripple project by donating or inviting other people."
+msgstr ""
+"<b><a id='everyone' class='clickable'>Tout le monde</a></b> qui ont supporté "
+"le projet Ripple en faisant une donation ou en invitant d'autres personnes."
+
+msgid "They told me these are very cool people."
+msgstr "Ils m'ont dit que ce sont des gens très cool."
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+"Tu cherches à contacter notre équipe ? Consultez <a "
+"href='https://support.ripple.moe/'>cette page</a>."
+
+msgid "And more..."
+msgstr "Et plus..."
+
+msgid "Do you want to be in this list?"
+msgstr "Veux-tu être dans cette liste ?"
+
+msgid "Support us with a donation!"
+msgstr "Soutiens nous avec une donation !"
+
+msgid "(You get other cool perks too)"
+msgstr "(Vous aurez d'autres avantages aussi)"
+
+msgid ""
+"The Ripple API is the system through which developers can create "
+"applications to interact with Ripple. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+"L'API Ripple est le système par lequel les développeurs peuvent créer des "
+"applications pour interagir avec Ripple. <b>Si vous êtes invité à remplir un "
+"jeton d'API de cette page, soyez prudent et ne créez que le jeton si vous "
+"avez vraiment confiance au propriétaire de l'application.</b>"
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "et des PP pour osu!standard et osu!mania"
+
+# help.html
+msgid ""
+"If you need to get in touch with our support team (our Community Managers), "
+"you will need to send an email to our support email address. You can compose "
+"an email to it by clicking the button at the bottom of this page. <b>Please "
+"read the following</b> though, as it is important."
+msgstr ""
+"Si vous devez entrer en contact avec notre équipe de support (nos Community "
+"Managers), vous devrez envoyer un e-mail à notre adresse e-mail de support. "
+"Vous pouvez y écrire un e-mail en cliquant sur le bouton en bas de cette "
+"page. <b>Veuillez lire ce qui suit</b>, car il est important."
+
+msgid ""
+"The support email <b>is not meant for technical support</b>. If you need "
+"technical support, then please join our <a href='%s'>Discord Server</a>, and "
+"ask your question on the <b>#help channel</b>. You should also join the "
+"Discord server and ask a CM if you have any informal inquiry that you may "
+"have. If you need to contact a specific staff member, you can contact them "
+"by clicking the envelope icon under their name in the <a href='/team'>Team "
+"page</a>."
+msgstr ""
+"L'e-mail du support <b>n'est pas destiné à un support technique</b>. Si vous "
+"avez besoin de support technique, merci de rejoindre notre <a "
+"href='%s'>Discord</a> et poser votre question sur le <b>channel #help</b>. "
+"Vous devriez également vous joindre au serveur Discord et demander à un CM ("
+"community manager) si vous avez une enquête informelle que vous pourriez "
+"avoir. Si vous devez contacter un membre du personnel spécifique, vous "
+"pouvez les contacter en cliquant sur l'icône de l'enveloppe sous leur nom "
+"dans la <a href='/team'>Page d'équipe</a>."
+
+msgid "Instead, if you need any of the following:"
+msgstr "Au lieu de cela, si vous avez besoin de l'un des éléments suivants :"
+
+msgid "Username change"
+msgstr "Changement de nom d'utilisateur"
+
+msgid "Appeal your ban/restriction"
+msgstr "Demander un débannissement/dérestriction"
+
+msgid ""
+"Anything else that strictly deals with your account and is not related in "
+"any way to a technical issue of yours."
+msgstr ""
+"Toute autre chose qui tombe de votre compte et n'est liée d'aucune manière à "
+"un problème technique."
+
+msgid "Then the support mail is the way to go."
+msgstr "Alors le mail du support est le chemin à prendre."
+
+msgid ""
+"When contacting the support mail, please make sure to <b>send the email from "
+"the email address you signed up on Ripple with</b>."
+msgstr ""
+"Lorsque vous communiquez avec l'e-mail du support, assurez-vous d'<b>envoyer "
+"l'e-mail à partir de l'adresse e-mail avec laquelle vous vous êtes inscrit "
+"sur Ripple</b>."
+
+msgid ""
+"Last but not least, <b>the support email is not meant for filing bug "
+"reports</b>. If you need to report a bug, then please just ask one of our "
+"developers on Discord. If it's a security bug, for instance XSS or SQL "
+"injection, then please contact <a href='mailto:howl@ripple.moe'>Howl</a> or <"
+"a href='mailto:nyo@ripple.moe'>Nyo</a>."
+msgstr ""
+"Enfin et surtout, <b>l'e-mail du support n'est pas destiné à déposer des "
+"rapports de bugs</b>.Si vous devez signaler un bug, veuillez simplement le "
+"dire à l'un de nos développeurs sur Discord. S'il s'agit d'un bug de "
+"sécurité, par exemple XSS ou SQL, contactez <a "
+"href='mailto:howl@ripple.moe'>Howl</a> ou <a "
+"href='mailto:nyo@ripple.moe'>Nyo</a>."
+
+msgid "I have read and understood everything on this page."
+msgstr "J'ai lu et j'ai tout compris sur cette page."
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

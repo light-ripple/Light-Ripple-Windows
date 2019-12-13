@@ -1,0 +1,81 @@
+name:
+  common: China
+  official: People's Republic of China
+  native:
+    cmn:
+      common: 中国
+      official: 中华人民共和国
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .cn
+- .中国
+- .中國
+- .公司
+- .网络
+languages:
+  cmn: Mandarin
+translations:
+  FRA:
+    common: Chine
+    official: République populaire de Chine
+  ITA:
+    common: Cina
+    official: Repubblica popolare cinese
+  JPN:
+    common: 中国
+    official: 中華人民共和国
+  NLD:
+    common: China
+    official: Volksrepubliek China
+  POR:
+    common: China
+    official: República Popular da China
+  RUS:
+    common: Китай
+    official: Народная Республика Китай
+  SPA:
+    common: China
+    official: República Popular de China
+currencies:
+- CNY
+borders:
+- AFG
+- BTN
+- MMR
+- HKG
+- IND
+- KAZ
+- PRK
+- KGZ
+- LAO
+- MAC
+- MNG
+- PAK
+- RUS
+- TJK
+- VNM
+codes:
+  alpha2: CN
+  alpha3: CHN
+  cioc: CHN
+  ccn3: "156"
+  callingcodes:
+  - "86"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Eastern Asia
+  continent: Asia
+  capital: Beijing
+  area: 9.706961e+06
+coordinates:
+  longitudestring: 105 00 E
+  latitudestring: 35 00 N
+  minlongitude: 106.7
+  minlatitude: 6.183333
+  maxlongitude: 117.816666
+  maxlatitude: 20.7
+  latitude: 36.553085
+  longitude: 103.97543

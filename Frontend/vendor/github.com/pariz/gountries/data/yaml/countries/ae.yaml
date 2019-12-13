@@ -1,0 +1,62 @@
+name:
+  common: United Arab Emirates
+  official: United Arab Emirates
+  native:
+    ara:
+      common: دولة الإمارات العربية المتحدة
+      official: الإمارات العربية المتحدة
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ae
+- امارات.
+languages:
+  ara: Arabic
+translations:
+  FIN:
+    common: Arabiemiraatit
+    official: Yhdistyneet arabiemiirikunnat
+  FRA:
+    common: Émirats arabes unis
+    official: Émirats arabes unis
+  ITA:
+    common: Emirati Arabi Uniti
+    official: Emirati Arabi Uniti
+  JPN:
+    common: アラブ首長国連邦
+    official: アラブ首長国連邦
+  RUS:
+    common: Объединённые Арабские Эмираты
+    official: Объединенные Арабские Эмираты
+  SPA:
+    common: Emiratos Árabes Unidos
+    official: Emiratos Árabes Unidos
+currencies:
+- AED
+borders:
+- OMN
+- SAU
+codes:
+  alpha2: AE
+  alpha3: ARE
+  cioc: UAE
+  ccn3: "784"
+  callingcodes:
+  - "971"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Asia
+  capital: Abu Dhabi
+  area: 83600
+coordinates:
+  longitudestring: 54 00 E
+  latitudestring: 24 00 N
+  minlongitude: 45
+  minlatitude: 22.166668
+  maxlongitude: 58
+  maxlatitude: 26.133333
+  latitude: 23.684776
+  longitude: 54.536644

@@ -1,0 +1,72 @@
+name:
+  common: Albania
+  official: Republic of Albania
+  native:
+    sqi:
+      common: Shqipëria
+      official: Republika e Shqipërisë
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .al
+languages:
+  sqi: Albanian
+translations:
+  CYM:
+    common: Albania
+    official: Republic of Albania
+  DEU:
+    common: Albanien
+    official: Republik Albanien
+  FIN:
+    common: Albania
+    official: Albanian tasavalta
+  HRV:
+    common: Albanija
+    official: Republika Albanija
+  JPN:
+    common: アルバニア
+    official: アルバニア共和国
+  NLD:
+    common: Albanië
+    official: Republiek Albanië
+  POR:
+    common: Albânia
+    official: República da Albânia
+  RUS:
+    common: Албания
+    official: Республика Албания
+  SPA:
+    common: Albania
+    official: República de Albania
+currencies:
+- ALL
+borders:
+- MNE
+- GRC
+- MKD
+- KOS
+codes:
+  alpha2: AL
+  alpha3: ALB
+  cioc: ALB
+  ccn3: "008"
+  callingcodes:
+  - "355"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Southern Europe
+  continent: Europe
+  capital: Tirana
+  area: 28748
+coordinates:
+  longitudestring: 20 00 E
+  latitudestring: 41 00 N
+  minlongitude: 19.266666
+  minlatitude: 39.65
+  maxlongitude: 21.05
+  maxlatitude: 42.65917
+  latitude: 41.111134
+  longitude: 20.027452

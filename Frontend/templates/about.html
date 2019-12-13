@@ -1,0 +1,86 @@
+{{/*###
+Handler=/about
+TitleBar=About
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui centered segments">
+		<div class="ui segment">
+			<img src="/static/logos/ainu.png">
+			<h1 class="ui no bottom margin header">
+				{{ .T "Welcome to Ainu!" }}
+			</h1>
+			<div class="about subtitle">{{ .T "Ainu! is a private osu! server." }}<br>
+			{{ .T "There are many like it, but this one is ours." }}</div>
+		</div>
+		<div class="ui segment">
+			<img src="/static/about/intro.jpg">
+			<div class="about title twemoji">{{ .T "Don't you like %s?" "🍆" }}</div>
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "We have leaderboards." }}
+			</h1>
+			<img src="/static/about/leaderboards.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "Online user listing." }}
+			</h1>
+			<img src="/static/about/onlineusers.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "Free osu!direct." }}
+			</h1>
+			<img src="/static/about/osudirect.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui no bottom margin header">
+				{{ .T "Global leaderboards." }}
+			</h1>
+			<p class="about subtitle">{{ .T "and PP for all game modes" }}</p>
+			<img src="/static/about/global_leaderboards.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "Ranking queue for unranked beatmaps." }}
+			</h1>
+			<img src="/static/about/request_beatmaps.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "Spectator." }}
+			</h1>
+			<img src="/static/about/spectator.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "Multiplayer." }}
+			</h1>
+			<img src="/static/about/multi.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "AC, anticheat guy" }}
+			</h1>
+			<p class="about subtitle">{{ .T "with plenty of functions for just about anything, <a href=\"/doc/4\">check it out!</a>" | html }}</p>
+			<img src="/static/about/foka.jpg">
+		</div>
+		<div class="ui segment">
+			<h1 class="ui header">
+				{{ .T "And a lot more to come!" }}
+			</h1>
+			<p class="about title">
+				{{ .T "Ainu! is the result of the hard work of developers, who got tired about the whole osu! server" }}
+			</p>
+			<p class="about title twemoji">
+				{{ .T "Thanks to developers who has help me and make server for us <a href=\"/register\">Signing up</a> on Ainu! won't result in getting your account on osu! restricted, so what are you waiting for?! Come join us! %s" "😉" | html }}
+			</p>
+			<p class="about subtitle">
+				{{ .T "In case you want to make sure we're not doing shady stuff with your data, you can also check the <a href=\"https://github.com/osuthailand\">source code</a> Ainu! is running on." | html }}
+			</p>
+		</div>
+	</div>
+</div>
+{{ end }}

@@ -1,0 +1,58 @@
+name:
+  common: United States Minor Outlying Islands
+  official: United States Minor Outlying Islands
+  native:
+    eng:
+      common: United States Minor Outlying Islands
+      official: United States Minor Outlying Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .us
+languages:
+  eng: English
+translations:
+  FIN:
+    common: Yhdysvaltain asumattomat saaret
+    official: Yhdysvaltain asumattomat saaret
+  FRA:
+    common: Îles mineures éloignées des États-Unis
+    official: Îles mineures éloignées des États-Unis
+  HRV:
+    common: Mali udaljeni otoci SAD-a
+    official: Mali udaljeni otoci SAD-a
+  ITA:
+    common: Isole minori esterne degli Stati Uniti d'America
+    official: Stati Uniti Isole Minori
+  RUS:
+    common: Внешние малые острова США
+    official: Внешние малые острова США
+  SPA:
+    common: Islas Ultramarinas Menores de Estados Unidos
+    official: Estados Unidos Islas menores alejadas de
+currencies:
+- USD
+borders: []
+codes:
+  alpha2: UM
+  alpha3: UMI
+  cioc: ""
+  ccn3: "581"
+  callingcodes: []
+  internationalprefix: ""
+geo:
+  region: Americas
+  subregion: Northern America
+  continent: Australia
+  capital: ""
+  area: 34.2
+coordinates:
+  longitudestring: ""
+  latitudestring: ""
+  minlongitude: 166.59892
+  minlatitude: -0.3824678
+  maxlongitude: -159.98491
+  maxlatitude: 28.397718
+  latitude: 19.282318
+  longitude: 166.64705

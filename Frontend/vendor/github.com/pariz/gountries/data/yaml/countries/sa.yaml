@@ -1,0 +1,67 @@
+name:
+  common: Saudi Arabia
+  official: Kingdom of Saudi Arabia
+  native:
+    ara:
+      common: العربية السعودية
+      official: المملكة العربية السعودية
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .sa
+- .السعودية
+languages:
+  ara: Arabic
+translations:
+  FRA:
+    common: Arabie Saoudite
+    official: Royaume d'Arabie Saoudite
+  HRV:
+    common: Saudijska Arabija
+    official: Kraljevina Saudijska Arabija
+  JPN:
+    common: サウジアラビア
+    official: サウジアラビア王国
+  POR:
+    common: Arábia Saudita
+    official: Reino da Arábia Saudita
+  RUS:
+    common: Саудовская Аравия
+    official: Королевство Саудовская Аравия
+  SPA:
+    common: Arabia Saudí
+    official: Reino de Arabia Saudita
+currencies:
+- SAR
+borders:
+- IRQ
+- JOR
+- KWT
+- OMN
+- QAT
+- ARE
+- YEM
+codes:
+  alpha2: SA
+  alpha3: SAU
+  cioc: KSA
+  ccn3: "682"
+  callingcodes:
+  - "966"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Western Asia
+  continent: Asia
+  capital: Riyadh
+  area: 2.14969e+06
+coordinates:
+  longitudestring: 45 00 E
+  latitudestring: 25 00 N
+  minlongitude: 34.566666
+  minlatitude: 5
+  maxlongitude: 55.166668
+  maxlatitude: 32.2
+  latitude: 23.994726
+  longitude: 44.401356

@@ -1,0 +1,95 @@
+{{/*###
+Handler=/settings/clansettings
+TitleBar=Clan Settings
+Include=menu.html
+*/}}
+{{ define "tpl" }}
+    {{ $   := . }}
+    <div class="ui container">
+        <div class="ui stackable grid">
+            {{ template "settingsSidebar" . }}
+            <div class="twelve wide column">
+                <div class="ui segment">
+                    {{ $d := qb "SELECT user, clan, perms FROM user_clans WHERE user = ? AND perms = 8 LIMIT 1" .Context.User.ID }}
+                    {{ $g := or $d.clan.Int -1 }}
+                    {{ if $d }}
+                    <font size="6">{{ $.T "Clan Settings" }} </font>
+                    <br>
+                    <br>
+                    <div class="ui center aligned segment">
+                        {{ $o := (.Get "clans/isclan?uid=%d" .Context.User.ID).clan.clan }}
+                        {{ $c := qb "SELECT * FROM clans WHERE id = ? LIMIT 1" $o }}
+                        {{ $tag := or $c.tag.String "" }}
+                        {{ $desc := or $c.description.String "" }}
+                        {{ $icon := or $c.icon.String "" }}
+                        {{ $bg := or $c.background.String "" }}
+                        <form id="register-form" class="ui form" method="post" enctype="multipart/form-data" action="/settings/clansettings">
+                            <div class="field">
+                                <label class="left aligned">{{ "Clantag (2 to 6 characters)" }}</label>
+                                <input tabindex="1" type="text" name="tag" placeholder="{{ $.T "Clantag" }}" value="{{ $tag }}" pattern="{2,6}$">
+                            </div>
+                            <br/>
+                            <textarea tabindex="1" class="monospace" name="password">{{ $desc }}</textarea>
+
+                            <div class="field">
+                                <label class="left aligned">{{ $.T "Icon (optional)" }}</label>
+                             </div>
+
+                            <div class="ui buttons">
+                                <label tabindex="1" for="file" class="ui green labeled icon button">
+                                    <i class="file icon"></i>
+                                    {{ .T "Open File" }}
+                                </label>
+                            </div>
+                            <input type="file" id="file" style="display:none" accept="image/*" name="avatar">
+                            {{ if has .Context.User.Privileges 4 }}
+                                <div class="field">
+                                    <label class="left aligned">{{ $.T "Background [URL] (optional)" }}</label>
+                                    <input tabindex="4" type="url" name="bg" placeholder="{{ $.T "Background URL" }}" value="{{ $bg }}">
+                                </div>
+
+                            {{ end }}
+                            {{ ieForm .Gin }}
+                        </form>
+
+                        <div class="ui segment twemoji" id="userpage-content">{{ parseUserpage $desc | html }}</div>
+
+                        <br>
+                        <button tabindex="5" class="ui primary button" type="submit" form="register-form">{{ .T "Save" }}</button>
+                    </div>
+                    <br>
+                    <font size="6">Invite</font>
+                    <br>
+                    <br><center><div class="ui two item menu" id="join-menu">
+                            {{ with .Get "clans/getinvite?id=%d" .Context.User.ID }}
+                                <input class="item" type="text" value="https://new.bigtu.vip/clans/invite/{{ .invite }}" href="https://new.bigtu.vip/clans/invite/{{ .invite }}" style="background-color:rgba(0,0,0,.6)" disabled></input>
+                            {{ end }}
+                        </div>
+                        <br><form action="/settings/clansettings" method="POST">
+                            {{ ieForm .Gin }}
+                            <button type="submit" class="ui right green button">
+                                {{ $.T "Generate a new invite!" }}
+                            </button>
+                        </form>
+                        <br>
+                        <font size="6">Members {{ $g }}</font>
+                        <br>
+                        {{ range (.Get "clans/members?id=%d&r=%d" $g 1).members }}
+                            <form id="kick-form" class="ui form" method="post" action="/settings/clansettings/k">
+                                <div class="column">
+                                    <div class="ui left aligned fluid card">
+                                        <div class="content">
+                                            <a href="/u/{{ .id }}"><a class="header" href="/u/{{ .id }}">{{ country .country false }}{{ .username }}</a> <button name="member" value="{{ .id }}" class="ui right green button" style="float:right; display:block; margin-right:0px; clear:left; width: 40%;"> Kick </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        {{ end }}
+                        {{ else }}
+                            <font size="3">{{ $.T "You haven't joined a clan yet, or you aren't the owner of your current one." }}</font>
+                        {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

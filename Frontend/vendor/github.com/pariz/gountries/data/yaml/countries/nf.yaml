@@ -1,0 +1,60 @@
+name:
+  common: Norfolk Island
+  official: Territory of Norfolk Island
+  native:
+    eng:
+      common: Norfolk Island
+      official: Territory of Norfolk Island
+    pih:
+      common: Norf'k Ailen
+      official: Teratri of Norf'k Ailen
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .nf
+languages:
+  eng: English
+  pih: Norfuk
+translations:
+  DEU:
+    common: Norfolkinsel
+    official: Gebiet der Norfolk-Insel
+  FRA:
+    common: Île Norfolk
+    official: Territoire de l'île Norfolk
+  NLD:
+    common: Norfolkeiland
+    official: Grondgebied van Norfolk Island
+  RUS:
+    common: Норфолк
+    official: Территория острова Норфолк
+  SPA:
+    common: Isla de Norfolk
+    official: Territorio de la Isla Norfolk
+currencies:
+- AUD
+borders: []
+codes:
+  alpha2: NF
+  alpha3: NFK
+  cioc: ""
+  ccn3: "574"
+  callingcodes:
+  - "672"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Australia and New Zealand
+  continent: Australia
+  capital: Kingston
+  area: 36
+coordinates:
+  longitudestring: 167 57 E
+  latitudestring: 29 02 S
+  minlongitude: 167.91621
+  minlatitude: -29.136587
+  maxlongitude: 167.99693
+  maxlatitude: -28.995388
+  latitude: -29.036963
+  longitude: 167.95523

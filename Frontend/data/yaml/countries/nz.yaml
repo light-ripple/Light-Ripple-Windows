@@ -1,0 +1,64 @@
+name:
+  common: New Zealand
+  official: New Zealand
+  native:
+    eng:
+      common: New Zealand
+      official: New Zealand
+    mri:
+      common: Aotearoa
+      official: Aotearoa
+    nzs:
+      common: New Zealand
+      official: New Zealand
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .nz
+languages:
+  eng: English
+  mri: Māori
+  nzs: New Zealand Sign Language
+translations:
+  DEU:
+    common: Neuseeland
+    official: Neuseeland
+  FRA:
+    common: Nouvelle-Zélande
+    official: Nouvelle-Zélande
+  JPN:
+    common: ニュージーランド
+    official: ニュージーランド
+  POR:
+    common: Nova Zelândia
+    official: nova Zelândia
+  RUS:
+    common: Новая Зеландия
+    official: Новая Зеландия
+currencies:
+- NZD
+borders: []
+codes:
+  alpha2: NZ
+  alpha3: NZL
+  cioc: NZL
+  ccn3: "554"
+  callingcodes:
+  - "64"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Australia and New Zealand
+  continent: Australia
+  capital: Wellington
+  area: 270467
+coordinates:
+  longitudestring: 174 00 E
+  latitudestring: 41 00 S
+  minlongitude: 179.06667
+  minlatitude: -52.61667
+  maxlongitude: -178.9
+  maxlatitude: -29.216667
+  latitude: -44.056293
+  longitude: 170.35416

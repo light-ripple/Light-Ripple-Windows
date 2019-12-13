@@ -1,0 +1,75 @@
+name:
+  common: Central African Republic
+  official: Central African Republic
+  native:
+    fra:
+      common: République centrafricaine
+      official: République centrafricaine
+    sag:
+      common: Bêafrîka
+      official: Ködörösêse tî Bêafrîka
+eumember: false
+landlocked: true
+nationality: ""
+tlds:
+- .cf
+languages:
+  fra: French
+  sag: Sango
+translations:
+  CYM:
+    common: Gweriniaeth Canolbarth Affrica
+    official: Central African Republic
+  DEU:
+    common: Zentralafrikanische Republik
+    official: Zentralafrikanische Republik
+  FIN:
+    common: Keski-Afrikan tasavalta
+    official: Keski-Afrikan tasavalta
+  FRA:
+    common: République centrafricaine
+    official: République centrafricaine
+  HRV:
+    common: Srednjoafrička Republika
+    official: Centralna Afrička Republika
+  NLD:
+    common: Centraal-Afrikaanse Republiek
+    official: Centraal-Afrikaanse Republiek
+  POR:
+    common: República Centro-Africana
+    official: República Centro-Africano
+  RUS:
+    common: Центральноафриканская Республика
+    official: Центрально-Африканская Республика
+currencies:
+- XAF
+borders:
+- CMR
+- TCD
+- COD
+- COG
+- SSD
+- SDN
+codes:
+  alpha2: CF
+  alpha3: CAF
+  cioc: CAF
+  ccn3: "140"
+  callingcodes:
+  - "236"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Middle Africa
+  continent: Africa
+  capital: Bangui
+  area: 622984
+coordinates:
+  longitudestring: 21 00 E
+  latitudestring: 7 00 N
+  minlongitude: 14.533333
+  minlatitude: 2.433333
+  maxlongitude: 27.216667
+  maxlatitude: 10.7
+  latitude: 6.5741234
+  longitude: 20.486923

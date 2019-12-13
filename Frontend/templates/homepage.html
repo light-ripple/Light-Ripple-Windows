@@ -1,0 +1,42 @@
+{{/*###
+Handler=/
+TitleBar=Home Page
+KyutGrill=homepage2.jpg
+*/}}
+{{ define "tpl" }}
+{{ $cf := .ClientFlags }}
+{{ $ds := band $cf 1 }}
+{{ $   := . }}
+
+<div class="ui container">
+	<div class="ui center aligned segment">
+		<img src="/static/logos/ainu.png">
+	</div>
+	{{ $set := systemSettings "website_home_alert" }}
+	{{ with $set.website_home_alert.String }}
+		<div class="ui warning message">
+			{{ . | html }}
+		</div>
+	{{ end }}
+	{{/* Not logged in block */}}
+	{{ if not .Context.User.ID }}
+		<div class="ui segment">
+			<h1 class="ui header">{{ .T "Welcome to Ainu!" }}</h1>
+			<p>
+				{{ .T "You look new here. Allow us to introduce you to what Ainu! is." }}
+			</p>
+			<p>
+				{{ .T "Ainu! is a private osu! server, featuring multiplayer, PP, a very active community and a development team going strong implementing new features and squashing bugs. <a href='/about'>You can check out even more features here.</a> It has also a very friendly community, and it's <a href='https://github.com/osuthailand'>open source!</a> Just so you know, <b>we currently have %s users online and %s registered users!</b>" (rediget "ripple:online_users") (rediget "ripple:registered_users") | html }}
+			</p>
+			<h3 class="ui header center aligned">{{ .T "What are you waiting for? Join Ainu!! It's risk-free: you won't get your account banned on the official server if you play on Ainu!<br>You can also switch anytime between the official osu! server and Ainu!!" | html }}</h3>
+		</div>
+	{{ else }}
+		<div class="ui segment">
+			<h1 class="ui header">{{ .T "Howdy, %s!" .Context.User.Username }}</h1>
+			<p>
+				{{ $OnlineUsers := .Get "https://c.bigtu.vip/api/v1/onlineUsers" }}
+				{{ .T "Welcome back to Ainu! We currently have <b>%s online users and %s total registered users.</b> Nice day to farm a few maps, isn't it?" (rediget "ripple:online_users") (rediget "ripple:registered_users") | html }}
+			</p>
+		</div>
+		{{ end }}
+		{{ end }}

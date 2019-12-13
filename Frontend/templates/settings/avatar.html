@@ -1,0 +1,35 @@
+{{/*###
+Handler=/settings/avatar
+TitleBar=Avatar
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui center aligned segment">
+				<div class="ui compact segment" style="margin: 0 auto;">
+					<img src="{{ config "AvatarURL" }}/{{ .Context.User.ID }}" alt="Avatar" id="avatar-img" style="max-width: 400px;">
+				</div>
+				<form action="/settings/avatar" method="post" enctype="multipart/form-data" class="little top margin">
+					{{ ieForm .Gin }}
+					<div class="ui buttons">
+						<label tabindex="1" for="file" class="ui green labeled icon button">
+							<i class="file icon"></i>
+							{{ .T "Open File" }}
+						</label>
+						<button tabindex="2" type="submit" class="ui right labeled blue icon button">
+							<i class="save icon"></i>
+							{{ .T "Save" }}		
+						</button>
+					</div>
+					<input type="file" id="file" style="display:none" required accept="image/*" name="avatar">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

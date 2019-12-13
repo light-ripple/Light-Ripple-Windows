@@ -1,0 +1,55 @@
+{{/*###
+Handler=/dev/tokens/edit
+TitleBar=Edit API token
+KyutGrill=dev.jpg
+MinPrivileges=2
+Include=menu.html
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "devSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				{{ with .Get "tokens?id=%d" (.Gin.Query "id" | atoint) }}
+					{{ if .tokens }}
+						{{ with index .tokens 0 }}
+							<form class="ui form" method="POST" action="/dev/tokens/edit" id="edit-form">
+								<div class="field">
+									<label>Last used</label>
+									<input type="text" value="{{ .last_updated }}" disabled>
+								</div>
+								<div class="field">
+									<label>Privileges</label>
+									<input name="privileges" type="number" min="0" value="{{ printf "%.0f" .privileges }}">
+								</div>
+								<div class="field">
+									<label>Description</label>
+									<input name="description" type="text" value="{{ .description }}">
+								</div>
+								<input type="hidden" name="id" value="{{ $.Gin.Query "id" | atoint }}">
+								{{ csrfGenerate $.Context.User.ID }}
+								{{ ieForm $.Gin }}
+							</form>
+							<form action="/dev/tokens/delete" method="POST" id="delete-form">
+								{{ csrfGenerate $.Context.User.ID }}
+								<input type="hidden" name="id" value="{{ $.Gin.Query "id" | atoint }}">
+								{{ ieForm $.Gin }}
+							</form>
+							<div class="ui divider"></div>
+							<div style="text-align: right">
+								<button type="submit" class="ui blue button" form="edit-form">Save</button>
+								<button type="submit" class="ui red button" form="delete-form">Delete</button>
+							</div>
+						{{ end }}
+					{{ else }}
+						That token could not be found!
+					{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

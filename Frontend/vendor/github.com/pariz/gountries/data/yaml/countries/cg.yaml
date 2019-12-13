@@ -1,0 +1,81 @@
+name:
+  common: Republic of the Congo
+  official: Republic of the Congo
+  native:
+    fra:
+      common: République du Congo
+      official: République du Congo
+    kon:
+      common: Repubilika ya Kongo
+      official: Repubilika ya Kongo
+    lin:
+      common: Republíki ya Kongó
+      official: Republíki ya Kongó
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .cg
+languages:
+  fra: French
+  kon: Kikongo
+  lin: Lingala
+translations:
+  CYM:
+    common: Gweriniaeth y Congo
+    official: Republic of the Congo
+  DEU:
+    common: Kongo
+    official: Republik Kongo
+  FRA:
+    common: Congo
+    official: République du Congo
+  HRV:
+    common: Kongo
+    official: Republika Kongo
+  JPN:
+    common: コンゴ共和国
+    official: コンゴ共和国
+  NLD:
+    common: Congo
+    official: Republiek Congo
+  POR:
+    common: Congo
+    official: República do Congo
+  RUS:
+    common: Республика Конго
+    official: Республика Конго
+  SPA:
+    common: Congo
+    official: República del Congo
+currencies:
+- XAF
+borders:
+- AGO
+- CMR
+- CAF
+- COD
+- GAB
+codes:
+  alpha2: CG
+  alpha3: COG
+  cioc: CGO
+  ccn3: "178"
+  callingcodes:
+  - "242"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Middle Africa
+  continent: Africa
+  capital: Brazzaville
+  area: 342000
+coordinates:
+  longitudestring: 15 00 E
+  latitudestring: 1 00 S
+  minlongitude: 11.166667
+  minlatitude: -4.995556
+  maxlongitude: 20
+  maxlatitude: 3.866667
+  latitude: -2.8798661
+  longitude: 23.656378

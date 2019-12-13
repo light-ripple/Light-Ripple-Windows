@@ -1,0 +1,399 @@
+.ripple.logo {
+	padding-top: 4px;
+}
+
+.huge.heading {
+	background-color: #2e2e2e;
+	width: 100%;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+}
+.huge.heading.right .ui.container {
+	text-align: right;
+}
+@media (max-width: 700px) {
+	.huge.heading {
+		height: 100px;
+	}
+	.huge.heading h1 {
+		font-size: 24pt;
+		padding-bottom: 10px;
+	}
+}
+@media (min-width: 700px) {
+	.huge.heading {
+		height: 175px;
+	}
+	.huge.heading h1 {
+		font-size: 40pt;
+		padding-bottom: 15px;
+	}
+}
+
+.huge.heading h1 {
+	color: #f9f9f9;
+	text-shadow: 0 2px 10px #000;
+}
+
+.main.wrapper {
+	padding-bottom: 30px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+img {
+	max-width: 100%;
+}
+
+a.inherit {
+	color: inherit;
+	opacity: 0.9;
+}
+a.inherit:hover {
+	opacity: 1;
+}
+
+.autopad {
+	margin: 1rem 0;
+}
+.autopad:first-child {
+	margin-top: 0;
+}
+.autopad:last-child {
+	margin-bottom: 0;
+}
+
+.margined.container {
+	margin: 1rem;
+}
+
+.main.wrapper {
+	min-height: calc(100vh - 43px);
+}
+
+.footer {
+	padding: 10px 20px;
+}
+
+.top.right.icon {
+	cursor: pointer;
+	position: absolute;
+	margin: 0;
+	top: .78575em;
+	right: .5em;
+	opacity: .7;
+	-webkit-transition: opacity .1s ease;
+	transition: opacity .1s ease;
+}
+.no.top.margin {
+	margin-top: 0;
+}
+.no.bottom.margin {
+	margin-bottom: 0;
+}
+
+.menu:not(.secondary) > .item.active {
+	font-weight: bold;
+}
+
+.mode-container {
+	margin: 1rem 0;
+}
+
+.youtube.video.container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+.youtube.video.container iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.smallpadd {
+	margin: 0 .2em !important;
+}
+
+.white.background {
+	background-color: transparent !important;
+}
+body.ds .white.background {
+	background-color: transparent !important;
+}
+
+.user.avatar {
+	float: left;
+	overflow: auto;
+	padding-right: 10px;
+	display: block;
+	height: 80px;
+}
+
+.ui.attached.segment {
+	margin: 0 auto !important;
+}
+
+.ui.attached.menu, .ui.attached.segment {
+	width: 100%;
+	max-width: 100%;
+}
+
+.table.element {
+	display: table-cell;
+	vertical-align: middle;
+}
+.table.element h1, .nopad {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.magic.table {
+	overflow: auto;
+	display: table;
+	width: auto;
+	display: inline-table;
+	height: 80px;
+}
+.overflow.auto {
+	overflow: auto;
+}
+
+.magic.table.floating.right {
+	float: right;
+}
+
+.subtitle, .about.title {
+	color: rgba(255,255,255,.6);
+}
+.subtitle b {
+	color: #FFF;
+}
+
+/* ds = Dark Site */
+body.ds .subtitle, body.ds .about.title {
+	color: rgba(255,255,255,.8);
+}
+body.ds .subtitle b {
+	color: rgba(255,255,255,.94);
+}
+
+.little.margin.top {
+	margin-top: 8px;
+}
+
+.two.column.table td {
+	width: 50%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.ui.secondary.inverted.main.menu {
+	background-color: #1B1C1D;
+}
+
+.ui.inverted.input > input {
+	background: #444;
+	color: #FFF;
+}
+.ui.inverted.input > input::selection {
+	background-color: rgba(255,255,255,.5);
+}
+.ui.inverted.input {
+	color: #FFF;
+}
+.dropped {
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0,0,0,.21) !important;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,.21) !important;
+}
+
+.score-table th:not([colspan]):nth-child(2) {
+	width: 15%;
+}
+
+#userpage-content {
+	max-height: 500px;
+	overflow: auto;
+}
+
+#profile-actions {
+	text-align: right;
+	padding-top: 2px;
+}
+#profile-actions button, .smalltext.button {
+	font-size: .7rem;
+}
+
+.emoji {
+	width: 1em;
+}
+
+.right.aligned { text-align: right; }
+.left.aligned  { text-align: left; }
+
+.clickable { cursor: pointer; }
+
+/* thanks bootstrap */
+code {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 4px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.g-recaptcha > div {
+	margin: 0 auto;
+}
+
+.big.text {
+	font-size: 2rem;
+}
+
+.about.subtitle {
+	margin-top: 10px;
+	font-size: 1.35rem;
+}
+
+.about.title {
+	margin-top: 15px;
+	font-size: 1.5rem;
+}
+
+.nopadding.segment {
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+	.firetrucking-right-menu {
+		margin-left: auto!important;
+		display: flex;
+		display: -ms-flexbox;
+		-ms-flex-align: inherit;
+		align-items: inherit;
+		-ms-flex-direction: inherit;
+		flex-direction: inherit;
+	}
+}
+
+.firetrucking-right-menu .item {
+	margin-left: 0;
+}
+
+.score.rank {
+	height: 1.2rem;
+}
+
+/* quick dirty partially-working menu fixes for mobile */
+@media (max-width: 911px) {
+	#navbar .item {
+		margin: 0 !important;
+	}
+	#navbar {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.tiny.container {
+	margin: 0 auto;
+}
+@media (max-width: 720px) {
+	.tiny.container {
+		width: auto;
+	}
+}
+@media (min-width: 720px) {
+	.tiny.container {
+		width: 720px;
+	}
+}
+
+.ui.form .error.message, .ui.form .success.message, .ui.form .warning.message {
+	display: block !important;
+}
+
+textarea.monospace {
+	height: 320px;
+	font-family: "Consolas", monospace;
+}
+
+.segment[hidden] {
+	display: none !important;
+}
+
+.compact-container {
+	font-size: 0;
+    line-height: 0;
+}
+
+#userpage-content {
+	-webkit-transition: all 500ms;
+	transition: all 500ms;
+}
+
+/* FUCK INTERNET EXPLORER */
+input[type="submit"].ie {
+	height: 0;
+	width: 0;
+	font-size: 0;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	/* Don't ask. Simply don't. I just tried random display values and this was what worked best */
+	display: flex;
+}
+
+/* A camouflaged link looks like normal text but it isn't. */
+a.camouflaged {
+	color: inherit;
+}
+
+a.camouflaged:hover {
+	text-decoration: underline;
+}
+
+.avatar-cell {
+	width: 90px;
+}
+.avatar-cell > img {
+	margin: 0 auto;
+}
+
+/* column in a grid which is both vertically and horizontally centered */
+.ui.grid > .row > .full-centered.column {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* SO, of course: https://stackoverflow.com/a/8612047/5328069 */
+img.achievement {
+	-webkit-filter: drop-shadow(0 5px 5px #777);
+	filter: drop-shadow(0 5px 5px #777);
+}
+img.locked-achievement {
+	-webkit-filter: brightness(0) drop-shadow(0 5px 5px #777);
+	filter: brightness(0) drop-shadow(0 5px 5px #777);
+	-webkit-transition: all 500ms ;
+    -moz-transition: all 500ms ;
+    -ms-transition: all 500ms ;
+    -o-transition: all 500ms ;
+    transition: all 500ms ;
+}
+img.locked-achievement:hover {
+	filter: gray; /* IE6-9 */
+	-webkit-filter: brightness(0.5) drop-shadow(0 5px 5px #777);
+	filter: brightness(0.5) drop-shadow(0 5px 5px #777);
+}
+

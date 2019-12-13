@@ -1,0 +1,73 @@
+name:
+  common: Eritrea
+  official: State of Eritrea
+  native:
+    ara:
+      common: إرتريا‎
+      official: دولة إرتريا
+    eng:
+      common: Eritrea
+      official: State of Eritrea
+    tir:
+      common: ኤርትራ
+      official: ሃገረ ኤርትራ
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .er
+languages:
+  ara: Arabic
+  eng: English
+  tir: Tigrinya
+translations:
+  CYM:
+    common: Eritrea
+    official: State of Eritrea
+  DEU:
+    common: Eritrea
+    official: Staat Eritrea
+  FRA:
+    common: Érythrée
+    official: État d'Érythrée
+  ITA:
+    common: Eritrea
+    official: Stato di Eritrea
+  JPN:
+    common: エリトリア
+    official: エリトリア国
+  NLD:
+    common: Eritrea
+    official: Staat Eritrea
+  RUS:
+    common: Эритрея
+    official: Государство Эритрея
+currencies:
+- ERN
+borders:
+- DJI
+- ETH
+- SDN
+codes:
+  alpha2: ER
+  alpha3: ERI
+  cioc: ERI
+  ccn3: "232"
+  callingcodes:
+  - "291"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Eastern Africa
+  continent: Africa
+  capital: Asmara
+  area: 117600
+coordinates:
+  longitudestring: 39 00 E
+  latitudestring: 15 00 N
+  minlongitude: 36.483334
+  minlatitude: 12.383333
+  maxlongitude: 43.114723
+  maxlatitude: 18.033333
+  latitude: 15.3972
+  longitude: 39.08719

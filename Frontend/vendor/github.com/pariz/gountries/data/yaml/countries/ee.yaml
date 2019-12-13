@@ -1,0 +1,64 @@
+name:
+  common: Estonia
+  official: Republic of Estonia
+  native:
+    est:
+      common: Eesti
+      official: Eesti Vabariik
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .ee
+languages:
+  est: Estonian
+translations:
+  CYM:
+    common: Estonia
+    official: Republic of Estonia
+  DEU:
+    common: Estland
+    official: Republik Estland
+  FIN:
+    common: Viro
+    official: Viron tasavalta
+  HRV:
+    common: Estonija
+    official: Republika Estonija
+  ITA:
+    common: Estonia
+    official: Repubblica di Estonia
+  NLD:
+    common: Estland
+    official: Republiek Estland
+  SPA:
+    common: Estonia
+    official: República de Estonia
+currencies:
+- EUR
+borders:
+- LVA
+- RUS
+codes:
+  alpha2: EE
+  alpha3: EST
+  cioc: EST
+  ccn3: "233"
+  callingcodes:
+  - "372"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Northern Europe
+  continent: Europe
+  capital: Tallinn
+  area: 45227
+coordinates:
+  longitudestring: 26 00 E
+  latitudestring: 59 00 N
+  minlongitude: 21.795834
+  minlatitude: 57.52139
+  maxlongitude: 28.883333
+  maxlatitude: 59.983334
+  latitude: 58.693745
+  longitude: 25.241625

@@ -1,0 +1,65 @@
+name:
+  common: Cambodia
+  official: Kingdom of Cambodia
+  native:
+    khm:
+      common: Kâmpŭchéa
+      official: ព្រះរាជាណាចក្រកម្ពុជា
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .kh
+languages:
+  khm: Khmer
+translations:
+  CYM:
+    common: Cambodia
+    official: Kingdom of Cambodia
+  FIN:
+    common: Kambodža
+    official: Kambodžan kuningaskunta
+  FRA:
+    common: Cambodge
+    official: Royaume du Cambodge
+  HRV:
+    common: Kambodža
+    official: Kraljevina Kambodža
+  ITA:
+    common: Cambogia
+    official: Regno di Cambogia
+  JPN:
+    common: カンボジア
+    official: カンボジア王国
+  SPA:
+    common: Camboya
+    official: Reino de Camboya
+currencies:
+- KHR
+borders:
+- LAO
+- THA
+- VNM
+codes:
+  alpha2: KH
+  alpha3: KHM
+  cioc: CAM
+  ccn3: "116"
+  callingcodes:
+  - "855"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: South-Eastern Asia
+  continent: Asia
+  capital: Phnom Penh
+  area: 181035
+coordinates:
+  longitudestring: 105 00 E
+  latitudestring: 13 00 N
+  minlongitude: 102.35833
+  minlatitude: 9.916667
+  maxlongitude: 107.566666
+  maxlatitude: 17.483334
+  latitude: 12.570423
+  longitude: 104.81391

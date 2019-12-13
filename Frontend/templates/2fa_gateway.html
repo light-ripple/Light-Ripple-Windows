@@ -1,0 +1,39 @@
+{{ define "tpl" }}
+<div class="ui container">
+	{{ if .Session.Get "2fa_must_validate" }}
+		{{ $e := is2faEnabled .Context.User.ID }}
+		<div class="tiny container">
+			<div class="ui raised segments">
+				<div class="ui segment">
+					{{ .T "Hey, %s." .Context.User.Username }}
+					{{ if eq $e 1 }}
+						{{ .T "Before proceding any further on Ripple, we require you to use the message you just received on telegram to log in to your account." }}
+					{{ else }}
+						{{ .T "Before proceding further on Ripple, we require you to use your Google Authenticator App to use the code for Ripple, so that we can log you in." }}
+					{{ end }}
+				</div>
+				<div class="ui segment">
+					<div class="ui form">
+						<div class="field">
+							<label>{{ if eq $e 1 }}{{ .T "Telegram code" }} <a href="/2fa_gateway/clear">{{ .T "(send again?)" }}</a>{{ else }}Google Authenticator passcode{{ end }}</label>
+							<input tabindex="1" type="text" placeholder="{{ if eq $e 1 }}AWYXZ13Y{{ else }}612 511{{ end }}" id="telegram-code">
+						</div>
+					</div>
+				</div>
+				{{ if eq $e 2 }}
+					<div class="ui segment">
+						<b>{{ .T "Lost your phone, or can't access Google Authenticator?" }}</b> <a href="/2fa_gateway/recover">{{ .T "Click here to use a recovery code." }}</a>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+		<script>
+			var redir = {{ .RequestInfo.redir }};
+		</script>
+	{{ else }}
+		<div class="ui segment">
+			<code style="word-break: break-all">LVstLS0tLS0tPis8XT4tLlstLS0+KysrKzxdPisuK1stLS0+KzxdPi4rWy0+KysrPF0+Li0tWy0tLT4rPF0+LS5bLT4rKys8XT4rLisrKysrKysrKysrKysuLVstPisrKysrPF0+LS5bLT4rKzxdPisuPi1bLS0tPis8XT4tLS4tLVstPisrKys8XT4tLisrKysrKy4uLVstPisrKys8XT4uK1stPisrKzxdPisuKysrKysuLS0tLS0tLisrKysrKysrLi0tWy0+KysrPF0+LS4+KysrKysrKysrKy4rWy0+KysrKys8XT4rLisrKysrLi4uLi4uKysrKysrKy4=</code>
+		</div>
+	{{ end }}
+</div>
+{{ end }}

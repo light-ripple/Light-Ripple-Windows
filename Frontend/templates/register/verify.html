@@ -1,0 +1,27 @@
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui segment">
+		{{ .T "Your account has been created, however it still <b>needs to be verified!</b> Please log in into <b><u>osu! (the game)</u></b> using your account. <b>There is <u>no email confirmation</u> at the moment. All you need to do is connect to Ainu! from the osu! client!</b> If you're having trouble, <a href='/doc/1'>follow this guide</a>." | html }}
+	</div>
+	<div class="ui centered error  message">
+		{{ .T "<b class='big text'>Do not let anyone except yourself log into your Ainu! account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel instead (after following the steps on this page) so that we can help you out if you have trouble connecting." (config "DiscordServer") | html }}
+	</div>
+	<div class="ui segment">
+		<h1 class="ui heading">{{ .T "<a href='/doc/1'>The Guide,</a> tl;dr version" | html }}</h1>
+		<ol class="ui list">
+			<li><a href='{{ .T "/static/serverswitcher_en.exe" }}'><b>{{ .T "Download the server switcher" }}</b></a></li>
+			<li>{{ .T "Extract it, disable your antivirus, execute it <b>as administrator</b>" | html }}</li>
+			<li>{{ .T "Click on <b>install certificate</b>, then <b>Yes</b>" | html }}</li>
+			<li>{{ .T "Make sure the switcher says you're playing on <b>Ainu!</b> server, if not click <b>On/Off</b>" | html }}</li>
+			<li>{{ .T "If it says something about read-only mode, go to <code>C:\\Windows\\System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure it's not set to \"Read only\"." | html }}</li>
+		</ol>
+		<p>
+			{{ .T "If you're still having trouble, then again, get on our <a href='%s'>Discord server's</a> #help channel. To have a better chance to be answered, say \"strawberry\" anywhere in your messages so that we know you have actually read this." (config "DiscordServer") | html }}
+		</p>
+	</div>
+	<div class="ui center aligned segment">
+		<h1 class="ui heading">{{ .T "Waiting for verification" }}</h1>
+		<i class="circle notched huge loading icon"></i>
+	</div>
+</div>
+{{ end }}

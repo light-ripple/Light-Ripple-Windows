@@ -1,0 +1,57 @@
+name:
+  common: San Marino
+  official: Most Serene Republic of San Marino
+  native:
+    ita:
+      common: San Marino
+      official: Serenissima Repubblica di San Marino
+eumember: false
+landlocked: true
+nationality: ""
+tlds:
+- .sm
+languages:
+  ita: Italian
+translations:
+  DEU:
+    common: San Marino
+    official: Republik San Marino
+  FIN:
+    common: San Marino
+    official: San Marinon seesteinen tasavalta
+  FRA:
+    common: Saint-Marin
+    official: République de Saint-Marin
+  POR:
+    common: San Marino
+    official: Sereníssima República de San Marino
+  SPA:
+    common: San Marino
+    official: Serenísima República de San Marino
+currencies:
+- EUR
+borders:
+- ITA
+codes:
+  alpha2: SM
+  alpha3: SMR
+  cioc: SMR
+  ccn3: "674"
+  callingcodes:
+  - "378"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Southern Europe
+  continent: Europe
+  capital: City of San Marino
+  area: 61
+coordinates:
+  longitudestring: 12 25 E
+  latitudestring: 43 46 N
+  minlongitude: 12.416667
+  minlatitude: 43.908333
+  maxlongitude: 12.5
+  maxlatitude: 43.966667
+  latitude: 43.938133
+  longitude: 12.463393

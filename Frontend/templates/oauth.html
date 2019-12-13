@@ -1,0 +1,59 @@
+{{/*###
+TitleBar=Log in with Ripple
+KyutGrill=login2.jpg
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+{{ $client := .RequestInfo.Client }}
+<div class="ui container">
+	<div class="tiny container">
+		<div class="ui grid segment internally divided">
+			<div class="ten wide column">
+				<p>{{ .T "This application will be able to:" }}</p>
+				<div class="ui section divider"></div>
+				<h3 class="ui header"><i class="user icon"></i><div class="content">{{ .T "Identify" }}</i></h3>
+				<p>
+					{{ .T "See your public information (everything somebody can see on your user profile), however with this alone it will not be able to see your private information (for instance your email address)." }}
+				</p>
+				<div class="ui section divider"></div>
+				{{ $ := . }}
+				{{ range $client.Authorizations }}
+					{{ if eq . "read_confidential" }}
+						<h3 class="ui header"><i class="eye icon"></i><div class="content">{{ $.T "Read private information" }}</i></h3>
+						<p>
+							{{ $.T "This application will be able to see your email address, and any private information we will add in the future." }}
+						</p>
+					{{ end }}
+					{{ if eq . "write" }}
+						<h3 class="ui header"><i class="pencil icon"></i><div class="content">{{ $.T "Write" }}</i></h3>
+						<p>
+							{{ $.T "This application will be able to make modifications to your Ripple account. This is potentially really dangerous! Use this only with applications that you trust." }}
+						</p>
+					{{ end }}
+					<div class="ui section divider"></div>
+				{{ end }}
+				<p>
+					<form method="POST" action="{{ .Gin.Request.URL.String }}">
+						<input type="hidden" name="appid" value="{{ $client.ID }}">
+						{{ ieForm .Gin }}
+						{{ csrfGenerate .Context.User.ID }}
+						<button type="submit" name="approve" value="1" class="ui primary button">
+							{{ .T "Approve" }}
+						</button>
+						<button type="submit" name="approve" value="0" class="ui button">
+							{{ .T "Deny" }}
+						</button>
+					</form>
+				</p>
+			</div>
+			<div class="six wide column centered">
+				{{ with $client.Avatar }}<img src="/static/oauth-apps/{{ . }}" alt="Avatar" class="ui small rounded image" style="margin: 0 auto">{{ end }}
+				<h1 class="ui header">
+					{{ $client.Name }}
+					<div class="sub header">{{ .T "created by %s" (printf "<a href=\"/u/%s\" target=\"_blank\">%s</a>" $client.CreatorID .RequestInfo.CreatorName) | html }}</div>
+				</h1>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

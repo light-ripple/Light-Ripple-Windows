@@ -1,0 +1,128 @@
+{{/*###
+Include=clan_members.html
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+
+	{{ if .ClanID }}
+		{{ $gqm := .Gin.Query "mode" }}
+		{{ $global := . }}
+		{{ $favouritemode := $gqm }}
+		{{ range (.Get "clans?id=%d" .ClanID).clans }}
+		<div class="ui top attached segment overflow auto aligned">
+			<div class="magic table">
+				{{ if .icon }}
+				<div class="table element">
+					<img src="{{ .icon }}" alt="icon" class="clan icon" style="border-radius:5%; height:90px;">
+				</div>
+				{{ end }}
+				<div class="table element">
+					<h1 class="ui header">
+
+						{{ $global.T "%s" .name | html }}
+					</h1>
+						<div class="subtitle">
+							{{ $global.T "(%s)" (.tag | htmlescaper) | html }}
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui four item bottom attached menu" id="mode-menu">
+			<a class="mode item" href="/c/{{ .id }}?mode=0">osu!</a>
+			<a class="mode item" href="/c/{{ .id }}?mode=1">osu!taiko</a>
+			<a class="mode item" href="/c/{{ .id }}?mode=2">osu!catch</a>
+			<a class="mode item" href="/c/{{ .id }}?mode=3">osu!mania</a>
+		</div>
+		<div class="ui segment">
+				<div class="ui two column divided stackable grid">
+					<div class="row">
+						<div class="column">
+
+								{{ $global.T "%s" (.description | htmlescaper) | html }}
+							{{ end }}
+							<br><br><table class="ui very basic two column compact table nopad">
+								<tbody>
+								{{ with (.Get "clans/stats?id=%d&m=%d" .ClanID (.Gin.Query "mode"))}}
+									<td></td>
+									<tr>
+											<td><b>{{ $global.T "Global Rank" }}</b></td>
+											<td class="right aligned">#{{ humanize .rank }}</td>
+									</tr>
+									<tr>
+										<td><b>{{ $global.T "PP" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.pp }}</td>
+									</tr>
+									<tr>
+										<td><b>{{ $global.T "Ranked Score" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.ranked_score }}</td>
+									</tr>
+									
+									<tr>
+										<td><b>{{ $global.T "Total Score" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.total_score }}</td>
+									</tr>
+									<tr>
+										<td><b>{{ $global.T "Total Playcount" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.playcount }}</td>
+									</tr>
+									<tr>
+										<td><b>{{ $global.T "Total Replays Watched" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.replays_watched }}</td>
+									</tr>
+									<tr>
+										<td><b>{{ $global.T "Total Hits" }}</b></td>
+										<td class="right aligned">{{ humanize .chosen_mode.total_hits }}</td>
+									</tr>
+									{{end}}
+								{{ range (.Get "clans?id=%d" .ClanID).clans }}
+								</tbody>
+							</table>{{ end }}
+						</div>
+						<div class="column">
+						{{ if $global.Context.User.ID }}
+							{{ $d := qb "SELECT user, clan, perms FROM user_clans WHERE user = ? LIMIT 1" .Context.User.ID }}
+							{{ $p := qb "SELECT user, clan, perms FROM user_clans WHERE user = ? AND perms = 8 LIMIT 1" .Context.User.ID }}
+							{{ $tc := qb "SELECT user, clan, perms FROM user_clans WHERE user = ? AND clan = ? LIMIT 1" .Context.User.ID .ClanID }}
+							{{ $uc := or $d.clan.Int -1 }}
+								{{ if $d }}
+									{{ if $tc }}
+										{{ if $p }}
+											<form id="register-form" class="ui form" method="post" action="/c/{{ .ClanID }}">
+												{{ ieForm .Gin }}
+											</form>
+											<div class="ui one item menu"><button tabindex="1" class="ui primary button" style="background-color:rgba(255,0,0,.5)" type="submit" form="register-form">{{ .T "Disband Clan" }}</button></div>
+										{{ else }}
+											<form id="register-form" class="ui form" method="post" action="/c/{{ .ClanID }}">
+												{{ ieForm .Gin }}
+											</form>
+											<div class="ui one item menu"><button tabindex="1" class="ui primary button" style="background-color:rgba(255,0,0,.3)" type="submit" form="register-form">{{ .T "Leave Clan" }}</button></div>
+										{{ end }}
+									{{ else }}
+										<div class="ui one item menu" id="join-menu"><a class="item" style="background-color:rgba(255,0,0,.3)">Already joined a clan</a></div>
+									{{end}}
+								{{ else }}
+
+								{{ end }}
+						{{ else }}
+						<div class="ui one item menu" id="join-menu"><a class="item" href="/login" style="background-color:rgba(0,128,255,.3)">Please login to join a clan</a></div>
+						
+						{{ end }}
+							<h1 class="ui heading">{{ .T "Clan Owner" }}</h1>
+							<p>
+								{{ .T "The leader of the clan." }}<br>
+							</p>
+							{{ template "clanMembers" (.Get "clans/members?id=%d&r=%d" .ClanID 8) }}
+						</div>
+					</div>
+				</div>
+				<div class="ui aligned segment">
+					<h1 class="ui heading">{{ .T "Members" }}</h1>
+					<p>
+						{{ .T "The members of the clan." }}<br>
+					</p>
+						{{ template "clanMembers" (.Get "clans/members?id=%d&r=%d" .ClanID 1) }}
+				</div>
+			</div>
+		{{ end }}
+</div>
+{{ end }}

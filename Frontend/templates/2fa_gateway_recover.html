@@ -1,0 +1,22 @@
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="tiny container">
+		<div class="ui segments">
+			<div class="ui segment">
+				{{ .T "Can't find a way to get back access to your Ripple account? Fear not! If you have your recovery codes which we recommended you to print you can type one in here and we'll magically log you in this time. After you've managed to get in, please disable and then re-enable 2FA, so you won't risk losing your account again." }}
+			</div>
+			<div class="ui segment">
+				<form method="POST" class="ui form">
+					{{ ieForm .Gin }}
+					<div class="ui fluid action input">
+						<input tabindex="1" type="text" placeholder="1QW4RX5P" name="recovery_code" required>
+						<button tabindex="2" class="ui green button">
+							{{ .T "Recover account" }}
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

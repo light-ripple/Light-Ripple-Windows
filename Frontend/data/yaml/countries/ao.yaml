@@ -1,0 +1,66 @@
+name:
+  common: Angola
+  official: Republic of Angola
+  native:
+    por:
+      common: Angola
+      official: República de Angola
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ao
+languages:
+  por: Portuguese
+translations:
+  CYM:
+    common: Angola
+    official: Republic of Angola
+  DEU:
+    common: Angola
+    official: Republik Angola
+  FIN:
+    common: Angola
+    official: Angolan tasavalta
+  FRA:
+    common: Angola
+    official: République d'Angola
+  HRV:
+    common: Angola
+    official: Republika Angola
+  JPN:
+    common: アンゴラ
+    official: アンゴラ共和国
+  RUS:
+    common: Ангола
+    official: Республика Ангола
+currencies:
+- AOA
+borders:
+- COG
+- COD
+- ZMB
+- NAM
+codes:
+  alpha2: AO
+  alpha3: AGO
+  cioc: ANG
+  ccn3: "024"
+  callingcodes:
+  - "244"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Middle Africa
+  continent: Africa
+  capital: Luanda
+  area: 1.2467e+06
+coordinates:
+  longitudestring: 18 30 E
+  latitudestring: 12 30 S
+  minlongitude: 10
+  minlatitude: -32
+  maxlongitude: 23.983334
+  maxlatitude: -4.4
+  latitude: -12.333555
+  longitude: 17.539465

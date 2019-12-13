@@ -1,0 +1,66 @@
+name:
+  common: Aruba
+  official: Aruba
+  native:
+    nld:
+      common: Aruba
+      official: Aruba
+    pap:
+      common: Aruba
+      official: Aruba
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .aw
+languages:
+  nld: Dutch
+  pap: Papiamento
+translations:
+  FIN:
+    common: Aruba
+    official: Aruba
+  HRV:
+    common: Aruba
+    official: Aruba
+  JPN:
+    common: アルバ
+    official: アルバ
+  NLD:
+    common: Aruba
+    official: Aruba
+  POR:
+    common: Aruba
+    official: Aruba
+  RUS:
+    common: Аруба
+    official: Аруба
+  SPA:
+    common: Aruba
+    official: Aruba
+currencies:
+- AWG
+borders: []
+codes:
+  alpha2: AW
+  alpha3: ABW
+  cioc: ARU
+  ccn3: "533"
+  callingcodes:
+  - "297"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: Oranjestad
+  area: 180
+coordinates:
+  longitudestring: 69 58 W
+  latitudestring: 12 30 N
+  minlongitude: -70.066666
+  minlatitude: 12.416667
+  maxlongitude: -69.85
+  maxlatitude: 12.616667
+  latitude: 12.506523
+  longitude: -69.969315

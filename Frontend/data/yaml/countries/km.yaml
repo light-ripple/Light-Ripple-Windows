@@ -1,0 +1,67 @@
+name:
+  common: Comoros
+  official: Union of the Comoros
+  native:
+    ara:
+      common: القمر‎
+      official: الاتحاد القمري
+    fra:
+      common: Comores
+      official: Union des Comores
+    zdj:
+      common: Komori
+      official: Udzima wa Komori
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .km
+languages:
+  ara: Arabic
+  fra: French
+  zdj: Comorian
+translations:
+  DEU:
+    common: Union der Komoren
+    official: Union der Komoren
+  FRA:
+    common: Comores
+    official: Union des Comores
+  HRV:
+    common: Komori
+    official: Savez Komori
+  JPN:
+    common: コモロ
+    official: コモロ連合
+  POR:
+    common: Comores
+    official: União das Comores
+  RUS:
+    common: Коморы
+    official: Союз Коморских Островов
+currencies:
+- KMF
+borders: []
+codes:
+  alpha2: KM
+  alpha3: COM
+  cioc: COM
+  ccn3: "174"
+  callingcodes:
+  - "269"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Eastern Africa
+  continent: Africa
+  capital: Moroni
+  area: 1862
+coordinates:
+  longitudestring: 44 15 E
+  latitudestring: 12 10 S
+  minlongitude: 43.226112
+  minlatitude: -13
+  maxlongitude: 45.316666
+  maxlatitude: -11.35
+  latitude: -11.866102
+  longitude: 43.43264

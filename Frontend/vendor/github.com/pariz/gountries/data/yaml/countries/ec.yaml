@@ -1,0 +1,61 @@
+name:
+  common: Ecuador
+  official: Republic of Ecuador
+  native:
+    spa:
+      common: Ecuador
+      official: República del Ecuador
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .ec
+languages:
+  spa: Spanish
+translations:
+  CYM:
+    common: Ecwador
+    official: Republic of Ecuador
+  FRA:
+    common: Équateur
+    official: République de l'Équateur
+  HRV:
+    common: Ekvador
+    official: Republika Ekvador
+  NLD:
+    common: Ecuador
+    official: Republiek Ecuador
+  POR:
+    common: Equador
+    official: República do Equador
+  RUS:
+    common: Эквадор
+    official: Республика Эквадор
+currencies:
+- USD
+borders:
+- COL
+- PER
+codes:
+  alpha2: EC
+  alpha3: ECU
+  cioc: ECU
+  ccn3: "218"
+  callingcodes:
+  - "593"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: South America
+  continent: South America
+  capital: Quito
+  area: 276841
+coordinates:
+  longitudestring: 77 30 W
+  latitudestring: 2 00 S
+  minlongitude: -92
+  minlatitude: -4.95
+  maxlongitude: -75.21667
+  maxlatitude: 1.65
+  latitude: -1.4215289
+  longitude: -78.87104

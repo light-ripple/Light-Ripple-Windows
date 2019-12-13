@@ -1,0 +1,53 @@
+{{/*###
+Handler=/donate
+TitleBar=Support Ainu!
+KyutGrill=donate2.png
+AdditionalJS=https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.js
+*/}}
+{{ define "tpl" }}
+{{ $global := .Context }}
+{{ $ := $ }}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.css" rel="stylesheet" type="text/css">
+<div class="ui container">
+	{{ $ief := ieForm .Gin }}
+	{{ with .Get "users/self/donor_info" }}
+		{{ if .has_donor }}
+			<div class="ui segment">
+				<h1 class="ui center aligned header no bottom margin" style="margin: 0 auto; display: table;">
+					<i class="red heart icon" style="font-size: 90%;"></i> <div class="content">{{ $.T "You are a donor!" }}</div>
+				</h1>
+				<div class="ui centered subtitle" style="font-size:1.2rem;">
+					{{ $.T "Your donor expires <b>%s</b>. No need to feel guilty for not having donated!" (time .expiration) | html }} &lt;3
+				</div>
+				<div class="ui segments">
+			<div class="ui segment">
+				<h2 class="ui header"><center>
+					{{ $.T "We're currently disabled the Donation!" }}
+					</center><div class="sub header"><center>
+						{{ if .has_donor }}{{ $.T "(Thank you for donating us.)" }}{{ else }}{{ $.T "(I'm sorry but If you're Thai please DM me for donating!.)" }}{{ end }}
+					</div></center>
+				</h2>
+			</div>
+			</div>
+		{{ end }}
+		{{ if $global.User.ID }}
+		{{ if .has_donor }}{{else}}
+		<div class="ui segment">
+				<h1 class="ui center aligned header">{{ $.T "We're currently disabled the Donation!" }}</h1>
+				<h2 class="ui header"><center>
+				<h4 class="ui horizontal divider header">
+					{{ $.T "Really sorry but I had to do it." }}
+				</h4>
+					</center><div class="sub header"><center>
+						{{ if .has_donor }}{{ $.T "(Thank you for donating us.)" }}{{ else }}{{ $.T "(I'm sorry but If you're Thai please DM me for donating!.)" }}{{ end }}
+					</div></center>
+				</h2>
+		</div>
+		{{ end }}
+			{{ else }}
+				<div class="ui segment">
+				<h1 class="ui center aligned header">{{ $.T "Please log in to view this page!" }}</h1>
+				</div>
+			{{ end }}
+		{{ end }}
+	{{ end }}

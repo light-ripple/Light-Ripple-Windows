@@ -1,0 +1,92 @@
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+
+/*******************************
+        Theme Selection
+*******************************/
+
+/* To override a theme for an individual element
+   specify theme name below
+*/
+
+/* Global */
+@site       : 'dark';
+@reset      : 'dark';
+
+/* Elements */
+@button     : 'dark';
+@container  : 'dark';
+@divider    : 'dark';
+@flag       : 'dark';
+@header     : 'dark';
+@icon       : 'dark';
+@image      : 'dark';
+@input      : 'dark';
+@label      : 'dark';
+@list       : 'dark';
+@loader     : 'dark';
+@rail       : 'dark';
+@reveal     : 'dark';
+@segment    : 'dark';
+@step       : 'dark';
+
+/* Collections */
+@breadcrumb : 'dark';
+@form       : 'dark';
+@grid       : 'dark';
+@menu       : 'dark';
+@message    : 'dark';
+@table      : 'dark';
+
+/* Modules */
+@accordion  : 'dark';
+@checkbox   : 'dark';
+@dimmer     : 'dark';
+@dropdown   : 'dark';
+@embed      : 'dark';
+@modal      : 'dark';
+@nag        : 'dark';
+@popup      : 'dark';
+@progress   : 'dark';
+@rating     : 'dark';
+@search     : 'dark';
+@shape      : 'dark';
+@sidebar    : 'dark';
+@sticky     : 'dark';
+@tab        : 'dark';
+@transition : 'dark';
+
+/* Views */
+@ad         : 'dark';
+@card       : 'dark';
+@comment    : 'dark';
+@feed       : 'dark';
+@item       : 'dark';
+@statistic  : 'dark';
+
+/*******************************
+            Folders
+*******************************/
+
+/* Path to theme packages */
+@themesFolder : 'themes';
+
+/* Path to site override folder */
+@siteFolder   : 'site/';
+
+
+/*******************************
+         Import Theme
+*******************************/
+
+@import "theme.less";
+
+/* End Config */

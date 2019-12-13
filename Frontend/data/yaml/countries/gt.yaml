@@ -1,0 +1,60 @@
+name:
+  common: Guatemala
+  official: Republic of Guatemala
+  native:
+    spa:
+      common: Guatemala
+      official: República de Guatemala
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .gt
+languages:
+  spa: Spanish
+translations:
+  DEU:
+    common: Guatemala
+    official: Republik Guatemala
+  FIN:
+    common: Guatemala
+    official: Guatemalan tasavalta
+  HRV:
+    common: Gvatemala
+    official: Republika Gvatemala
+  ITA:
+    common: Guatemala
+    official: Repubblica del Guatemala
+  NLD:
+    common: Guatemala
+    official: Republiek Guatemala
+currencies:
+- GTQ
+borders:
+- BLZ
+- SLV
+- HND
+- MEX
+codes:
+  alpha2: GT
+  alpha3: GTM
+  cioc: GUA
+  ccn3: "320"
+  callingcodes:
+  - "502"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: Central America
+  continent: North America
+  capital: Guatemala City
+  area: 108889
+coordinates:
+  longitudestring: 90 15 W
+  latitudestring: 15 30 N
+  minlongitude: -92.583336
+  minlatitude: 13.751111
+  maxlongitude: -87.05
+  maxlatitude: 17.816668
+  latitude: 15.670566
+  longitude: -90.348656

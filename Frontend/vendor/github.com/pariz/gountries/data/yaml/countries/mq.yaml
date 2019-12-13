@@ -1,0 +1,56 @@
+name:
+  common: Martinique
+  official: Martinique
+  native:
+    fra:
+      common: Martinique
+      official: Martinique
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .mq
+languages:
+  fra: French
+translations:
+  DEU:
+    common: Martinique
+    official: Martinique
+  FRA:
+    common: Martinique
+    official: Martinique
+  ITA:
+    common: Martinica
+    official: Martinique
+  JPN:
+    common: マルティニーク
+    official: マルティニーク島
+  SPA:
+    common: Martinica
+    official: Martinica
+currencies:
+- EUR
+borders: []
+codes:
+  alpha2: MQ
+  alpha3: MTQ
+  cioc: ""
+  ccn3: "474"
+  callingcodes:
+  - "596"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: Caribbean
+  continent: North America
+  capital: Fort-de-France
+  area: 1128
+coordinates:
+  longitudestring: ""
+  latitudestring: ""
+  minlongitude: -61.966667
+  minlatitude: 14.383333
+  maxlongitude: -60.816666
+  maxlatitude: 14.866667
+  latitude: 14.642808
+  longitude: -60.977554

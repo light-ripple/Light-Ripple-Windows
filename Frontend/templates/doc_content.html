@@ -1,0 +1,38 @@
+{{/*###
+Handler=/doc/:id
+TitleBar=View document
+KyutGrill=documentation.jpg
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui segments">
+		{{ $ := . }}
+		{{ with documentationData (.Gin.Param "id") (or (.Gin.Query "lang") .Context.Language) }}
+			{{ if .Title }}
+				<div class="ui segment">
+					<h1 class="ui header">{{ .Title }}</h1>
+				</div>
+				{{ if not .IsUpdated }}
+					<div class="ui yellow segment">
+						{{ $.T "It seems like the original version of this file has been updated, so this file is out of date and may contain inaccurate information. If you want to make sure to be up-to-date, please refer to the <a href=\"%s%s\">English version</a>." $.Gin.Request.URL.Path "?lang=en" | html }}
+					</div>
+				{{ end }}
+				<div class="ui segment">
+					{{ blackfriday .Data }}
+				</div>
+			{{ else }}		
+				<div class="ui segment">
+					{{ $.T "Documentation file not found!" }}
+				</div>
+			{{ end }}
+		{{ end }}
+		<div class="ui right aligned segment">
+			<a class="ui labeled icon button" href="/doc">
+				<i class="left arrow icon"></i>
+				{{ .T "View all docs" }}
+			</a>
+		</div>
+	</div>
+</div>
+{{ end }}

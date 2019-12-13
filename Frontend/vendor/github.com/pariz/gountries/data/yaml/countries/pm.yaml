@@ -1,0 +1,59 @@
+name:
+  common: Saint Pierre and Miquelon
+  official: Saint Pierre and Miquelon
+  native:
+    fra:
+      common: Saint-Pierre-et-Miquelon
+      official: Collectivité territoriale de Saint-Pierre-et-Miquelon
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .pm
+languages:
+  fra: French
+translations:
+  DEU:
+    common: Saint-Pierre und Miquelon
+    official: St. Pierre und Miquelon
+  FRA:
+    common: Saint-Pierre-et-Miquelon
+    official: Saint-Pierre-et-Miquelon
+  HRV:
+    common: Sveti Petar i Mikelon
+    official: Saint Pierre i Miquelon
+  ITA:
+    common: Saint-Pierre e Miquelon
+    official: Saint Pierre e Miquelon
+  RUS:
+    common: Сен-Пьер и Микелон
+    official: Сен-Пьер и Микелон
+  SPA:
+    common: San Pedro y Miquelón
+    official: San Pedro y Miquelón
+currencies:
+- EUR
+borders: []
+codes:
+  alpha2: PM
+  alpha3: SPM
+  cioc: ""
+  ccn3: "666"
+  callingcodes:
+  - "508"
+  internationalprefix: "00"
+geo:
+  region: Americas
+  subregion: Northern America
+  continent: North America
+  capital: Saint-Pierre
+  area: 242
+coordinates:
+  longitudestring: 56 20 W
+  latitudestring: 46 50 N
+  minlongitude: -56.405277
+  minlatitude: 46.748333
+  maxlongitude: -56.120556
+  maxlatitude: 47.13972
+  latitude: 46.905945
+  longitude: -56.336586

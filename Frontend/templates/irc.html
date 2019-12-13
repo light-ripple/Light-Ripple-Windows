@@ -1,0 +1,22 @@
+{{/*###
+Handler=/irc
+TitleBar=IRC token
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui segments">
+		<div class="ui segment">
+			{{ .T "Here you can generate a new IRC token. You can use it to connect to Ripple's chat using IRC. Remember that your IRC token is like a password, anyone who knows it, has access to your account. If you're interested knowing how to connect to Ripple's chat via IRC, you may want to check out <a href=\"/doc/11\">this</a>." | html }}
+		</div>
+		<div class="ui right aligned segment">
+			<form action="/irc/generate" method="POST">
+				{{ ieForm .Gin }}
+				<button tabindex="1" type="submit" class="ui right blue button">
+					{{ .T "Generate a new token!" }}
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
+{{ end }}

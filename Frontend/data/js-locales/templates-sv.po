@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /sv/HanayoJS/templates-sv.po\n"
+"X-Pootle-Revision: 3113\n"
+
+# JavaScript
+msgid ""
+"An error occurred while contacting the Ripple API. Please report this to a "
+"Ripple developer."
+msgstr ""
+"Ett fel uppstod när du kontaktade Ripple API. Var vänlig rapportera detta "
+"till en Ripple-uvecklare."
+
+msgid "Why, LOVE, of course!"
+msgstr "Varför, ÄLSKAR, förstås!"
+
+msgid "Your new settings have been saved."
+msgstr "Dina nya inställningar har sparats."
+
+msgid "Your userpage has been saved."
+msgstr "Din användarsida har sparats."
+
+msgid ""
+"Please provide a valid link, in the form of either "
+"https://osu.ppy.sh/s/&lt;ID&gt; or https://osu.ppy.sh/b/&lt;ID&gt;."
+msgstr ""
+"Vänligen ange en giltig länk, antingen i form av https://osu.ppy.sh/s/&lt;"
+"ID&gt och https://osu.ppy.sh/s/&lt;ID&gt."
+
+msgid "Beatmap rank request has been submitted."
+msgstr "Beatmap rankningsförfrågan har skickats in."
+
+msgid "That beatmap is already ranked!"
+msgstr "Den beatmap är redan rankad!"
+
+# user profile
+msgid "Add friend"
+msgstr "Lägg till vän"
+
+msgid "Remove friend"
+msgstr "Ta bort vän"
+
+msgid "Unmutual friend"
+msgstr "Ångra en ömsesidig vänskap"
+
+# score table
+msgid "General info"
+msgstr "Generell info"
+
+msgid "Score"
+msgstr "Poäng"
+
+msgid "Load more"
+msgstr "Läs mer"
+
+msgid "Best scores"
+msgstr "Bästa poängen"
+
+msgid "Recent scores"
+msgstr "Senaste poängen"
+
+msgid "Download"
+msgstr "Hämta"
+
+# score modal (when you click on a score)
+msgid "Points"
+msgstr "Poäng"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Beatmap"
+msgstr "Beatmap"
+
+msgid "Accuracy"
+msgstr "Noggrannhet"
+
+msgid "Max combo"
+msgstr "Maximal kombination"
+
+msgid "(full combo)"
+msgstr "(full kombination)"
+
+msgid "Difficulty"
+msgstr "Svårighet"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nej"
+
+# Achieved (refers to date)
+msgid "Achieved"
+msgstr "Datum uppnått"
+
+# Game mode, like osu! standard, not like HR
+msgid "Mode"
+msgstr "Läge"
+
+# (No mods used)
+msgid "None"
+msgstr "Ingen"
+
+msgid "{{ stars }} star"
+msgid_plural "{{ stars }} stars"
+msgstr[0] "{{ stjärnor }} stjärna"
+msgstr[1] "{{ stjärnor }} stjärnor"
+
+msgid "<b>{{ months }}</b> month costs <b>€ {{ eur }}</b>"
+msgid_plural "<b>{{ months }}</b> months cost <b>€ {{ eur }}</b>"
+msgstr[0] "<b>{{ månad }}</b> månad kostnad <b>€ {{ eur }}</b>"
+msgstr[1] "<b>{{ månader }}</b> månader kostnad <b>€ {{ eur }}</b>"
+
+msgid "($ {{ usd }} / BTC {{ btc }})"
+msgstr "($ {{ usd }} / BTC {{ btc }})"
+
+# (following are in relation to friends)
+msgid "Mutual"
+msgstr "ömsesidig"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Add"
+msgstr "Lägg till"

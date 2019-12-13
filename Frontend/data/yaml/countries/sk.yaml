@@ -1,0 +1,73 @@
+name:
+  common: Slovakia
+  official: Slovak Republic
+  native:
+    slk:
+      common: Slovensko
+      official: Slovenská republika
+eumember: true
+landlocked: true
+nationality: ""
+tlds:
+- .sk
+languages:
+  slk: Slovak
+translations:
+  DEU:
+    common: Slowakei
+    official: Slowakische Republik
+  FRA:
+    common: Slovaquie
+    official: République slovaque
+  HRV:
+    common: Slovačka
+    official: slovačka
+  ITA:
+    common: Slovacchia
+    official: Repubblica slovacca
+  JPN:
+    common: スロバキア
+    official: スロバキア共和国
+  NLD:
+    common: Slowakije
+    official: Slowaakse Republiek
+  POR:
+    common: Eslováquia
+    official: República Eslovaca
+  RUS:
+    common: Словакия
+    official: Словацкая Республика
+  SPA:
+    common: República Eslovaca
+    official: República Eslovaca
+currencies:
+- EUR
+borders:
+- AUT
+- CZE
+- HUN
+- POL
+- UKR
+codes:
+  alpha2: SK
+  alpha3: SVK
+  cioc: SVK
+  ccn3: "703"
+  callingcodes:
+  - "421"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Eastern Europe
+  continent: Europe
+  capital: Bratislava
+  area: 49037
+coordinates:
+  longitudestring: 19 30 E
+  latitudestring: 48 40 N
+  minlongitude: 17
+  minlatitude: 45.5
+  maxlongitude: 26.5
+  maxlatitude: 49.6
+  latitude: 48.707485
+  longitude: 19.48489

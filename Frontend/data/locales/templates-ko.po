@@ -1,0 +1,1723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /ko/Hanayo/templates-ko.po\n"
+"X-Pootle-Revision: 8337\n"
+
+msgid "You're already logged in!"
+msgstr "이미 로그인이 되어 있습니다!"
+
+msgid "Submit"
+msgstr "제출하기"
+
+msgid "Username"
+msgstr "아이디"
+
+msgid "Password"
+msgstr "비밀번호"
+
+msgid "Invalid CSRF token"
+msgstr "CSRF 토큰이 일치하지 않습니다"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr "세션이 만료되었습니다. 다시 시도해주세요."
+
+msgid "That user could not be found."
+msgstr "해당 유저를 찾을 수 없습니다!"
+
+msgid "Your settings have been saved."
+msgstr "변경사항이 저장되었습니다."
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr "비트맵 랭크 신청하기"
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr "언랭크 맵을 플레이해서 pp를 얻고 싶으신가요? 여기서 비트맵의 랭크 신청을 하실 수 있습니다!"
+
+msgid "Queue status"
+msgstr "대기 상태"
+
+msgid "by you"
+msgstr "당신에 의해서"
+
+msgid "Requests submitted"
+msgstr "신청이 접수되었습니다"
+
+msgid "In the past 24 hours"
+msgstr "지난 24시간동안"
+
+msgid "Request a beatmap"
+msgstr "비트맵 신청"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "현재 비트맵 신청을 하실 수 없습니다!"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "다시 시도해주세요."
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "비밀번호 초기화"
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr "다시 오신걸 환영합니다, %s! 님! 비밀번호 변경을 완료 하시려면 새로운 비밀번호를 입력해 주세요:"
+
+msgid "Nope."
+msgstr "아니요."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "키를 찾을 수 없습니다. 키가 만료되었는지 확인해주세요."
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr "비밀번호 변경에 성공하였습니다! 이제 로그인하실 수 있을겁니다."
+
+# register/register.html
+msgid "Register"
+msgstr "회원가입"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr "현재 회원가입이 불가능합니다. 나중에 다시 시도해주세요."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr "주의: 이 계정은 당신의 부계정으로 보입니다! 계정을 두개 이상 만들면 징계를 받을 수 있습니다!"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr "아이디 (영문, 숫자, 띄어쓰기 포함 2~15자, <code>>[]</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "비밀번호 (최소 8자리)"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid ""
+"You have been successfully registered on Ripple! You now need to verify your "
+"account."
+msgstr "성공적으로 회원가입이 완료되었습니다! 이제 계정을 인증하십시요."
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "비밀번호가 너무 짧습니다! 최소 8자리 이여야 합니다."
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr "비밀번호가 너무 단순합니다! 다른 비밀번호를 입력해 주세요."
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr "아이디는 영문, 숫자, 띄어쓰기, 혹은 <code>_[]-</code>만 사용할 수 있습니다."
+
+msgid "You're not allowed to register with that username."
+msgstr "이 유저네임을 사용하실 수 없습니다."
+
+msgid "Please pass a valid email address."
+msgstr "올바른 이메일 주소를 입력하세요."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr "아이디는 밑줄 표시와 띄어쓰기를 동시에 사용하실 수 없습니다."
+
+msgid "An user with that username already exists!"
+msgstr "이미 사용중인 아이디 입니다!"
+
+msgid "An user with that email address already exists!"
+msgstr "이미 사용중인 이메일 주소 입니다!"
+
+msgid "Captcha is invalid."
+msgstr "Captcha가 일치하지 않습니다."
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr "오류가 발생했습니다. 하지만 회원가입이 되었을 수도 있으므로 확인해주시기 바랍니다."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "계정 인증"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ripple from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"계정이 생성되었지만, 아직 <b>계정 인증을 하지 않았습니다!</b> <b><u>오스에 로그인을 해서</u></b> 계정 인증을 하세요! "
+"<b>현재 <u>이메일 계정 인증은 활성화 되지 않았기 때문에,</u> 서버에 접속만 하면 됩니다!</b> 문제가 있다면, <a "
+"href='/doc/1'>이 가이드를 따라주세요</a>"
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ripple "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>절대로 본인 이외의 사람이 이 계정으로 로그인 하게 하지 마세요!</b><br> 만약 서버 연결에 "
+"문제가 있다면 <a href='%s'>디스코드 서버의</a> #help 채널에 (이 페이지의 절차를 따르면서) 도움을 요청하세요."
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>가이드, </a> 가이드를 읽기 귀찮다면..."
+
+msgid "Download the server switcher"
+msgstr "서버 스위처를 다운로드 하세요."
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr "압축 해제 후, 백신 프로그램을 비활성화 시키고, <b>관리자 권한으로</b> 실행하세요."
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "<b>인증서 다운로드 (install certificate)</b> 를 클릭한 후, <b>예 (Yes)</b> 를 클릭하세요."
+
+msgid ""
+"Make sure the switcher says you're playing on <b>Ripple</b> server, if not "
+"click <b>On/Off</b>"
+msgstr "서버 전환기에 <b>리플</b>에서 게임중 이라는것을 확인하세요. 만약 아니라면 <b>On/Off</b>를 클릭하세요."
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+"읽기 전용모드로 되어있으면, <code>C:\\Windows\\System32\\Drivers\\etc</code>경로로 가서 host "
+"파일 속성에 읽기전용 모드(\"Read only\")가 비활성화 되어있는지 확인해주세요."
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+"아직도 문제가 있으시다면, <a href='%s'>디스코드 서버의</a> #help 채널에서 문의를 해주세요. 문장 속에 아무곳에나 \""
+"strawberry\" 라고 말하면 당신이 이걸 읽었다는 증거가 되므로 대답을 받을 확률이 높아질수도 있어요!"
+
+msgid "Waiting for verification"
+msgstr "인증을 기다리는 중"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "환영합니다!"
+
+msgid "Welcome back!"
+msgstr "다시 돌아오신것을 환영합니다!"
+
+msgid "Congratulations for not reading things!"
+msgstr "난독에 걸리신것을 축하합니다!"
+
+msgid "Multiaccounts are not allowed on Ripple"
+msgstr "부계정은 리플서버에서 허용되지 않습니다."
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"당신의 부계정은 <b>밴</b> 당하였고 본계정은 <b>정지</b> 당했습니다. 약 한달후에 <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>으로 이메일을 보내고 언벤 "
+"요쳥을 하실 수 있습니다. 다음부터는 규칙을 따르는게 좋을 겁니다."
+
+msgid "Welcome to Ripple"
+msgstr "리플 서버에 오신것을 환영합니다!"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now "
+"play on Ripple and <a href='/login'>log in</a> on the website!"
+msgstr ""
+"환영합니다. <b>당신의 계정이 활성화 되었습니다.</b> 이제 리플에서 게임을 하실수 있고 웹사이트에서 <a "
+"href='/login'>로그인</a>을 할수 있습니다!"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "확인할 것들:"
+
+msgid "Login"
+msgstr "로그인"
+
+msgid "Rules"
+msgstr "규칙"
+
+msgid "Documentation"
+msgstr "문서화"
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Discord"
+msgstr "디스코드"
+
+msgid "Subreddit"
+msgstr "서브레딧"
+
+msgid " - in case you don't know where to start"
+msgstr "- 어디서부터 시작해야 할지 모를 때"
+
+msgid " - in case you haven't already read them"
+msgstr "- 아직 다 읽어보지 못하셨을 경우에"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr "- 도움이 필요하실 경우에"
+
+msgid " - in case you believe Ripple is down"
+msgstr "- 만약 리플 서버가 다운됬다고 생각될때"
+
+msgid " - in case you want to talk with people about Ripple"
+msgstr "- 사람들과 이 서버에 관해서 대화를 하고 싶을 때"
+
+msgid " - just in case"
+msgstr "- 만약을 대비해서"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "계정 복구"
+
+msgid ""
+"Can't find a way to get back access to your Ripple account? Fear not! If you "
+"have your recovery codes which we recommended you to print you can type one "
+"in here and we'll magically log you in this time. After you've managed to "
+"get in, please disable and then re-enable 2FA, so you won't risk losing your "
+"account again."
+msgstr ""
+"다시 리플 계정으로 로그인할 방법이 안 보이시나요? 걱정하지 마세요! 복구코드들을 가지고 계신다면 여기에 하나 입력하시면 우리가 마법같이 "
+"이번 한 번만 로그인시켜드립니다. 접속하신 다음에 2FA를 비활성화 그리고 활성화를 하셔서 다시는 계정을 잃지 않게 해주세요."
+
+msgid "Oh no you don't."
+msgstr "해보기만 해봐. 아주 ㅈ되는거야."
+
+msgid "Get out."
+msgstr "나가세요."
+
+msgid "Recovery code is invalid."
+msgstr "복구 코드가 올바르지 않습니다."
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "엘모야! 야메떼!"
+
+msgid "Stop!"
+msgstr "야메떼 구다사이!"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"%s 으로 벌써 로그인이 되어있는 상태에서 로그인을 하시려는군요! 부계정을 사용하는 일은 한달간 정지를 당하는 등의 제제행위가 이루어질 "
+"수 있으니 주의하세요!"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr "만약 %s 님이시면, 부계정 = 벤 이라는 것을 알아주세요."
+
+msgid ""
+"If you're not %s, but you're using %s's computer, please sign up on Ripple "
+"from your own computer."
+msgstr "%s 가 아니지만 %s 님의 컴퓨터를 님이 사용하고 계신다면, 본인 컴퓨터로 리플에 가입해 주시기 바랍니다."
+
+msgid ""
+"If you live with %s and you don't have your own computer from which to sign "
+"up on Ripple, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"%s님과 같이 살고 계시지만 리플에 가입할 수 있는 본인 컴퓨터가 없으신 경우에는 support@ripple.moe 로 연락해주시면 "
+"친절하게 도와드리겠습니다."
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr "%s님과 같은 네트워크에 접속되어 있어도 이 경고가 나올 수 있습니다. 하지만 같은 컴퓨터를 사용하지 않는 이상 안전할 겁니다."
+
+msgid "Don't stop me now!"
+msgstr "지금 저를 멈추지 말아주세요오옷!"
+
+msgid "Bring me back to safety!"
+msgstr "저좀 살려줘요오옷!"
+
+msgid "Log in"
+msgstr "로그인"
+
+msgid "Username (or email)"
+msgstr "아이디 (혹은 이메일 주소)"
+
+# in relationship to a password
+msgid "(forgot?)"
+msgstr "(비밀번호를 잊으셨나요?)"
+
+msgid "Username or password not set."
+msgstr "아이디와 비밀번호가 설정되지 않았습니다."
+
+msgid "No user with such %s!"
+msgstr "%s라는 닉네임을 가진 사람이 없습니다!"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr "호랑이 담배피던 시절에 만드신 비밀번호를 사용중이신데 새롭게 바꿔보시는건 어떨까요?"
+
+msgid "Wrong password."
+msgstr "비밀번호가 틀렸습니다."
+
+msgid "You will need to verify your account first."
+msgstr "계정 인증을 먼저 하셔야 합니다."
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr "당신의 계정이 밴 또는 정지당하여 로그인을 하실 수 없습니다."
+
+msgid "Hey %s! You are now logged in."
+msgstr "반갑습니다 %s! 님, 성공적으로 로그인 되었습니다."
+
+msgid "You're already logged out!"
+msgstr "이미 로그아웃 되어있습니다!"
+
+msgid "Successfully logged out."
+msgstr "성공적으로 로그아웃 하였습니다."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your "
+"username or email address, and we'll take care of it. You will receive an "
+"email at the email address you used to sign up on Ripple. To continue the "
+"password reset procedure, click the link on that email."
+msgstr ""
+"비밀번호를 잊으셨나요? 걱정은 다메다메요! 여기서 비밀번호 초기화를 하실 수 있습니다. 아이디와 이메일 주소를 알려주시면 리플에 "
+"가입하셨을때 사용하신 이메일로 초기화 링크를 보내드립니다."
+
+msgid "You look pretty banned/locked here."
+msgstr "당신은 벤/정지 가 되어있는 것으로 보이네요."
+
+msgid ""
+"Done! You should shortly receive an email from us at the email you used to "
+"sign up on Ripple."
+msgstr "끝났습니다! 리플에 가입할 때 사용하신 이메일로 곧 이메일을 받으실 겁니다."
+
+msgid "Ripple password recovery instructions"
+msgstr "비밀번호 복구 가이드"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset "
+"for your account. In case it was you, please <a href='%s'>click here</a> to "
+"reset your password on Ripple. Otherwise, silently ignore this email."
+msgstr ""
+"%s! 님 안녕하세요! 당신으로 추정되는 누군가가 비밀번호 초기화를 요청하였습니다. 요청한 사람이 다행히도 님이시라면, <a "
+"href='%s'>이 링크를 클릭하여 </a> 리플 비밀번호 초기화를 완료해주세요. 님이 아니시면, 이 이메일을 무시해주시기 바랍니다."
+
+# not_found.html
+msgid "Not Found"
+msgstr "찾지 못했습니다"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr "죄송합니다. 검색하신 것을 찾지 못하였습니다."
+
+# navbar.html
+msgid "Home page"
+msgstr "홈페이지"
+
+msgid "Leaderboard"
+msgstr "리더보드"
+
+msgid "Help"
+msgstr "도움말"
+
+msgid "About"
+msgstr "우리에 대해서"
+
+msgid "Chat (Discord)"
+msgstr "채팅 (디스코드)"
+
+msgid "Contact support"
+msgstr "문의"
+
+msgid "Beatmaps"
+msgstr "비트맵"
+
+msgid "Donate"
+msgstr "후원하기"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "프로필"
+
+msgid "Friends"
+msgstr "친구"
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "Log out"
+msgstr "로그아웃"
+
+msgid "Looking for someone?"
+msgstr "누군가를 찾고 계십니까?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "홈페이지"
+
+# about.html
+msgid "Welcome to Ripple."
+msgstr "리플에 오신 것을 환영합니다!"
+
+msgid ""
+"Ripple is a private osu! server, featuring multiplayer, PP, a very active "
+"community and a development team going strong implementing new features and "
+"squashing bugs. <a href='/about'>You can check out even more features "
+"here.</a> It has also a very friendly community, and it's <a "
+"href='https://zxq.co/ripple/ripple'>open source!</a> Just so you know, <b>we "
+"currently have %s users online and %s registered users!</b>"
+msgstr ""
+"리플은 멀티플레이, PP, 활발한 커뮤니티, 그리고 항상 새로운 기능을 추가하며 버그를 때려잡는 개발팀이 있는 osu! 사설 서버입니다. "
+"<a href='/about'>여기로 가시면 더 알아볼 수 있습니다.</a> 친절한 커뮤니티도 있고, <a "
+"href='https://zxq.co/ripple/ripple'>오픈소스입니다!</a> 또한 참고로 <b>현재 접속 중인 유저는 %s "
+"명이고 총 가입자수는 %s 명입니다!</b>"
+
+msgid ""
+"What are you waiting for? Join Ripple! It's risk-free: you won't get your "
+"account banned on the official server if you play on Ripple.<br>You can also "
+"switch anytime between the official osu! server and Ripple!"
+msgstr ""
+"무엇을 기다리십니까? 리플에 가입하세요! 리플 계정을 만들어도 본섭 계정이 불이익을 받지 않으며, <br>리플 서버 스위처를 이용하여 "
+"본섭과 리플을 마음대로 오가실 수 있습니다!"
+
+msgid "Howdy, %s!"
+msgstr "반갑습니다, %s! 님!"
+
+#, fuzzy
+msgid ""
+"Welcome back to Ripple. We currently have <b>%s online users and %s total "
+"registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"다시 오신것을 환영합니다. 현재 서버에는 <b>%s 명이 플레이 하고 있고, 총 %s 명이 가입이 되어있습니다.</b> 오늘도 즐거운 "
+"파밍을 하지 않으실래요?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr "<a href='https://blog.ripple.moe'>블로그</a> 를 통해 새로운 소식을 확인하세요."
+
+# base.html
+msgid ""
+"Ripple's score submission is currently in maintenance mode. You will not be "
+"allowed to submit scores for the time being."
+msgstr "현재 서버 점검중입니다. 당분간 기록이 제출되지 않습니다."
+
+msgid ""
+"The Ripple website is currently in maintenance mode. Only certain users are "
+"allowed to access the full website."
+msgstr "현재 리플 웹사이트는 점검중 입니다. 당분간 소수의 유저만 전체 웹사이트를 이용하실 수 있습니다."
+
+#, fuzzy
+msgid ""
+"Your account is currently in restricted mode. You will not be able to do "
+"certain actions, and your profile can only be seen by you and by Ripple's "
+"staff. If you believe we have mistaken putting you in restricted mode, or a "
+"month has passed since you first saw this, then you can send an appeal at <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+msgstr ""
+"당신의 계정은 제한당한 상태입니다. 현재 리플의 모든 기능을 이용하는데에 제약이 있으며 당신의 프로필은 님과 리플 운영자만 볼 수 있는 "
+"상태입니다. 우리가 실수했다고 생각하시거나, 이 메시지를 처음 본지 한달이 넘었다면, <a "
+"href='https://support.ripple.moe'></a>로 언밴 요청을 하실 수 있습니다."
+
+msgid "&copy; 2015-%d Ripple, using Hanayo %s."
+msgstr "&copy; 2015-%d Ripple, using Hanayo %s."
+
+msgid "Team"
+msgstr "운영진"
+
+msgid "Who is working on this thing?"
+msgstr "누가 이걸 만들고있나요?"
+
+msgid "Developer docs"
+msgstr "개발자 문서"
+
+msgid "See what changed!"
+msgstr "무엇이 바뀌었는지 보러가세요!"
+
+msgid "Changelog"
+msgstr "변경 기록"
+
+msgid "Blog"
+msgstr "블로그"
+
+msgid "What's going on under the hood?"
+msgstr "무대 뒤에서 무엇이 일어나고 있나요?"
+
+msgid "Follow us on Twitter!"
+msgstr "저희를 트위터에서 팔로우 하세요!"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr "레딧에 전혀 쓸모없는 글을 올리러 가기!"
+
+msgid "Language"
+msgstr "언어"
+
+# beatmap.html
+msgid "Artist"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Circle Size"
+msgstr ""
+
+msgid "HP Drain"
+msgstr ""
+
+msgid "Overall Difficulty"
+msgstr ""
+
+msgid "Passes/Plays"
+msgstr ""
+
+msgid "Approach Rate"
+msgstr ""
+
+msgid "Star Difficulty"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "BPM"
+msgstr ""
+
+msgid "osu!direct"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid "download (no video)"
+msgstr ""
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "이중 보안"
+
+msgid ""
+"Before proceding further on Ripple, we require you to use your Google "
+"Authenticator App to use the code for Ripple, so that we can log you in."
+msgstr "계속하시기 전에 구글 인증 앱이 코드를 리플을 위해 이용하도록 설정해주시기 바랍니다."
+
+msgid ""
+"Before proceding any further on Ripple, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr "계속하시기 전에 방금 텔레그램으로 받으신 메시지를 이용하여 로그인해주시기 바랍니다."
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr "폰을 잃어버리셨거나 구글 인증기에 접속이 불가능 하십니까?"
+
+msgid "Click here to use a recovery code."
+msgstr "복구 코드를 받으려면 클릭하세요."
+
+# 텔레그램(Telegram)이라는 채팅 앱이 있어요!
+msgid "Telegram code"
+msgstr "텔레그램 코드"
+
+msgid "(send again?)"
+msgstr "(다시 보낼까요?)"
+
+msgid "Google Authenticator passcode"
+msgstr "구글 인증 코드"
+
+msgid "Hey, %s."
+msgstr "%s 님 안녕하세요."
+
+msgid "You need to complete the 2fa challenge first."
+msgstr "이중 인증을 먼저 완료하셔야 합니다."
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "텔레그램을 통해 새로운 코드가 전송되었습니다."
+
+msgid "You've been successfully logged in."
+msgstr "로그인에 성공하였습니다."
+
+msgid ""
+"Ooops! Looks like something went really wrong while trying to process your "
+"request. Perhaps report this to a Ripple developer? Retrying doing what you "
+"were trying to do might work, too."
+msgstr "어머! 요청을 처리하는 동안 문제가 생긴 것 같습니다. 리플 개발진에게 알리거나 다시 시도해보시기 바랍니다."
+
+msgid "Ripple is a private osu! server."
+msgstr "리플은 사설 osu! 서버 입니다. "
+
+msgid "There are many like it, but this one is ours."
+msgstr "다른 사설 서버들은 수도없이 많지만, 리플은 '우리들의' 서버라는 점에서 특별합니다."
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "%s 가 너무 사랑스럽지 않나요?"
+
+msgid "We have leaderboards."
+msgstr "리더보드가 있습니다."
+
+msgid "Online user listing."
+msgstr "온라인 유저 목록"
+
+msgid "Free osu!direct."
+msgstr "무료 osu!direct"
+
+msgid "Global leaderboards."
+msgstr "글로벌 리더보드."
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "비트맵 랭크 대기 명단"
+
+msgid "Spectator."
+msgstr "관전자."
+
+msgid "Multiplayer."
+msgstr "멀티플레이."
+
+msgid "FokaBot, our chat bot"
+msgstr "채팅 봇 FokaBot"
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr "거의 모든 것들에 광범위하게 관여하는 많은 기능들을 <a href=\"/doc/4\">함께 알아봐요!</a>"
+
+msgid "And a lot more to come!"
+msgstr "그리고 더 추가될 예정입니다!"
+
+msgid ""
+"Ripple is the result of the hard work of two Italian developers, who got "
+"tired about the whole osu! ecosystem, and also because they wanted to play "
+"with a few banned friends."
+msgstr "리플은 기존 오스의 시스템에 지친 두명의 이탈리안 개발자의 힘든 노력의 결과물입니다. "
+
+# %s is wink emoji
+#, fuzzy
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ripple "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+"1만명이 넘어가는 가입자를 기록하며 가장 규모가 큰 osu! 사설 서버가 되었습니다. Ripple서버에 <a href=\"/"
+"register\">가입</a>한다고 해서 osu! 계정이 차단되는 건 아니니깐, 빨리 들어오세요! %s"
+
+msgid ""
+"In case you want to make sure we're not doing shady stuff with your data, "
+"you can also check the <a href=\"https://zxq.co/ripple/ripple\">source "
+"code</a> Ripple is running on."
+msgstr ""
+"만약 저희가 당신의 정보로 나쁜 짓을 하고 있지 않다는걸 직접 보고 싶으시다면, Ripple 서버의 <a href=\""
+"https://zxq.co/ripple/ripple\">소스 코드</a>를 보실 수도 있습니다."
+
+# Changelog -> 수정 기록?
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr "이것은 체인지로그 입니다. 수정안이 발표되자마자 여기에 바로 게시됩니다."
+
+msgid ""
+"For various reasons, some software of Ripple does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+"여러가지 이유로 인하여 리플의 몇몇 소프트웨어의 변경사항들이 이 웹사이트의 일부인 체인지로그에 기록되지 않습니다. Hanayo의 "
+"체인지로그를 열람하고 싶으시면 <a href=\"https://zxq.co/ripple/hanayo/commits/master\">여기로 "
+"이동해주세요</a>."
+
+msgid "Author"
+msgstr "보낸이"
+
+msgid "Subject"
+msgstr "제목"
+
+msgid "Time"
+msgstr "시간"
+
+# doc_content.html 
+msgid "View document"
+msgstr "문서 보기"
+
+msgid "Documentation file not found!"
+msgstr "문서를 찾지 못했습니다!"
+
+msgid "View all docs"
+msgstr "모든 문서 보기"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+"여기저기 싸돌아다니는데 도움이 필요하신가요? 걱정 마세요! 여기에선 리플에 관한 문서들을 보실 수 있습니다. 그냥 간단한 위키와 다름 "
+"없는 셈이죠."
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr "이 경우에 대한 문서는 없어보이네요."
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr "이 페이지에선 당신의 친구 목록을 볼 수 있고, 원한다면 친구 해제를 할 수도 있습니다."
+
+msgid "Mutual"
+msgstr "뮤츄얼"
+
+msgid "Remove"
+msgstr "삭제"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ripple's "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ripple's chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+"여기서 당신의 IRC 코드를 발급받으실 수 있습니다. 이 토큰을 이용해 IRC에서 Ripple 채팅에 연결할 수 있습니다. 이 토큰을 "
+"이용해 다른 사람이 당신의 계정의 접근할 수도 있으니 다른 사람에게 알려주지 마세요. IRC에서 Ripple 채팅하는 법을 더 자세히 "
+"알고 싶으면 <a href=\"/doc/11\">이 문서</a>를 참고해주세요."
+
+msgid "Generate a new token!"
+msgstr "자신만의 새 토큰 만들기"
+
+# leaderboard.html
+msgid "Rank"
+msgstr "순위"
+
+msgid "Player"
+msgstr "플레이어"
+
+msgid "PP/Score"
+msgstr "퍼포먼스 포인트/점수"
+
+msgid "Accuracy"
+msgstr "정확도"
+
+msgid "Playcount"
+msgstr "플레이 수"
+
+# profile.html
+msgid "%s's profile"
+msgstr "%s 의 정보"
+
+# profile.html
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr "이 유저는 %s 로 인해 <b>뮤트</b> 되었습니다. %s 에 뮤트가 풀립니다."
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "이 유저는 현재 <b>%s</b> 되어있습니다"
+
+msgid "pending verification"
+msgstr "인증을 기다리고 있는 중"
+
+msgid "banned"
+msgstr "밴 되어있습니다."
+
+msgid "restricted"
+msgstr "제한됨"
+
+msgid "locked"
+msgstr "잠김"
+
+msgid "User not found"
+msgstr "사용자를 찾을 수 없음"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(혹은 <b>%s</b>)"
+
+msgid "Online"
+msgstr "온라인"
+
+msgid "Offline"
+msgstr "오프라인"
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "<b>%s</b> is a Ripple player from <b>%s</b>."
+msgstr "<b>%s</b> 님은 <b>%s</b> 에서 온 플레이어 입니다."
+
+msgid "Last seen: %s."
+msgstr "마지막으로 접속한 시간: %s."
+
+msgid "They signed up on Ripple %s."
+msgstr "%s 리플에 가입했습니다."
+
+msgid "They play with %s."
+msgstr "%s 와 놀고있네요."
+
+msgid "Mouse"
+msgstr "마우스"
+
+msgid "Tablet"
+msgstr "태블릿"
+
+msgid "Keyboard"
+msgstr "키보드"
+
+msgid "Touchscreen"
+msgstr "터치 스크린"
+
+msgid "Spoon"
+msgstr "숟가락"
+
+# https://www.leap-motion.kr/ 그냥 이렇게 부르더라구요 작명 센스가 아주 뭐시기 한데.. 이거 아니면 VR이라 하면 될거같아요
+msgid "Leap motion"
+msgstr "립모션"
+
+msgid "Oculus rift"
+msgstr "가상 현실 체험기"
+
+msgid "Dick"
+msgstr "곶휴"
+
+msgid "Eggplant"
+msgstr "가지"
+
+msgid "This user hasn't got any badges!"
+msgstr "아직 가지고 있는 배지가 없습니다!"
+
+msgid "Global rank"
+msgstr "세계 순위"
+
+msgid "Country rank"
+msgstr "국내 순위"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "랭크된 점수"
+
+msgid "Total score"
+msgstr "총 점수"
+
+msgid "Replays watched"
+msgstr "리플레이 보여진 횟수"
+
+msgid "Total hits"
+msgstr "친 횟수"
+
+msgid "Level %s"
+msgstr "래벨 %s"
+
+msgid "Achievements"
+msgstr ""
+
+# support.html
+msgid "Support Ripple"
+msgstr "리플 후원하기"
+
+msgid "You are a donor!"
+msgstr "당신은 기부자입니다!"
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr "당신의 기부자 칭호는 <b>%s</b> 뒤에 만료됩니다. 기부 안 했다고 죄책감 느끼실 필요 없어요!"
+
+msgid "Did you know?"
+msgstr "알고 계신가요?"
+
+msgid "(Probably.)"
+msgstr "(그럴껄?)"
+
+msgid "(Probably not.)"
+msgstr "(아마.)"
+
+msgid "Ripple is not cheap to run."
+msgstr "Ripple을 운영하는 데에 돈이 많이 듭니다."
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if "
+"we always took the money out of our own pockets, 1. we would be broke, 2. we "
+"wouldn't be able to upgrade our hardware to accomodate our users. While we "
+"do have loads of software optimisations that allow us to have Ripple run "
+"crazy fast while still being on not so high-end hardware, the more users we "
+"have, the higher-end our hardware needs to be. So we are asking you for help "
+"on this :)."
+msgstr ""
+"저희가 이 서비스를 무료로 제공 하고있긴 하지만, 세상에 꽁짜라는 것이 없듯이 운영하는데에는 꾸준히 돈이 들어갑니다. 만약 이 비용을 "
+"저희들이 혼자서 부담한다면, 1. 저희는 파산할 것이고, 2. 여러분의 요구를 충족시키기 위해 저희의 하드웨어를 업그레이드하지 못할 "
+"것입니다. 변변찮은 하드웨어로도 서버가 쾌적하게 돌아갈 수 있도록 소프트웨어 최적화를 수도없이 하고 있지만, 플레이하는 유저가 많아질수록 "
+"하드웨어가 좋아져야만 합니다. 그런 이유로 저희들은 여러분에게 도움을 요청합니다. :)"
+
+msgid "We are still students."
+msgstr "저흰 아직 학생입니다."
+
+msgid ""
+"Ripple developers, and most of the Ripple staff, do not have a day job. This "
+"means that we get most of our income as students from doing small jobs as \""
+"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+"Ripple 개발자들과 대부분의 Ripple 관리자들은 직장이 없습니다. 이 말은 즉 저희는 대부분의 소득을 프리랜서로 가끔씩 일하거나, "
+"뭐, 용돈으로 번다는 것입니다."
+
+msgid "We do not have ads. And never will."
+msgstr "저희는 광고를 표시하지 않고, 앞으로도 절대 표시하지 않을 겁니다."
+
+msgid "We love picking random icons from our icon library."
+msgstr "여기 아이콘 목록에서 아이콘 무작위로 뽑아오는거 재밌네요."
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+"혹시 애드블록을 켜놓으셔서 모르셨다면, 저희는 저희 웹사이트에 광고를 하나도 표시하지 않습니다. 저희는 여러분이 짜증 나는 광고를 맨날 "
+"보는 것보단 차라리 몇 달러를 기부하는 것이 나으리라는 것을 알고 있습니다."
+
+msgid "So what can you do?"
+msgstr "그러면 당신은 뭘 할 수 있을까요?"
+
+msgid "Well, you can give us money."
+msgstr "흠, 일단 돈을 좀 주실 수 있겠네요."
+
+msgid "Well, you can give us even more money."
+msgstr "뭐, 돈을 조금 더 주셔도 됩니다."
+
+msgid "Here's what you get:"
+msgstr "기부하시면 이런걸 받을수 있습니다:"
+
+msgid "Yellow username"
+msgstr "노란색으로 표시된 이름표"
+
+msgid "Donor badge"
+msgstr "기부자 뱃지"
+
+msgid "Custom badge editor"
+msgstr "커스텀 뱃지 제작소"
+
+msgid "Friends ranking"
+msgstr "친구 랭킹"
+
+msgid "Discord privileges"
+msgstr "디스코드 혜택"
+
+msgid "Profile background"
+msgstr "프로필 배경사진"
+
+msgid "More to come!"
+msgstr "더 추가 예정!"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"osu!에서와 같이, 기부를 하여 서버 운영비를 내는데 도움을 준 아주 슷-꼬이한 사람이라는 증표로 게임 내 채팅에서 <b>반짝거리는 "
+"노랑색 유저네임</b>을 갖게 됩니다!"
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr "또 osu!에서와 같이, 프로필에 저희를 돕고 있다는 증표로 <b>기부자 뱃지</b>를 달아드립니다!"
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+"커스텀 텍스트와 아이콘을 사용한 <b>나만의 프로필 뱃지</b>를 제작하여 프로필에 올리실 수 있습니다! 시공의 폭풍 뱃지를 만들어 전 "
+"세계에게 히오스를 알리시거나 포니뱃지를 만드는 등 창의력을 발휘해보세요!"
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+"<b>친구들과 경쟁</b>하는것이야말로 오스의 묘미죠. 그 넘사벽 고수를 이기려다가 자괴감 들거나 RSI걸릴 일 없이 리더보드에서 내 "
+"수준의 플레이어들과 즐겁게 게임하실 수 있습니다!"
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+"독특한 <b>\"#donators\"</b> 채팅/보이스 채널에 접속 하실 수 있으며, 나만의 역할과 닉네임, 그리고 색을 설정하실 수 "
+"있게 됩니다!"
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+"프로필에 <b>존슨같이 생긴 가지로 도배하고 싶으신가요</b>? 걱정 마세요! 기부를 하시면, 프로필 배경 사진을 마음대로 바꾸실 수 "
+"있습니다."
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+"저희가 <b>나중에 뭘 추가할지</b> 누가 알아요? 저희가 기부자를 위한 기능을 더 추가하게 된다면 <i>더 많은</i> 것들을 할 수 "
+"있게 됩니다."
+
+msgid "And this is how you pay"
+msgstr "이렇게 돈을 내시면 됩니다. 어때요? 참 쉽죠?"
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+"기부는 <b>페이팔</b> (또는 페이팔과 연결 되어있는 신용/체크카드) 또는 <b>비트코인</b> 을 통해 해주시면 됩니다. 아래의 "
+"슬라이더를 이용해 기부 혜택을 몇개월간 받으실지 선택해주시면, 금액이 자동으로 계산됩니다. 만약 예를들어 €3.51 대신 €4 를 "
+"기부하기로 결정하신다면, 기부 혜택은 1개월로 책정 됩니다. "
+
+msgid "Loading..."
+msgstr "로딩 중..."
+
+msgid "PayPal"
+msgstr "페이팔"
+
+msgid "User:"
+msgstr "사용자:"
+
+msgid "Bitcoin"
+msgstr "비트코인"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "%s BTC를 이 비트코인 계정으로 보내주세요:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+"그 후에, <b><a href=\"mailto:howl@ripple.moe\">howl@ripple.moe</a>로 결제 해시를 포함한 "
+"이메일을 보내주세요!</b>"
+
+msgid "I've donated, now what?"
+msgstr "기부 했는데, 그 다음은 뭐죠?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+"저희가 지불내역을 확인하고 승인할때까지 기다리셔야 합니다. 이 과정은 약 <b>12시간</b>까지 걸릴수 있으며, 만약 12시간이 "
+"지나고도 도너 뱃지를 받지 못하셨다면, <b>개발/커뮤니티 매니저</b>에게 디스코드 혹은 이메일 (<b><a href=\""
+"mailto:support@ripple.moe\">support@ripple.moe</a></b>) 을 통해 문의 해주시길 바랍니다. "
+"승인 후에는 가입하실때 입력하셨던 이메일 주소로 <b>이메일</b>이 갈것이며, <b>디스코드 혜택을 제외한 모든 기부자 혜택을 즉시 "
+"받게됩니다</b>. 디스코드 기부자 혜택을 원하신다면 <a href=\"/settings/discord\">여기를</a> 참고해주세요!"
+
+msgid "Please log in to get supporter"
+msgstr "서포터를 얻기 위해 로그인 해주세요"
+
+# Settings
+msgid "Userpage"
+msgstr "유저페이지"
+
+msgid "Avatar"
+msgstr "아바타"
+
+msgid "Discord donor"
+msgstr "디스코드 기부자"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "2단계 인증이 활성화 되어 있습니다. "
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "2단계 인증이 계정에 활성화 되어 있지 않습니다. "
+
+msgid "Telegram 2FA"
+msgstr "텔레그램 2단계 인증"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr "텔레그램 2단계 인증을 활성화하시려면, 이 버튼을 누르신 후, 텔레그램에서 \"시작\"을 눌러주세요:"
+
+msgid "Enable Telegram 2FA"
+msgstr "텔레그램 2단계 인증 활성화"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr "만약에 텔레그램이 현재 기기에 설치되어있지 않다면, 설치되어있는 기기로 이 페이지를 여시거나, 이 QR코드를 스캔해주세요:"
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"만약 QR코드를 스캔할 방법이 없거나, 스캔할 수 있는 앱을 다운받는 것이 귀찮으시다면, 텔레그램 앱을 여셔서 <a href=\""
+"http://telegram.me/ripple2fabot\"><b>@ripple2fabot</b></a>에게 이 메세지를 보내주세요:"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr "구글인증 (TOTP) 기반 2단계 인증"
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr "현재 텔레그램 2단계 인증이 설정되어있습니다. 만약 비활성화를 원하신다면, 아래의 양식을 채워주세요:"
+
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr "현재 TOTP 기반 (구글 인증) 2단계 인증이 설정 되어 있습니다. 만약 비활성화를 원하신다면, 아래의 양식을 채워주세요:"
+
+msgid "Disable Telegram 2FA"
+msgstr "텔레그램 2단계 인증 비활성화"
+
+msgid "Disable TOTP-based 2FA"
+msgstr "TOTP 기반 2단계 인증 비활성화"
+
+msgid "Google Authenticator recovery keys"
+msgstr "구글인증 복원 키"
+
+msgid ""
+"These are the only thing that will let you get back into your Ripple account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"이것들은 당신이 기기를 잃어버린다면 리플 계정으로 돌아오게 해 줄 유일한 수단 들 입니다. 저희가 추천해주는 방법은 워드프로그램 ("
+"마이크로소프트 워드, 한컴오피스 한글 등)을 사용해 복사/붙이기로 저장하여 안전한 곳에 보관하는 방법입니다."
+
+msgid "Open File"
+msgstr "파일 열기"
+
+msgid "Save"
+msgstr "저장"
+
+msgid ""
+"Your discord account has been linked to this Ripple account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+"디스코드 계정이 리플서버의 계정과 링크되었습니다. <b>저희를 도와주셔서 정말 감사드리며 기부자 클럽에 오신것을 환영합니다!</b> 이제 "
+"저희의 공식 디스코드 서버 내의 #donators 채팅/보이스 채널에 접속 하실수 있습니다! 또한 나만의 역할과 닉네임과 닉네임 색을 "
+"설정하실 수 있습니다. 닉네임을 변경하시려면, <code>/nick</code> 명령어를 사용해주세요. <b>고유 역할</b>을 지정 "
+"또는 수정하시려면 <code>!role HEX_COLOUR ROLE_NAME</code> 명령어를 사용해주세요. HEX 색상은 <a "
+"href=\"http://www.colorpicker.com/\" target=\"_blank\">여기서</a> 골라주시면 됩니다 (# "
+"으로 시작하는 코드 입니다). 모두 <b>언제든지</b> 원하시는 때에 변경이 가능합니다!"
+
+msgid "Thank you for supporting us and have fun on Ripple!"
+msgstr "다시한번 저희를 도와주셔서 감사드리며, Ripple 에서 즐거운 시간 되시길 바랍니다!"
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr "기부자들은 디스코드 서버 에서도 특-별한 혜택을 받을수 있다구요!"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+"디스코드는 채팅과 보이스 채널, 다양한 봇들과 여러가지 기능들을 가지고 있는 채팅 어플리케이션 입니다. <b>디스코드는 <a href=\""
+"http://discord.gg/\" target=\"_blank\">이곳에서</a></b> 무료로 다운받으실수 있으며, <b>리플의 "
+"공식 디스코드 서버에 가입하시려면 <a href=\"%s\" target=\"_blank\">여기로</a></b> 가주세요."
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "디스코드 계정과 연동한다면 이런 혜택을 가질 수 있습니다:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr "디스코드 내에서 닉네임을 변경할 수 있는 /nick 명령어 사용 가능"
+
+msgid "Access to #donators text and voice channels"
+msgstr "#donators 채팅/보이스 채널에 참여 가능"
+
+msgid "Username on donors list"
+msgstr "기부자 목록에 유저네임 표시"
+
+msgid "Custom role with custom username"
+msgstr "나만의 닉네임과 역할"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"이 혜택을 모두 얻고 싶으시다면, 먼저 <a href=\"%s\" target=\"_blank\">저희 디스코드 서버에 들어오신 후</a>"
+", 이 크고 아름다운 버튼을 눌러주세요:"
+
+msgid "Get Discord donor privileges"
+msgstr "디스코드 기부자 혜택 받기"
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "새로운 비밀번호 (변경하기 싫으시다면 공백으로 남겨주세요)"
+
+msgid "Current password"
+msgstr "현재 비밀번호"
+
+msgid "BBCode syntax reference"
+msgstr "BBCode 양식 참조"
+
+msgid "General"
+msgstr "일반"
+
+msgid "Email address"
+msgstr "이메일 주소"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr "별명 (로그인할 때 사용 불가)"
+
+msgid "Also known as..."
+msgstr "...로도 알려진"
+
+msgid "Custom badge"
+msgstr "커스텀 뱃지"
+
+msgid "Enable"
+msgstr "활성화"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+"<b>모욕적이거나 다른 사람을 사칭하는 용도로 뱃지를 사용하지 말아주세요.</b> 뱃지 시스템을 악용하실 경우 사일은 물론이고, 커스텀 "
+"뱃지 기능을 더이상 이용하실 수 없습니다."
+
+msgid "Icon reference"
+msgstr "아이콘 참조"
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "공룡, 움파룸파, 멋쟁이..."
+
+# 애매하네요, 기본적으로 플레이 스타일을 어떻게 해석해야할지 몰라서, 그대로 둬도 이해가 되고 어색하지 않은 표현같아서 그대로 두는것도 괜찮아보여요
+msgid "Playstyle"
+msgstr "플레이 스타일"
+
+msgid "Authorized applications"
+msgstr ""
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+
+msgid "... but it looks like you have none!"
+msgstr ""
+
+msgid "That authorization has been successfully revoked."
+msgstr ""
+
+msgid "Authorization created %s"
+msgstr ""
+
+msgid "Owner"
+msgstr "소유자"
+
+msgid "Revoke"
+msgstr "철회"
+
+msgid "Dark site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr "TOTP 기반 2단계 인증이 계정에 활성화 되었습니다."
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr "패스코드가 유효하지 않네요. 만료된게 아닐까요?"
+
+msgid "No passcode/secret was given. Please try again"
+msgstr "패스코드가 주어지지 않았습니다. 다시 시도 해주세요"
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr "TOTP 기반 2단계 인증이 이미 활성화 되어 있습니다!"
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+"현재 텔레그램 2단계 인증이 활성화 되어 있습니다. TOTP 기반 2단계 인증을 사용 하고 싶으시다면, 먼저 텔레그램 2FA를 비활성화 "
+"해주세요."
+
+msgid "2FA disabled successfully."
+msgstr "2단계 인증이 성공적으로 비활성화 되었습니다."
+
+msgid "Changing avatar is currently not possible."
+msgstr "아바타 변경이 현재 불가능 합니다."
+
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
+
+msgid "We were not able to save your avatar."
+msgstr "아바타 저장에 실패했습니다"
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"아바타 변경이 성공적으로 이루어 졌습니다. 제대로 변경되기까지 시간이 조금 걸릴수 있습니다. 강제로 캐시를 새로고침 하고 싶으시다면, "
+"CTRL+F5를 이용해주세요."
+
+msgid "Internal Server Error"
+msgstr "서버 내부 오류"
+
+msgid "You're not a donor!"
+msgstr "기부자가 아닙니다!"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+"디스코드 서버에 가입되어 있지 않습니다! 가입 링크는 페이지의 아래에 있습니다. 디스코드와 계정 연동을 시도하시기 전에 서버에 먼저 "
+"가입해 주세요."
+
+msgid "Your account has been linked successfully!"
+msgstr "계정이 성공적으로 연동 되었습니다!"
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+"당신의 새로운 IRC 토큰은 이제 <code>%s</code> 입니다. 이전에 쓰시던 IRC는 이제 더이상 유효하지 않습니다. <br>잘 "
+"챙겨두시고, 꼭꼭 숨겨두세요! 저희는 두번 다시 보여 드리지 않을 거니까요."
+
+msgid "Your profile background has been saved."
+msgstr "프로필 배경이 저장되었습니다."
+
+msgid "We were not able to save your profile background."
+msgstr "프로필 배경 저장에 실패했습니다."
+
+msgid "Background type"
+msgstr "배경의 유형"
+
+msgid "None"
+msgstr "없음"
+
+msgid "Image"
+msgstr "이미지"
+
+msgid "Solid colour"
+msgstr "단색"
+
+msgid "Colour is invalid"
+msgstr "색상이 존재하지 않습니다."
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"당신의 계정이 밴 혹은 정지되어 자동으로 로그아웃 되었습니다. 만약 이게 잘못된 일이라고 생각 되신다면, 지원팀에게 이 이메일로 연락해 "
+"주세요: support@ripple.moe"
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr "보안상의 이유로 자동으로 로그아웃 되었습니다. <a href='/login?redir=%s'>다시 로그인</a> 해주세요."
+
+msgid "You need to login first."
+msgstr "먼저 로그인을 하셔야 합니다."
+
+msgid "Forbidden"
+msgstr "거부됨"
+
+msgid "You should not be 'round here."
+msgstr "여기 계시면 안되죠!"
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+
+msgid "You look new here. Allow us to introduce you to what Ripple is."
+msgstr ""
+
+# PAY ATTENTION! This is Log in *with* Ripple, not *on* Ripple. This is for
+# oauth.
+msgid "Log in with Ripple"
+msgstr "리플으로 로그인하세요"
+
+msgid "This application will be able to:"
+msgstr "이 응용 프로그램은 이걸 할 수 있게됩니다:"
+
+msgid "Identify"
+msgstr "정체"
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+
+msgid "Read private information"
+msgstr "개인 정보 읽기"
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+
+msgid "Write"
+msgstr "쓰기"
+
+msgid ""
+"This application will be able to make modifications to your Ripple account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr "승인하기"
+
+msgid "Deny"
+msgstr "부정하기"
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ripple up and running and "
+"deal with its community."
+msgstr ""
+
+msgid "Community Managers"
+msgstr ""
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Developers"
+msgstr "개발자"
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr "개발자는 새로운 기능, 디버깅, 및 서버 운영을 합니다."
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+
+msgid "Chat Moderators"
+msgstr "채팅방 관리자"
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr ""
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+
+msgid "Special thanks"
+msgstr ""
+
+msgid "Here's a list of people who helped with Ripple."
+msgstr "이 분들은 리플에 많은 도움을 주셨습니다."
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+
+msgid "<b>Avail</b>, for having hosted Ripple on his server."
+msgstr ""
+
+msgid "<b>Angela Guerra</b>, for designing the Ripple logo."
+msgstr ""
+
+msgid ""
+"<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the "
+"Ripple project by donating or inviting other people."
+msgstr ""
+
+msgid "They told me these are very cool people."
+msgstr ""
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+
+msgid "And more..."
+msgstr ""
+
+msgid "Do you want to be in this list?"
+msgstr ""
+
+msgid "Support us with a donation!"
+msgstr ""
+
+msgid "(You get other cool perks too)"
+msgstr ""
+
+msgid ""
+"The Ripple API is the system through which developers can create "
+"applications to interact with Ripple. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "그리고 스탠다드와 매니아 모드에서의 PP"
+
+# help.html
+msgid ""
+"If you need to get in touch with our support team (our Community Managers), "
+"you will need to send an email to our support email address. You can compose "
+"an email to it by clicking the button at the bottom of this page. <b>Please "
+"read the following</b> though, as it is important."
+msgstr ""
+"커뮤니티 매니저로 이루어진 지원 팀에게 연락하려면 서포트 이메일 주소를 통해 이메일을 보내셔야 합니다. 페이지 밑에 있는 버튼을 이용하여 "
+"이메일을 작성하실 수 있습니다. 단, 보내기 전에 <b>주의사항</b>을 읽어주시기 바랍니다."
+
+msgid ""
+"The support email <b>is not meant for technical support</b>. If you need "
+"technical support, then please join our <a href='%s'>Discord Server</a>, and "
+"ask your question on the <b>#help channel</b>. You should also join the "
+"Discord server and ask a CM if you have any informal inquiry that you may "
+"have. If you need to contact a specific staff member, you can contact them "
+"by clicking the envelope icon under their name in the <a href='/team'>Team "
+"page</a>."
+msgstr ""
+"서포트 이메일은 <b>기술적인 지원</b>을 위해 존재하는 것이 아닙니다. 기술적 지원이 필요하시다면 우리의 <a href='%s'>"
+"디스코드 서버</a>에 가입하여 <b>#help 채널</b>에다가 질문을 올려주시기 바랍니다. 또한 기타 질문사항이 있으시다면 디스코드를 "
+"통해 CM에게 자유롭게 물어보실 수 있습니다. 특정 스텝을 연락하실려면 <a href='/team'>운영진 페이지</a>에 편지봉투 "
+"아이콘을 클릭하여 연락을 취하실 수 있습니다."
+
+msgid "Instead, if you need any of the following:"
+msgstr "대신, 다음중 하나가 필요하시다면:"
+
+msgid "Username change"
+msgstr "아이디 변경"
+
+msgid "Appeal your ban/restriction"
+msgstr "언벤 요청"
+
+msgid ""
+"Anything else that strictly deals with your account and is not related in "
+"any way to a technical issue of yours."
+msgstr "기술적 문제와 관련없는 오직 당신의 계정에 관한 모든 사유."
+
+msgid "Then the support mail is the way to go."
+msgstr "그러면 서포트 문의 이메일이 정답입니다."
+
+msgid ""
+"When contacting the support mail, please make sure to <b>send the email from "
+"the email address you signed up on Ripple with</b>."
+msgstr "서포트 이메일을 연락하실 때 <b>리플에 가입할때 사용한 이메일을 통해 보내는 것을</b> 확인해주세요."
+
+msgid ""
+"Last but not least, <b>the support email is not meant for filing bug "
+"reports</b>. If you need to report a bug, then please just ask one of our "
+"developers on Discord. If it's a security bug, for instance XSS or SQL "
+"injection, then please contact <a href='mailto:howl@ripple.moe'>Howl</a> or <"
+"a href='mailto:nyo@ripple.moe'>Nyo</a>."
+msgstr ""
+"마지막으로, <b>서포트 이메일은 버그를 신고하라고 있는 것이 아닙니다</b>. 버그를 신고하시려면 디스코드를 통해 개발자들에게 "
+"알려주세요. 단, XSS나 SQL 인젝션 등의 보안문제라면, <a href='mailto:howl@ripple.moe'>Howl</a> "
+"또는 <a href='mailto:nyo@ripple.moe'>Nyo</a>에게 당장 연락을 해주시기 바랍니다."
+
+msgid "I have read and understood everything on this page."
+msgstr "이 페이지를 모두 읽었으며, 위 약관에 모두 동의합니다."
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

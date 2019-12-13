@@ -1,0 +1,43 @@
+{{/*###
+TitleBar=Your OAuth2 Applications
+KyutGrill=dev.jpg
+MinPrivileges=2
+Include=menu.html
+HugeHeadingRight=true
+*/}}
+{{ define "tpl" }}
+{{ $ := . }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "devSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				From this page you can create, modify and delete your API applications that use OAuth 2.
+				<div class="ui divider"></div>
+				{{ $csrf := csrfGenerate .Context.User.ID }}
+				{{ with .RequestInfo.apps }}
+					<table class="ui very basic fixed table">
+						{{ range . }}
+							<tr>
+								<td class="avatar-cell">
+									{{ if .Avatar }}
+										<a href="/dev/apps/edit?id={{ .ID }}" title="Edit"><img src="/static/oauth-apps/{{ .Avatar }}" alt="Avatar" class="ui tiny rounded image"></a>
+									{{ end }}
+								</td>
+								<td>
+									<a href="/dev/apps/edit?id={{ .ID }}" title="Edit"><b>{{ .Name }}</b></a>
+									<div class="subtitle">{{ .ID }}</div>
+								</td>
+							</tr>
+						{{ end }}
+					</table>
+					<div class="ui divider"></div>
+				{{ end }}
+				<div class="little margin top right aligned">
+					<a class="ui blue labeled icon button" href="/dev/apps/edit?id=new"><i class="plus icon"></i>Create new</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

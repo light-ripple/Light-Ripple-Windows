@@ -1,0 +1,27 @@
+{{/*###
+TitleBar=Reset password
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="tiny container">
+		<div class="ui raised segments">
+			<div class="ui segment">
+				{{ .T "Glad to have you back here, %s! To finish the password recovery, type in a new password:" .RequestInfo.Username }}
+			</div>
+			<div class="ui segment">
+				<form id="pw-reset-form" class="ui form" method="post" action="/pwreset/continue">
+					<div class="field">
+						<label>{{ .T "Password" }}</label>
+						<input type="password" name="password" placeholder="{{ .T "Password" }}" value="{{ .FormData.password }}" required>
+					</div>
+					<input type="hidden" name="k" value="{{ .RequestInfo.Key }}">
+					{{ ieForm .Gin }}
+				</form>
+			</div>
+			<div class="ui right aligned segment">
+				<button class="ui primary button" type="submit" form="pw-reset-form">{{ .T "Submit" }}</button>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

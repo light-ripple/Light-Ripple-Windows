@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /ko/HanayoJS/templates-ko.po\n"
+"X-Pootle-Revision: 2915\n"
+
+# JavaScript
+msgid ""
+"An error occurred while contacting the Ripple API. Please report this to a "
+"Ripple developer."
+msgstr "리플 API에 문제가 발생했습니다. 서버 관리자에게 연락하세요."
+
+# This is a quote of UNDERTALE if you didn't know.
+# It is shown regarding the level of an user, but it is shortened to "Lv.".
+# Of course, this means Level on Ripple, but in UNDERTALE, it actually means LOVE.
+# I'm not gonna spoil you why it's called LOVE.
+# It's hard to keep this cultural reference, so you can also just write the
+# translation for "Level" in this.
+msgid "Why, LOVE, of course!"
+msgstr "LOVE 의 약자이죠!"
+
+msgid "Your new settings have been saved."
+msgstr "설정이 성공적으로 변경되었습니다."
+
+msgid "Your userpage has been saved."
+msgstr "유저페이지의 변경사항이 저장되었습니다."
+
+msgid ""
+"Please provide a valid link, in the form of either "
+"https://osu.ppy.sh/s/&lt;ID&gt; or https://osu.ppy.sh/b/&lt;ID&gt;."
+msgstr ""
+"https://osu.ppy.sh/s/&lt;ID&gt 또는 https://osu.ppy.sh/b/&lt;ID&gt 의 형식으로 링크를 "
+"제출해주세요."
+
+msgid "Beatmap rank request has been submitted."
+msgstr "비트맵 랭크 요청이 접수되었습니다."
+
+msgid "That beatmap is already ranked!"
+msgstr "이 비트맵은 이미 랭크 되어있습니다!"
+
+# user profile
+msgid "Add friend"
+msgstr "친구 추가"
+
+msgid "Remove friend"
+msgstr "친구 삭제"
+
+msgid "Unmutual friend"
+msgstr "뮤추얼 해제"
+
+# score table
+msgid "General info"
+msgstr "기본 정보"
+
+msgid "Score"
+msgstr "점수"
+
+msgid "Load more"
+msgstr "더보기"
+
+msgid "Best scores"
+msgstr "최고 점수들"
+
+msgid "Recent scores"
+msgstr "최근 점수"
+
+msgid "Download"
+msgstr "다운로드"
+
+# score modal (when you click on a score)
+msgid "Points"
+msgstr "포인트"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Beatmap"
+msgstr "비트맵"
+
+msgid "Accuracy"
+msgstr "정확도"
+
+msgid "Max combo"
+msgstr "최대 콤보"
+
+msgid "(full combo)"
+msgstr "(풀콤보)"
+
+msgid "Difficulty"
+msgstr "난이도"
+
+msgid "Yes"
+msgstr "예"
+
+msgid "No"
+msgstr "아니요"
+
+# Achieved (refers to date)
+msgid "Achieved"
+msgstr "달성한 날짜"
+
+# Game mode, like osu! standard, not like HR
+msgid "Mode"
+msgstr "게임 모드"
+
+# (No mods used)
+msgid "None"
+msgstr "없음"
+
+msgid "{{ stars }} star"
+msgid_plural "{{ stars }} stars"
+msgstr[0] "{{ stars }} 성"
+
+msgid "<b>{{ months }}</b> month costs <b>€ {{ eur }}</b>"
+msgid_plural "<b>{{ months }}</b> months cost <b>€ {{ eur }}</b>"
+msgstr[0] "<b>{{ months }}</b> 개월의 가격은 <b>€ {{ eur }}</b> 입니다"
+
+msgid "($ {{ usd }} / BTC {{ btc }})"
+msgstr "($ {{ usd }} / 비트코인 {{ btc }})"
+
+# (following are in relation to friends)
+msgid "Mutual"
+msgstr "뮤추얼"
+
+msgid "Remove"
+msgstr "제거"
+
+msgid "Add"
+msgstr "추가"

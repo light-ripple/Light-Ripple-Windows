@@ -1,0 +1,91 @@
+{{/*###
+Handler=/settings/2fa
+TitleBar=Two Factor Authentication
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=2
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			{{ $e := is2faEnabled .Context.User.ID }}
+			{{ if $e }}
+				<div class="ui success message">
+					{{ .T "Two factor authentication is enabled on your account." }}
+				</div>
+			{{ else }}
+				<div class="ui warning message">
+					{{ .T "Two factor authentication is not enabled on your account." }}
+				</div>
+			{{ end }}
+			<div class="ui segments">
+				{{ if eq $e 0 }}
+					<div class="ui segment">
+						<h1 class="ui header">
+							{{ .T "Google Authenticator (TOTP) based 2FA" }}
+						</h1>
+							{{ $k := generateKey .Context }}
+						<div class="ui compact centered segment" style="margin: 0 auto; display: table">
+							<img src="https://chart.googleapis.com/chart?chs=256x256&cht=qr&chl=otpauth://totp/{{ $k.AccountName }}%3Fsecret={{ $k.Secret }}%26issuer={{ $k.Issuer }}">
+						</div>
+						<p class="little top margin">
+							{{ .T "Scan this from <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">Google Authenticator</a>, or if you're not able to, provide to Google Authenticator this key: <code>%s</code>. Once you've done, fill out the following form with the code you get on Google Authenticator and click on enter to enable TOTP-based two factor authentication." $k.Secret | html }}
+						</p>
+						<form class="ui form" action="/settings/2fa/totp" method="POST">
+							{{ csrfGenerate .Context.User.ID }}
+							{{ ieForm .Gin }}
+							<div class="ui fluid action input">
+								<input tabindex="1" type="text" placeholder="612 116" name="passcode">
+								<button tabindex="2" class="ui right labeled icon blue button">
+									<i class="right arrow icon"></i>
+									{{ .T "Submit" }}
+								</button>
+							</div>
+						</form>
+					</div>
+				{{ else }}
+					<div class="ui segment">
+						<p>
+							{{ if eq $e 1 }}
+								{{ .T "At the moment you currently have set up Telegram Two Factor Authentication. Should you wish to disable it, please fill out the following form:" }}
+							{{ else }}
+								{{ .T "At the moment you currently have set up TOTP-based (Google Authenticator) Two Factor Authentication. Should you wish to disable it, please fill out the following form:" }}
+							{{ end }}
+						</p>
+						<form action="/settings/2fa/disable" method="POST" class="centered">
+							{{ csrfGenerate .Context.User.ID }}
+							{{ ieForm .Gin }}
+							<div class="ui fluid action input">
+								<input tabindex="1" name="password" type="password" placeholder="Password">
+								<button tabindex="2" type="submit" class="ui red right labeled icon button">
+									<i class="ban icon"></i>
+									{{ if eq $e 1 }}{{ .T "Disable Telegram 2FA" }}{{ else }}{{ .T "Disable TOTP-based 2FA" }}{{ end }}
+								</button>
+							</div>
+						</form>
+					</div>
+					{{ if eq $e 2 }}
+						<div class="ui segment">
+							<h1 class="ui header">
+								{{ .T "Google Authenticator recovery keys" }}
+							</h1>
+							<p>
+								{{ .T "These are the only thing that will let you get back into your Ripple account if you lose your device. Our suggestion is to paste them inside a document in your word processor (Microsoft Word, LibreOffice Writer), print them and store them in a safe place." }}
+							</p>
+							<div class="ui four column grid">
+								{{ range getKeys .Context.User.ID }}
+									<div class="ui column">
+										{{ . }}
+									</div>
+								{{ end }}
+							</div>
+						</div>
+					{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}

@@ -1,0 +1,20 @@
+sudo: required
+
+language: go
+
+os:
+  - osx
+
+go:
+  - 1.7.3
+
+before_install:
+  - go get -v -t ./...
+  - brew install mysql
+  - mysql.server start
+
+install:
+  - mysql -uroot -e 'create database osin;'
+
+script:
+  - go test -v -race ./...

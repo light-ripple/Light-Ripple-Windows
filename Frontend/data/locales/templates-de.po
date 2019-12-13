@@ -1,0 +1,1938 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 11:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"X-Pootle-Path: /de/Hanayo/templates-de.po\n"
+"X-Pootle-Revision: 8327\n"
+
+msgid "You're already logged in!"
+msgstr "Du bist bereits angemeldet!"
+
+msgid "Submit"
+msgstr "Absenden"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Invalid CSRF token"
+msgstr "Ungültiger CSRF-Token"
+
+msgid ""
+"Your session has expired. Please try redoing what you were trying to do."
+msgstr "Deine Sitzung ist abgelaufen. Versuche es erneut."
+
+msgid "That user could not be found."
+msgstr "Dieser Nutzer konnte nicht gefunden werden."
+
+msgid "Your settings have been saved."
+msgstr "Deine Einstellungen wurden gespeichert."
+
+# beatmaps/rank_requests.html
+msgid "Request beatmap ranking"
+msgstr "Ranking einer Beatmap vorschlagen"
+
+msgid ""
+"Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
+"requests here!"
+msgstr ""
+"Du möchtest eine nicht gerankte Map spielen und PP erhalten? Hier kannst du "
+"Beatmap-Rankinganfragen stellen!"
+
+msgid "Queue status"
+msgstr "Warteschlangen-Status"
+
+msgid "by you"
+msgstr "von dir"
+
+msgid "Requests submitted"
+msgstr "Eingereichte Anfragen"
+
+msgid "In the past 24 hours"
+msgstr "in den letzten 24 Stunden"
+
+msgid "Request a beatmap"
+msgstr "Schlage eine Beatmap vor"
+
+msgid "You cannot currently request beatmaps!"
+msgstr "Du kannst zur Zeit keine Beatmaps vorschlagen!"
+
+# After this text there is a date. The date is localised separately.
+msgid "Please try again "
+msgstr "Bitte versuche es erneut "
+
+# pwreset/continue.html
+msgid "Reset password"
+msgstr "Passwort zurücksetzen "
+
+msgid ""
+"Glad to have you back here, %s! To finish the password recovery, type in a "
+"new password:"
+msgstr ""
+"Es ist schön dich wieder hier zu haben, %s! Um dein altes Passwort "
+"zurückzusetzen, gib bitte ein neues Passwort ein:"
+
+msgid "Nope."
+msgstr "Nö ( ͡° ͜ʖ ͡°)."
+
+msgid "That key could not be found. Perhaps it expired?"
+msgstr "Dieser Schlüssel konnte nicht gefunden werden. Ist er abgelaufen?"
+
+msgid ""
+"All right, we have changed your password and you should now be able to "
+"login! Have fun!"
+msgstr ""
+"Alles klar, wir haben dein Passwort geändert und du müsstest dich jetzt "
+"anmelden können! Viel Spaß wünschen wir dir!"
+
+# register/register.html
+msgid "Register"
+msgstr "Registrieren"
+
+msgid ""
+"Sorry, it's not possible to register at the moment. Please try again later."
+msgstr ""
+"Entschuldigung aber momentan kannst du dich leider nicht registrieren. "
+"Versuche es später erneut."
+
+msgid ""
+"Remember: this seems like it's your second account! Do not multiaccount, or "
+"you're likely to get restricted!"
+msgstr ""
+"Merke dir: Es scheint als wäre dies dein zweiter Account! Betreibe kein "
+"Multiaccounting, oder du wirst höchstwahrscheinlich gesperrt!"
+
+msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
+msgstr ""
+"Benutzername (2 bis 15 Zeichen, alphanumerisch, Leerzeichen, "
+"<code>_[]-</code>)"
+
+msgid "Password (at least 8 characters)"
+msgstr "Passwort (mindestens 8 Zeichen)"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid ""
+"You have been successfully registered on Ainu!! You now need to verify your "
+"account."
+msgstr ""
+"Du hast dich erfolgreich auf Ainu! registriert! Du musst deinen Account nun "
+"verifizieren."
+
+# Register checks
+msgid "Your password is too short! It must be at least 8 characters long."
+msgstr "Dein Passwort ist zu kurz! Es muss mindestens 8 Zeichen lang sein."
+
+msgid ""
+"Your password is one of the most common passwords on the entire internet. No "
+"way we're letting you use that!"
+msgstr ""
+"Dein Passwort ist eines der meist benutzen Passwörter im Internet. Sei "
+"kreativer und such dir was sicheres aus!"
+
+msgid ""
+"Your username must contain alphanumerical characters, spaces, or any of "
+"<code>_[]-</code>"
+msgstr ""
+"Dein Nutzername muss alphanumerische Buchstaben, Leerzeichen oder sonstige "
+"<code>_[]-</code> beinhalten"
+
+msgid "You're not allowed to register with that username."
+msgstr "Du kannst dich nicht mit diesem Nutzernamen registrieren!"
+
+msgid "Please pass a valid email address."
+msgstr "Bitte gib eine gültige E-Mail Adresse ein."
+
+msgid "An username can't contain both underscores and spaces."
+msgstr ""
+"Ein Nutzername darf keine Unterstriche und Leerzeichen gleichzeitig "
+"enthalten."
+
+msgid "An user with that username already exists!"
+msgstr "Ein Spieler mit diesem Benutzernamen existiert bereits!"
+
+msgid "An user with that email address already exists!"
+msgstr "Ein Nutzer mit dieser E-Mail Adresse existiert bereits!"
+
+msgid "Captcha is invalid."
+msgstr "Eingegebenes Captcha ist falsch."
+
+msgid ""
+"Whoops, an error slipped in. You might have been registered, though. I don't "
+"know."
+msgstr ""
+"Ups, da scheint was daneben gegangen zu sein. Du könntest registriert worden "
+"sein, vielleicht aber auch nicht."
+
+# register/verify.html
+msgid "Verify account"
+msgstr "Konto verifizieren"
+
+msgid ""
+"Your account has been created, however it still <b>needs to be verified!</b> "
+"Please log in into <b><u>osu! (the game)</u></b> using your account. <b>"
+"There is <u>no email confirmation</u> at the moment. All you need to do is "
+"connect to Ainu! from the osu! client!</b> If you're having trouble, <a "
+"href='/doc/1'>follow this guide</a>."
+msgstr ""
+"Dein Account wurde erstellt, allerdings muss er noch <b>verifiziert "
+"werden!</b> Bitte logge dich in <b><u>osu! (Spiel)</u></b> mit deinem "
+"Account ein. <b>Momentan gibt es auf Ainu! <u>keine E-Mail Verifizierung</u>"
+". Alles was du tun musst, ist dich von deinem osu! Client mit Ainu! zu "
+"verbinden!</b> Falls du Probleme haben solltest, <a href='/doc/1'>wende dich "
+"an dieses Tutorial</a>."
+
+msgid ""
+"<b class='big text'>Do not let anyone except yourself log into your Ainu! "
+"account!</b><br> Get on our <a href='%s'>Discord server's</a> #help channel "
+"instead (after following the steps on this page) so that we can help you out "
+"if you have trouble connecting."
+msgstr ""
+"<b class='big text'>Gebe deinen Ainu! Account an keinen Zweiten "
+"weiter!</b><br>Komme auf den Ainu! <a href='%s'>Discord Server</a> und "
+"betrete den #help Channel (nachdem du die Schritte auf dieser Seite befolgt "
+"hast), sodass wir dir helfen können, falls du Probleme beim Verbinden hast."
+
+msgid "<a href='/doc/1'>The Guide,</a> tl;dr version"
+msgstr "<a href='/doc/1'>Das Tutorial,</a>kurze Version"
+
+msgid "Download the server switcher"
+msgstr "Downloade den Server-Wechsler"
+
+msgid "Extract it, disable your antivirus, execute it <b>as administrator</b>"
+msgstr ""
+"Entpacke den Server-Wechsler, schalte dein Antiviren-Programm ab und führe "
+"den Server-Wechsler als <b>Administrator</b> aus."
+
+msgid "Click on <b>install certificate</b>, then <b>Yes</b>"
+msgstr "Klicke auf <b>install certificate</b> und anschließend auf <b>Yes</b> "
+
+msgid ""
+"Make sure the switcher says you're playing on <b>Ainu!</b> server, if not "
+"click <b>On/Off</b>"
+msgstr ""
+"Siehe nach, dass \"you're playing on <b>Ainu!</b> server\" im Wechsler "
+"steht. Falls nicht drücke <b>On/Off</b>"
+
+msgid ""
+"If it says something about read-only mode, go to <code>C:\\Windows\\"
+"System32\\Drivers\\etc</code>, open the hosts' file Properties and make sure "
+"it's not set to \"Read only\"."
+msgstr ""
+"Falls etwas von \"read-only mode\" da stehen sollte, gehe zu <code>C:\\"
+"Windows\\System32\\Drivers\\etc</code>, öffne die Hostdatei-Einstellungen "
+"und siehe nach, dass es nicht auf \"Schreibgeschützt\" gestellt ist."
+
+msgid ""
+"If you're still having trouble, then again, get on our <a href='%s'>Discord "
+"server's</a> #help channel. To have a better chance to be answered, say \""
+"strawberry\" anywhere in your messages so that we know you have actually "
+"read this."
+msgstr ""
+"Falls du immer noch Probleme haben solltest, dann hier noch einmal: Komme "
+"auf unseren <a href='%s'>Discord-Server</a>, und betrete den #help Kanal. Um "
+"deine Frage schneller beantworten zu können, schreibe einfach \"strawberry\" "
+"irgendwo in deine Nachrichten, damit wir wissen, dass du das hier auch "
+"gelesen hast."
+
+msgid "Waiting for verification"
+msgstr "Warte auf Verifizierung"
+
+# register/welcome.html
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+msgid "Welcome back!"
+msgstr "Willkommen zurück!"
+
+msgid "Congratulations for not reading things!"
+msgstr "Herzlichen Glückwunsch, du hast nichts gelesen!"
+
+msgid "Multiaccounts are not allowed on Ainu!"
+msgstr "Mehrere Accounts auf Ainu! zu haben ist nicht erlaubt"
+
+msgid ""
+"Your new account has been <b>banned</b> and your main account has been "
+"<b>restricted</b>. You can appeal in a month by sending an email to <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b>. You better "
+"read the rules next time."
+msgstr ""
+"Dein neuer Account wurde <b>gebannt</b> und dein Hauptaccount wurde "
+"<b>gesperrt</b>. Du kannst in einem Monat einen Appeal einreichen, indem du "
+"eine Mail an <b><a "
+"href='https://support.ripple.moe'>support.ripple.moe</a></b> schickst. "
+"Hoffentlich liest du nächstes Mal die Regeln."
+
+msgid "Welcome to Ainu!"
+msgstr "Willkommen auf Ainu!"
+
+msgid ""
+"We're glad to have you here. <b>Your account is now active.</b> You can now "
+"play on Ainu! and <a href='/login'>log in</a> on the website!"
+msgstr ""
+"Wir sind froh dich hier zu haben. <b>Dein Account ist jetzt aktiviert.</b> "
+"Du kannst jetzt auf Ainu! spielen und dich auf der Website <a "
+"href='/login'>einloggen</a>!"
+
+msgid "Here's a few things you might want to check out:"
+msgstr "Hier sind einige Dinge, die du dir vielleicht ansehen möchtest:"
+
+msgid "Login"
+msgstr "Anmelden"
+
+msgid "Rules"
+msgstr "Regeln"
+
+msgid "Documentation"
+msgstr "F.A.Q etc."
+
+msgid "Server switcher"
+msgstr ""
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Discord"
+msgstr "Discord"
+
+msgid "Subreddit"
+msgstr "Subreddit"
+
+msgid " - in case you don't know where to start"
+msgstr "- falls du nicht weißt, wo du anfangen sollst"
+
+msgid " - in case you haven't already read them"
+msgstr "- falls du sie nicht schon gelesen hast"
+
+msgid " - in case, well, you need help doing stuff"
+msgstr "- falls du, naja, Hilfe bei Dingen brauchst"
+
+msgid " - in case you believe Ainu! is down"
+msgstr "- falls du denkst, dass Ainu! offline ist"
+
+msgid " - in case you want to talk with people about Ainu!"
+msgstr "- falls du mit Leuten über Ainu! reden möchtest"
+
+msgid " - just in case"
+msgstr "- nur für den Fall"
+
+# 2fa_gateway_recover.html
+msgid "Recover account"
+msgstr "Account wiederherstellen"
+
+msgid ""
+"Can't find a way to get back access to your Ainu! account? Fear not! If you "
+"have your recovery codes which we recommended you to print you can type one "
+"in here and we'll magically log you in this time. After you've managed to "
+"get in, please disable and then re-enable 2FA, so you won't risk losing your "
+"account again."
+msgstr ""
+"Du findest keinen Weg auf deinen Ainu! Account zuzugreifen? Keine Angst! "
+"Falls du deine Wiederherstellungs-Codes hast, wozu wir dir geraten haben "
+"diese abzusichern, kannst du einen davon hier eintippen und wir werden dich "
+"auf magische Weise einloggen. Nachdem du es geschafft hast, reinzukommen, "
+"bitte deaktiviere und dann reaktiviere die 2FA, damit du deinen Account "
+"nicht nochmal verlieren kannst."
+
+msgid "Oh no you don't."
+msgstr "Nichts da."
+
+msgid "Get out."
+msgstr "Raus hier."
+
+msgid "Recovery code is invalid."
+msgstr "Wiederherstellungs-Code ist ungültig."
+
+# register/elmo.html
+msgid "Elmo! Stop!"
+msgstr "Elmo! Stopp!"
+
+msgid "Stop!"
+msgstr "Stopp!"
+
+msgid ""
+"We see that you're trying to sign up while having already signed up as %s! "
+"Please note that multiaccounting is punishable, and can lead to a one month "
+"restriction!"
+msgstr ""
+"Wir sehen, dass du dich registrieren möchtest, während du bereits als %s "
+"registriert bist! Nimm in Kenntnis, dass es nicht erlaubt ist, mehrere "
+"Accounts zu haben und dies zu einer einmonatigen Sperre führen kann!"
+
+msgid "If you're %s, keep in mind that multiaccounting = ban."
+msgstr ""
+"Wenn du %s bist, vergiss nicht, dass Multiaccounts zu einer Sperre führen "
+"können."
+
+msgid ""
+"If you're not %s, but you're using %s's computer, please sign up on Ainu! "
+"from your own computer."
+msgstr ""
+"Falls du nicht %s bist, sondern %s's Computer nutzt, dann registriere dich "
+"bitte von deinem eigenen Computer bei Ainu!."
+
+msgid ""
+"If you live with %s and you don't have your own computer from which to sign "
+"up on Ainu!, then please contact support@ripple.moe, and we'll deal with "
+"your specific case."
+msgstr ""
+"Wenn du mit %s zusammen lebst und keinen eigenen Computer besitzt, mit "
+"welchem du dich auf Ainu! registrieren könntest, dann sende eine E-Mail an "
+"support@ripple.moe und wir werden uns schnellstmöglich um den Fall kümmern."
+
+msgid ""
+"This warning may pop up also if you're using another computer on the same "
+"network of %s. As long as you're not using the same computer, you should be "
+"all good."
+msgstr ""
+"Diese Warnung kann auch auftauchen, falls du einen anderen Computer im "
+"selben Netzwerk benutzt wie %s. Solange du allerdings nicht den selben "
+"Computer benutzt, sollte alles in Ordnung sein."
+
+msgid "Don't stop me now!"
+msgstr "Halte mich nicht auf!"
+
+msgid "Bring me back to safety!"
+msgstr "Zurück zur Sicherheit bitte!"
+
+# login.html
+msgid "Log in"
+msgstr "Anmelden "
+
+msgid "Username (or email)"
+msgstr "Benutzername (oder E-Mail)"
+
+msgid "(forgot?)"
+msgstr "(Passwort vergessen?) "
+
+msgid "Username or password not set."
+msgstr "Benutzername oder Passwort fehlt."
+
+msgid "No user with such %s!"
+msgstr "Keine Nutzer mit %s gefunden!"
+
+msgid ""
+"Your password is sooooooo old, that we don't even know how to deal with it "
+"anymore. Could you please change it?"
+msgstr ""
+"Dein Passwort ist sooooooo alt, selbst wir wissen nicht, was wir damit "
+"anstellen sollen. Könntest du es bitte ändern?"
+
+msgid "Wrong password."
+msgstr "Falsches Passwort."
+
+msgid "You will need to verify your account first."
+msgstr "Du musst erst deinen Account bestätigen."
+
+msgid ""
+"You are not allowed to login. This means your account is either banned or "
+"locked."
+msgstr ""
+"Du hast keine Erlaubnis dich anzumelden. Das bedeutet, dass dein Account "
+"entweder gesperrt oder gebannt ist."
+
+msgid "Hey %s! You are now logged in."
+msgstr "Hey, %s! Du bist jetzt eingeloggt."
+
+msgid "You're already logged out!"
+msgstr "Du bist bereits abgemeldet!"
+
+msgid "Successfully logged out."
+msgstr "Erfolgreich abgemeldet."
+
+# pwreset.html
+msgid ""
+"Forgot your password? Worry not! Here you can reset it. Just tell us your "
+"username or email address, and we'll take care of it. You will receive an "
+"email at the email address you used to sign up on Ainu!. To continue the "
+"password reset procedure, click the link on that email."
+msgstr ""
+"Du hast dein Passwort vergessen? Keine Sorge! Hier kannst du es "
+"zurücksetzen. Teile uns einfach deinen Nutzernamen oder deine E-Mail Adresse "
+"mit und wir werden uns darum kümmern. Du wirst eine Mail bei der E-Mail "
+"Adresse die du angegeben hast um dich bei Ainu! zu registrieren erhalten. "
+"Um die Passwort-Zurücksetzungsprozedur fortzuführen, klicke auf den Link in "
+"der Mail."
+
+msgid "You look pretty banned/locked here."
+msgstr "Sieht so aus als wärst du hier gefangen ( ͡° ͜ʖ ͡°)."
+
+msgid ""
+"Done! You should shortly receive an email from us at the email you used to "
+"sign up on Ainu!."
+msgstr ""
+"Alles erledigt! Bald sollte eine E-Mail bei der von dir angegebenen E-Mail "
+"Adresse ankommen."
+
+msgid "Ainu! password recovery instructions"
+msgstr "Anweisungen zur Ainu!-Passwortzurücksetzung"
+
+msgid ""
+"Hey %s! Someone, which we really hope was you, requested a password reset "
+"for your account. In case it was you, please <a href='%s'>click here</a> to "
+"reset your password on Ainu!. Otherwise, silently ignore this email."
+msgstr ""
+"Hallo %s! Jemand, und wir hoffen wirklich, dass du das warst, hat eine "
+"Passwortzurücksetzung für deinen Account angefordert. Falls du das gewesen "
+"sein solltest, <a href='%s'>klicke bitte hier</a> um dein Passwort auf "
+"Ainu! zurückzusetzen. Falls du das doch nicht wolltest, es jemand Fremdes "
+"war oder du dein altes Passwort doch wieder wissen solltest, ignoriere diese "
+"E-Mail einfach."
+
+# not_found.html
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+msgid ""
+"We're sorry, but we were unable to find the content you were looking for!"
+msgstr "Tut uns leid, aber wir konnten nicht finden wonach du suchen wolltest!"
+
+# navbar.html
+msgid "Home page"
+msgstr "Startseite"
+
+msgid "Leaderboard"
+msgstr "Rangliste"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "About"
+msgstr "Über"
+
+msgid "Chat (Discord)"
+msgstr "Chat (Discord)"
+
+msgid "Contact support"
+msgstr "Support kontaktieren"
+
+msgid "Beatmaps"
+msgstr "Beatmaps"
+
+msgid "Donate"
+msgstr "Spenden"
+
+msgid "RAP"
+msgstr "RAP"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Friends"
+msgstr "Freunde"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Log out"
+msgstr "Abmelden"
+
+msgid "Looking for someone?"
+msgstr "Suchst du jemanden?"
+
+# homepage.html
+msgid "Home Page"
+msgstr "Homepage"
+
+msgid "Welcome to Ainu!."
+msgstr "Willkommen bei Ainu!."
+
+msgid "Ainu! is a private osu! server, featuring multiplayer, PP, a very active community and a development team going strong implementing new features and squashing bugs. <a href='/about'>You can check out even more features here.</a> It has also a very friendly community, and it's <a href='https://github.com/osuthailand'>open source!</a> Just so you know, <b>we currently have %s users online and %s registered users!</b>"
+msgstr ""
+"Ainu! ist ein privater osu! Server, gekennzeichnet durch Multiplayer, PP, "
+"einer aktiven Community und einem Entwickler-Team, welches jederzeit neue "
+"Features einbaut und Bugs vernichtet. <a href='/about'>Du kannst dir hier "
+"noch mehr Features anschauen.</a> Ainu! hat außerdem eine sehr freundliche "
+"Community und ist ebenso <a href='https://github.com/osuthailand'>open-"
+"source!</a> Nur damit du es weißt, <b>momentan sind %s Nutzer online und wir "
+"haben %s registrierte Nutzer!</b>"
+
+msgid "What are you waiting for? Join Ainu!! It's risk-free: you won't get your account banned on the official server if you play on Ainu!<br>You can also switch anytime between the official osu! server and Ainu!!"
+msgstr ""
+"Worauf wartest du noch? Tritt Ainu! bei! Es ist risikofrei: Dein Account "
+"auf dem offiziellen Server wird nicht gebannt, falls du auf Ainu! "
+"spielst.<br>Du kannst auch jederzeit zwischen dem offiziellen osu! Server "
+"und Ainu! wechseln!"
+
+msgid "Howdy, %s!"
+msgstr "Howdy, %s!"
+
+msgid ""
+"Welcome back to Ainu!. We currently have <b>%s online users and %s total "
+"registered users.</b> Nice day to farm a few maps, isn't it?"
+msgstr ""
+"Willkommen zurück bei Ainu!. Momentan sind <b>%s Nutzer online und wir "
+"haben %s insgesamt registrierte Nutzer.</b> Schöner Tag um ein paar Maps zu "
+"farmen, oder?"
+
+msgid "Latest news from our <a href='https://blog.ripple.moe'>blog</a>"
+msgstr ""
+"Neuste Informationen von unserem <a href='https://blog.ripple.moe'>Blog</a>"
+
+# base.html
+msgid ""
+"Ainu!'s score submission is currently in maintenance mode. You will not be "
+"allowed to submit scores for the time being."
+msgstr ""
+"Ainu!'s Score-Einreichung ist momentan im Wartungsmodus. Du wirst in diesem "
+"Zeitraum keine Scores einreichen können."
+
+msgid ""
+"The Ainu! website is currently in maintenance mode. Only certain users are "
+"allowed to access the full website."
+msgstr ""
+"Die Ainu!-Website ist momentan im Wartungsmodus. Nur bestimmte Nutzer haben "
+"die Erlaubnis, die komplette Website zu benutzen."
+
+msgid "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ainu!'s staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://discord.gg/CEjWW4K'>our Discord</a>."
+msgstr ""
+"Dein Account ist momentan im gesperrten Zustand. Du wirst nicht in der Lage "
+"sein, bestimmte Dinge zu tun und dein Profil kann nur von dir und Ainu!'s "
+"Staff angesehen werden. Falls du glaubst, dass wir einen Fehler getan haben "
+"dich zu sperren, oder ein Monat ist vergangen als du das zum ersten Mal "
+"gesehen hast, sende eine Beschwerde an <a "
+"href='https://support.ripple.moe'>support.ripple.moe</a>."
+
+msgid "&copy; 2015-%d Ainu!, using Hanayo %s."
+msgstr "&copy; 2015-%d Ainu!, nutzt Hanayo %s."
+
+msgid "Team"
+msgstr "Team"
+
+msgid "Who is working on this thing?"
+msgstr "Wer arbeitet an diesem Ding?"
+
+msgid "Developer docs"
+msgstr "Entwickler-Dokumente"
+
+msgid "See what changed!"
+msgstr "Sieh dir an was sich verändert hat!"
+
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "What's going on under the hood?"
+msgstr "Was passiert hinter der Bühne?"
+
+msgid "Follow us on Twitter!"
+msgstr "Folge uns auf Twitter!"
+
+msgid "Share irrelevant opinions on reddit!"
+msgstr "Teile unnütze Meinungen auf Reddit!"
+
+msgid "Language"
+msgstr "Sprache"
+
+# beatmap.html
+msgid "Artist"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Circle Size"
+msgstr ""
+
+msgid "HP Drain"
+msgstr ""
+
+msgid "Overall Difficulty"
+msgstr ""
+
+msgid "Passes/Plays"
+msgstr ""
+
+msgid "Approach Rate"
+msgstr ""
+
+msgid "Star Difficulty"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "BPM"
+msgstr ""
+
+msgid "osu!direct"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid "download (no video)"
+msgstr ""
+
+# 2fa_gateway.html
+msgid "Two Factor Authentication"
+msgstr "Zwei-Wege-Authentifizierung (2FA)"
+
+msgid ""
+"Before proceding further on Ainu!, we require you to use your Google "
+"Authenticator App to use the code for Ainu!, so that we can log you in."
+msgstr ""
+"Bevor du fortfahren kannst, musst du den Code, welchen du in der Google "
+"Autzentifizierungs App bekommen hast, benutzen, damit wir dich einloggen "
+"können."
+
+msgid ""
+"Before proceding any further on Ainu!, we require you to use the message "
+"you just received on telegram to log in to your account."
+msgstr ""
+"Bitte benutze die Nachricht, welche du gerade auf Telegram bekommen hast, "
+"damit wir dich einloggen können."
+
+msgid "Lost your phone, or can't access Google Authenticator?"
+msgstr ""
+"Du hast dein Handy verloren oder kannst den Google Autentifizierer nicht "
+"benutzen?"
+
+msgid "Click here to use a recovery code."
+msgstr "Klicke hier um einen Wiederherstellungscode zu benutzen."
+
+msgid "Telegram code"
+msgstr "Telegram-Code"
+
+msgid "(send again?)"
+msgstr "(Nochmal senden?)"
+
+msgid "Google Authenticator passcode"
+msgstr "Google Authenticator Schlüssel"
+
+msgid "Hey, %s."
+msgstr "Hey, %s."
+
+msgid "You need to complete the 2fa challenge first."
+msgstr "Du musst zuerst die 2WA-Challenge abschließen."
+
+msgid "A new code has been generated and sent to you through Telegram."
+msgstr "Ein neuer Code wurde generiert und dir per Telegram zugeschickt."
+
+msgid "You've been successfully logged in."
+msgstr "Du hast dich erfolgreich angemeldet."
+
+msgid ""
+"Ooops! Looks like something went really wrong while trying to process your "
+"request. Perhaps report this to a Ainu! developer? Retrying doing what you "
+"were trying to do might work, too."
+msgstr ""
+"Ups! Scheint so, als wäre etwas bei der Verarbeitung deiner Anfrage wirklich "
+"schief gelaufen. Vielleicht solltest du das einem Ainu!-Entwickler "
+"mitteilen. Vielleicht funktioniert es auch, wenn du es nochmal versuchst?"
+
+msgid "Ainu! is a private osu! server."
+msgstr "Ainu! ist ein privater osu! Server."
+
+msgid "There are many like it, but this one is ours."
+msgstr "Es gibt viele, die so sind, aber dieser ist unserer."
+
+# %s is eggplant emoji
+msgid "Don't you like %s?"
+msgstr "Magst du keine %s?"
+
+msgid "We have leaderboards."
+msgstr "Wir haben Bestenlisten."
+
+msgid "Online user listing."
+msgstr "Online user Liste."
+
+msgid "Free osu!direct."
+msgstr "Kostenloses osu!direct."
+
+msgid "Global leaderboards."
+msgstr "Globale Bestenlisten."
+
+msgid "and PP for all game modes"
+msgstr ""
+
+msgid "Ranking queue for unranked beatmaps."
+msgstr "Ranking Liste für unranked Beatmaps."
+
+msgid "Spectator."
+msgstr "Zuschauer-Modus."
+
+msgid "Multiplayer."
+msgstr "Mehrspieler"
+
+msgid "FokaBot, our chat bot"
+msgstr "FokaBot, unser Chat Bot."
+
+msgid ""
+"with plenty of functions for just about anything, <a href=\"/doc/4\">check "
+"it out!</a>"
+msgstr ""
+"mit einer menge Funktionen für so ziemlich alles, <a href=\"/doc/4\">schau "
+"doch mal rein!</a>"
+
+msgid "And a lot more to come!"
+msgstr "Und es kommt noch viel mehr!"
+
+msgid ""
+"Ainu! is the result of the hard work of two Italian developers, who got "
+"tired about the whole osu! ecosystem, and also because they wanted to play "
+"with a few banned friends."
+msgstr ""
+"Ainu! ist das Ergebnis harter Arbeit von zwei italienischen Entwicklern, "
+"die das ganze osu! Ökosystem satt hatten, und auch weil sie mit ein paar "
+"gebannten Freunden spielen wollten."
+
+# %s is wink emoji
+#, fuzzy
+msgid ""
+"It has now evolved into the largest available osu! private server, with more "
+"than 50,000 registered users. <a href=\"/register\">Signing up</a> on Ainu! "
+"won't result in getting your account on osu! restricted, so what are you "
+"waiting for?! Come join us! %s"
+msgstr ""
+"Es hat sich nun, mit mehr als 10.000 registrierten Spielern, zum größten "
+"verfügbaren privaten osu! Server entwickelt. <a href=\"/register\">Sich auf "
+"Ainu! zu registrieren</a> wird nicht dazu führen, dass dein Account auf dem "
+"offiziellem Server restricted wird, also worauf wartest du?! Trete uns bei! "
+"%s"
+
+msgid ""
+"In case you want to make sure we're not doing shady stuff with your data, "
+"you can also check the <a href=\"https://zxq.co/ripple/ripple\">source "
+"code</a> Ainu! is running on."
+msgstr ""
+"Wenn du sicher sein möchtest das wir keine dubiosen Sachen mit deinen "
+"privaten Daten machen, kannst du den <a href=\"https://zxq.co/ripple/ripple\""
+">source code</a> checken, auf dem Ainu! läuft."
+
+# changelog.html
+msgid ""
+"This is the changelog. Changes are published here as soon as they hit the "
+"production status (as in, live on the website)."
+msgstr ""
+"Das ist das Änderungslog. Änderungen werden, sobald sie produktionsreif "
+"sind, hier bekannt gegeben (sowie live auf der Website)."
+
+msgid ""
+"For various reasons, some software of Ainu! does not contribute to the "
+"changelog, to which this website is a part of. In case you want to see the "
+"changelog of Hanayo, you can do so by <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr ""
+"Aus verschiedenen Gründen erscheint diverse Software von Ainu! nicht im "
+"Änderungslog, welchem die Website angehört. Sofern du allerdings das Hanayo-"
+"änderungslog sehen möchtest, kannst du <a href=\""
+"https://zxq.co/ripple/hanayo/commits/master\">hier drauf drücken</a>"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Subject"
+msgstr "Betreff"
+
+msgid "Time"
+msgstr "Zeit"
+
+# doc_content.html 
+msgid "View document"
+msgstr "Dokument anzeigen"
+
+msgid "Documentation file not found!"
+msgstr "Dokumentation nicht gefunden"
+
+msgid "View all docs"
+msgstr "Alle Dokumente anzeigen"
+
+# doc.html
+msgid ""
+"Need some help getting around? Look no further! From here you will be able "
+"to view our documentation, which is basically a very simplistic wiki."
+msgstr ""
+"Du brauchst ein bisschen Hilfe? Keine Sorge! Von hier aus kannst du unsere "
+"kompletten Dokumente sehen, welche an sich wie ein kleines Wiki "
+"funktionieren."
+
+msgid "Looks like there is no documentation on this ripple instance!"
+msgstr "Sieht so aus als gäbe es hier keine Dokumentation von!"
+
+# friends.html
+msgid ""
+"On this page you can see all of your friends, and unfriend them as you see "
+"fit."
+msgstr ""
+"Auf dieser Seite siehst du alle deine Freunde und kannst sie entfernen wenn "
+"du möchtest."
+
+msgid "Mutual"
+msgstr "Freunde"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+# irc.html
+msgid ""
+"Here you can generate a new IRC token. You can use it to connect to Ainu!'s "
+"chat using IRC. Remember that your IRC token is like a password, anyone who "
+"knows it, has access to your account. If you're interested knowing how to "
+"connect to Ainu!'s chat via IRC, you may want to check out <a href=\"/doc/"
+"11\">this</a>."
+msgstr ""
+"Hier kannst du einen neuen IRC-Token generieren lassen. Du kannst ihn dazu "
+"benutzen, um über einen IRC eine Verbindung zum Ainu!chat aufzubauen. "
+"Beachte: Dein IRC-Token ist wie ein Passwort. Jeder der ihn besitzt, hat "
+"Zugang zu deinem Account. Falls du also wissen magst, wie man per IRC eine "
+"Verbindung zum Ainu!chat aufbaut, kannst du <a href=\"/doc/11\">hier</a> "
+"nachschauen."
+
+msgid "Generate a new token!"
+msgstr "Einen neuen Token erstellen!"
+
+# leaderboard.html
+msgid "Rank"
+msgstr "Rang"
+
+msgid "Player"
+msgstr "Spieler"
+
+msgid "PP/Score"
+msgstr "PP/Score"
+
+msgid "Accuracy"
+msgstr "Genauigkeit"
+
+msgid "Playcount"
+msgstr "Gespielt"
+
+# profile.html
+msgid "%s's profile"
+msgstr "%s's Profil"
+
+# profile.html
+# for <reason>, expires <placeholder for time>.
+msgid "User is <b>silenced</b> for %s, expires %s."
+msgstr "User ist <b>gesilenced</b> für %s, endet in %s."
+
+# %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
+msgid "User is <b>%s</b>"
+msgstr "Benutzer ist <b>%s</b>"
+
+msgid "pending verification"
+msgstr "Überprüfung läuft"
+
+msgid "banned"
+msgstr "Gebannt"
+
+msgid "restricted"
+msgstr "Eingeschränkt"
+
+msgid "locked"
+msgstr "gesperrt "
+
+msgid "User not found"
+msgstr "Benutzer nicht gefunden"
+
+msgid "(aka <b>%s</b>)"
+msgstr "(aka <b>%s</b>)"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "<b>%s</b> is a osu!Ainu player from <b>%s</b>."
+msgstr "<b>%s</b> ist ein Ainu! Spieler von <b>%s</b>."
+
+msgid "Last seen: %s."
+msgstr "Zuletzt gesehen: %s"
+
+msgid "They signed up on osu!Ainu %s."
+msgstr "Nutzer hat sich %s bei Ainu! registriert."
+
+msgid "They play with %s."
+msgstr "Spielt mit %s."
+
+msgid "Mouse"
+msgstr "Maus"
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Keyboard"
+msgstr "Tastatur"
+
+msgid "Touchscreen"
+msgstr "Touchscreen"
+
+msgid "Spoon"
+msgstr "Löffel"
+
+msgid "Leap motion"
+msgstr "Sprungsteuerung"
+
+msgid "Oculus rift"
+msgstr "Oculus rift"
+
+msgid "Dick"
+msgstr "Penis"
+
+msgid "Eggplant"
+msgstr "Eggplant"
+
+msgid "This user hasn't got any badges!"
+msgstr "Dieser Benutzer hat keine Abzeichen!"
+
+msgid "Global rank"
+msgstr "Globaler Rang"
+
+msgid "Country rank"
+msgstr "Nationaler Rang"
+
+msgid "PP"
+msgstr "PP"
+
+msgid "Ranked score"
+msgstr "Ranglisten Punkte"
+
+msgid "Total score"
+msgstr "Gesamtpunkte"
+
+msgid "Replays watched"
+msgstr "Replays wurden angeschaut"
+
+msgid "Total hits"
+msgstr "Treffer gesamt"
+
+msgid "Level %s"
+msgstr "Level %s"
+
+msgid "Achievements"
+msgstr ""
+
+# support.html
+msgid "Support Ainu!"
+msgstr "Unterstütze Ainu!"
+
+msgid "You are a donor!"
+msgstr "Du bist ein Spender!"
+
+msgid ""
+"Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
+msgstr ""
+"Deine Spende verfällt <b>%s</b>. Brauchst dich nicht schlecht fühlen, sofern "
+"du nichts gespendet hast!"
+
+msgid "Did you know?"
+msgstr "Wusstest du?"
+
+msgid "(Probably.)"
+msgstr "(Wahrscheinlich.)"
+
+msgid "(Probably not.)"
+msgstr "(Wahrscheinlich nicht.)"
+
+msgid "Ainu! is not cheap to run."
+msgstr "Ainu! ist nicht billig zu betreiben."
+
+msgid ""
+"While we provide this service for free, we still have to pay for it, and if "
+"we always took the money out of our own pockets, 1. we would be broke, 2. we "
+"wouldn't be able to upgrade our hardware to accomodate our users. While we "
+"do have loads of software optimisations that allow us to have Ainu! run "
+"crazy fast while still being on not so high-end hardware, the more users we "
+"have, the higher-end our hardware needs to be. So we are asking you for help "
+"on this :)."
+msgstr ""
+"Auch wenn wir unseren Service gratis anbieten, müssen wir dafür bezahlen. "
+"Täten wir das immer aus eigener Tasche, 1. wären wir pleite, 2. hätten wir "
+"nicht die Möglichkeit, unsere Hardware den Anforderungen unserer Nutzer "
+"anzupassen. Auch wenn wir mit Softwareoptimierungen Ainu! auf einem sehr "
+"hohen Niveau halten können: Je mehr Nutzer wir haben, desto besser muss "
+"unsere Hardware sein. Also fragen wir dich ganz freundlich nach deiner Hilfe "
+"dabei! :)"
+
+msgid "We are still students."
+msgstr "Wir sind Schüler."
+
+msgid ""
+"Ainu! developers, and most of the Ainu! staff, do not have a day job. This "
+"means that we get most of our income as students from doing small jobs as \""
+"freelancers\" every so often, or, you know, allowance."
+msgstr ""
+"Ainu! Entwickler, oder Mitglieder des Ainu! Teams haben teilweise keinen "
+"Teil-/Vollzeitjob. Das bedeutet, dass wir als Studenten, den Großteil "
+"unseres Geldes als \"Freiberufler\" verdienen."
+
+msgid "We do not have ads. And never will."
+msgstr "Wir haben keine Werbung und werden auch nie welche haben."
+
+msgid "We love picking random icons from our icon library."
+msgstr ""
+"Wir lieben es, irgendwelche Bilder aus unserer Bilder-Datenbank zu wählen."
+
+msgid ""
+"You may have adblock enabled and have not noticed, but we don't have ads "
+"anywhere on our website. We believe ads are bad, as they can be very "
+"annoying to you and that you would rather spend a few bucks to help us "
+"rather than watch annoying ads all the time."
+msgstr ""
+"Du könntest vielleicht adblock angemacht haben, ohne es zu bemerken, jedoch "
+"haben wir keine Werbung auf unserer Website. Wir denken, dass Werbungen "
+"schlecht sind, da sie manchmal wirklich nerven und dass du uns lieber ein "
+"paar Groschen spendest um uns zu helfen, anstatt ständig nervige Werbung zu "
+"sehen."
+
+msgid "So what can you do?"
+msgstr "Also was kannst du tun?"
+
+msgid "Well, you can give us money."
+msgstr "Naja, du kannst uns Geld geben."
+
+msgid "Well, you can give us even more money."
+msgstr "Naja, du kannst uns auch noch mehr Geld geben."
+
+msgid "Here's what you get:"
+msgstr "Das hier alles kriegst du dafür:"
+
+msgid "Yellow username"
+msgstr "Gelber Name"
+
+msgid "Donor badge"
+msgstr "Spender Abzeichen"
+
+msgid "Custom badge editor"
+msgstr "Benutzerdefinierter Abzeichen-Editor"
+
+msgid "Friends ranking"
+msgstr "Freundes Ranglisten"
+
+msgid "Discord privileges"
+msgstr "Discord Server Rechte"
+
+msgid "Profile background"
+msgstr "Profil Hintergrund"
+
+msgid "More to come!"
+msgstr "und noch mehr in Zukunft!"
+
+msgid ""
+"Just like in osu!, you get a <b>shiny yellow username</b> in the in-game "
+"chat to show everyone you're a really cool dude who has helped us pay the "
+"server bills."
+msgstr ""
+"Genau wie bei osu!, kriegst du einen <b>schimmernden gelben Namen</b> im in-"
+"game Chat, damit jeder weiß, dass du ein richtig cooler Dude bist der uns "
+"beim bezahlen der Serverkosten hilft."
+
+msgid ""
+"Again, just like in osu!, you will get a <b>donor badge</b> on your profile, "
+"to show everyone you're supporting us."
+msgstr ""
+"Außerdem bekommst du wie bei osu!, ein <b>Spender Abzeichen</b> auf deinem "
+"Profil, damit du jedem zeigen kannst, dass du Ainu! unterstützt."
+
+msgid ""
+"You get to be able to create your <b>own personal badge</b>, with custom "
+"text and icon, to show off on your profile! Let the world know you're an "
+"anchor. Or prank people showing a spinnin' wheel with \"Loading...\"! Up to "
+"you."
+msgstr ""
+"Du bekommst die Möglichkeit dein <b>eigenes persönliches Abzeichen</b>, mit "
+"frei wählbarem Text und Bildchen, das du auf deinem Profil der Welt zeigen "
+"kannst, zu erstellen! Lasse die Welt wissen, dass du ein 'Anker' bist oder "
+"pranke ein paar Leute mit einem Ladekreis mit der passenden Aufschrift \""
+"Loading...\"! Alles deine Wahl."
+
+msgid ""
+"<b>Competing with friends</b> is really cool, you can play on the "
+"leaderboard with someone more or less on your level, without getting "
+"crippling depression and RSI for not beating that pro!"
+msgstr ""
+"<b>Sich mit Freunden zu messen</b> ist ziemlich cool, du kannst mit jemanden "
+"auf deinem Skill-Level auf der in-game Rangliste spielen, ohne dreckige "
+"Depression und RSI zu bekommen beim fehlgeschlagenen Versuch die Pro-Spieler "
+"zu übertreffen!"
+
+msgid ""
+"You'll get exclusive access to the <b>\"#donators\"</b> text and voice "
+"channels, you'll be able to change your discord nickname and you'll get a "
+"custom role with custom username colour!"
+msgstr ""
+"Du wirst exklusiven Zugang zu den <b>\"#donators\"</b> Text- und "
+"Sprachkanälen bekommen, du wirst deinen Discord Nickname ändern können und "
+"du wirst eine benutzerdefinierte Rolle mit einer benutzerdefinierten Farbe "
+"bekommen!"
+
+msgid ""
+"Think about <b>spicing your profile up with some eggplants</b>? Got you "
+"covered! Having donor privileges, you get to be able to change your profile "
+"background."
+msgstr ""
+"Wolltest du schon immer <b>dein Profil mit ein paar Auberginen</b> "
+"aufpeppen? Dann haben wir da was für dich! Als Spender hast du die "
+"Möglichkeit, den Hintergrund deines Profils zu ändern."
+
+msgid ""
+"<b>Who knows</b> what we could implement next? You could be able to do even "
+"<i>more</i> stuff for donors once we implement it."
+msgstr ""
+"<b>Wer weiß</b> was wir als nächstes einfügen? Du hättest die Möglichkeit, "
+"<i>noch mehr</i> Spender-Privilegien zu genießen, sobald wir diese eingefügt "
+"haben."
+
+msgid "And this is how you pay"
+msgstr "Und so kannst du bezahlen "
+
+msgid ""
+"You may donate through either <b>PayPal</b> (or credit/debit card linked to "
+"PayPal) or <b>Bitcoin</b>. Use the slider below to choose the amount of "
+"months you'd like to have the donor benefits, and the cost will be instantly "
+"calculated. Remember that if, for instance, you choose to donate € 4 instead "
+"of € 3.51, you will only be given one donor month."
+msgstr ""
+"Du kannst zur Zeit über <b>PayPal</b> (oder über eine Kredit-/Debitkarte, "
+"welche mit deinem PayPal Account verbunden ist) oder <b>Bitcoin</b> spenden. "
+"Benutze den Regler unten und bestimme, für wie viele Monate du Spender-"
+"Privilegien haben möchtest. Der Preis wird automatisch daneben ausgerechnet. "
+"Bedenke aber, sofern du statt 3.51€ doch 4€ spenden solltest, bleibt es "
+"trotzdem nur bei einem Monat."
+
+msgid "Loading..."
+msgstr "Laden..."
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "User:"
+msgstr "Benutzer:"
+
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+msgid "Send %s BTC to this Bitcoin address:"
+msgstr "Sende %s BTC zu dieser Bitcoin Adresse:"
+
+msgid ""
+"Afterwards, <b>please send an email to <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> containing the transaction hash!"
+msgstr ""
+"Danach <b>sende bitte eine E-Mail an <a href=\"mailto:howl@ripple.moe\""
+">howl@ripple.moe</a></b> mit dem Transaktionshash!"
+
+msgid "I've donated, now what?"
+msgstr "Ich habe gespendet, was jetzt?"
+
+msgid ""
+"You'll have to wait until we verify and process your payment. It can take up "
+"to <b>12 hours</b>. If 12 hours have passed and you still haven't received "
+"your Donor tag, contact a <b>Dev/Community Manager</b> in our Discord server "
+"or send an email to <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Once we have processed your payment, you'll "
+"receive an <b>email</b> to the address you've used to sign up and you'll get "
+"<b>all the donor privileges, except the Discord ones</b>. To get the Discord "
+"donor privileges, go <a href=\"/settings/discord\">here</a>."
+msgstr ""
+"Du wirst ein wenig warten müssen, bis die Zahlung verarbeitet wurde. Dies "
+"dauert durchschnittlich nicht länger als <b>12 Stunden</b>. Solltest du nach "
+"12 Stunden allerdings dein Spender-Abzeichen noch nicht erhalten haben, "
+"kontaktiere bitte einen <b>Community Manager</b> auf unserem Discord-Server "
+"oder schreibe eine Mail an <b><a href=\"mailto:support@ripple.moe\""
+">support@ripple.moe</a></b>. Sobald wir deine Zahlung erhalten haben, "
+"erhältst du eine <b>E-Mail</b> an die Adresse, welche du für Ainu! benutzt. "
+"Danach solltest du, <b>bis auf die Discord-Privilegien, alles haben</b>. Um "
+"Zugriff auf die Discord-Privilegien zu bekommen, klicke einfach <a href=\""
+"/settings/discord\">hier</a>."
+
+msgid "Please log in to get supporter"
+msgstr "Bitte melde dich an um Supporter erhalten zu können"
+
+# Settings
+msgid "Userpage"
+msgstr "Userpage"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Discord donor"
+msgstr "Discord Spender"
+
+msgid "Two factor authentication is enabled on your account."
+msgstr "Zwei-Faktoren Authentifizierung ist auf deinem Account aktiviert."
+
+msgid "Two factor authentication is not enabled on your account."
+msgstr "Zwei-Faktoren Authentifizierung ist auf deinem Account nicht aktiviert."
+
+msgid "Telegram 2FA"
+msgstr "Telegram Zwei-Faktoren Authentifizierung"
+
+msgid ""
+"To enable Telegram Two Factor Authentication, click this button, then click "
+"\"start\" on Telegram:"
+msgstr ""
+"Um die Telegram Zwei-Faktoren Authentifizierung zu aktivieren, drücke diesen "
+"Button und klicke \"start\" in deiner Telegram App."
+
+msgid "Enable Telegram 2FA"
+msgstr "Telegram Zwei-Faktoren Authentifizierung aktivieren"
+
+msgid ""
+"If you don't have Telegram on the current device, you can either open this "
+"page from a device on which you have it, or scan this QR code:"
+msgstr ""
+"Falls du kein Telegram auf deinem jetzigen Gerät haben solltest, dann kannst "
+"du diese Seite entweder von einem anderen Gerät mit der installierten "
+"Telegram App öffnen, oder diesen QR-Code scannen:"
+
+msgid ""
+"In case you don't have a way to scan QR codes or you simply can't be "
+"bothered to download an app that scans them, you can also open Telegram, "
+"start a conversation with <a href=\"http://telegram.me/ripple2fabot\""
+"><b>@ripple2fabot</b></a> and send this message:"
+msgstr ""
+"Falls du allerdings keinen Weg finden solltest diesen QR-Code zu scannen, "
+"oder einfach keine App herunterladen möchtest die das kann, dann kannst du "
+"auf Telegram follgende Nachricht an <a href=\"http://telegram.me/"
+"ripple2fabot\"><b>@ripple2fabot</b></a>senden:"
+
+msgid "Google Authenticator (TOTP) based 2FA"
+msgstr "Google-Authenticator (TOTP) basierte Zwei-Wege Authentifizierung"
+
+msgid ""
+"At the moment you currently have set up Telegram Two Factor Authentication. "
+"Should you wish to disable it, please fill out the following form:"
+msgstr ""
+"Momentan hast du die Zwei-Faktoren Authentifizierung über Telegram "
+"aktiviert. Sofern du das jedoch nichtmehr möchtest, fülle bitte folgendes "
+"Formular aus:"
+
+msgid ""
+"At the moment you currently have set up TOTP-based (Google Authenticator) "
+"Two Factor Authentication. Should you wish to disable it, please fill out "
+"the following form:"
+msgstr ""
+"Momentan hast du die Google Authenticator (TOTP) basierte Zwei-Faktoren "
+"Authentifizierung aktiviert. Sofern du das jedoch nichtmehr möchtest, fülle "
+"bitte folgendes Formular aus:"
+
+msgid "Disable Telegram 2FA"
+msgstr "Deaktiviere die Telegram Zwei-Faktoren Authentifizierung"
+
+msgid "Disable TOTP-based 2FA"
+msgstr ""
+"Deaktiviere die Google Authenticator (TOTP) basierte Zwei-Faktoren "
+"Authentifizierung"
+
+msgid "Google Authenticator recovery keys"
+msgstr "Google Authenticator Wiederherstellungsschlüssel"
+
+msgid ""
+"These are the only thing that will let you get back into your Ainu! account "
+"if you lose your device. Our suggestion is to paste them inside a document "
+"in your word processor (Microsoft Word, LibreOffice Writer), print them and "
+"store them in a safe place."
+msgstr ""
+"Das sind die einzigen Wege, die dir den Zugang zu deinem Ainu! Account zu "
+"ermöglichen, sofern du dein Gerät verlieren solltest. Wir schlagen dir daher "
+"vor, alles in ein Dokument zu kopieren (Microsoft Word, LibreOffice Writer), "
+"sie auszudrucken und an einem sicheren Ort aufzubewahren."
+
+msgid "Open File"
+msgstr "Datei öffnen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid ""
+"Your discord account has been linked to this Ainu! account. <b>Welcome to "
+"the donors club and thank you for supporting us!</b> You have now access to "
+"the #donators text and voice channels on our official Discord server! You "
+"can also set a custom role name and username colour and change your nickname "
+"on Discord. If you want to change your nickname, you can use the "
+"<code>/nick</code> command. To set or edit your <b>custom role</b> name and "
+"colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can "
+"pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\""
+"_blank\">here</a>, it's the one that starts with '#'. You can change your "
+"role name and colour <b>whenever you want!</b>"
+msgstr ""
+"Dein Discord Account wurde mit diesem Ainu! Account verbunden. <b>"
+"Willkommen im Spenderclub und danke, dass du uns unterstützt!</b> Du hast "
+"nun Zugang zu den #donators Text und Sprach-Kanälen auf unserem offiziellen "
+"Discord-Server! Auch kannst du dir eine eigene Rolle erstellen, eine "
+"Nutzernamenfarbe aussuchen und deinen Nutzernamen ändern. Falls du deinen "
+"Nutzernamen ändern möchtest, benutze <code>/nick</code>. Um deine <b>eigene "
+"Rolle</b>, den Rollennamen und die Farbe zu ändern, benutze <code>!role "
+"HEX_COLOUR ROLE_NAME</code>. Du kannst dir deine Farbe als HEX-Colour-code <"
+"a href=\"http://www.colorpicker.com/\" target=\"_blank\">hier</a> aussuchen. "
+"Du kannst deinen Rollennamen und deine Farbe <b>wann immer du willst "
+"ändern!</b>"
+
+msgid "Thank you for supporting us and have fun on Ainu!!"
+msgstr "Danke, dass du uns unterstützt und hab Spaß auf Ainu!! "
+
+msgid "Donors get special privileges on our Discord server too!"
+msgstr "Spender erhalten auch besondere Privilegien auf unserem Discord-Server!"
+
+msgid ""
+"Discord is a chatroom with text and voice channels, bots and lots of other "
+"cool features. You can <b>download Discord for free <a href=\""
+"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our "
+"official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>."
+msgstr ""
+"Discord ist ein Chatroom mit Text und Sprachkanälen, Bots und vielen weitere "
+"coolen Features! Du kannst dir <b>Discord gratis <a href=\"http://discord.gg/"
+"\" target=\"_blank\">hier</a></b> herunterladen und <b>unserem offiziellen "
+"Discord-Server beitreten, indem du <a href=\"%s\" target=\"_blank\""
+">hier</a></b> drückst."
+
+msgid "Here's what you get if you link your Discord account:"
+msgstr "Hier ist was du bekommt wenn du deinen Discord Account verbindest:"
+
+msgid "Access to /nick command, to change your Discord nickname"
+msgstr "Zugriff auf /nick Befehl, um deinen Discord Nicknamen zu ändern."
+
+msgid "Access to #donators text and voice channels"
+msgstr "Zugriff zu #donators Chat und Sprachkanälen."
+
+msgid "Username on donors list"
+msgstr "Benutzername auf der Spenderliste"
+
+msgid "Custom role with custom username"
+msgstr "Eigene Rolle mit eigenem Spitznamen"
+
+msgid ""
+"To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our "
+"Discord server</a>, then click this fancy button:"
+msgstr ""
+"Um diese Privilegien zu erhalten, <a href=\"%s\" target=\"_blank\">tritt "
+"unserem Discord-Server</a> bei und klicke dann auf den wunderschönen Knopf "
+"hier:"
+
+msgid "Get Discord donor privileges"
+msgstr "Bekomme Discord Spender Privilegien"
+
+msgid "New password (leave blank if you don't want to change it)"
+msgstr "Neues Passwort (freilassen wenn du es nicht ändern möchtest)"
+
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+msgid "BBCode syntax reference"
+msgstr "BBCode syntax Referenz"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+msgid "Alternative username (cannot be used for login)"
+msgstr "Alternativer Name (Kann nicht zum einloggen benutzt werden)"
+
+msgid "Also known as..."
+msgstr "Auch bekannt als..."
+
+msgid "Custom badge"
+msgstr "Benutzerdefiniertes Abzeichen"
+
+msgid "Enable"
+msgstr "Aktivieren"
+
+msgid ""
+"<b>Do not use offensive badges and do not pretend to be someone else with "
+"your badge.</b> If you abuse the badges system, you'll be silenced and you "
+"won't be able to edit your custom badge anymore."
+msgstr ""
+"<b>Offensive Abzeichen oder das Vortäuschen einer anderen Person ist nicht "
+"gestattet.</b> Falls du das Abzeichensystem dennoch missbrauchen solltest, "
+"droht ein Silence und du wirst kein neues Abzeichen erstellen können."
+
+msgid "Icon reference"
+msgstr "Icon-Referenz"
+
+msgid "Dinosaur, oompa-loompa, cool guy..."
+msgstr "Dinosaurier, Oompa-Loompa, Cool Guy..."
+
+msgid "Playstyle"
+msgstr "Spielstil"
+
+msgid "Authorized applications"
+msgstr "Autorisierte Anwendungen"
+
+msgid ""
+"From here you can check all the applications you granted authorization to "
+"your account, and revoke their permissions if necessary."
+msgstr ""
+"Hier kannst du alle Anwendungen, denen du Genehmigung zu deinem Account "
+"gerwährt hast, einsehen, und deren Rechte widerrufen, wenn es nötig ist."
+
+msgid "... but it looks like you have none!"
+msgstr "... aber es sieht so aus, als hättest du keine!"
+
+msgid "That authorization has been successfully revoked."
+msgstr "Diese Autorisierung wurde erfolgreich widerrufen."
+
+msgid "Authorization created %s"
+msgstr "Autorisierung erstellt %s"
+
+msgid "Owner"
+msgstr "Besitzer"
+
+msgid "Revoke"
+msgstr "Widerrufen"
+
+msgid "Dark site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+# Go source
+msgid "TOTP-based 2FA has been enabled on your account."
+msgstr ""
+"TOTP-basierte Zwei-Faktoren Authentifizierung wurde auf deinem Account "
+"aktiviert."
+
+msgid "Passcode is invalid. Perhaps it expired?"
+msgstr "Passcode ist ungültig. Ist er abgelaufen?"
+
+msgid "No passcode/secret was given. Please try again"
+msgstr "Kein Passcode/Secret gegeben. Versuche es nochmal."
+
+msgid "TOTP-based 2FA is already enabled!"
+msgstr "TOTP-basierte Zwei-Faktoren Authentifizierung ist bereits aktiviert!"
+
+msgid ""
+"You currently have Telegram 2FA enabled. You first need to disable that if "
+"you want to use TOTP-based 2FA."
+msgstr ""
+"Du hast momentan die Telegram Zwei-Faktoren Authentifizierung aktiviert. Du "
+"musst diese zuerst deaktivieren, um die TOTP-basierte Zwei-Faktoren "
+"Authentifizierung benutzen zu können."
+
+msgid "2FA disabled successfully."
+msgstr "Zwei-Faktoren Authentifizierung erfolgreich deaktiviert."
+
+msgid "Changing avatar is currently not possible."
+msgstr "Es ist zurzeit nicht möglich deinen Avatar zu ändern."
+
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
+msgid "We were not able to save your avatar."
+msgstr "Wir konnten deinen Avatar nicht speichern."
+
+msgid ""
+"Your avatar was successfully changed. It may take some time to properly "
+"update. To force a cache refresh, you can use CTRL+F5."
+msgstr ""
+"Dein Avatar wurde erfolgreich geändert. Es könnte ein wenig dauern, bis er "
+"richtig aktualisiert wurde. Um einen Cache-Refresh zu erzwigen, drücke bitte "
+"STRG+F5."
+
+msgid "Internal Server Error"
+msgstr "Interner Server-Fehler"
+
+msgid "You're not a donor!"
+msgstr "Du bist kein Spender!"
+
+msgid ""
+"You've not joined the discord server! Links to it are below on the page. "
+"Please join the server before attempting to connect your account to Discord."
+msgstr ""
+"Du bist dem Discord-Server noch nicht beigetreten! Den Link zum Server "
+"findest du weiter unten auf dieser Seite. Bitte tritt dem Server bei, bevor "
+"du versuchst, deinen Account mit Discord zu verbinden."
+
+msgid "Your account has been linked successfully!"
+msgstr "Dein Account wurde erfolgreich verknüpft!"
+
+msgid ""
+"Your new IRC token is <code>%s</code>. The old IRC token is not valid "
+"anymore.<br>Keep it safe, don't show it around, and store it now! We won't "
+"show it to you again."
+msgstr ""
+"Dein neuer IRC-Token lautet <code>%s</code>. Der alte IRC-Token ist nicht "
+"mehr gültig. <br>Behalte den Token für dich, zeige ihn niemandem und "
+"speichere ihn irgendwo ab! Wir werden ihn dir nicht noch einmal zeigen."
+
+msgid "Your profile background has been saved."
+msgstr "Dein Profil Hintergrund wurde gespeichert."
+
+msgid "We were not able to save your profile background."
+msgstr "Es war nicht möglich dein Profil Hintergrund zu ändern."
+
+msgid "Background type"
+msgstr "Hintergrundtyp"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Solid colour"
+msgstr "Einfarbig"
+
+msgid "Colour is invalid"
+msgstr "Farbe ist ungültig."
+
+msgid ""
+"You have been automatically logged out of your account because your account "
+"has either been banned or locked. Should you believe this is a mistake, you "
+"can contact our support team at support@ripple.moe."
+msgstr ""
+"Du wurdest automatisch aus deinem Account ausgeloggt, weil dein Account "
+"gebannt oder gesperrt wurde. Wenn du denkst, dass dies ein Fehler ist, "
+"kannst du den Support unter support@ripple.moe kontaktieren."
+
+msgid ""
+"You have been automatically logged out for security reasons. Please <a "
+"href='/login?redir=%s'>log back in</a>."
+msgstr ""
+"Du wurdest aus Sicherheitsgründen automatisch ausgeloggt. Bitte <a "
+"href='/login?redir=%s'>logge dich erneut ein</a>."
+
+msgid "You need to login first."
+msgstr "Du musst dich erst anmelden."
+
+msgid "Forbidden"
+msgstr "Verboten"
+
+msgid "You should not be 'round here."
+msgstr "Du solltest hier nicht sein."
+
+msgid ""
+"It seems like the original version of this file has been updated, so this "
+"file is out of date and may contain inaccurate information. If you want to "
+"make sure to be up-to-date, please refer to the <a href=\"%s%s\">English "
+"version</a>."
+msgstr ""
+"Es sieht so aus, als wäre dies hier eine veraltete Version. Um sicher zu "
+"gehen, dass auch alles auf dem neusten Stand ist, update bitte auf die <a "
+"href=\"%s%s\">englische Version</a>."
+
+msgid ""
+"If you truly have understood what's written above and you have understood "
+"that creating a multiaccount will lead to a restriction on your main "
+"account, you can click here and you'll be brought to the sign up page."
+msgstr ""
+"Sofern du das oben stehende auch wirklich verstanden hast und auch "
+"verstanden hast, dass Multiaccounting zu einer Sperre führen kann, dann "
+"kannst du hier klicken und wirst zum Einloggen weitergeleitet."
+
+msgid "You look new here. Allow us to introduce you to what Ainu! is."
+msgstr ""
+"Sieht so aus als bist du das erste Mal hier. Lass uns dir ein wenig "
+"erklären, was genau Ainu! ist."
+
+# PAY ATTENTION! This is Log in *with* Ainu!, not *on* Ainu!. This is for
+# oauth.
+msgid "Log in with Ainu!"
+msgstr "Einloggen durch Ainu!."
+
+msgid "This application will be able to:"
+msgstr "Diese App wird zu folgendem fähig sein:"
+
+msgid "Identify"
+msgstr "Identifizieren"
+
+msgid ""
+"See your public information (everything somebody can see on your user "
+"profile), however with this alone it will not be able to see your private "
+"information (for instance your email address)."
+msgstr ""
+"Deine öffentlichen Informationen (alles, was jeder auf deinem Profil sehen "
+"kann), doch alleine hiermit können keine priavten Informationen eingesehen "
+"werden (deine E-Mail Adresse z.B.)"
+
+msgid "Read private information"
+msgstr "Private Informationen lesen"
+
+msgid ""
+"This application will be able to see your email address, and any private "
+"information we will add in the future."
+msgstr ""
+"Diese Anwendung wird dazu fähig sein, deine E-Mail Adresse und weitere "
+"private Informationen, welche wir in der Zukunft hinzufügen, zu sehen."
+
+msgid "Write"
+msgstr "Schreiben"
+
+msgid ""
+"This application will be able to make modifications to your Ainu! account. "
+"This is potentially really dangerous! Use this only with applications that "
+"you trust."
+msgstr ""
+"Diese Anwendung wird dazu fähig sein, Veränderungen an deinem Ainu! Account "
+"durchzuführen. Das ist potentiell sehr gefährlich! Benutze es also nur mit "
+"Anwendungen, denen du wirklich vertraust!"
+
+msgid "Access to Bancho"
+msgstr ""
+
+msgid "This application will be able to make you appear online ingame and use the chat."
+msgstr ""
+
+msgid "Approve"
+msgstr "Akzeptieren"
+
+msgid "Deny"
+msgstr "Ablehnen"
+
+# Team page
+msgid ""
+"This is a list of the wonderful people who keep Ainu! up and running and "
+"deal with its community."
+msgstr ""
+"Hier ist eine wunderbare Liste von Leuten, die Ainu! am Leben halten und "
+"mit der Community interagieren."
+
+msgid "Community Managers"
+msgstr "Community Managers"
+
+msgid ""
+"Community Managers deal with bans, silences, name changes and pretty much "
+"everything that has to do with the community."
+msgstr ""
+"Community Manager sind für Bans, Stummschaltungen, Namensänderungen und so "
+"ziemlich allem was mit der Community zu tun hat, zuständig."
+
+msgid ""
+"They take care of our Discord server and reply to emails sent to the support "
+"services (email and support.ripple.moe). Community Managers have a red name "
+"in the in-game chat."
+msgstr ""
+"Sie leiten auch unseren Discord-Server und antworten an Mails die an "
+"support.ripple.moe gesendet werden. Community Manager haben einen roten "
+"Namen im Spiel."
+
+msgid "Developers"
+msgstr "Entwickler"
+
+msgid ""
+"Developers add new features to the server, squash bugs, keep the server up "
+"and running and take care of its maintenance."
+msgstr ""
+"Entwickler fügen dem Server neue Features zu und halten den Server mit "
+"Wartungsarbeiten am Laufen."
+
+msgid ""
+"They don't do anything related to the community. Developers have a blue name "
+"in the in-game chat."
+msgstr ""
+"Sie haben weniger mit der Community zu tun und haben einen blauen Namen im "
+"Spiel."
+
+msgid "Chat Moderators"
+msgstr "Chat Moderatoren"
+
+msgid ""
+"Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
+"respected."
+msgstr ""
+"Chat Moderatoren schauen danach, dass die Regeln im Chat (Discord und Spiel) "
+"befolgt werden."
+
+msgid ""
+"BATs play beatmaps in the ranking queue and decide whether they are good "
+"enough to be ranked or not."
+msgstr ""
+"BATs überprüfen Beatmaps in der Warteschlange und entscheiden danach, ob die "
+"vorgeschlagene Map geranked wird oder nicht."
+
+msgid "Special thanks"
+msgstr "Besonderen Dank an:"
+
+msgid "Here's a list of people who helped with Ainu!."
+msgstr "Die Leute die in dieser Liste stehen und Ainu! geholfen haben."
+
+msgid ""
+"<b>Franc[e]sco/lolisamurai</b>, for <a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, used as standard pp "
+"calculator."
+msgstr ""
+"<b>Franc[e]sco/lolisamurai</b>, für<a "
+"href='https://github.com/Francesco149/oppai'>oppai</a>, das als standard PP-"
+"Rechner benutzt wird."
+
+msgid ""
+"<b>Tom94</b>, for <a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, used as a reference for our mania pp calculator."
+msgstr ""
+"<b>Tom94</b>, für<a href='https://github.com/ppy/osu-performance'>osu-"
+"performance</a>, das abgewandelt als mania PP-Rechner benutzt wird."
+
+msgid ""
+"<b>Sunpy</b>, for <a href='https://github.com/osufx/catch-the-pp'>catch-the-"
+"pp</a>, used as catch the beat pp calculator."
+msgstr ""
+
+msgid ""
+"<b>jrosdahl</b>, for <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, used as a base for "
+"our IRC server."
+msgstr ""
+"<b>jrosdahl</b>, für <a "
+"href='https://github.com/jrosdahl/miniircd'>miniircd</a>, welches wir als "
+"Basis für unseren IRC-Server benutzen."
+
+msgid "<b>Avail</b>, for having hosted Ainu! on his server."
+msgstr "<b>Avail</b>, dafür, dass wir Ainu! auf seinem Server hosten dürfen."
+
+msgid "<b>Angela Guerra</b>, for designing the Ainu! logo."
+msgstr "<b>Angela Guerra</b>, für das designen des Ainu! Logos."
+
+msgid ""
+"<b><a id='everyone' class='clickable'>Everyone</a></b> who has supported the "
+"Ainu! project by donating or inviting other people."
+msgstr ""
+"<b><a id='everyone' class='clickable'>JEDEN</a></b>der Ainu! irgendwie (mit "
+"Spenden, übersetzen oder neue Leute einladen) geholfen hat."
+
+msgid "They told me these are very cool people."
+msgstr "Von diesen Leuten wird erzählt, das sind richtig knorke boys."
+
+msgid ""
+"Looking for how you should contact our team? Check out <a "
+"href='https://support.ripple.moe/'>this page</a>."
+msgstr ""
+"Du suchst danach, wie du unser Team erreichen kannst? Schau <a "
+"href='https://support.ripple.moe/'>auf dieser Seite</a>."
+
+msgid "And more..."
+msgstr "Und mehr.."
+
+msgid "Do you want to be in this list?"
+msgstr "Du willst auch auf diese knorke Liste?"
+
+msgid "Support us with a donation!"
+msgstr "Unterstütze uns mit einer Spende!"
+
+msgid "(You get other cool perks too)"
+msgstr "(Bekommst sogar noch feine Sachen dazu)"
+
+msgid ""
+"The Ainu! API is the system through which developers can create "
+"applications to interact with Ainu!. <b>If you're asked to fill out an API "
+"token from this page, be wary and only actually create the token if you "
+"really trust the owner of the application.</b>"
+msgstr ""
+"Ainu! API ist das System durch welches Entwickler Anwendungen erstellen "
+"können, die das interagieren mit Ainu! erlauben. <b>Wenn du in einer "
+"Anwendung nach deinem sogennanten API-Token gefragt wirst, sei vorsichtig "
+"und erstelle diesen Token nur, wenn du dem Entwickler der Anwendung "
+"vertraust.</b>"
+
+msgid "and PP for osu!standard and osu!mania"
+msgstr "und PP für osu!standard und osu!mania"
+
+# help.html
+msgid ""
+"If you need to get in touch with our support team (our Community Managers), "
+"you will need to send an email to our support email address. You can compose "
+"an email to it by clicking the button at the bottom of this page. <b>Please "
+"read the following</b> though, as it is important."
+msgstr ""
+"Falls du den Support kontaktieren musst (unsere Community Manager), müsstest "
+"du eine Mail schreiben. Du kannst eine Mail senden, indem du auf den Knopf "
+"unten drückst. <b>Dennoch! Lese folgendes</b>, da es wichtig ist."
+
+msgid ""
+"The support email <b>is not meant for technical support</b>. If you need "
+"technical support, then please join our <a href='%s'>Discord Server</a>, and "
+"ask your question on the <b>#help channel</b>. You should also join the "
+"Discord server and ask a CM if you have any informal inquiry that you may "
+"have. If you need to contact a specific staff member, you can contact them "
+"by clicking the envelope icon under their name in the <a href='/team'>Team "
+"page</a>."
+msgstr ""
+"Die Support-Mail <b>ist nicht für technischen Support gedacht</b>. Falls du "
+"technischen Support benötigst, komm doch auf unseren <a href='%s'>Discord "
+"Server</a> und stelle deine Frage im <b>#help Channel</b>. Du solltest "
+"ebenso dem Discord Server beitreten und einen Community Manager fragen, "
+"falls du jegliche informelle Anfragen hast. Falls du ein spezifisches "
+"Teammitglied kontaktieren musst, klicke auf den Umschlag unter deren Namen "
+"auf der <a href='/team'>Team-Seite</a>."
+
+msgid "Instead, if you need any of the following:"
+msgstr "Doch falls du etwas der folgenden Dinge benötigst:"
+
+msgid "Username change"
+msgstr "Änderungswunsch deines Benutzernamens"
+
+msgid "Appeal your ban/restriction"
+msgstr "Einreichen einer Beschwerde für deinen Bann oder deine Sperrung"
+
+msgid ""
+"Anything else that strictly deals with your account and is not related in "
+"any way to a technical issue of yours."
+msgstr ""
+"Sonstiges, was in irgend einer Weise mit deinem Account zusammenhängt und "
+"nicht mit technischen Problemen zu tun hat."
+
+msgid "Then the support mail is the way to go."
+msgstr "Dann solltest du das per Mail machen."
+
+msgid ""
+"When contacting the support mail, please make sure to <b>send the email from "
+"the email address you signed up on Ainu! with</b>."
+msgstr ""
+"Wenn du eine Mail an den Support sendest, stelle sicher, <b>dass du die Mail "
+"von dem E-Mail Account sendest, mit dem du dich bei Ainu! registriert "
+"hast</b>."
+
+msgid ""
+"Last but not least, <b>the support email is not meant for filing bug "
+"reports</b>. If you need to report a bug, then please just ask one of our "
+"developers on Discord. If it's a security bug, for instance XSS or SQL "
+"injection, then please contact <a href='mailto:howl@ripple.moe'>Howl</a> or <"
+"a href='mailto:nyo@ripple.moe'>Nyo</a>."
+msgstr ""
+"Zu guter letzt, <b>die Support-Mail ist nicht gedacht um Bug-Meldungen "
+"einzureichen</b>. Falls du einen Bug melden möchtest, wende dich an einen "
+"unserer Entwickler in Discord. Falls es ein Sicherheitsbug ist, zum Beispiel "
+"eine XSS oder SQL-Injektion, dann kontaktiere <a "
+"href='mailto:howl@ripple.moe'>Howl</a> oder <a "
+"href='mailto:nyo@ripple.moe'>Nyo</a>."
+
+msgid "I have read and understood everything on this page."
+msgstr "Ich habe alles auf dieser Seite gelesen und verstanden."
+
+msgid "The 'Ranking Criteria' are as follows:"
+msgstr ""
+
+msgid "Follow the <a href='https://osu.ppy.sh/help/wiki/Ranking_Criteria/'>Bancho Ranking Criteria</a> to some extend"
+msgstr ""
+
+msgid "No clear abuse of any systems (pp/stars)"
+msgstr ""
+
+msgid "No speedup or re-upload of existing maps"
+msgstr ""
+
+msgid "No Jump/Stream Training Compilations"
+msgstr ""
+
+msgid "At least 66% Completion for 7+ Minute songs, anything else completely mapped"
+msgstr ""
+
+msgid "Popularity does not mean rankable"
+msgstr ""

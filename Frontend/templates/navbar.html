@@ -1,0 +1,84 @@
+{{ define "navbar" }}
+{{ $isRAP   := and (hasAdmin .Context.User.Privileges) (isRAP .Path) }}
+{{ $isAdmin := hasAdmin .Context.User.Privileges }}
+{{ $isClan := qb "SELECT user, clan FROM user_clans WHERE user = ?" .Context.User.ID }}
+{{ $ds      := band .ClientFlags 1 }}
+<div class="ui secondary fixed-height stackable white background main menu no margin bottom{{ if .DisableHH }} dropped{{ end }}" id="navbar">
+	<div class="ui container">
+		<div class="item">
+			<b><a href="/" title="{{ .T "Home page" }}"><img class="ripple logo" src="/static/logos/text-{{ if $ds }}white{{ else }}black{{ end }}.png" alt="Ainu"></a></b>
+		</div>
+		{{ if $isRAP }}
+			{{/*
+			Note:
+				RAP navbar will be completely different from standard navbar,
+				meaning it will have the buttons and all the stuff that are in
+				the current RAP's sidebar.
+			*/}}
+		{{ else }}
+			{{ navbarItem .Path (.T "Leaderboard") "/leaderboard" }}
+			<div class="ui dropdown item">
+				<span>{{ .T "Help" }}</span>
+				<div class="menu">
+					{{ navbarItem .Path (.T "About") "/about" }}
+					{{ navbarItem .Path (.T "Rules") "/doc/rules" }}
+					{{ navbarItem .Path (.T "Documentation") "/doc" }}
+					{{ navbarItem .Path (.T "Server switcher") "/static/switcher.exe" }}
+					<div class="divider"></div>
+					{{ navbarItem .Path (.T "osu!Ainu! Discord") .Conf.DiscordServer }}
+				</div>
+			</div>
+			{{ if .Context.User.Username }}
+			<div class="ui dropdown item">
+				<span>{{ .T "Beatmaps" }}</span>
+				<div class="menu">
+					{{ navbarItem .Path (.T "Request beatmap ranking") "/beatmaps/rank_request" }}
+				</div>
+			</div>
+			<div class="ui dropdown item">
+				<span>{{ .T "Clans" }}</span>
+				<div class="menu">
+					{{ navbarItem .Path (.T "Clan Leaderboard") "/clans?mode=0" }}
+					{{ if ($isClan) }}
+					{{ navbarItem .Path (.T "Clan Settings") "/settings/clansettings" }}
+					{{ else }}
+					{{ end }}
+					{{ if ($isClan) }}
+					{{ else }}
+					<div class="divider"></div>
+					{{ navbarItem .Path (.T "Create Clan") "/clans/create" }}
+					{{ end }}
+				</div>
+			</div>
+			{{ end }}
+			{{ navbarItem .Path (.T "Donate" | printf "<i class=\"red heart icon\"></i>%s") "/donate" }}
+			{{ if $isAdmin }}{{ navbarItem .Path (.T "AAP" | printf "<b>%s</b>") "https://old.bigtu.vip/index.php?p=100" }}{{ end }}
+			{{ end }}
+		<div class="firetrucking-right-menu">
+			<div class="item">
+				<div class="ui search" id="user-search">
+					<div class="ui icon input">
+						<input class="prompt" type="text" placeholder="{{ .T "Looking for someone?" }}" id="user-search-input">
+						<i class="search link icon"></i>
+					</div>
+				</div>
+			</div>
+			{{ if .Context.User.Username }}
+				<div class="ui dropdown item">
+					<img class="ui avatar image" src="{{ config "AvatarURL" }}/{{ .Context.User.ID }}">
+					<span>{{ .Context.User.Username }}</span>
+					<div class="menu">
+						{{ navbarItem .Path (.T "Profile") (printf "/u/%d" .Context.User.ID) }}
+						{{ navbarItem .Path (.T "Friends") "/friends" }}
+						{{ navbarItem .Path (.T "Settings") "/settings" }}
+						{{ navbarItem .Path (.T "Log out") (printf "/logout?k=%s" (.Session.Get "logout")) }}
+					</div>
+				</div>
+			{{ else }}
+				{{ navbarItem .Path (.T "Log in") "/login" }}
+				{{ navbarItem .Path (.T "Register") "/register" }}
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

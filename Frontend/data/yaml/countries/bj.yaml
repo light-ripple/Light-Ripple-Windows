@@ -1,0 +1,69 @@
+name:
+  common: Benin
+  official: Republic of Benin
+  native:
+    fra:
+      common: Bénin
+      official: République du Bénin
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .bj
+languages:
+  fra: French
+translations:
+  CYM:
+    common: Benin
+    official: Republic of Benin
+  FIN:
+    common: Benin
+    official: Beninin tasavalta
+  FRA:
+    common: Bénin
+    official: République du Bénin
+  HRV:
+    common: Benin
+    official: Republika Benin
+  JPN:
+    common: ベナン
+    official: ベナン共和国
+  NLD:
+    common: Benin
+    official: Republiek Benin
+  POR:
+    common: Benin
+    official: República do Benin
+  SPA:
+    common: Benín
+    official: República de Benin
+currencies:
+- XOF
+borders:
+- BFA
+- NER
+- NGA
+- TGO
+codes:
+  alpha2: BJ
+  alpha3: BEN
+  cioc: BEN
+  ccn3: "204"
+  callingcodes:
+  - "229"
+  internationalprefix: "00"
+geo:
+  region: Africa
+  subregion: Western Africa
+  continent: Africa
+  capital: Porto-Novo
+  area: 112622
+coordinates:
+  longitudestring: 2 15 E
+  latitudestring: 9 30 N
+  minlongitude: -4
+  minlatitude: 6.233333
+  maxlongitude: 3.816667
+  maxlatitude: 12.3614
+  latitude: 9.624112
+  longitude: 2.3377388

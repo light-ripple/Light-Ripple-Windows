@@ -1,0 +1,34 @@
+{{/*###
+Handler=/pwreset
+TitleBar=Reset password
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	{{ if .Context.User.ID }}
+		<div class="ui segment">
+			{{ .T "You're already logged in!" }}
+		</div>
+	{{ else }}
+		<!-- TODO: captcha -->
+		<div class="tiny container">
+			<div class="ui raised segments">
+				<div class="ui segment">
+					{{ .T "Forgot your password? Worry not! Here you can reset it. Just tell us your username or email address, and we'll take care of it. You will receive an email at the email address you used to sign up on Ripple. To continue the password reset procedure, click the link on that email." }}
+				</div>
+				<div class="ui segment">
+					<form id="pw-reset-form" class="ui form" method="post" action="/pwreset">
+						{{ ieForm .Gin }}
+						<div class="field">
+							<label>{{ .T "Username (or email)" }}</label>
+							<input tabindex="1" type="text" name="username" placeholder="{{ .T "Username" }}" value="{{ .FormData.username }}" required>
+						</div>
+					</form>
+				</div>
+				<div class="ui right aligned segment">
+					<button tabindex="2" class="ui primary button" type="submit" form="pw-reset-form">{{ .T "Username" }}</button>
+				</div>
+			</div>
+		</div>
+	{{ end }}
+</div>
+{{ end }}

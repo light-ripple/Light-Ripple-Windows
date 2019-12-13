@@ -1,0 +1,60 @@
+name:
+  common: Latvia
+  official: Republic of Latvia
+  native:
+    lav:
+      common: Latvija
+      official: Latvijas Republikas
+eumember: true
+landlocked: false
+nationality: ""
+tlds:
+- .lv
+languages:
+  lav: Latvian
+translations:
+  FRA:
+    common: Lettonie
+    official: République de Lettonie
+  HRV:
+    common: Latvija
+    official: Republika Latvija
+  JPN:
+    common: ラトビア
+    official: ラトビア共和国
+  RUS:
+    common: Латвия
+    official: Латвийская Республика
+  SPA:
+    common: Letonia
+    official: República de Letonia
+currencies:
+- EUR
+borders:
+- BLR
+- EST
+- LTU
+- RUS
+codes:
+  alpha2: LV
+  alpha3: LVA
+  cioc: LAT
+  ccn3: "428"
+  callingcodes:
+  - "371"
+  internationalprefix: "00"
+geo:
+  region: Europe
+  subregion: Northern Europe
+  continent: Europe
+  capital: Riga
+  area: 64559
+coordinates:
+  longitudestring: 25 00 E
+  latitudestring: 57 00 N
+  minlongitude: 20.966667
+  minlatitude: 55.7
+  maxlongitude: 28.2
+  maxlatitude: 58.066666
+  latitude: 56.868732
+  longitude: 24.840244

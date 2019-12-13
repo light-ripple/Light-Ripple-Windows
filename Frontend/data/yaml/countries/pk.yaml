@@ -1,0 +1,76 @@
+name:
+  common: Pakistan
+  official: Islamic Republic of Pakistan
+  native:
+    eng:
+      common: Pakistan
+      official: Islamic Republic of Pakistan
+    urd:
+      common: پاكستان
+      official: اسلامی جمہوریۂ پاكستان
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .pk
+languages:
+  eng: English
+  urd: Urdu
+translations:
+  DEU:
+    common: Pakistan
+    official: Islamische Republik Pakistan
+  FRA:
+    common: Pakistan
+    official: République islamique du Pakistan
+  HRV:
+    common: Pakistan
+    official: Islamska Republika Pakistan
+  ITA:
+    common: Pakistan
+    official: Repubblica islamica del Pakistan
+  JPN:
+    common: パキスタン
+    official: パキスタン
+  NLD:
+    common: Pakistan
+    official: Islamitische Republiek Pakistan
+  POR:
+    common: Paquistão
+    official: República Islâmica do Paquistão
+  RUS:
+    common: Пакистан
+    official: Исламская Республика Пакистан
+  SPA:
+    common: Pakistán
+    official: República Islámica de Pakistán
+currencies:
+- PKR
+borders:
+- AFG
+- CHN
+- IND
+- IRN
+codes:
+  alpha2: PK
+  alpha3: PAK
+  cioc: PAK
+  ccn3: "586"
+  callingcodes:
+  - "92"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: Southern Asia
+  continent: Asia
+  capital: Islamabad
+  area: 881912
+coordinates:
+  longitudestring: 70 00 E
+  latitudestring: 30 00 N
+  minlongitude: 60.86667
+  minlatitude: 23.966667
+  maxlongitude: 77.80001
+  maxlatitude: 37.08371
+  latitude: 29.92322
+  longitude: 69.35774

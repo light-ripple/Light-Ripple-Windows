@@ -1,0 +1,44 @@
+{{/*###
+Handler=/clans
+TitleBar=Clans
+KyutGrill=leaderboard2.jpg
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	{{ $favMode := _or (atoi (.Gin.Query "mode")) }}
+	<script>
+		var favouriteMode = {{ $favMode }};
+		var page = {{ .Gin.Query "p" | atoint | atLeastOne }};
+	</script>
+	<div class="ui four item menu" id="mode-menu">
+			<a class="0 item" href="/clans?mode=0">osu!</a>
+			<a class="1 item" href="/clans?mode=1">osu!taiko</a>
+			<a class="2 item" href="/clans?mode=2">osu!catch</a>
+			<a class="3 item" href="/clans?mode=3">osu!mania</a>
+	</div>
+	<table class="ui fixed table">
+		<thead>
+			{{ template "simplepag" 4 }}
+			<tr>
+				<th class="four wide">{{ .T "Rank" }} </th>
+				<th class="four wide">{{ .T "Clan" }} </th>
+				<th class="four wide">{{ .T "PP/Score" }} </th>
+				<th class="four wide">{{ .T "Playcount" }} </th>
+			</tr>
+	</table>
+	<table class="ui fixed table">
+		<thead>
+		{{ range (.Get "clans/stats/all?m=$d" $favMode).clans }}
+			{{ if .name }}
+			<tr>
+				<th class="four wide">#{{ .rank }} </th>
+				<th class="four wide"> <a href="/c/{{ .id }}?mode={{ $favMode }}">{{ .name }}</a></th>
+				<th class="four wide">{{ .chosen_mode.pp }}pp ({{ humanize .chosen_mode.total_score }})</th>
+				<th class="four wide">{{ .chosen_mode.playcount }}</th>
+			</tr>
+			{{end}}
+			{{end}}
+			</thead>
+	</table>
+</div>
+{{ end }}

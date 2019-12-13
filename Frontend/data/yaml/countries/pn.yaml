@@ -1,0 +1,65 @@
+name:
+  common: Pitcairn Islands
+  official: Pitcairn Group of Islands
+  native:
+    eng:
+      common: Pitcairn Islands
+      official: Pitcairn Group of Islands
+eumember: false
+landlocked: false
+nationality: ""
+tlds:
+- .pn
+languages:
+  eng: English
+translations:
+  FIN:
+    common: Pitcairn
+    official: Pitcairn
+  FRA:
+    common: Îles Pitcairn
+    official: Groupe d'îles Pitcairn
+  HRV:
+    common: Pitcairnovo otočje
+    official: Pitcairn skupine otoka
+  JPN:
+    common: ピトケアン
+    official: 島のピトケアングループ
+  NLD:
+    common: Pitcairneilanden
+    official: Pitcairn groep eilanden
+  POR:
+    common: Ilhas Pitcairn
+    official: Pitcairn grupo de ilhas
+  RUS:
+    common: Острова Питкэрн
+    official: Питкэрн группа островов
+  SPA:
+    common: Islas Pitcairn
+    official: Grupo de Islas Pitcairn
+currencies:
+- NZD
+borders: []
+codes:
+  alpha2: PN
+  alpha3: PCN
+  cioc: ""
+  ccn3: "612"
+  callingcodes:
+  - "64"
+  internationalprefix: "00"
+geo:
+  region: Oceania
+  subregion: Polynesia
+  continent: Australia
+  capital: Adamstown
+  area: 47
+coordinates:
+  longitudestring: 130 06 W
+  latitudestring: 25 04 S
+  minlongitude: -130.73334
+  minlatitude: -25.066668
+  maxlongitude: -124.78333
+  maxlatitude: -23.916668
+  latitude: -24.372114
+  longitude: -128.31125

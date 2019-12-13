@@ -1,0 +1,67 @@
+name:
+  common: Laos
+  official: Lao People's Democratic Republic
+  native:
+    lao:
+      common: ສປປລາວ
+      official: ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ
+eumember: false
+landlocked: true
+nationality: ""
+tlds:
+- .la
+languages:
+  lao: Lao
+translations:
+  DEU:
+    common: Laos
+    official: Laos, Demokratische Volksrepublik
+  FRA:
+    common: Laos
+    official: République démocratique populaire lao
+  ITA:
+    common: Laos
+    official: Repubblica democratica popolare del Laos
+  JPN:
+    common: ラオス人民民主共和国
+    official: ラオス人民民主共和国
+  NLD:
+    common: Laos
+    official: Lao Democratische Volksrepubliek
+  POR:
+    common: Laos
+    official: Laos, República Democrática
+  SPA:
+    common: Laos
+    official: República Democrática Popular Lao
+currencies:
+- LAK
+borders:
+- MMR
+- KHM
+- CHN
+- THA
+- VNM
+codes:
+  alpha2: LA
+  alpha3: LAO
+  cioc: LAO
+  ccn3: "418"
+  callingcodes:
+  - "856"
+  internationalprefix: "00"
+geo:
+  region: Asia
+  subregion: South-Eastern Asia
+  continent: Asia
+  capital: Vientiane
+  area: 236800
+coordinates:
+  longitudestring: 105 00 E
+  latitudestring: 18 00 N
+  minlongitude: 100.09583
+  minlatitude: 13.933333
+  maxlongitude: 107.63333
+  maxlatitude: 22.5
+  latitude: 18.65075
+  longitude: 104.15294

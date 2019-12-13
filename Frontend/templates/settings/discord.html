@@ -1,0 +1,41 @@
+{{/*###
+Handler=/settings/discord
+TitleBar=Discord donor
+KyutGrill=settings2.jpg
+Include=menu.html
+MinPrivileges=6
+*/}}
+{{ define "tpl" }}
+<div class="ui container">
+	<div class="ui stackable grid">
+		{{ template "settingsSidebar" . }}
+		<div class="twelve wide column">
+			<div class="ui segment">
+				{{ $q := qb "SELECT discordid FROM discord_roles WHERE userid = ? LIMIT 1" .Context.User.ID }}
+				{{ if $q.discordid }}
+					<p>
+						{{ .T "Your discord account has been linked to this Ripple account. <b>Welcome to the donors club and thank you for supporting us!</b> You have now access to the #donators text and voice channels on our official Discord server! You can also set a custom role name and username colour and change your nickname on Discord. If you want to change your nickname, you can use the <code>/nick</code> command. To set or edit your <b>custom role</b> name and colour, use the command <code>!role HEX_COLOUR ROLE_NAME</code>. You can pick your HEX colour <a href=\"http://www.colorpicker.com/\" target=\"_blank\">here</a>, it's the one that starts with '#'. You can change your role name and colour <b>whenever you want!</b>" | html }}
+					</p>
+					<h2 class="ui centered header">{{ .T "Thank you for supporting us and have fun on Ripple!" }}</h2>
+				{{ else }}
+					<p><b>{{ .T "Donors get special privileges on our Discord server too!" }}</b></p>
+					<p>
+						{{ .T "Discord is a chatroom with text and voice channels, bots and lots of other cool features. You can <b>download Discord for free <a href=\"http://discord.gg/\" target=\"_blank\">here</a></b> and you can <b>join our official Discord server <a href=\"%s\" target=\"_blank\">here</a></b>." (config "DiscordServer") | html }}
+					</p>
+					<p>{{ .T "Here's what you get if you link your Discord account:" }}</p>
+					<ul class="ui list">
+						<li>{{ .T "Access to /nick command, to change your Discord nickname" }}</li>						
+						<li>{{ .T "Access to #donators text and voice channels" }}</li>						
+						<li>{{ .T "Username on donors list" }}</li>						
+						<li>{{ .T "Custom role with custom username" }}</li>						
+					</ul>
+					<p>{{ .T "To get these perks, first of all <a href=\"%s\" target=\"_blank\">join our Discord server</a>, then click this fancy button:" (config "DiscordServer") | html }}</p>
+					<p class="centered">
+						<a tabindex="1" class="ui red labeled icon button" href="{{ authCodeURL .Context.User.ID }}"><i class="heart icon"></i> {{ .T "Get Discord donor privileges" }}</a>
+					</p>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}
