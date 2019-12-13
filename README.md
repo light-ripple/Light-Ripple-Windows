@@ -90,6 +90,9 @@ Before you login you have to create an account. You can create an account either
 ### Automation (.bat win)
 A windows bat file is included to automate this whole process of starting all the services, `start-server.bat`. It can be used but you'll need to edit and change it to your directory.
 
+### Extras
+* <a href=https://ripple.moe/doc/fokabot>FokaBot Commands</a>
+
 ### Contact
 You can add me on Discord and ask for help.
 * My Discord:`uniminin#1151`
