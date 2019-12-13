@@ -10,6 +10,7 @@ Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use
 * <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, API. (Recommended ubuntu 18.04)
 
 ### Basic Steps
+* Clone the repo...
 * Run/Start Redis
 * Create and Run MySQL Database Server
 * Connect to MySQL DB and import <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/SQL/RIPPLE.sql>RIPPLE</a> SQL query.
