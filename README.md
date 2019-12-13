@@ -1,4 +1,4 @@
-# Self Hosted Ripple (Windows Edition)
+# Self Hosted <a href=https://ripple.moe>RIPPLE</a> (Windows Edition)
 Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)
 
 # Requirements:
