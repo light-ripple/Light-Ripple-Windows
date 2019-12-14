@@ -67,7 +67,7 @@ Note: The BCrypt hash will be always different because BCrypt hash it 10 times!
 
 ### Important Note
 * I strongly recommend to use a Terminal Emulator rather than using windows's CMD.
-* <a href=https://www.cygwin.com/>Cygwin</a> is a good windows terminal. (I use it and like it, personally)
+* <a href=https://conemu.github.io>ConEmu</a> is a good windows terminal. (I use it and like it, personally)
 
 ### To Start The Server
 * Start MySQL (MySQL Server must be started and running)
