@@ -302,7 +302,7 @@ if __name__ == "__main__":
 		}).start()
 
 		# Server start message and console output
-		consoleHelper.printColored("> L.E.T.S. is listening for clients on {}:{}...".format(glob.conf.config["server"]["host"], serverPort), bcolors.GREEN)
+		consoleHelper.printColored("> L.E.T.S. is listening for clients on {}:{} [<>]".format(glob.conf.config["server"]["host"], serverPort), bcolors.GREEN)
 		log.logMessage("Server started!", discord="bunker", stdout=False)
 
 		# Start Tornado
