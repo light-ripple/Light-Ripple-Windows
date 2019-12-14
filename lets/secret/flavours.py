@@ -1,2 +1,0 @@
-#config cache
-config = None
