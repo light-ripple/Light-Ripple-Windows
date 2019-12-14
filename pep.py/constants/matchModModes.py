@@ -1,0 +1,2 @@
+NORMAL = 0
+FREE_MOD = 1
