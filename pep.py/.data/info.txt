@@ -1,2 +1,0 @@
-[2019-12-10 18:07:00] INFO - IRC server started!
-[2019-12-10 18:07:00] INFO - Server started!

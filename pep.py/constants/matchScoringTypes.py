@@ -1,4 +1,0 @@
-SCORE = 0
-ACCURACY = 1
-COMBO = 2
-SCORE_V2 = 3
