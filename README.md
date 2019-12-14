@@ -2,7 +2,7 @@
 Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)
 
 ### Requirements:
-* <a href=https://conemu.github.io>ConEmu</a> a good windows terminal. (Recommended to use this)
+* <a href=https://conemu.github.io>ConEmu</a> | A good windows terminal. (Recommended to use this)
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
 * <a href=https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.18.0.msi>MySQL Server</a> (MySQL Workbench recommended for windows)
 * <a href=http://nginx.org/en/download.html>NGINX</a> (Prefer nginx 1.16.1 as I've used it)
