@@ -21,6 +21,7 @@ Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use
 * Go to `Frontend` and edit `hanayo.conf`
 * You can request and get an OSU!API Key here: <a href=https://old.ppy.sh>OSU!API</a>
 * Go to `nginx-1.16.1` folder and edit the content of `conf/nginx.conf`, `osu/nginx.conf` and `osu/old-frontend.conf`. Replace my directory with your one.
+* You can switch to localhost server and bancho either by <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/Switcher/LocalHost.exe>LocalHost.exe</a> Switcher or Manually by:
 * Install <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/Certificate/cert.crt>Certificate</a>
 * Edit Hosts File in `c:\Windows\System32\Drivers\etc\hosts`. And add <a href=https://raw.githubusercontent.com/Uniminin/Light-Ripple-Windows/master/Hosts/hosts.txt>this</a> lines to your hosts file.
 
