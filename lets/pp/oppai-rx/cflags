@@ -1,0 +1,43 @@
+#!/bin/sh
+
+cflags="-std=c89 -pedantic"
+cflags="$cflags -O3"
+cflags="$cflags -fno-strict-aliasing"
+cflags="$cflags -Wall"
+cflags="$cflags -ffunction-sections -fdata-sections"
+if [ -z $DBGINFO ]; then
+  cflags="$cflags -g0 -fno-unwind-tables -s"
+  cflags="$cflags -fno-asynchronous-unwind-tables"
+else
+  cflags="$cflags -g"
+fi
+if [ $(uname) = "Darwin" ]; then
+  cflags="$cflags -Wl,-dead_strip"
+else
+  cflags="$cflags -Wl,--gc-sections"
+fi
+
+ldflags="-lm"
+
+cflags="$cflags $CFLAGS"
+ldflags="$ldflags $LDFLAGS"
+
+cc="$CC"
+
+if [ $(uname) = "Darwin" ]; then
+  cc=${cc:-clang}
+else
+  cc=${cc:-gcc}
+fi
+
+uname -a > flags.log
+echo $cc >> flags.log
+echo $cflags >> flags.log
+echo $ldflags >> flags.log
+$cc --version >> flags.log
+$cc -dumpmachine >> flags.log
+
+export cflags="$cflags"
+export ldflags="$ldflags"
+export cc="$cc"
+

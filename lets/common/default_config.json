@@ -1,0 +1,72 @@
+{
+	"common": {
+		"rankable-mods": {
+			"NOFAIL": true,
+			"EASY": true,
+			"TOUCHSCREEN": true,
+			"HIDDEN": true,
+			"HARDROCK": true,
+			"SUDDENDEATH": true,
+			"DOUBLETIME": true,
+			"RELAX": false,
+			"HALFTIME": true,
+			"NIGHTCORE": true,
+			"FLASHLIGHT": true,
+			"SPUNOUT": true,
+			"RELAX2": false,
+			"PERFECT": true,
+			"KEY1": true,
+			"KEY2": true,
+			"KEY3": true,
+			"KEY4": true,
+			"KEY5": true,
+			"KEY6": true,
+			"KEY7": true,
+			"KEY8": true,
+			"KEY9": true,
+			"KEY10": true,
+			"FADEIN": true,
+			"RANDOM": true,
+			"SCOREV2": false,
+			"AUTOPLAY": false,
+			"LASTMOD": false
+		}
+	},
+	"lets": {
+		"submit": {
+			"max-std-pp": 700,
+			"score-overwrite": "score"
+		},
+		"allowed-beatmap-rankstatus": {
+			"UNKNOWN": false,
+			"NOT_SUBMITTED": false,
+			"PENDING": false,
+			"NEED_UPDATE": false,
+			"RANKED": true,
+			"APPROVED": true,
+			"QUALIFIED": true,
+			"LOVED": true
+		},
+		"scoreboard": {
+			"ppboard": false
+		}
+	},
+	"pep.py": {
+		"support-email": "support@ripple.moe",
+		"faq":
+		{
+			"rules": "Please make sure to check (Ripple's rules)[http://ripple.moe/?p=23].",
+			"swearing": "Please don't abuse swearing",
+			"spam": "Please don't spam",
+			"offend": "Please don't offend other players",
+			"github": "(Ripple's Github page!)[https://github.com/osuripple/ripple]",
+			"discord": "(Join Ripple's Discord!)[https://discord.gg/0rJcZruIsA6rXuIx]",
+			"blog": "You can find the latest Ripple news on the (blog)[https://ripple.moe/blog/]!",
+			"changelog": "Check the (changelog)[https://ripple.moe/index.php?p=17] !",
+			"status": "Check the server status (here!)[https://ripple.moe/index.php?p=27]",
+			"english": "Please keep this channel in english.",
+			"topic": "Can you please drop the topic and talk about something else?",
+			"lines": "Please try to keep your sentences on a single line to avoid getting silenced."
+		}
+	}
+}

@@ -1,0 +1,21 @@
+language: c
+
+matrix:
+  include:
+  - os: linux
+    dist: precise
+  - os: linux
+    dist: trusty
+  - os: osx
+
+install: true
+cache:
+  directories:
+  - test/test_suite
+
+script:
+- ./build
+- cd test
+- ./download_suite
+- ./build -DOPPAI_EZ -DOPPAI_NOCURL
+- ./oppai_test
