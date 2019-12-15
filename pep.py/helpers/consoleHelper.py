@@ -1,15 +1,13 @@
 from common.constants import bcolors
 from objects import glob
+from random import choice
+colors = ["\033[95m", "\033[94m", "\033[92m", "\033[93m", "\033[91m"]
+color = (choice((colors)))
 
 def printServerStartHeader(asciiArt=True):
-	"""
-	Print server start message
 
-	:param asciiArt: print BanchoBoat ascii art. Default: True
-	:return:
-	"""
 	if asciiArt:
-		print("{}           _                 __".format(bcolors.GREEN))
+		print("{}           _                 __".format(color))
 		print("          (_)              /  /")
 		print("   ______ __ ____   ____  /  /____")
 		print("  /  ___/  /  _  \\/  _  \\/  /  _  \\")
@@ -21,10 +19,10 @@ def printServerStartHeader(asciiArt=True):
 		print("                         o.o o . o")
 		print("                        oo...")
 		print("                    __[]__")
-		print("             ______/o_o_o_|__       u wot m8? :)")
+		print("             ______/o_o_o_|__       u wot m8? ")
 		print("             \\\"\"\"\"\"\"\"\"\"\"\"\"\"\"/")
 		print("              \\ . ..  .. . /")
-		print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^{}".format(bcolors.ENDC))
+		print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
 
 	printColored("> Welcome to pep.py v2 | The osu!bancho server for Windows", bcolors.GREEN)
 	printColored("> Made by the Ripple team | Rewrite by Uniminin", bcolors.GREEN)
