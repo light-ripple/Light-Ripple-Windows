@@ -1,7 +1,10 @@
 """Some console related functions"""
-
 from common.constants import bcolors
 from objects import glob
+from random import choice
+colors = ["\033[95m", "\033[94m", "\033[92m", "\033[93m", "\033[91m"]
+
+color = (choice((colors)))
 
 
 def printServerStartHeader(asciiArt):
@@ -17,9 +20,9 @@ def printServerStartHeader(asciiArt):
 		printColored("(()/(  (   ` )  /((()/(  ", bcolors.YELLOW)
 		printColored(" /(_)) )\\   ( )(_))/(_)) ", bcolors.YELLOW)
 		printColored("(_))  ((_) (_(_())(_))   ", bcolors.YELLOW)
-		printColored("| |   | __||_   _|/ __|  ", bcolors.GREEN)
-		printColored("| |__ | _|   | |  \\__ \\  ", bcolors.GREEN)
-		printColored("|____||___|  |_|  |___/  \n", bcolors.GREEN)
+		printColored("| |   | __||_   _|/ __|  ", color)
+		printColored("| |__ | _|   | |  \\__ \\  ", color)
+		printColored("|____||___|  |_|  |___/  \n", color)
 
 	printColored("> Welcome to the Latest Essential Tatoe Server {}".format(glob.VERSION), bcolors.GREEN)
 	printColored("> Common submodule v{}".format(glob.COMMON_VERSION), bcolors.GREEN)
