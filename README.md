@@ -1,6 +1,10 @@
 # Self Hosted <a href=https://ripple.moe>RIPPLE</a> (Windows Edition)
 Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)
 
+<p align="center">
+  <img src="https://github.com/Uniminin/Light-Ripple-Windows/blob/master/WSL%20location/ripple.png"/>
+</p>
+
 ### Requirements:
 * <a href=https://conemu.github.io>ConEmu</a> | A good windows terminal. (Recommended to use this)
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
