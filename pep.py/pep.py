@@ -40,7 +40,6 @@ from pubSubHandlers import notificationHandler
 from pubSubHandlers import updateSilenceHandler
 from pubSubHandlers import updateStatsHandler
 
-
 def make_app():
 	return tornado.web.Application([
 		(r"/", mainHandler.handler),

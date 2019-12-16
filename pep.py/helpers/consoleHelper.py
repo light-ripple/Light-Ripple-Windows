@@ -3,8 +3,10 @@ from objects import glob
 from random import choice
 colors = ["\033[95m", "\033[94m", "\033[92m", "\033[93m", "\033[91m"]
 color = (choice((colors)))
+from subprocess import call
 
 def printServerStartHeader(asciiArt=True):
+	call('cls', shell=True)
 
 	if asciiArt:
 		print("{}           _                 __".format(color))
