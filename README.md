@@ -99,6 +99,14 @@ A windows bat file is included to automate this whole process of starting all th
 ### Extras
 * <a href=https://ripple.moe/doc/fokabot>FokaBot Commands</a>
 
+### Error Fixing
+if bcrypt fails to install with pip then remove bcrypt part from requirements.txt in lets and pep.py folder and type the following:
+```
+pip uninstall  bcrypt cffi pycparser
+pip install --user --upgrade cffi
+pip install --user --upgrade bcrypt
+```
+
 ### Contact
 You can add me on Discord and ask for help.
 * My Discord:`uniminin#1151`
