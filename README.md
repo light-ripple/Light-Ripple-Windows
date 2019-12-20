@@ -2,7 +2,7 @@
 Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)
 
 <p align="center">
-  <img src="https://github.com/Uniminin/Light-Ripple-Windows/blob/master/WSL%20location/ripple.png"/>
+  <img src="https://github.com/Uniminin/Light-Ripple-Windows/blob/master/WSL%20location/RIPPLE.PNG"/>
 </p>
 
 ### Requirements:
