@@ -20,7 +20,7 @@ Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use
 * Create and Run MySQL Database Server
 * Connect to MySQL DB and import <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/SQL/RIPPLE.sql>RIPPLE</a> SQL query.
 * Go to `pep.py`, `lets` & `avatar-server` Folder and install the necessary python packages with `pip install -r requirements.txt`.
-* Go to `lets` folder and change my directory to yours in `lets/pp/rippoppai.py` and `lets/pp/relaxoppai.py`.
+* Go to `lets` folder and change my directory to yours in `lets/pp/rippoppai.py` and `lets/pp/relaxoppai.py`. Create a `replays` folder in `lets/.data/replays` if there isn't any.
 * Edit `config.ini` and change it. (Both in pep.py & lets folder)
 * Go to `api` and edit `api.conf`
 * Go to `Frontend` and edit `hanayo.conf`
