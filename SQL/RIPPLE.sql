@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS `bancho_channels` (
 -- Dumping data bancho_channels: ~7 rows (approximately)
 /*!40000 ALTER TABLE `bancho_channels` DISABLE KEYS */;
 INSERT INTO `bancho_channels` (`id`, `name`, `description`, `public_read`, `public_write`, `status`, `temp`, `hidden`) VALUES
-	(1, '#osu', 'Ainu global chat', 1, 1, 1, 0, 0),
+	(1, '#osu', 'Local chat', 1, 1, 1, 0, 0),
 	(2, '#announce', 'Announce channel', 1, 0, 1, 0, 0),
 	(3, '#english', 'English community', 1, 1, 1, 0, 0),
 	(4, '#admin', 'Are you admin?', 1, 1, 1, 0, 1),
@@ -531,7 +531,7 @@ CREATE TABLE IF NOT EXISTS `main_menu_icons` (
 -- Dumping data main_menu_icons: ~1 rows (approximately)
 /*!40000 ALTER TABLE `main_menu_icons` DISABLE KEYS */;
 INSERT INTO `main_menu_icons` (`id`, `is_current`, `file_id`, `name`, `url`) VALUES
-	(1, 1, 'logo', 'Ainu!', 'https://ainu.pw/');
+	(1, 1, 'logo', 'Local!', 'https://ripple.moe/');
 /*!40000 ALTER TABLE `main_menu_icons` ENABLE KEYS */;
 
 -- Dumping structure osin_access
