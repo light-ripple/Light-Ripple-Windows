@@ -109,7 +109,7 @@ pip install --user --upgrade bcrypt
 
 ### Contact
 You can add me on Discord and ask for help or join the discord server.
-* My Discord:`uniminin#1151`
+* My Discord:`uniminin#5959`
 * Discord Server: <a href=https://discord.gg/qyD3sPe>Ripple Talks</a>
 
 ### License :scroll: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
