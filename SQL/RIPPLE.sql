@@ -12,6 +12,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 
+-- Dumping database structure for Localhost
 -- Dumping database structure for Localhost (Win)
 CREATE DATABASE IF NOT EXISTS `ripple` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `ripple`;
@@ -181,7 +182,8 @@ INSERT INTO `badges` (`id`, `name`, `icon`) VALUES
 	(30, 'Chat Moderators', 'envelope outline'),
 	(1000, 'Thumbnail Maker', 'fa-thumbs-o-up'),
 	(1001, 'Marathon Runner', 'yellow hourglass outline'),
-	(1002, 'Donor', 'yellow heart');
+	(1002, 'Donor', 'yellow heart'),
+	(1003, 'Vanilla God (Certified by Aoba)', 'yellow fa-check');
 /*!40000 ALTER TABLE `badges` ENABLE KEYS */;
 
 -- Dumping structure bancho_channels
