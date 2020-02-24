@@ -107,6 +107,13 @@ pip install --user --upgrade cffi
 pip install --user --upgrade bcrypt
 ```
 
+
+### Credits
+* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-han/readme>readme</a>!
+
+* <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps. you're the best <3 
+
+
 ### Contact
 You can add me on Discord and ask for help or join the discord server.
 * My Discord:`uniminin#5959`
