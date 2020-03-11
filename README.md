@@ -109,7 +109,7 @@ pip install --user --upgrade bcrypt
 
 
 ### Credits
-* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-han/readme>readme</a>!
+* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-can/readme>readme</a>!
 
 * <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps. you're the best <3 
 
