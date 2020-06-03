@@ -119,5 +119,5 @@ You can add me on Discord and ask for help or join the discord server.
 * My Discord:~~`uniminin#7522`~~ you may contact with me on the server.
 * Discord Server: <a href=https://discord.gg/bA8pDFX>Developer I/O</a>
 
-### License :scroll: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+### License :scroll:
 This project is licenced under the GNU Affero General Public License V3. For more information, see the file `LICENSE`!
