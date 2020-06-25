@@ -115,9 +115,8 @@ pip install --user --upgrade bcrypt
 
 
 ### Contact
-You can add me on Discord and ask for help or join the discord server.
-* My Discord:~~`uniminin#7522`~~ you may contact with me on the server.
-* Discord Server: <a href=https://discord.gg/bA8pDFX>Developer I/O</a>
+Ask me anything
+* Discord: `uniminin#7522`
 
 ### License :scroll:
 This project is licenced under the GNU Affero General Public License V3. For more information, see the file `LICENSE`!
