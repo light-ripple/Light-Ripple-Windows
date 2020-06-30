@@ -71,7 +71,7 @@ These domains are supported by osu!thailand certificate (You can make your by do
 Ripple uses Password -> MD5 -> BCrypt Hash (10 rounds) for the password to login so in `users` table in `password_md5` column in db.
 
 1. For Example: If you want to make your password `ExamplePassword87`, first you need to hash it as MD5. So the hash will be `df4s5fe65f456344f4re549` (You can hash your password at http://www.md5.cz/).
-2. After hashing it, you'll still need to make it as BCrypt Hash (10 Rounds), you can use <a href="https://bcrypt-generator.com/">this website</a> as BCrypt encryptor.
+2. After hashing it, you'll still need to make it as BCrypt Hash (10 Rounds), you can use https://bcrypt-generator.com/ as BCrypt encryptor.
 3. Put the MD5 Hash to `String to encrypt` box, change rounds to 10 and then click `Hash!` button.
 4. You'll get the hash like `asdjslkfjlkUy89y32098y*(*@#&(*3y928hih32toij[][;gfgd` (which is our MD5 hash. `ExamplePassword87`)
 5. Put your BCrypt hash in `password_md5` in your user data (DB).
