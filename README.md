@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/github/issues/Uniminin/Light-Ripple-Windows?color=violet&style=for-the-badge">
   <img src="https://img.shields.io/github/stars/Uniminin/Light-Ripple-Windows?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/Uniminin/Light-Ripple-Windows?color=teal&style=for-the-badge">
-  <img src="https://github.com/Uniminin/Light-Ripple-Windows/blob/master/WSL%20location/RIPPLE.PNG"/>
+  <img src="https://github.com/light-ripple/Light-Ripple-Windows/blob/master/RIPPLE.PNG"/>
 </p>
 
 ### Requirements:
