@@ -95,6 +95,9 @@ Before you login you have to create an account. You can create an account either
 * For Password follow that above section `#Manually Creating Passwording (DB)`
 * Then you can login with your username/email and password.
 
+### Errors?
+If mysql server does not work for you then use xampp mysql.
+
 ### Credits
 * <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-chan/readme>readme</a>!
 * <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps.
