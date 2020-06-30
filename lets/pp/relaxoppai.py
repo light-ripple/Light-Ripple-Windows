@@ -125,7 +125,7 @@ class oppai:
 			if self.gameMode != gameModes.STD and self.gameMode != gameModes.TAIKO:
 				raise exceptions.unsupportedGameModeException()
 
-			command = "C:/Users/tanvi/Pictures/Lets/pp/oppai-rx/oppai.exe {}".format(mapFile)
+			command = "C:/Users/uniminin/Pictures/Lets/pp/oppai-rx/oppai.exe {}".format(mapFile)
 			if not self.tillerino:
 				# force acc only for non-tillerino calculation
 				# acc is set for each subprocess if calculating tillerino-like pp sets
