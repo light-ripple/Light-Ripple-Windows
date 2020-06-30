@@ -22,8 +22,7 @@
 * <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, api. (Recommended ubuntu 18.04)
 
 ### Setting up
-* git clone https://github.com/Uniminin/Light-Ripple-Windows
-* cd Light-Ripple-Windows
+* clone the repository with `git clone ...`
 * Create and Run MySQL Database Server
 * Connect to MySQL DB and import <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/SQL/RIPPLE.sql>RIPPLE</a> SQL query.
 * Go to `pep.py`, `lets` & `avatar-server` Folder and install the necessary python packages with `python3 -m pip install -r requirements.txt`.
