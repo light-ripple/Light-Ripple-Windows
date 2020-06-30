@@ -19,7 +19,7 @@
 * <a href=http://nginx.org/en/download.html>NGINX</a> (nginx 1.16.1 since I've used it)
 * <a href=https://github.com/tporadowski/redis/releases>REDIS</a> (For Windows)
 * <a href="https://go.microsoft.com/fwlink/?LinkId=691126">Visual C++ Build Tools 2015</a>
-* <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, api. (Recommended ubuntu 18.04)
+* <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, api.
 
 ### Setting up
 * clone the repository with `git clone ...`
