@@ -15,11 +15,11 @@
 ### Requirements:
 * <a href=https://conemu.github.io>ConEmu</a> is a good windows terminal. (Recommended)
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
-* <a href=https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.18.0.msi>MySQL Workbench</a>
+* <a href=https://www.apachefriends.org/index.html>XAMPP</a>
 * <a href=http://nginx.org/en/download.html>NGINX</a> (nginx 1.16.1 since I've used it)
 * <a href=https://github.com/tporadowski/redis/releases>REDIS</a> (For Windows)
 * <a href="https://go.microsoft.com/fwlink/?LinkId=691126">Visual C++ Build Tools 2015</a>
-* <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binary i.e hanayo, api.
+* <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binaries i.e hanayo, api.
 
 ### Setting up
 * clone the repository with `git clone ...`
@@ -95,16 +95,13 @@ Before you login you have to create an account. You can create an account either
 * For Password follow that above section `#Manually Creating Passwording (DB)`
 * Then you can login with your username/email and password.
 
-### Errors?
-If mysql server does not work for you then use xampp mysql.
-
 ### Credits
 * <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-chan/readme>readme</a>!
 * <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps.
 
-
 ### Contact
-Ask me anything
+Questions? Need help? You may join the Discord server or ask me in Discord. 
+* Server: <a href=https://discord.gg/b44kuYv>Developer I/O</a>
 * Discord: `uniminin#7522`
 
 ### License :scroll:
