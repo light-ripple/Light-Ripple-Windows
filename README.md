@@ -102,9 +102,9 @@ If mysql server does not work for you then use xampp mysql.
 * <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-chan/readme>readme</a>!
 * <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps.
 
-
 ### Contact
-Ask me anything
+Questions? Need help? You may join the Discord server or ask me in Discord. 
+* Server: <a href=https://discord.gg/b44kuYv>Developer I/O</a>
 * Discord: `uniminin#7522`
 
 ### License :scroll:
