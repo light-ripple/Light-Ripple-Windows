@@ -4,7 +4,7 @@
 <h4 align="center">Self-Hosted Ripple Code ! Can be used with a bit modification. (For Personal Use)</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-No-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/Uniminin/Light-Ripple-Windows?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/Uniminin/Light-Ripple-Windows?color=violet&style=for-the-badge">
   <img src="https://img.shields.io/github/stars/Uniminin/Light-Ripple-Windows?style=for-the-badge">
