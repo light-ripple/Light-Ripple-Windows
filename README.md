@@ -15,7 +15,7 @@
 ### Requirements:
 * <a href=https://conemu.github.io>ConEmu</a> is a good windows terminal. (Recommended)
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
-* <a href=https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.18.0.msi>MySQL Workbench</a>
+* <a href=https://www.apachefriends.org/index.html>XAMPP</a>
 * <a href=http://nginx.org/en/download.html>NGINX</a> (nginx 1.16.1 since I've used it)
 * <a href=https://github.com/tporadowski/redis/releases>REDIS</a> (For Windows)
 * <a href="https://go.microsoft.com/fwlink/?LinkId=691126">Visual C++ Build Tools 2015</a>
