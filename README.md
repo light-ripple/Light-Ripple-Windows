@@ -101,7 +101,7 @@ Before you login you have to create an account. You can create an account either
 
 ### Contact
 Questions? Need help? You may join the Discord server or ask me in Discord. 
-* Server: <a href=https://discord.gg/b44kuYv>Developer I/O</a>
+* Server: <a href=https://discord.gg/W2VSJnA>Developer I/O</a>
 * Discord: `uniminin#7522`
 
 ### License :scroll:
