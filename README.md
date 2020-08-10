@@ -80,12 +80,12 @@ Note: The BCrypt hash will be always different because BCrypt hashes it 10 times
 ### Starting the Server
 * Start MySQL (MySQL Server must be started and running)
 * Start Redis Server, `Redis/redis-server.exe`
-* Go to `lets` folder and run `python lets.py` (cmd.exe)
-* Go to `pep.py` folder and run `python pep.py` (cmd.exe)
-* Go to `avatar-server` folder and run `python avatar-server.py` (cmd.exe)
+* Go to `lets` folder and run `python lets.py` (cmd.exe/x-terminal-emulator.exe)
+* Go to `pep.py` folder and run `python pep.py` (cmd.exe/x-terminal-emulator.exe)
+* Go to `avatar-server` folder and run `python avatar-server.py` (cmd.exe/x-terminal-emulator.exe)
 * Go to `api` folder and run `./API` (bash.exe/WSL)
 * Go to `Frontend` folder and run `./frontend` (bash.exe/WSL)
-* Go to `nginx-1.16.1` folder and run `nginx` (cmd.exe)
+* Go to `nginx-1.16.1` folder and run `nginx` (cmd.exe/x-terminal-emulator.exe)
 
 ### Logging Into osu!
 Before you login you have to create an account. You can create an account either by using the/from Frontend which is `i-need-to.click`(default) site. Or manually from database.
@@ -96,8 +96,8 @@ Before you login you have to create an account. You can create an account either
 * Then you can login with your username/email and password.
 
 ### Credits
-* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thank you for your <a href=https://github.com/Kanaze-chan/readme>readme</a>!
-* <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thank you for helping me learn how ripple works and a lots of helps.
+* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thanks for their <a href=https://github.com/Kanaze-chan/readme>readme</a>!
+* <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thanks for their lots of help.
 
 ### Contact
 Questions? Need help? You may join the Discord server or ask me in Discord. 
