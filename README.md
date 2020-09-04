@@ -102,7 +102,7 @@ Before you login you have to create an account. You can create an account either
 ### Contact
 Questions? Need help? You may join the Discord server or ask me in Discord. 
 * Server: <a href=https://discord.gg/W2VSJnA>Developer I/O</a>
-* Discord: `uniminin#7522`
+* Discord: `! (/uniminin/)#7522`
 
 ### License :scroll:
 All code in this and its related repositories is licensed under the GNU AGPL 3 License. See the `LICENSE` file for more information.
