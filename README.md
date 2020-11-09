@@ -13,24 +13,24 @@
 </p>
 
 ### Requirements:
-* <a href=https://conemu.github.io>ConEmu</a> is a good windows terminal. (Recommended)
+* <a href=https://conemu.github.io>ConEmu</a> FOSS windows terminal emulator. (Recommended)
 * <a href=https://www.python.org/downloads/release/python-368>Python 3.6+</a> (with pip, add python to path for windows)
 * <a href=https://www.apachefriends.org/index.html>XAMPP</a>
-* <a href=http://nginx.org/en/download.html>NGINX</a> (nginx 1.16.1 since I've used it)
+* <a href=http://nginx.org/en/download.html>NGINX</a> (nginx 1.16.1)
 * <a href=https://github.com/tporadowski/redis/releases>REDIS</a> (For Windows)
 * <a href="https://go.microsoft.com/fwlink/?LinkId=691126">Visual C++ Build Tools 2015</a>
 * <a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">Ubuntu 18.04 LTS (WSL)</a> WSL Enabled with A Ubuntu Terminal to run efl binaries i.e hanayo, api.
 
 ### Setting up
-* clone the repository with `git clone ...`
-* Create and Run MySQL Database Server
+* Download or clone the upstream repository with `git clone https://github.com/Uniminin/Light-Ripple-Windows`.
+* Create and Run MySQL Database Server.
 * Connect to MySQL DB and import <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/SQL/RIPPLE.sql>RIPPLE</a> SQL query.
 * Go to `pep.py`, `lets` & `avatar-server` Folder and install the necessary python packages with `python3 -m pip install -r requirements.txt`.
 * Go to `lets` folder and change my directory to yours in `lets/pp/rippoppai.py` and `lets/pp/relaxoppai.py`. Create a `replays` folder in `lets/.data/replays` if there isn't any.
 * Edit `config.ini` and change it. (Both in pep.py & lets folder)
-* Go to `api` and edit `api.conf`
-* Go to `Frontend` and edit `hanayo.conf`
-* You can get OSU!API Key here: <a href=https://old.ppy.sh>OSU!API</a>
+* Go to `api` and edit `api.conf`.
+* Go to `Frontend` and edit `hanayo.conf`.
+* You can get OSU!API Key here: <a href=https://old.ppy.sh>OSU!API</a>.
 * Go to `nginx-1.16.1` folder and edit the content of `conf/nginx.conf`, `osu/nginx.conf` and `osu/old-frontend.conf`. Replace my directory with your one.
 * You can switch to localhost server and bancho either by <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/Switcher/LocalHost.exe>LocalHost.exe</a> Switcher or Manually by:
 * Install <a href=https://github.com/Uniminin/Light-Ripple-Windows/blob/master/Certificate/cert.crt>Certificate</a>
@@ -72,27 +72,27 @@ Ripple uses Password -> MD5 -> BCrypt Hash (10 rounds) for the password to login
 1. For Example: If you want to make your password `ExamplePassword87`, first you need to hash it as MD5. So the hash will be `df4s5fe65f456344f4re549` (You can hash your password at http://www.md5.cz/).
 2. After hashing it, you'll still need to make it as BCrypt Hash (10 Rounds), you can use https://bcrypt-generator.com/ as BCrypt encryptor.
 3. Put the MD5 Hash to `String to encrypt` box, change rounds to 10 and then click `Hash!` button.
-4. You'll get the hash like `asdjslkfjlkUy89y32098y*(*@#&(*3y928hih32toij[][;gfgd` (which is our MD5 hash. `ExamplePassword87`)
+4. You'll get the hash like `asdjslkfjlkUy89y32098y*(*@#&(*3y928hih32toij[][;gfgd` (which is our MD5 hash. `ExamplePassword87`).
 5. Put your BCrypt hash in `password_md5` in your user data (DB).
 
 Note: The BCrypt hash will be always different because BCrypt hashes it 10 times!
 
 ### Starting the Server
-* Start MySQL (MySQL Server must be started and running)
-* Start Redis Server, `Redis/redis-server.exe`
-* Go to `lets` folder and run `python lets.py` (cmd.exe/x-terminal-emulator.exe)
-* Go to `pep.py` folder and run `python pep.py` (cmd.exe/x-terminal-emulator.exe)
-* Go to `avatar-server` folder and run `python avatar-server.py` (cmd.exe/x-terminal-emulator.exe)
-* Go to `api` folder and run `./API` (bash.exe/WSL)
-* Go to `Frontend` folder and run `./frontend` (bash.exe/WSL)
-* Go to `nginx-1.16.1` folder and run `nginx` (cmd.exe/x-terminal-emulator.exe)
+* Start MySQL (MySQL Server must be started and running).
+* Start Redis Server, `Redis/redis-server.exe`.
+* Go to `lets` folder and run `python lets.py` (cmd.exe/x-terminal-emulator.exe).
+* Go to `pep.py` folder and run `python pep.py` (cmd.exe/x-terminal-emulator.exe).
+* Go to `avatar-server` folder and run `python avatar-server.py` (cmd.exe/x-terminal-emulator.exe).
+* Go to `api` folder and run `./API` (bash.exe/WSL).
+* Go to `Frontend` folder and run `./frontend` (bash.exe/WSL).
+* Go to `nginx-1.16.1` folder and run `nginx` (cmd.exe/x-terminal-emulator.exe).
 
 ### Logging Into osu!
-Before you login you have to create an account. You can create an account either by using the/from Frontend which is `i-need-to.click`(default) site. Or manually from database.
-* Use a local database software to log into local database. I recommend <a href=https://www.heidisql.com/download.php>HeidiSQL</a> or <a href=https://www.devart.com/dbforge/mysql/studio/download.html>dbForge Studio</a>
+Before you login you have to create an account. You can create an account either by using the/from frontend which is `i-need-to.click`(default) site or manually from database.
+* Use a local database software to log into local database. I recommend <a href=https://www.heidisql.com/download.php>HeidiSQL</a> or <a href=https://www.devart.com/dbforge/mysql/studio/download.html>dbForge Studio</a>.
 * Log into local db. Then Click on RIPPLE db. Then head find `users`. And click on `Data` section above.
-* In id `1000` fill-up your desired username, notes, and email. (It will have full owner/admin access)
-* For Password follow that above section `#Manually Creating Passwording (DB)`
+* In id `1000` fill-up your desired username, notes, and email. (It will have full owner/admin access).
+* For Password follow that above section [#manually-creating-passwording-db](https://github.com/Uniminin/Light-Ripple-Windows#manually-creating-passwording-db).
 * Then you can login with your username/email and password.
 
 ### Credits
