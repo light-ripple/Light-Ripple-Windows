@@ -96,8 +96,8 @@ Before you login you have to create an account. You can create an account either
 * Then you can login with your username/email and password.
 
 ### Credits
-* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - Thanks for their <a href=https://github.com/Kanaze-chan/readme>readme</a>!
-* <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - Thanks for their lots of help.
+* <a href=https://github.com/Kanaze-chan>Kanaze-Chan(Aoba)</a> - for their <a href=https://github.com/Kanaze-chan/readme>readme</a>!
+* <a href=https://github.com/Hazuki-san>Aoba Suzukaze</a> - for their lots of help.
 
 ### License :scroll:
 All code in this and its related repositories is licensed under the GNU AGPL 3 License. See the `LICENSE` file for more information.
