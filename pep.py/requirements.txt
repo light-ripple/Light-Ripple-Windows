@@ -4,7 +4,7 @@ mysqlclient==1.4.2.post1
 psutil==5.2.2
 raven==5.32.0
 dill==0.2.7.1
-redis==2.10.5
+redis==4.5.3
 cython==0.27.3
 datadog==0.14.0
 bcrypt==3.1.1
