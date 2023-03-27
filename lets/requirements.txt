@@ -5,6 +5,6 @@ raven==5.32.0
 datadog==0.14.0
 Cython==0.27.3
 requests==2.20.0
-redis==2.10.5
+redis==4.5.3
 dill==0.2.7.1
 bcrypt==3.1.1
