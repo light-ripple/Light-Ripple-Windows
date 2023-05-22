@@ -1,4 +1,4 @@
-requests==2.20.0
+requests==2.31.0
 tornado==4.4.2
 mysqlclient==1.4.2.post1
 psutil==5.2.2
