@@ -1,4 +1,4 @@
-tornado==4.4.2
+tornado==6.3.2
 mysqlclient==1.4.5
 progressbar2==3.38.0
 raven==5.32.0
