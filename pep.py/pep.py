@@ -23,6 +23,7 @@ from handlers import apiServerStatusHandler
 from handlers import apiVerifiedStatusHandler
 from handlers import ciTriggerHandler
 from handlers import mainHandler
+from handlers import menuIconHandler
 from handlers import heavyHandler
 from helpers import configHelper
 from helpers import consoleHelper
@@ -49,7 +50,8 @@ def make_app():
 		(r"/api/v1/ciTrigger", ciTriggerHandler.handler),
 		(r"/api/v1/verifiedStatus", apiVerifiedStatusHandler.handler),
 		(r"/api/v1/fokabotMessage", apiFokabotMessageHandler.handler),
-		(r"/stress", heavyHandler.handler)
+		(r"/stress", heavyHandler.handler),
+		(r"/menu-content.json", menuIconHandler.handler)
 	])
 
 
